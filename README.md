@@ -1,24 +1,16 @@
 _A Codeup capstone project._
-
 --
 
 # Predicting Recidivism in Domestic Violence Offenders
 > This project predicts the probability of re-assault in domestic violence cases.
 
-
-
-
 ## Google Slide
 
 [Link to the slide here.](https://docs.google.com/presentation/d/1WsepGpuyFEf0gsIAnuc5NLEY9CANojC4QvvjHj7ZUhg/edit?usp=sharing)
 
-
-
-
 ## Usage
 
-
-
+0. Make sure everybody in the team has correct ``env.py`` setup.
 
 ## Meta
 
