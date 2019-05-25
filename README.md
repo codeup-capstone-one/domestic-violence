@@ -28,7 +28,7 @@ Distributed under the MIT license. See ``LICENSE`` for more information.
 
 - [https://github.com/ecdedios](https://github.com/ecdedios)
 - [https://github.com/jessejinnaruiz](https://github.com/jessejinnaruiz)
-- [https://github.com/ecdedios](https://github.com/matthewcapper)
+- [https://github.com/matthewcapper](https://github.com/matthewcapper)
 
 ## Contributing
 
