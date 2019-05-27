@@ -1,0 +1,1135 @@
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                      CODEBOOK
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 10: Abuse Calendar Data
+                                          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 10: Abuse CalePage iata
+
+
+                                      CONTENTS
+
+
+      item                                                                page
+
+      CASEID             RESPONDENT IDENTIFICATION NUMBER                    1
+      INVIEWN            INTERVIEW                                           1
+      IDINCID            INCIDENT NUMBER                                     1
+      INCIDENT           INCIDENT SEVERITY CODE                              1
+      FORCED             R FORCED TO HAVE SEX IN THIS INCIDENT               2
+      YEAR               YEAR OF INCIDENT                                    2
+      MONTH              MONTH OF INCIDENT                                   2
+      DAY                DAY OF MONTH OF INCIDENT                            3
+      DATECERT           IS THE DATE OF THE INCIDENT CERTAIN                 3
+      USOBJ              WAS A WEAPON USED OR THREATENED                     3
+      KINDWEAP           WHAT OBJECT/WEAPON WAS THREAT/USE                   3
+      KINDWEA2           WHAT OBJECT/WEAPON WAS THREAT/USE(2)                3
+      WEAPON             RECODED WEAPON                                      4
+      GUNTYPE            TYPE OF GUN USED DURING INCIDENT                    4
+      GUNUSE             GUN FIRED/ONLY THREATENED IN INCIDENT               4
+      THREAT             SELECTED IF INJURY CODE IS 0                        5
+      SLAP               SELECTED IF INJURY CODE IS 1                        5
+      PUNCH              SELECTED IF INJURY CODE IS 2                        5
+      BEATING            SELECTED IF INJURY CODE IS 3                        5
+      TWEAPON            SELECTED IF INJURY CODE IS 4                        5
+      UWEAPON            SELECTED IF INJURY CODE IS 5                        6
+      FSEXONLY           SELECTED IF INJURY CODE IS -1                       6
+      MISCARG            R SUFFER MISCARRIAGE AS RESULT OF INCID             6
+      RESTRAIN           R TIED UP/HANDCUFFED/RESTRAINED IN INCID            6
+      CHOKED             WAS R CHOKED IN INCIDENT                            7
+      PRSNT              WAS ANOTHER PERSON PRESENT                          7
+      PRSN2              WAS A SECOND PERSON PRESENT                         7
+      PRSN3              WAS A THIRD PERSON PRESENT                          8
+      AP                 ADULT FRIEND/ACQUAINTANCE PRESENT IN INC            8
+      BP                 BYSTANDER PRESENT IN INCIDENT                       8
+      CP                 CHILD PRESENT IN INCIDENT                           9
+      OP                 FRIEND/RELATIVE OF ABUSER PRESENT IN INC            9
+      PINJR              WAS PARTNER INJURED                                 9
+      ALCOHOL            R OR [NAME] DRUNK DURING AN INCIDENT               10
+      RDRUNK             R DRUNK DURING INCIDENT                            10
+      NDRUNK             WAS [NAME] DRUNK DURING INCIDENT                   10
+      BOTHDRUN           BOTH WERE DRUNK IN INCIDENT                        10
+      POT                R OR [NAME] HIGH ON POT DURING INCIDENT            11
+      RPOT               R HIGH ON POT DURING INCIDENT                      11
+      NPOT               WAS [NAME] HIGH ON POT DURING INCIDENT             11
+      DRUGS              R OR [NAME] ON DRUGS DURING INCIDENT               12
+      RDRUGS             R ON DRUGS DURING INCIDENT                         12
+      NDRUGS             [NAME] ON DRUGS DURING INCIDENT                    12
+
+
+                                    May 4, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 10: Abuse CalPage iiata
+
+
+      item                                                                page
+
+      BOTHDRUG           BOTH ON DRUGS IN INCIDENT                          13
+      SUBSTANC           TOTAL SUBSTANCE USE IN INCIDENT                    13
+      SEVEREST           SEVEREST INCIDENT IN PAST YEAR                     13
+      TOINC              TOTAL NUMBER OF INCIDENTS IN YEAR                  14
+      INTYEAR            YEAR OF INTERVIEW                                  14
+      INTMONTH           MONTH OF INTERVIEW                                 14
+      INTDAY             DAY OF INTERVIEW                                   15
+      DAYSTOIN           DAYS FROM INCIDENT TO INITIAL INTERVIEW            15
+      DATECOM            DATE COMMENTS                                      16
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 4, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 10: Abuse CalePage 1ata
+
+
+      CASEID             RESPONDENT IDENTIFICATION NUMBER
+
+           Data type: numeric
+           Record/columns: 1/1-6
+
+      ________________________________________________________________________
+
+      INVIEWN            INTERVIEW
+
+           VALUE  LABEL
+               1  Initial
+               2  First followup
+               3  Second followup
+               9  Unknown
+
+           Data type: numeric
+           Missing-data code: 9
+           Record/column: 1/8
+
+      ________________________________________________________________________
+
+      IDINCID            INCIDENT NUMBER
+
+           Data type: numeric
+           Decimals: 3
+           Record/columns: 1/10-18
+
+      ________________________________________________________________________
+
+      INCIDENT           INCIDENT SEVERITY CODE
+
+           VALUE  LABEL
+              -1  Forced sex only - no injury, weapon or t
+               0  Threat to hit with a fist or anything el
+               1  Slapping, pushing - no injury, no lastin
+               2  Punching, kicking - bruises, cuts, and/o
+               3  Beating up, choking - severe contusions,
+               4  Threat weap use, head inj, lost cons, in
+               5  Weapon use - wounds from a weapon
+               9  Calendar missing
+
+           Data type: numeric
+           Missing-data code: 9
+           Record/columns: 1/20-21
+
+
+
+
+
+
+
+
+
+
+                                    May 4, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 10: Abuse CalePage 2ata
+
+
+      FORCED             R FORCED TO HAVE SEX IN THIS INCIDENT
+
+           VALUE  LABEL
+               0  No
+               1  Forced sex
+               9  Missing
+              99  Calendar missing
+
+           Data type: numeric
+           Missing-data codes: 9,99
+           Record/columns: 1/23-24
+
+      ________________________________________________________________________
+
+      YEAR               YEAR OF INCIDENT
+
+           VALUE  LABEL
+            9999  Missing
+           99999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 9999,99999
+           Record/columns: 1/26-30
+
+      ________________________________________________________________________
+
+      MONTH              MONTH OF INCIDENT
+
+           VALUE  LABEL
+               1  January
+               2  February
+               3  March
+               4  April
+               5  May
+               6  June
+               7  July
+               8  August
+               9  September
+              10  October
+              11  November
+              12  December
+              99  Unknown
+
+           Data type: numeric
+           Missing-data code: 99
+           Record/columns: 1/32-33
+
+
+
+
+
+
+
+                                    May 4, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 10: Abuse CalePage 3ata
+
+
+      DAY                DAY OF MONTH OF INCIDENT
+
+           VALUE  LABEL
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data code: 9999
+           Record/columns: 1/35-38
+
+      ________________________________________________________________________
+
+      DATECERT           IS THE DATE OF THE INCIDENT CERTAIN
+
+           VALUE  LABEL
+               1  No, see date comments
+               2  Yes, exact date estimated by r
+               9  Missing calendar
+
+           Data type: numeric
+           Missing-data code: 9
+           Record/column: 1/40
+
+      ________________________________________________________________________
+
+      USOBJ              WAS A WEAPON USED OR THREATENED
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               3  Coded 5 but no weapon on calendar or on
+             998  Case file missing
+             999  Calendar missing
+
+           Data type: numeric
+           Missing-data codes: 998,999
+           Record/columns: 1/42-44
+
+      ________________________________________________________________________
+
+      KINDWEAP           WHAT OBJECT/WEAPON WAS THREAT/USE
+
+           Data type: numeric
+           Missing-data code: 99
+           Record/columns: 1/46-47
+
+      ________________________________________________________________________
+
+      KINDWEA2           WHAT OBJECT/WEAPON WAS THREAT/USE(2)
+
+           Data type: numeric
+           Missing-data code: 99
+           Record/columns: 1/49-50
+
+
+
+                                    May 4, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 10: Abuse CalePage 4ata
+
+
+      WEAPON             RECODED WEAPON
+
+           VALUE  LABEL
+               1  Firearm
+               2  Knife or sharp instrument
+               3  Club, blunt object or belt
+               4  Car
+               5  Other weapon
+               6  Weapon, type missing
+               8  Hands, fists, feet
+               9  Weapon info. missing
+              99  No weapon that could hurt
+             999  Missing calendar
+
+           Data type: numeric
+           Missing-data codes: 9,6,999
+           Record/columns: 1/52-54
+
+      ________________________________________________________________________
+
+      GUNTYPE            TYPE OF GUN USED DURING INCIDENT
+
+           VALUE  LABEL
+               0  No
+               1  Hand gun
+               2  Shot gun or rifle
+               3  Nail gun
+               9  Gun, type missing
+             999  Calendar missing
+
+           Data type: numeric
+           Missing-data codes: 9,999
+           Record/columns: 1/56-58
+
+      ________________________________________________________________________
+
+      GUNUSE             GUN FIRED/ONLY THREATENED IN INCIDENT
+
+           VALUE  LABEL
+               0  Neither
+               1  Fired
+               2  Threatened
+               3  Fired in air or at another target, click
+               9  Missing
+             999  Calendar missing
+
+           Data type: numeric
+           Missing-data codes: 9,999
+           Record/columns: 1/60-62
+
+
+
+
+                                    May 4, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 10: Abuse CalePage 5ata
+
+
+      THREAT             SELECTED IF INJURY CODE IS 0
+
+           VALUE  LABEL
+               0  Else
+               1  Threat
+
+           Data type: numeric
+           Record/column: 1/64
+
+      ________________________________________________________________________
+
+      SLAP               SELECTED IF INJURY CODE IS 1
+
+           VALUE  LABEL
+               0  Else
+               1  Slap, push, no injuries or lasting pain
+
+           Data type: numeric
+           Record/column: 1/66
+
+      ________________________________________________________________________
+
+      PUNCH              SELECTED IF INJURY CODE IS 2
+
+           VALUE  LABEL
+               0  Else
+               1  Punching, kicking, bruises, cuts, contin
+
+           Data type: numeric
+           Record/column: 1/68
+
+      ________________________________________________________________________
+
+      BEATING            SELECTED IF INJURY CODE IS 3
+
+           VALUE  LABEL
+               0  Else
+               1  Beating, choking, severe contusions, bro
+
+           Data type: numeric
+           Record/column: 1/70
+
+      ________________________________________________________________________
+
+      TWEAPON            SELECTED IF INJURY CODE IS 4
+
+           VALUE  LABEL
+               0  Else
+               1  Threatened with a weapon
+
+           Data type: numeric
+           Record/column: 1/72
+
+
+
+                                    May 4, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 10: Abuse CalePage 6ata
+
+
+      UWEAPON            SELECTED IF INJURY CODE IS 5
+
+           VALUE  LABEL
+               0  Else
+               1  Use of weapon, injuries from weapon
+
+           Data type: numeric
+           Record/column: 1/74
+
+      ________________________________________________________________________
+
+      FSEXONLY           SELECTED IF INJURY CODE IS -1
+
+           VALUE  LABEL
+               0  Else
+               1  Forced sex only
+
+           Data type: numeric
+           Record/column: 1/76
+
+      ________________________________________________________________________
+
+      MISCARG            R SUFFER MISCARRIAGE AS RESULT OF INCID
+
+           VALUE  LABEL
+               0  No
+               1  Yes
+               9  Missing
+
+           Data type: numeric
+           Missing-data code: 9
+           Record/column: 1/78
+
+      ________________________________________________________________________
+
+      RESTRAIN           R TIED UP/HANDCUFFED/RESTRAINED IN INCID
+
+           VALUE  LABEL
+               0  No
+               1  Yes
+               9  Missing
+
+           Data type: numeric
+           Missing-data code: 9
+           Record/column: 1/80
+
+
+
+
+
+
+
+
+
+                                    May 4, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 10: Abuse CalePage 7ata
+
+
+      CHOKED             WAS R CHOKED IN INCIDENT
+
+           VALUE  LABEL
+               0  No, not choked
+               1  Yes, choked or grabbed around neck
+               9  Missing calendar
+              99  No information
+
+           Data type: numeric
+           Missing-data codes: 9,99
+           Record/columns: 1/82-83
+
+      ________________________________________________________________________
+
+      PRSNT              WAS ANOTHER PERSON PRESENT
+
+           VALUE  LABEL
+               0  No
+               1  Adult friend or acquaintance (AP)
+               2  Bystander (BP)
+               3  Child (CP)
+               4  Friend, relative of abuser (OP)
+               9  Calendar missing
+
+           Data type: numeric
+           Missing-data code: 9
+           Record/column: 1/85
+
+      ________________________________________________________________________
+
+      PRSN2              WAS A SECOND PERSON PRESENT
+
+           VALUE  LABEL
+               0  No
+               1  Adult friend, acquaintance (AP)
+               2  Bystander (BP)
+               3  Child (CP)
+               4  Friend, relative of abuser (OP)
+               9  No one present
+              99  Calendar missing
+
+           Data type: numeric
+           Missing-data code: 99
+           Record/columns: 1/87-88
+
+
+
+
+
+
+
+
+
+                                    May 4, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 10: Abuse CalePage 8ata
+
+
+      PRSN3              WAS A THIRD PERSON PRESENT
+
+           VALUE  LABEL
+               0  No
+               1  Adult friend, acquaintance (AP)
+               2  Bystander (BP)
+               3  Child (CP)
+               4  Friend, relative of abuser (OP)
+               9  No one present
+              99  Calendar missing
+
+           Data type: numeric
+           Missing-data code: 99
+           Record/columns: 1/90-91
+
+      ________________________________________________________________________
+
+      AP                 ADULT FRIEND/ACQUAINTANCE PRESENT IN INC
+
+           VALUE  LABEL
+               0  No
+               1  Yes
+               9  Missing
+
+           Data type: numeric
+           Missing-data code: 9
+           Record/column: 1/93
+
+      ________________________________________________________________________
+
+      BP                 BYSTANDER PRESENT IN INCIDENT
+
+           VALUE  LABEL
+               0  No
+               1  Yes
+               9  Missing
+
+           Data type: numeric
+           Missing-data code: 9
+           Record/column: 1/95
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 4, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 10: Abuse CalePage 9ata
+
+
+      CP                 CHILD PRESENT IN INCIDENT
+
+           VALUE  LABEL
+               0  No
+               1  Yes
+               9  Missing
+
+           Data type: numeric
+           Missing-data code: 9
+           Record/column: 1/97
+
+      ________________________________________________________________________
+
+      OP                 FRIEND/RELATIVE OF ABUSER PRESENT IN INC
+
+           VALUE  LABEL
+               0  No
+               1  Yes
+               9  Missing
+
+           Data type: numeric
+           Missing-data code: 9
+           Record/column: 1/99
+
+      ________________________________________________________________________
+
+      PINJR              WAS PARTNER INJURED
+
+           VALUE  LABEL
+               0  No
+               1  Yes
+               9  Missing
+              99  Unknown
+
+           Data type: numeric
+           Missing-data codes: 9,99
+           Record/columns: 1/101-102
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 4, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 10: Abuse CalPage 10ata
+
+
+      ALCOHOL            R OR [NAME] DRUNK DURING AN INCIDENT
+
+           VALUE  LABEL
+               0  No
+               1  Yes, respondent only
+               2  Yes, name only
+               3  Yes, both
+               9  Calendar missing
+
+           Data type: numeric
+           Missing-data code: 9
+           Record/column: 1/104
+
+      ________________________________________________________________________
+
+      RDRUNK             R DRUNK DURING INCIDENT
+
+           VALUE  LABEL
+               0  No
+               1  Yes
+              99  Missing calendar
+
+           Data type: numeric
+           Missing-data code: 99
+           Record/columns: 1/106-107
+
+      ________________________________________________________________________
+
+      NDRUNK             WAS [NAME] DRUNK DURING INCIDENT
+
+           VALUE  LABEL
+               0  No
+               1  Yes
+              99  Missing calendar
+
+           Data type: numeric
+           Missing-data code: 99
+           Record/columns: 1/109-110
+
+      ________________________________________________________________________
+
+      BOTHDRUN           BOTH WERE DRUNK IN INCIDENT
+
+           VALUE  LABEL
+               0  No
+               1  Yes
+               9  Calendar missing
+
+           Data type: numeric
+           Missing-data code: 9
+           Record/column: 1/112
+
+
+
+                                    May 4, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 10: Abuse CalPage 11ata
+
+
+      POT                R OR [NAME] HIGH ON POT DURING INCIDENT
+
+           VALUE  LABEL
+               0  No
+               1  Yes, respondent only
+               2  Yes, name only
+               3  Yes, both
+               9  Calendar missing
+
+           Data type: numeric
+           Missing-data code: 9
+           Record/column: 1/114
+
+      ________________________________________________________________________
+
+      RPOT               R HIGH ON POT DURING INCIDENT
+
+           VALUE  LABEL
+               0  No
+               1  Yes
+              99  Calendar missing
+
+           Data type: numeric
+           Missing-data code: 99
+           Record/columns: 1/116-117
+
+      ________________________________________________________________________
+
+      NPOT               WAS [NAME] HIGH ON POT DURING INCIDENT
+
+           VALUE  LABEL
+               0  No
+               1  Yes
+              99  Calendar missing
+
+           Data type: numeric
+           Missing-data code: 99
+           Record/columns: 1/119-120
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 4, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 10: Abuse CalPage 12ata
+
+
+      DRUGS              R OR [NAME] ON DRUGS DURING INCIDENT
+
+           VALUE  LABEL
+               0  No
+               1  Yes, respondent only
+               2  Yes, name only
+               3  Yes, both
+               4  R beaten because name wanted money to bu
+               9  Calendar missing
+
+           Data type: numeric
+           Missing-data code: 9
+           Record/column: 1/122
+
+      ________________________________________________________________________
+
+      RDRUGS             R ON DRUGS DURING INCIDENT
+
+           VALUE  LABEL
+               0  No
+               1  Yes
+               9  Calendar missing
+
+           Data type: numeric
+           Missing-data code: 9
+           Record/column: 1/124
+
+      ________________________________________________________________________
+
+      NDRUGS             [NAME] ON DRUGS DURING INCIDENT
+
+           VALUE  LABEL
+               0  No
+               1  Yes
+               9  Calendar missing
+
+           Data type: numeric
+           Missing-data code: 9
+           Record/column: 1/126
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 4, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 10: Abuse CalPage 13ata
+
+
+      BOTHDRUG           BOTH ON DRUGS IN INCIDENT
+
+           VALUE  LABEL
+               0  No
+               1  Yes
+               9  Missing calendar
+
+           Data type: numeric
+           Missing-data code: 9
+           Record/column: 1/128
+
+      ________________________________________________________________________
+
+      SUBSTANC           TOTAL SUBSTANCE USE IN INCIDENT
+
+           VALUE  LABEL
+               1  None
+               2  Alcohol only, (name) only
+               3  Alcohol only, both or r
+               4  Drugs or combinations, (name) only
+               5  Drugs/combinations, both or r
+               9  Calendar missing
+
+           Data type: numeric
+           Missing-data code: 9
+           Record/column: 1/130
+
+      ________________________________________________________________________
+
+      SEVEREST           SEVEREST INCIDENT IN PAST YEAR
+
+           VALUE  LABEL
+              -1  Forced sex, no threat
+               0  Threat to hit
+               1  Slapping, pushing, throwing something, n
+               2  Punching, kicking, slight injury
+               3  Beaten up, choked, burned, or serious in
+               4  Weapon threat or severe injury
+               5  Weapon use
+               9  Calendar missing
+
+           Data type: numeric
+           Missing-data code: 9
+           Record/columns: 1/132-133
+
+
+
+
+
+
+
+
+
+                                    May 4, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 10: Abuse CalPage 14ata
+
+
+      TOINC              TOTAL NUMBER OF INCIDENTS IN YEAR
+
+           VALUE  LABEL
+             999  Unknown
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/135-137
+
+      ________________________________________________________________________
+
+      INTYEAR            YEAR OF INTERVIEW
+
+           VALUE  LABEL
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data code: 9999
+           Record/columns: 1/139-142
+
+      ________________________________________________________________________
+
+      INTMONTH           MONTH OF INTERVIEW
+
+           VALUE  LABEL
+               1  January
+               2  February
+               3  March
+               4  April
+               5  May
+               6  June
+               7  July
+               8  August
+               9  September
+              10  October
+              11  November
+              12  December
+              99  Unknown
+
+           Data type: numeric
+           Missing-data code: 99
+           Record/columns: 1/144-145
+
+
+
+
+
+
+
+
+
+
+
+                                    May 4, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 10: Abuse CalPage 15ata
+
+
+      INTDAY             DAY OF INTERVIEW
+
+           VALUE  LABEL
+              99  Unknown
+
+           Data type: numeric
+           Missing-data code: 99
+           Record/columns: 1/147-148
+
+      ________________________________________________________________________
+
+      DAYSTOIN           DAYS FROM INCIDENT TO INITIAL INTERVIEW
+
+           VALUE  LABEL
+             999  Unknown
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/150-152
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 4, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 10: Abuse CalPage 16ata
+
+
+      DATECOM            DATE COMMENTS
+
+           VALUE  LABEL
+               2  coded 10 times in March, 97
+               3  coded as 1 for 1st of each month
+               4  coded as one threat per day
+               5  coded every other day for Jan. Alternate
+               6  coded every other day, alternate code 1
+               7  coded every other week on friday
+               8  coded midpoint
+               9  coded twice a month, 10th and 20th
+              10  coded twice a week
+              11  coded twice a week, 91/97-12/12/97
+              12  coded twice a week, Aug-Sept.97
+              13  coded twice per week
+              14  date coded 15
+              15  estimated by data entry, every other day
+              16  estimated dates, used Wed &  Sat.  coded
+              17  EVERY OTHER DAY IN AUGUST #1 &  2. DATA
+              18  every other day pushing and slapping. Co
+              19  EVERY OTHER DAY SLAPPING &  PUSHING.DATE
+              20  EVERY THREE DAYS, HE SLAPPED ME. DATA EN
+              21  happened in January, day not certain
+              22  INCIDENTS 2-3 TIMES PER MONTH. ESTIMATED
+              23  pushed every day or every other day.  es
+              24  R and P had fights (pushing, punching w/
+              25  R states that at least twice a wk abuser
+
+           Data type: numeric
+           Missing-data code: 1
+           Record/columns: 1/154-155
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 4, 2019
