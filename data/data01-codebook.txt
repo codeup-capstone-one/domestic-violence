@@ -1,0 +1,1648 @@
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                      CODEBOOK
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 1: Questionnaire Sections B and C, Clinic/Hospital Initial Interview Data
+                                          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 1: QuestionnaiPage itions B and C, Clinic/Hospital Initial Interview Data
+
+
+                                      CONTENTS
+
+
+      item                                                                page
+
+      CASEID             RESPONDENT IDENTIFICATION NUMBER                    1
+      INVIEWN            INTERVIEW NUMBER                                    1
+      B1AGE              R'S AGE, INITIAL INTERVIEW                          1
+      AGER               R'S AGE, RECODED                                    1
+      AGERR              AGE, SECOND RECODING                                2
+      B2EDU              HIGHEST EDUCATION LEVEL R HAS COMPLETED             2
+      HIGHSCHL           HIGH SCHOOL EDUCATION OR MORE                       2
+      B3EMPLY1           R'S EMPLOYMENT STATUS, INITIAL INTERVIEW            3
+      B3EMPLY2           R'S EMPLOYMENT STATUS-RESPONSE TWO                  4
+      B3EMPLY3           R'S EMPLOYMENT STATUS-RESPONSE THREE                5
+      B3EMPLY4           R'S EMPLOYMENT STATUS-RESPONSE FOUR                 6
+      EMPLOYR            R'S EMPLOYMENT, RECODED                             6
+      UNEMPLOY           R UNEMPLOYED AT INITIAL INTERVIEW                   7
+      HOMEMAKR           MAIN EMPLOYMENT HOMEMAKER                           7
+      B3HOURS            NUMBER OF HOURS R WORKS PER WEEK                    7
+      B3VHOUR            NUMBER OF HOURS R VOLUNTEERS PER WEEK               7
+      B3STUDNT           R'S STUDENT STATUS                                  8
+      B4CHANGE           CHANGE IN R'S WORK SCHEDULE IN PAST YEAR            8
+      B5CODE1            CHANGES IN R'S WORK OR SCHOOL SCHEDULE              9
+      B5DATE1            MONTH AND YEAR OF CHANGE 1                         10
+      B5CODE2            CHANGES IN R'S WORK/SCHOOL SCHEDULE-2              11
+      B5DATE2            MONTH AND YEAR OF CHANGE 2                         12
+      B5CODE3            CHANGES IN R'S WORK/SCHOOL SCHEDULE-3              13
+      B5DATE3            MONTH AND YEAR OF CHANGE 3                         14
+      B6RACE             R'S RACE OR ETHNICITY                              14
+      RACER              R'S RACIAL/ETHNIC GROUP, RECODED                   15
+      B6HSPNIC           IF HISPANIC, WHICH PARTICULAR GROUP                15
+      B6OTHER            R'S RACE/ETHNICITY IF OTHER THAN LISTED            16
+      B7BIRTH            R BORN IN THE US                                   16
+      B7PLACE            R'S BIRTHPLACE                                     17
+      B7PLACER           R'S PLACE OF BIRTH, RECODED                        17
+      F14CHICG           HOW LONG R HAS BEEN IN CHICAGO                     18
+      B8MARITL           R'S MARITAL STATUS AT INITIAL INTERVIEW            18
+      MARRIED            MARRIED AT INITIAL INTERVIEW                       18
+      SINGLE             SINGLE AT INITIAL INTERVIEW                        19
+      SCRSTAT            STATUS ON THE SCREENER                             19
+      SCRSTATR           RECODED SCREENING STATUS                           19
+      FINSTAT            INTERVIEW STATUS                                   20
+      FINSTATR           RECODED STATUS AFTER INTERVIEW                     20
+      ABUSED             PHYSICAL ABUSE IN PAST YEAR                        21
+      CHNGSTAT           CHANGE B/T SCREENER & INTERVIEW STATUS             21
+      CHGTONAW           WHY R'S STATUS CHANGED FROM AW TO NAW              21
+      NAWYEAR            DETAIL FOR NAW, ABUSE NOT IN PAST YEAR             22
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 1: QuestionnaPage iitions B and C, Clinic/Hospital Initial Interview Data
+
+
+      item                                                                page
+
+      RELAC1             RELATIONSHIP TO PARTNER IN C1-ALL INFO             22
+      LENGTHC1           LENGTH OF RELATIONSHIP W/ PARTNER IN C1            23
+      C1SITUAT           ABUSE SITUATION FOR PERSON IN C1                   23
+      PARTNERS           # PARTNERS IDENTIFIED IN SECTIONS C OR L           23
+      PABUSE             # OF ABUSING INTIMATE PARTNERS-PAST YR             24
+      SPANISH1           INITIAL INTERVIEW IN SPANISH OR ENGLISH            24
+      INMONTH            MONTH OF INTERVIEW                                 24
+      INYEAR             YEAR OF INTERVIEW                                  24
+      INDAY              DAY OF INTERVIEW                                   25
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 1: QuestionnaiPage 1tions B and C, Clinic/Hospital Initial Interview Data
+
+
+      CASEID             RESPONDENT IDENTIFICATION NUMBER
+
+           Data type: numeric
+           Record/columns: 1/1-6
+
+      ________________________________________________________________________
+
+      INVIEWN            INTERVIEW NUMBER
+
+           VALUE  LABEL
+               1  Initial
+               2  First followup
+               3  Second followup
+
+           Data type: numeric
+           Record/column: 1/8
+
+      ________________________________________________________________________
+
+      B1AGE              R'S AGE, INITIAL INTERVIEW
+
+           How old are you?
+
+           Data type: numeric
+           Missing-data codes: 888,999
+           Record/columns: 1/10-11
+
+      ________________________________________________________________________
+
+      AGER               R'S AGE, RECODED
+
+           VALUE  LABEL
+               1  18-20
+               2  21-25
+               3  26-30
+               4  31-40
+               5  41-50
+               6  51-67
+
+           Data type: numeric
+           Record/column: 1/13
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 1: QuestionnaiPage 2tions B and C, Clinic/Hospital Initial Interview Data
+
+
+      AGERR              AGE, SECOND RECODING
+
+           VALUE  LABEL
+               1  Under age 30
+               2  30 to 39
+               3  40 to 49
+               4  50 and older
+
+           Data type: numeric
+           Record/column: 1/15
+
+      ________________________________________________________________________
+
+      B2EDU              HIGHEST EDUCATION LEVEL R HAS COMPLETED
+
+           What is the highest grade or year of school you have
+           completed?
+
+           VALUE  LABEL
+               1  No schooling
+               2  Elementary school
+               3  Some high school
+               4  High school grad/GED
+               5  Some college/vocational school
+               6  Junior/community college or trade/vocati
+               7  Four year college
+               8  Some grad school
+               9  Grad or professional degree
+             888  Dont know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 888,999
+           Record/columns: 1/17-19
+
+      ________________________________________________________________________
+
+      HIGHSCHL           HIGH SCHOOL EDUCATION OR MORE
+
+           VALUE  LABEL
+               0  No
+               1  Yes
+             999  Missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/21-23
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 1: QuestionnaiPage 3tions B and C, Clinic/Hospital Initial Interview Data
+
+
+      B3EMPLY1           R'S EMPLOYMENT STATUS, INITIAL INTERVIEW
+
+           Do you currently have a job, do volunteer work, or go to
+           school?
+
+           VALUE  LABEL
+               1  More than 1 full time job
+               2  Full time (35 hours)
+               3  Part time
+               4  Volunteer work
+               5  Works out of home
+               6  Homemaker
+               7  Student
+               8  Unemployed, but looking
+               9  Not employed, not looking
+              10  Other
+              11  In a training program
+              12  Employed, but on a leave of absence
+              13  Self-employed
+              14  In jail/ prison
+              15  Drug dealer
+              16  Retired
+              17  Disabled, unable to work
+             888  Dont know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 888,999
+           Record/columns: 1/25-27
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 1: QuestionnaiPage 4tions B and C, Clinic/Hospital Initial Interview Data
+
+
+      B3EMPLY2           R'S EMPLOYMENT STATUS-RESPONSE TWO
+
+           Do you currently have a job, do volunteer work, or go to
+           school?
+
+           VALUE  LABEL
+               1  More than 1 full time job
+               2  Full time (35 hours)
+               3  Part time
+               4  Volunteer work
+               5  Works out of home
+               6  Homemaker
+               7  Student
+               8  Unemployed, looking for work
+               9  Not employed, not looking for work
+              10  Other
+              11  In a training program
+              12  Employed, but on leave of absence
+              13  Self-employed
+              14  In jail/ prison
+              15  Drug dealer
+              16  Retired
+              17  Disabled, unable to work
+             888  Dont know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/29-32
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 1: QuestionnaiPage 5tions B and C, Clinic/Hospital Initial Interview Data
+
+
+      B3EMPLY3           R'S EMPLOYMENT STATUS-RESPONSE THREE
+
+           Do you currently have a job, do volunteer work, or go to
+           school?
+
+           VALUE  LABEL
+               1  More than 1 full time job
+               2  Full time (35 hours)
+               3  Part time
+               4  Volunteer work
+               5  Works out of home
+               6  Homemaker
+               7  Student
+               8  Unemployed, looking
+               9  Not employed, not looking
+              10  Other
+              11  In a training program
+              12  Employed, but on a leave of absence
+              13  Self-employed
+              14  In jail/ prison
+              15  Drug dealer
+              16  Retired
+              17  Disabled, unable to work
+             888  Dont know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888,999
+           Record/columns: 1/34-37
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 1: QuestionnaiPage 6tions B and C, Clinic/Hospital Initial Interview Data
+
+
+      B3EMPLY4           R'S EMPLOYMENT STATUS-RESPONSE FOUR
+
+           Do you currently have a job, do volunteer work, or go to
+           school?
+
+           VALUE  LABEL
+               1  More than 1 full time job
+               2  Full time (35 hours)
+               3  Part time
+               4  Volunteer work
+               5  Works out of home
+               6  Homemaker
+               7  Student
+               8  Unemployed, looking
+               9  Not employed, not looking
+              10  Other
+              11  In a training program
+              12  Employed, but on a leave of absence
+              13  Self-employed
+              14  In jail/ prison
+              15  Drug dealer
+              16  Retired
+              17  Disabled, unable to work
+             888  Dont know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/39-42
+
+      ________________________________________________________________________
+
+      EMPLOYR            R'S EMPLOYMENT, RECODED
+
+           VALUE  LABEL
+               1  Full or part time job
+               2  Homemaker
+               3  Student
+               4  Unemployed
+               9  Missing
+
+           Data type: numeric
+           Missing-data code: 9
+           Record/column: 1/44
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 1: QuestionnaiPage 7tions B and C, Clinic/Hospital Initial Interview Data
+
+
+      UNEMPLOY           R UNEMPLOYED AT INITIAL INTERVIEW
+
+           VALUE  LABEL
+               0  No
+               1  Yes
+               9  Unknown
+
+           Data type: numeric
+           Missing-data code: 9
+           Record/column: 1/46
+
+      ________________________________________________________________________
+
+      HOMEMAKR           MAIN EMPLOYMENT HOMEMAKER
+
+           VALUE  LABEL
+               0  Other
+               1  Yes
+
+           Data type: numeric
+           Record/column: 1/48
+
+      ________________________________________________________________________
+
+      B3HOURS            NUMBER OF HOURS R WORKS PER WEEK
+
+           VALUE  LABEL
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/50-53
+
+      ________________________________________________________________________
+
+      B3VHOUR            NUMBER OF HOURS R VOLUNTEERS PER WEEK
+
+           If you currently do volunteer work, how many hours a week?
+
+           VALUE  LABEL
+              99  Unknown
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 999,99
+           Record/columns: 1/55-56
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 1: QuestionnaiPage 8tions B and C, Clinic/Hospital Initial Interview Data
+
+
+      B3STUDNT           R'S STUDENT STATUS
+
+           If you currently go to school, is it full or part-time?
+
+           VALUE  LABEL
+               1  Full time
+               2  Part time
+             888  Dont know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888,999,9999
+           Record/columns: 1/58-61
+
+      ________________________________________________________________________
+
+      B4CHANGE           CHANGE IN R'S WORK SCHEDULE IN PAST YEAR
+
+           Has there been a major change in your work or school schedule
+           in the past year?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+             998  Not asked
+
+           Data type: numeric
+           Missing-data code: 998
+           Record/columns: 1/63-65
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 1: QuestionnaiPage 9tions B and C, Clinic/Hospital Initial Interview Data
+
+
+      B5CODE1            CHANGES IN R'S WORK OR SCHOOL SCHEDULE
+
+           If there has been a major change in your work or school schedule in
+           the past year, please describe briefly what changed.
+
+           VALUE  LABEL
+               1  Started working/ returned to work/ got s
+               2  Stopped working (quit, fired, retired, l
+               3  Changed jobs (promotion, different emplo
+               4  Leave of absence/ maternity leave
+               5  Change in hours/ schedule/location
+               6  Husbands job changed/ influenced rs jo
+               7  Started school/ taking classes
+               8  Stopped school (graduated, dropped out,
+               9  Changed schools
+              10  Changed status (full- to part-time, rais
+              11  Was arrested/ went to jail
+              12  Got out of jail
+              13  Drug problem
+              14  Medical problem (illness, injury, disabi
+              15  Moved
+              16  Absenteeism
+              17  Other
+             888  Dont know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/67-70
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 1: QuestionnaPage 10tions B and C, Clinic/Hospital Initial Interview Data
+
+
+      B5DATE1            MONTH AND YEAR OF CHANGE 1
+
+           If there has been a major change in your work or school schedule in
+           the past year, please describe when it changed.
+
+           VALUE  LABEL
+               2  APR 97
+               3  APR 98
+               4  AUG 96
+               5  AUG 97
+               6  DEC 96
+               7  DEC 97
+               8  DEC 98
+               9  FEB 97
+              10  FEB 98
+              11  JAN 97
+              12  JAN 98
+              13  JUL 96
+              14  JUL 97
+              15  JUN 96
+              16  JUN 97
+              17  MAR 96
+              18  MAR 97
+              19  MAR 98
+              20  MAY 97
+              21  MAY 98
+              22  NOV 96
+              23  NOV 97
+              24  OCT 97
+              25  SEP 96
+              26  SEP 97
+              27  Missing
+
+           Data type: numeric
+           Missing-data codes: 1,27
+           Record/columns: 1/72-73
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 1: QuestionnaPage 11tions B and C, Clinic/Hospital Initial Interview Data
+
+
+      B5CODE2            CHANGES IN R'S WORK/SCHOOL SCHEDULE-2
+
+           If there has been a major change in your work or school schedule in
+           the past year, please describe briefly what changed.
+
+           VALUE  LABEL
+               1  Started working/ returned to work/ secon
+               2  Stopped working (quit, fired, retired)
+               3  Changed jobs (promotion, different job)
+               4  Leave of absence/ maternity leave
+               5  Change in hours/ schedule
+               6  Husbands job changed/ influenced rs jo
+               7  Started school/ taking classes
+               8  Stopped school (graduated, dropped out,
+               9  Changed schools
+              10  Changed status (full- to part-time, rais
+              11  Was arrested/ went to jail
+              12  Got out of jail
+              13  Drug problem
+              14  Medical problem (illness, injury, pregna
+              15  Moved
+              16  Absenteeism
+              17  Other
+             888  Dont know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/75-78
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 1: QuestionnaPage 12tions B and C, Clinic/Hospital Initial Interview Data
+
+
+      B5DATE2            MONTH AND YEAR OF CHANGE 2
+
+           If there has been a major change in your work or school schedule in
+           the past year, please describe when it changed.
+
+           VALUE  LABEL
+               2  APR 97
+               3  APR 98
+               4  AUG 97
+               5  DEC 97
+               6  FEB 97
+               7  FEB 98
+               8  JAN 97
+               9  JAN 98
+              10  JUL 96
+              11  JUL 97
+              12  JUN 97
+              13  MAR 96
+              14  MAR 98
+              15  MAY 97
+              16  NOV 97
+              17  OCT 96
+              18  OCT 97
+              19  SEP 96
+              20  SEP 97
+
+           Data type: numeric
+           Missing-data code: 1
+           Record/columns: 1/80-81
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 1: QuestionnaPage 13tions B and C, Clinic/Hospital Initial Interview Data
+
+
+      B5CODE3            CHANGES IN R'S WORK/SCHOOL SCHEDULE-3
+
+           If there has been a major change in your work or school schedule in
+           the past year, please describe briefly what changed.
+
+           VALUE  LABEL
+               1  Started working, returned to work, secon
+               2  Stopped working (quit, fired, retired)
+               3  Changed jobs (promotion, different emplo
+               4  Leave of absence/ maternity leave
+               5  Change in hours/ schedule
+               6  Husbands job changed, influenced rs jo
+               7  Started school/ taking classes
+               8  Stopped school (graduated, dropped out,
+               9  Changed schools
+              10  Changed status (full- to part-time, rais
+              11  Was arrested/ went to jail
+              12  Got out of jail
+              13  Drug problem
+              14  Medical problem (illness, injury, pregna
+              15  Moved
+              16  Absenteeism
+              17  Other
+             888  Dont know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/83-86
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 1: QuestionnaPage 14tions B and C, Clinic/Hospital Initial Interview Data
+
+
+      B5DATE3            MONTH AND YEAR OF CHANGE 3
+
+           If there has been a major change in your work or school schedule in
+           the past year, please describe when it changed.
+
+           VALUE  LABEL
+               2  AUG 97
+               3  DEC 97
+               4  JAN 97
+               5  JAN 98
+               6  JUL 97
+               7  JUN 98
+               8  MAR 97
+               9  MAY 97
+              10  NOV 97
+              11  OCT 97
+
+           Data type: numeric
+           Missing-data code: 1
+           Record/columns: 1/88-89
+
+      ________________________________________________________________________
+
+      B6RACE             R'S RACE OR ETHNICITY
+
+           How would you describe your race or ethnicity?
+
+           VALUE  LABEL
+               1  Black/African American
+               2  White
+               3  Hispanic
+               4  Asian/Pacific Islander
+               5  Native American
+               6  Other
+               7  Multi-racial
+             888  Dont know
+             997  Refused
+             998  Not asked
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 888-999
+           Record/columns: 1/91-93
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 1: QuestionnaPage 15tions B and C, Clinic/Hospital Initial Interview Data
+
+
+      RACER              R'S RACIAL/ETHNIC GROUP, RECODED
+
+           How would you describe your race or ethnicity?
+
+           VALUE  LABEL
+               1  Black
+               2  Latina
+               3  Other
+               9  Multiracial or missing
+
+           Data type: numeric
+           Record/column: 1/95
+
+      ________________________________________________________________________
+
+      B6HSPNIC           IF HISPANIC, WHICH PARTICULAR GROUP
+
+           If you describe your race or ethnicity as Hispanic, what specific
+           group?
+
+           VALUE  LABEL
+               2  MEXICAN-AMERICAN
+               3  MEXICAN
+               4  MEXICAN AMERICAN
+               5  PANAMANIAN
+               6  PUERTO RICAN
+
+           Data type: numeric
+           Missing-data code: 1
+           Record/column: 1/97
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 1: QuestionnaPage 16tions B and C, Clinic/Hospital Initial Interview Data
+
+
+      B6OTHER            R'S RACE/ETHNICITY IF OTHER THAN LISTED
+
+           If you describe your race or ethnicity as other, please explain.
+
+           VALUE  LABEL
+               2  AFRICAN AMERICAN/WHITE (NIGERIA)
+               3  AMERICAN
+               4  AMERICAN INDIAN/NAVAJO
+               5  BI-RACIAL/AFRICAN AMERICAN AND HISPANI
+               6  CREOLE
+               7  CREOLE INDIAN &  BLACK
+               8  GERMAN
+               9  INDIAN
+              10  ITALIAN/CUBAN/BLACK/INDIAN
+              11  ME
+              12  MELATTO
+              13  MIXED WHITE/BLACK
+              14  PASSIONATE
+              15  POOR
+
+           Data type: numeric
+           Missing-data code: 1
+           Record/columns: 1/99-100
+
+      ________________________________________________________________________
+
+      B7BIRTH            R BORN IN THE US
+
+           Where were you born?
+
+           VALUE  LABEL
+               1  U.S.
+               2  Outside of U.S.
+             888  Dont know
+             997  Refused
+             998  Not asked
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 888-999
+           Record/columns: 1/102-104
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 1: QuestionnaPage 17tions B and C, Clinic/Hospital Initial Interview Data
+
+
+      B7PLACE            R'S BIRTHPLACE
+
+           Where were you born?
+
+           Data type: numeric
+           Missing-data codes: 997,998,999
+           Record/columns: 1/106-108
+
+      ________________________________________________________________________
+
+      B7PLACER           R'S PLACE OF BIRTH, RECODED
+
+           Where were you born?
+
+           VALUE  LABEL
+               1  Illinois
+               2  US south
+               3  US east
+               4  US west
+               5  US other midwest
+               6  US Puerto Rico
+               7  US, place not given
+              10  South America
+              15  Central America
+              20  Europe
+              25  Middle east
+              30  Africa
+              40  Asia
+             997  Refused
+             998  Not asked
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 997-999
+           Record/columns: 1/110-112
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 1: QuestionnaPage 18tions B and C, Clinic/Hospital Initial Interview Data
+
+
+      F14CHICG           HOW LONG R HAS BEEN IN CHICAGO
+
+           VALUE  LABEL
+               1  All her life
+               2  Many years
+               3  Three to four years
+               4  One to two years
+               5  Moved here in the past year
+               6  Other (e.g. two residences)
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 777,888,999
+           Record/columns: 1/114-116
+
+      ________________________________________________________________________
+
+      B8MARITL           R'S MARITAL STATUS AT INITIAL INTERVIEW
+
+           What is your marital status?
+
+           VALUE  LABEL
+               1  Single
+               2  Married
+               3  Common law marriage
+               4  Separated
+               5  Divorced
+               6  Widowed
+               7  Other
+               8  Engaged
+             998  Not asked
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 998,999
+           Record/columns: 1/118-120
+
+      ________________________________________________________________________
+
+      MARRIED            MARRIED AT INITIAL INTERVIEW
+
+           VALUE  LABEL
+               0  Other
+               1  Yes
+             999  Missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/122-124
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 1: QuestionnaPage 19tions B and C, Clinic/Hospital Initial Interview Data
+
+
+      SINGLE             SINGLE AT INITIAL INTERVIEW
+
+           VALUE  LABEL
+               0  No
+               1  Yes
+             999  Missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/126-128
+
+      ________________________________________________________________________
+
+      SCRSTAT            STATUS ON THE SCREENER
+
+           VALUE  LABEL
+               1  AW
+               2  NAW
+               3  Abused over a year ago
+               4  Abused, date missing
+               5  Abused, under age
+               6  Not abused, under age
+               7  Abused year ago, under age
+               8  Not in current relationship
+               9  Abused, but not by partner
+              99  Refused to answer questions
+             999  Screener missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/130-132
+
+      ________________________________________________________________________
+
+      SCRSTATR           RECODED SCREENING STATUS
+
+           VALUE  LABEL
+               1  AW, including AW date missing
+               2  NAW
+               3  Abused over a year ago
+             998  Not eligible
+             999  Screener missing or refusal
+
+           Data type: numeric
+           Missing-data codes: 998,999
+           Record/columns: 1/134-136
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 1: QuestionnaPage 20tions B and C, Clinic/Hospital Initial Interview Data
+
+
+      FINSTAT            INTERVIEW STATUS
+
+           VALUE  LABEL
+               1  AW
+               2  NAW
+               3  NAW, abused over a year ago
+              76  Interviewed: no partner in past year
+              77  Not int: no partner in past year
+              78  Falsified interview
+              87  AW, int. unreliable
+              88  NAW, int., unreliable
+              89  NAW, incomplete int.
+              90  AW, incomplete int.
+              91  Refused, didnt sign
+              92  Did not have time
+              93  No show
+              94  Signed, not interviewed
+              95  Spanish interviewer not available
+              96  Under age
+              97  interested no signature
+              98  Signed, refused pre-screener
+             999  Not interviewed
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/138-139
+
+      ________________________________________________________________________
+
+      FINSTATR           RECODED STATUS AFTER INTERVIEW
+
+           VALUE  LABEL
+               1  AW, including incomplete or unreliable i
+               2  NAW, including incomplete or unreliable
+               3  NAW, abused over a year ago
+              96  Interviewed; no partner in past year
+              98  Falsified interview
+              99  Not interviewed
+
+           Data type: numeric
+           Missing-data codes: 96,98,99
+           Record/column: 1/141
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 1: QuestionnaPage 21tions B and C, Clinic/Hospital Initial Interview Data
+
+
+      ABUSED             PHYSICAL ABUSE IN PAST YEAR
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+
+           Data type: numeric
+           Record/column: 1/143
+
+      ________________________________________________________________________
+
+      CHNGSTAT           CHANGE B/T SCREENER & INTERVIEW STATUS
+
+           VALUE  LABEL
+               1  No change in status
+               2  Yes, change
+               3  NAW year ago became NAW
+               9  Screener missing
+
+           Data type: numeric
+           Missing-data code: 9
+           Record/column: 1/145
+
+      ________________________________________________________________________
+
+      CHGTONAW           WHY R'S STATUS CHANGED FROM AW TO NAW
+
+           VALUE  LABEL
+               1  No information
+               2  Abuser in screener was not an intimate p
+               3  Screened uncomfortable sex, not forced
+               4  Screened as afraid, but no violence in
+               5  Abuse not in past year, another partner
+               6  Screened afraid because she respects h
+               7  Abuse by name, not in past year
+               9  Screened AW but date missing
+              10  Abuse not in the past year, unclear if c
+              99  Not applicable
+
+           Data type: numeric
+           Missing-data code: 99
+           Record/columns: 1/147-148
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 1: QuestionnaPage 22tions B and C, Clinic/Hospital Initial Interview Data
+
+
+      NAWYEAR            DETAIL FOR NAW, ABUSE NOT IN PAST YEAR
+
+           VALUE  LABEL
+               1  Earlier abuse committed by another partn
+               2  Earlier abuse by (name)
+               3  Earlier abuse, partner unclear
+               9  No information
+              99  Not applicable
+
+           Data type: numeric
+           Missing-data codes: 9,99
+           Record/columns: 1/150-151
+
+      ________________________________________________________________________
+
+      RELAC1             RELATIONSHIP TO PARTNER IN C1-ALL INFO
+
+           Now I need to ask you some questions about your husband, boyfriend
+           or girlfriend, sex partner or other intimate partner.  By "intimate
+           partner" we mean a person you are or were romantically or sexually
+           involved with, either currently or in the past year.  If you have or
+           had more than one intimate partner, please tell me about the one you
+           currently spend the most time with and feel closest to. What is this
+           person's relationship to you?
+
+           VALUE  LABEL
+               1  Current husband
+               2  Ex- or former husband
+               3  Current commonlaw
+               4  Ex- or former commonlaw
+               5  Current boyfriend or fiance
+               6  Ex- or former boyfriend or fiance
+               7  Current same-sex partner
+               8  Former same-sex partner
+               9  Current other (friend, lover)
+              10  Former other (friend, lover)
+              11  Childs father (ex-intimate partner)
+             999  Missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/153-155
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 1: QuestionnaPage 23tions B and C, Clinic/Hospital Initial Interview Data
+
+
+      LENGTHC1           LENGTH OF RELATIONSHIP W/ PARTNER IN C1
+
+           Now I need to ask you some questions about your husband, boyfriend
+           or girlfriend, sex partner or other intimate partner.  By "intimate
+           partner" we mean a person you are or were romantically or sexually
+           involved with, either currently or in the past year.  If you have or
+           had more than one intimate partner, please tell me about the one you
+           currently spend the most time with and feel closest to.
+
+           VALUE  LABEL
+               1  One year or less
+               2  13 months to two years
+               3  25 months to three years
+               4  37 months to five years
+               5  61 months to 15 years
+               6  181 months to 32 years
+
+           Data type: numeric
+           Record/column: 1/157
+
+      ________________________________________________________________________
+
+      C1SITUAT           ABUSE SITUATION FOR PERSON IN C1
+
+           VALUE  LABEL
+               1  C1 is only abuser (name)
+               2  Two or more abusers, c1 chosen as name
+               3  C1 is not an abuser (not name)
+               4  C1 an abuser, but not chosen as name
+               9  NAW (no abuser)
+
+           Data type: numeric
+           Missing-data code: 9
+           Record/column: 1/159
+
+      ________________________________________________________________________
+
+      PARTNERS           # PARTNERS IDENTIFIED IN SECTIONS C OR L
+
+           VALUE  LABEL
+               1  Only one intimate partner identified (c1
+               2  Two partners
+               3  Three partners
+               4  Four partners
+               9  NAW (one partner)
+
+           Data type: numeric
+           Missing-data code: 9
+           Record/column: 1/161
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 1: QuestionnaPage 24tions B and C, Clinic/Hospital Initial Interview Data
+
+
+      PABUSE             # OF ABUSING INTIMATE PARTNERS-PAST YR
+
+           VALUE  LABEL
+               1  One
+               2  Two
+               3  Three
+               9  NAW (no abusing partner)
+
+           Data type: numeric
+           Missing-data code: 9
+           Record/column: 1/163
+
+      ________________________________________________________________________
+
+      SPANISH1           INITIAL INTERVIEW IN SPANISH OR ENGLISH
+
+           VALUE  LABEL
+               1  Spanish
+               2  English
+
+           Data type: numeric
+           Record/column: 1/165
+
+      ________________________________________________________________________
+
+      INMONTH            MONTH OF INTERVIEW
+
+           VALUE  LABEL
+               1  January
+               2  February
+               3  March
+               4  April
+               5  May
+               6  June
+               7  July
+               8  August
+               9  September
+              10  October
+              11  November
+              12  December
+
+           Data type: numeric
+           Record/columns: 1/167-168
+
+      ________________________________________________________________________
+
+      INYEAR             YEAR OF INTERVIEW
+
+           Data type: numeric
+           Record/columns: 1/170-173
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 1: QuestionnaPage 25tions B and C, Clinic/Hospital Initial Interview Data
+
+
+      INDAY              DAY OF INTERVIEW
+
+           Data type: numeric
+           Record/columns: 1/175-176
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019

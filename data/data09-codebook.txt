@@ -1,0 +1,236 @@
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                      CODEBOOK
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 9: Event Calendar Data
+                                          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 9: Event CalenPage ita
+
+
+                                      CONTENTS
+
+
+      item                                                                page
+
+      CASEID             IDENTIFICATION NUMBER                               1
+      INVIEWN            INTERVIEW NUMBER                                    1
+      NUMBER             EVENT NUMBER                                        1
+      EVNTCODE           WHAT WAS THE EVENT                                  1
+      CM1DATE            DATE OF EVENT                                       1
+      DATECOMM           DATE-COMMENTS                                       2
+      CM1WEEK            WEEK OF EVENT - BEGINNING DATE                      2
+      CM1WEEK2           WEEK OF EVENT - ENDING DATE                         2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 9: Event CalenPage 1ta
+
+
+      CASEID             IDENTIFICATION NUMBER
+
+           Data type: numeric
+           Record/columns: 1/1-6
+
+      ________________________________________________________________________
+
+      INVIEWN            INTERVIEW NUMBER
+
+           VALUE  LABEL
+               1  Initial
+               2  First followup
+               3  Second followup
+
+           Data type: numeric
+           Record/column: 1/8
+
+      ________________________________________________________________________
+
+      NUMBER             EVENT NUMBER
+
+             VALUE  LABEL
+           999.999  Calendar missing
+
+           Data type: numeric
+           Decimals: 3
+           Missing-data code: 999.999
+           Record/columns: 1/10-18
+
+      ________________________________________________________________________
+
+      EVNTCODE           WHAT WAS THE EVENT
+
+           Data type: numeric
+           Decimals: 2
+           Record/columns: 1/20-23
+
+      ________________________________________________________________________
+
+      CM1DATE            DATE OF EVENT
+
+           Data type: numeric
+           Missing-data code: 1
+           Record/columns: 1/25-27
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 9: Event CalenPage 2ta
+
+
+      DATECOMM           DATE-COMMENTS
+
+           VALUE  LABEL
+               2  DATE NOT RECORDED ON CALENDAR, ESTIMATED
+
+           Data type: numeric
+           Missing-data code: 1
+           Record/column: 1/29
+
+      ________________________________________________________________________
+
+      CM1WEEK            WEEK OF EVENT - BEGINNING DATE
+
+           Data type: numeric
+           Missing-data code: 1
+           Record/columns: 1/31-32
+
+      ________________________________________________________________________
+
+      CM1WEEK2           WEEK OF EVENT - ENDING DATE
+
+           Data type: numeric
+           Missing-data code: 1
+           Record/columns: 1/34-35
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019

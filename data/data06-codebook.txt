@@ -1,0 +1,4470 @@
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                      CODEBOOK
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: Questionnaire Section M, Clinic/Hospital Initial Interview Data
+                                          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaiPage ition M, Clinic/Hospital Initial Interview Data
+
+
+                                      CONTENTS
+
+
+      item                                                                page
+
+      CASEID             RESPONDENT IDENTIFICATION NUMBER                    1
+      INVIEWN            INTERVIEW NUMBER                                    1
+      ABUSED             PHYSICAL ABUSE IN LAST YEAR                         1
+      SAMESEXR           IS [NAME] SAME SEX PARTNER-RECODE                   1
+      RACER              RACE, RECODE                                        2
+      M4GUN              WEAPON USED TO THREATEN-GUN                         2
+      M5FIRED            WAS THE GUN FIRED                                   3
+      M6MSCRRG           SUFFER A MISCARRIAGE B/C OF INCIDENT                3
+      M7TIEDUP           PARTNER TIE R UP/HANDCUFF/RESTRAIN                  4
+      M8PRSNT            ANYONE ELSE EVER PRESENT DURING INCIDENT            4
+      M8WHO              WHO WAS PRESENT                                     5
+      M9INJURE           ANYONE ELSE INJURED IN AN INCIDENT                  5
+      M9WHO              WHO WAS INJURED                                     6
+      M9COMMEN           INJURY COMMENTS                                     6
+      M10DRUNK           R/PARTNER EVER DRUNK DURING AN INCIDENT             6
+      M10WHO             WHO WAS DRUNK                                       7
+      M11HIGH            R/PARTNER HIGH ON MARIJUANA DUR INCIDENT            7
+      M11WHO             WHO WAS HIGH ON MARIJUANA                           7
+      M12DRUG            R/PARTNER USING OTHER ILLICIT DRUGS                 8
+      M12WHO             WHO WAS ON OTHER ILLICIT DRUGS                      8
+      M34HOME            RANK ORDER-MOST SERIOUS INCIDENT IN HOME            8
+      M34HOTEL           RANK ORDER-MOST SERIOUS INCID IN HOTEL              9
+      M34OTHHM           RANK-MOST SERIOUS IN OTH PERSON'S HOME              9
+      M34PRTNR           OTHER PERSON'S HOME, PARTNER'S HOME                 9
+      M34BAR             RANK-MOST SERIOUS INCIDENT IN A BAR                10
+      M34INSID           RANK-MOST SERIOUS INCIDENT INDOORS                 10
+      M34CAR             RANK-MOST SERIOUS INCIDENT CAR/TAXI                10
+      M34BUS             RANK-MOST SERIOUS INC PUBLIC TRANS                 11
+      M34STRT            RANK-MOST SERIOUS INCIDENT ON STREET               11
+      M34OUT             RANK-MOST SERIOUS INCIDENT OUTSIDE                 11
+      M34OTHER           RANK-MOST SERIOUS INC OTH OUTSIDE                  12
+      M34WORK            RANK-MOST SERIOUS INCIDENT AT WORK                 12
+      M34RELTV           RANK INCIDENTS-RELATIVE'S HOUSE                    12
+      M34PHONE           RANK INCIDENTS-ON THE PHONE                        13
+      M34EVERY           RANK INCIDENTS-ANYWHERE/EVERYWHERE                 13
+      M35SAFE            SOMEPLACE R CAN GO WHERE R FEELS SAFE              13
+      M36WHERE           PLACE(S) R CAN GO AND FEEL SAFE                    14
+      M36HOME            PLACE IN R'S HOME WHERE SHE FEELS SAFE             14
+      M36WHOSE           WHO ELSE'S HOME DOES R FEEL SAFE IN                15
+      M36OTHRC           WHERE ELSE DOES R FEEL SAFE                        15
+      M41ILLGL           PARTNER FORCE R TO DO SOMETHING ILLEGAL            16
+      M42DNGER           R EVER FEEL THAT HER LIFE WAS IN DANGER            16
+      M42DAGRR           RECODE-DID R THINK LIFE WAS IN DANGER              16
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage iition M, Clinic/Hospital Initial Interview Data
+
+
+      item                                                                page
+
+      M13TALK            R TALK THINGS OVER WITH SOMEONE                    17
+      M13TALKR           TALKING-RECODE                                     17
+      M14REAS1           RECODE-REASON 1 R DIDN'T TALK TO ANYONE            18
+      M14REAS2           REASON 2 R DIDN'T TELL SOMEONE                     19
+      M14REAS3           REASON 3 R DIDN'T TELL SOMEONE                     20
+      M15WHO1            WHO DID R TALK THINGS OVER WITH                    21
+      M15WHO2            WHO DID R TALK THINGS OVER WITH (2)                22
+      M15WHO3            WHO DID R TALK THINGS OVER WITH (3)                23
+      M15FAMIL           TALKED TO FAMILY                                   23
+      M15NAMEF           TALKED TO PARTNER'S FAMILY                         24
+      M15FRIEN           TALKED TO FRIEND OR NEIGHBOR                       24
+      M15CLERG           TALKED TO CLERGY                                   24
+      M15POLIC           TALKED TO POLICE                                   25
+      M15DOCTO           TALKED TO DOCTOR                                   25
+      M15COUNS           TALKED TO COUNSELOR                                25
+      M16HELP            TALKING THIS OVER EVER HELPFUL                     26
+      M16WHY             RECODE-WHY TALKING WAS HELPFUL                     27
+      M16NWHY            RECODE-WHY TALKING WAS NOT HELPFUL                 28
+      M32GTHLP           R DO ANYTHING NOT MENTIONED                        28
+      M32OTHER           RECODE-WHAT R DID TO HELP HERSELF                  29
+      M17CNSLR           R CONTACT AGENCY/COUNSELOR AFT INCIDENT            30
+      M18NWHY1           RECODE-REASON R DID NOT CONTACT AGENCY             30
+      M18NWHY2           REASON 2 R DID NOT CONTACT AN AGENCY               30
+      M18NWHY3           REASON 3 R DID NOT CONTACT AN AGENCY               31
+      M19AGNC1           AGENCY(IES)/COUNSELORS R CONTACTED                 31
+      M19AGNC2           AGENCY(IES)/COUNSELORS(2) R CONTACTED              32
+      M19AGNC3           AGENCY(IES)/COUNSELORS(3) R CONTACTED              32
+      M19OTHER           RECODE-OTHER AGENCIES/COUNSELORS                   33
+      M20HLPFL           AGENCIES/COUNSELORS R CONTACTED HELPFUL            33
+      M20WAYS            RECODE-WAYS AGENCY/COUNSELOR WAS HELPFUL           34
+      M21MED1            R CONTACT/VISIT MEDICAL PROVIDER                   34
+      M21MEDR            DID R GET MEDICAL CARE BEFORE VISIT                35
+      M22NWHY            RECODE-REASON 1 R DID NOT SEEK MED CARE            36
+      M22NWHY2           RECODE-REASON 2 R DID NOT SEEK MED CARE            37
+      M22NWHY3           RECODE-REASON 3 R DID NOT SEEK MED CARE            38
+      M23ASK             MED STAFF ASK R ABOUT BEATING                      39
+      M24TELL            DID R TELL MED STAFF WHAT HAPPENED                 39
+      M25NWHY            RECODE-REASON 1 R DIDN'T TELL MED STAFF            40
+      M25NWHY2           RECODE-REASON 2 R DID NOT TELL MED STAFF           41
+      M25NWHY3           RECODE-REASON 3 R DID NOT TELL MED STAFF           42
+      M26TOLD1           WHAT DID MEDICAL STAFF DO                          43
+      M26TOLD2           WHAT DID MEDICAL STAFF DO (2)                      43
+      M26TOLD3           WHAT DID MEDICAL STAFF DO (3)                      44
+      M26REFER           RECODE-MED STAFF GAVE AGENCY REFERRAL              44
+      M26OTHER           RECODE-WHAT ELSE DID MED STAFF DO                  45
+      M27HLPFL           WAS WHAT MEDICAL STAFF DID HELPFUL                 45
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnPage iiition M, Clinic/Hospital Initial Interview Data
+
+
+      item                                                                page
+
+      M27HOW             RECODE-HOW MEDICAL STAFF WAS HELPFUL               46
+      M28POLIC           R CONTACT POLICE AFTER AN INCIDENT                 46
+      M28POLR            R CONTACT POLICE AFT INCIDENT IN PAST YR           47
+      M29NWHY            RECODE-REASON R DID NOT CONTACT POLICE             47
+      M29NWHY2           RECODE-REASON 2 R DID NOT CONTACT POLICE           47
+      M29NWHY3           RECODE-REASON 3 R DID NOT CONTACT POLICE           47
+      M30ARRES           POLICE EVER ARREST [NAME]                          48
+      M30NOINT           POLICE RESPONDED, NO OTHER INTERVENTION            48
+      M30PD1             WHAT DID POLICE DO WHEN R NOTIFIED THEM            49
+      M30PD2             WHAT DID POLICE DO WHEN NOTIFIED (2)               50
+      M30PD3             WHAT DID POLICE DO WHEN NOTIFIED (3)               51
+      M30PD4             WHAT DID POLICE DO WHEN NOTIFIED (4)               52
+      M30AGENC           RECODE-AGENCY POLICE PUT R IN TOUCH WITH           52
+      M30AGNCD           AGENCY R WAS REFERRED TO                           53
+      M30OTHER           RECODE-HOW DID POLICE RESPOND                      53
+      M31PDHLP           WAS WHAT THE POLICE DID HELPFUL                    54
+      M31HOW             RECODE-REASON POLICE WERE HELPFUL                  54
+      M33HLPFL           R DO ANY OTHER THINGS THAT WERE HELPFUL            55
+      M33WHATR           IN WHAT WAY WERE THESE THINGS HELPFUL              56
+      M43NEED            ANYTHING R NEEDED FROM POLICE/AGENCIES             57
+      M43WHAT1           SPECIFY OTHER NEEDS                                57
+      M43WHAT2           SPECIFY OTHER NEEDS (2)                            58
+      M37COURT           R GO TO COURT IN PAST YEAR FOR ABUSE               58
+      M37TYPE            WHICH COURT DID R GO TO FOR ABUSE INCID            59
+      M38OUTCM           OUTCOME OF THE COURT CASE                          59
+      M38OUTC2           OUTCOME OF THE COURT CASE (2)                      60
+      M38OUTC3           OUTCOME OF THE COURT CASE (3)                      61
+      M38ORDER           ORDER OF PROTECTION                                61
+      M38YJAIL           # OF YEARS IN JAIL TIME ORDERED                    62
+      M38MJAIL           # OF MONTHS JAIL TIME ORDERED                      62
+      M38YPROB           # OF YEARS PROBATION ORDERED                       62
+      M38MPROB           # OF MONTHS OF PROBATION ORDERED                   63
+      M38YSUP            # OF YEARS OF SUPERVISION ORDERED                  63
+      M38MSUP            # OF MONTHS OF SUPERVISION ORDERED                 63
+      M38YCOUN           # OF YEARS OF COUNSELING ORDERED                   64
+      M38MCOUN           # OF MONTHS OF COUNSELING ORDERED                  64
+      M39TRTMT           PARTNER RECEIVE ANY COUNSELING/RX                  64
+      M40CNSL1           TYPE OF COUNSELING/TREATMENT RECEIVED              65
+      M40CNSL2           TYPE OF COUNSELING/RX RECEIVED (2)                 65
+      M40CNSL3           TYPE OF COUNSELING/RX RECEIVED (3)                 66
+      M40CNSL4           TYPE OF COUNSELING/RX RECEIVED (4)                 66
+      M44ADV1            R'S ADVICE FOR OTHER ABUSED WOMEN                  67
+      M44ADV2            R'S ADVICE FOR OTHER ABUSED WOMEN (2)              68
+      M44ADV3            R'S ADVICE FOR OTHER ABUSED WOMEN (3)              69
+      M22NOINJ           TOTAL-NOT HURT/NO INJURY/NO NEED FOR DR.           70
+      M22NONED           TOTAL-'NO NEED' RESPONSES (2.1 - 2.5)              70
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage ivtion M, Clinic/Hospital Initial Interview Data
+
+
+      item                                                                page
+
+      M22PRIV            TOTAL-REASON: PRIVACY                              70
+      M22EMBAR           TOTAL-'DIDN'T BECAUSE EMBARRASSED'(5.1)            70
+      HELPTYPE           COUNT OF TYPES OF HELP-SEEKING                     71
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaiPage 1tion M, Clinic/Hospital Initial Interview Data
+
+
+      CASEID             RESPONDENT IDENTIFICATION NUMBER
+
+           Data type: numeric
+           Record/columns: 1/1-6
+
+      ________________________________________________________________________
+
+      INVIEWN            INTERVIEW NUMBER
+
+           VALUE  LABEL
+               1  Initial
+               2  First followup
+               3  Second followup
+
+           Data type: numeric
+           Record/column: 1/8
+
+      ________________________________________________________________________
+
+      ABUSED             PHYSICAL ABUSE IN LAST YEAR
+
+           VALUE  LABEL
+               1  Abused
+               2  Non-abused
+              95  Not reliable
+
+           Data type: numeric
+           Missing-data code: 95
+           Record/column: 1/10
+
+      ________________________________________________________________________
+
+      SAMESEXR           IS [NAME] SAME SEX PARTNER-RECODE
+
+           VALUE  LABEL
+               1  Yes
+            9999  No
+
+           Data type: numeric
+           Record/columns: 1/12-15
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaiPage 2tion M, Clinic/Hospital Initial Interview Data
+
+
+      RACER              RACE, RECODE
+
+           VALUE  LABEL
+               1  Black
+               2  Latina
+               3  Other
+               9  Multiracial or missing
+
+           Data type: numeric
+           Missing-data code: 9
+           Record/column: 1/17
+
+      ________________________________________________________________________
+
+      M4GUN              WEAPON USED TO THREATEN-GUN
+
+           Here are some things that can happen when a woman is beaten or
+           forced to have sex, or that might have happened in relationship to
+           those incidents. You have mentioned that a weapon might have been
+           threatened or used in an (some) incident(s). Was that weapon (ever)
+           a gun?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               3  N/A (weapon not threatened or used)
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 3,888-9999
+           Record/columns: 1/19-22
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaiPage 3tion M, Clinic/Hospital Initial Interview Data
+
+
+      M5FIRED            WAS THE GUN FIRED
+
+           Here are some things that can happen when a woman is beaten or
+           forced to have sex, or that might have happened in relationship to
+           those incidents. Was the gun fired?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/24-27
+
+      ________________________________________________________________________
+
+      M6MSCRRG           SUFFER A MISCARRIAGE B/C OF INCIDENT
+
+           Here are some things that can happen when a woman is beaten or
+           forced to have sex, or that might have happened in relationship to
+           those incidents. Did you ever suffer a miscarriage as a result of
+           an incident in the past year?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 888,999
+           Record/columns: 1/29-31
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaiPage 4tion M, Clinic/Hospital Initial Interview Data
+
+
+      M7TIEDUP           PARTNER TIE R UP/HANDCUFF/RESTRAIN
+
+           Here are some things that can happen when a woman is beaten or
+           forced to have sex, or that might have happened in relationship to
+           those incidents. Did (name) ever tie you up, handcuff you or
+           restrain you in any of these incidents?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               3  Yes, but in earlier year
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 888,999
+           Record/columns: 1/33-35
+
+      ________________________________________________________________________
+
+      M8PRSNT            ANYONE ELSE EVER PRESENT DURING INCIDENT
+
+           Here are some things that can happen when a woman is beaten or
+           forced to have sex, or that might have happened in relationship to
+           those incidents. Was anyone else ever present other than you and
+           (name) in an incident?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 888,999
+           Record/columns: 1/37-39
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaiPage 5tion M, Clinic/Hospital Initial Interview Data
+
+
+      M8WHO              WHO WAS PRESENT
+
+           If someone other than you and (name) was ever present during an
+           incident, who was present?  BP - bystanders present (e.g.: people
+           passing by on the street, other people in a store or restaurant,
+           etc.)  AP - one or more adult friend, acquaintance or relative
+           present (e.g.: people she knows, not the abuser)  CP - one or more
+           children were present or overheard the incident  OP - another person
+           present (e.g.: a friend or relative of the abuser)
+
+           VALUE  LABEL
+               1  BP
+               2  AP
+               3  CP
+               4  OP
+               9  Unknown
+
+           Data type: numeric
+           Missing-data code: 9
+           Record/column: 1/41
+
+      ________________________________________________________________________
+
+      M9INJURE           ANYONE ELSE INJURED IN AN INCIDENT
+
+           Here are some things that can happen when a woman is beaten or
+           forced to have sex, or that might have happened in relationship to
+           those incidents. Were you or anyone else ever injured in an
+           incident?
+
+           VALUE  LABEL
+               1  Yes, someone else
+               2  No, no one was injured
+               3  I was the only one injured
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/43-46
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaiPage 6tion M, Clinic/Hospital Initial Interview Data
+
+
+      M9WHO              WHO WAS INJURED
+
+           If you or anyone else was ever injured in an incident, who was
+           injured?  BP - bystander injured  AP - another adult injured  CP -
+           child injured  OP - another person injured
+
+           VALUE  LABEL
+               1  BP
+               2  AP
+               3  CP
+               4  OP
+               5  Respondent
+               6  Partner
+               9  Unknown
+
+           Data type: numeric
+           Missing-data code: 9
+           Record/column: 1/48
+
+      ________________________________________________________________________
+
+      M9COMMEN           INJURY COMMENTS
+
+           VALUE  LABEL
+               2  very severe
+
+           Data type: numeric
+           Missing-data code: 1
+           Record/column: 1/50
+
+      ________________________________________________________________________
+
+      M10DRUNK           R/PARTNER EVER DRUNK DURING AN INCIDENT
+
+           Were you or (name) ever drunk during an incident?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 888,999
+           Record/columns: 1/52-54
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaiPage 7tion M, Clinic/Hospital Initial Interview Data
+
+
+      M10WHO             WHO WAS DRUNK
+
+           VALUE  LABEL
+               1  Respondent
+               2  Partner
+               3  Both
+               9  Unknown
+
+           Data type: numeric
+           Missing-data code: 9
+           Record/column: 1/56
+
+      ________________________________________________________________________
+
+      M11HIGH            R/PARTNER HIGH ON MARIJUANA DUR INCIDENT
+
+           Were you or (name) ever high on marijuana during an incident?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 888,999
+           Record/columns: 1/58-60
+
+      ________________________________________________________________________
+
+      M11WHO             WHO WAS HIGH ON MARIJUANA
+
+           VALUE  LABEL
+               1  Respondent
+               2  Partner
+               3  Both
+               9  Unknown
+
+           Data type: numeric
+           Missing-data code: 9
+           Record/column: 1/62
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaiPage 8tion M, Clinic/Hospital Initial Interview Data
+
+
+      M12DRUG            R/PARTNER USING OTHER ILLICIT DRUGS
+
+           Were you or (name) ever using other drugs, such as cocaine, crack,
+           heroin or speed during an incident?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/64-67
+
+      ________________________________________________________________________
+
+      M12WHO             WHO WAS ON OTHER ILLICIT DRUGS
+
+           VALUE  LABEL
+               1  Respondent
+               2  Partner
+               3  Both
+               9  Unknown
+
+           Data type: numeric
+           Missing-data code: 9
+           Record/column: 1/69
+
+      ________________________________________________________________________
+
+      M34HOME            RANK ORDER-MOST SERIOUS INCIDENT IN HOME
+
+           Thinking back over the incidents in the past year, particularly
+           those that were most severe or that bothered you the most, where did
+           they happen?  Rank the most frequent, second most frequent, etc.
+           Inside my own home
+
+           VALUE  LABEL
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/71-74
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaiPage 9tion M, Clinic/Hospital Initial Interview Data
+
+
+      M34HOTEL           RANK ORDER-MOST SERIOUS INCID IN HOTEL
+
+           Thinking back over the incidents in the past year, particularly
+           those that were most severe or that bothered you the most, where did
+           they happen? Rank the most frequent, second most frequent, etc.
+           In a hotel
+
+           VALUE  LABEL
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/76-79
+
+      ________________________________________________________________________
+
+      M34OTHHM           RANK-MOST SERIOUS IN OTH PERSON'S HOME
+
+           Thinking back over the incidents in the past year, particularly
+           those that were most severe or that bothered you the most, where did
+           they happen?  Rank the most frequent, second most frequent, etc.
+           In another person's home
+
+           VALUE  LABEL
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/81-84
+
+      ________________________________________________________________________
+
+      M34PRTNR           OTHER PERSON'S HOME, PARTNER'S HOME
+
+           Thinking back over the incidents in the past year, particularly
+           those that were most severe or that bothered you the most, where did
+           they happen?   If they happened in another person's home, was it
+           (name's) home or apartment?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/86-89
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage 10tion M, Clinic/Hospital Initial Interview Data
+
+
+      M34BAR             RANK-MOST SERIOUS INCIDENT IN A BAR
+
+           Thinking back over the incidents in the past year, particularly
+           those that were most severe or that bothered you the most, where did
+           they happen?   Rank the most frequent, second most frequent, etc.
+           In a tavern, bar or liquor store
+
+           VALUE  LABEL
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/91-94
+
+      ________________________________________________________________________
+
+      M34INSID           RANK-MOST SERIOUS INCIDENT INDOORS
+
+           Thinking back over the incidents in the past year, particularly
+           those that were most severe or that bothered you the most, where did
+           they happen?   Rank the most frequent, second most frequent, etc.
+           Indoors in another public place (e.g.: church, school, grocery
+           store, a mall, theater)
+
+           VALUE  LABEL
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/96-99
+
+      ________________________________________________________________________
+
+      M34CAR             RANK-MOST SERIOUS INCIDENT CAR/TAXI
+
+           Thinking back over the incidents in the past year, particularly
+           those that were most severe or that bothered you the most, where did
+           they happen?   Rank the most frequent, second most frequent, etc.
+           In a car or taxi or other private vehicle
+
+           VALUE  LABEL
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/101-104
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage 11tion M, Clinic/Hospital Initial Interview Data
+
+
+      M34BUS             RANK-MOST SERIOUS INC PUBLIC TRANS
+
+           Thinking back over the incidents in the past year, particularly
+           those that were most severe or that bothered you the most, where did
+           they happen?  Rank the most frequent, second most frequent, etc.
+           In public transportation (e.g.: a bus, the EL, train)
+
+           VALUE  LABEL
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/106-109
+
+      ________________________________________________________________________
+
+      M34STRT            RANK-MOST SERIOUS INCIDENT ON STREET
+
+           Thinking back over the incidents in the past year, particularly
+           those that were most severe or that bothered you the most, where did
+           they happen?  Rank the most frequent, second most frequent, etc.
+           On the street, on the sidewalk, in an alley
+
+           VALUE  LABEL
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/111-114
+
+      ________________________________________________________________________
+
+      M34OUT             RANK-MOST SERIOUS INCIDENT OUTSIDE
+
+           Thinking back over the incidents in the past year, particularly
+           those that were most severe or that bothered you the most, where did
+           they happen?  Rank the most frequent, second most frequent, etc.
+           Other outside place (e.g.: a park, yard, parking lot)
+
+           VALUE  LABEL
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/116-119
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage 12tion M, Clinic/Hospital Initial Interview Data
+
+
+      M34OTHER           RANK-MOST SERIOUS INC OTH OUTSIDE
+
+           Thinking back over the incidents in the past year, particularly
+           those that were most severe or that bothered you the most, where did
+           they happen?  Rank the most frequent, second most frequent, etc.
+           Other
+
+           VALUE  LABEL
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/121-124
+
+      ________________________________________________________________________
+
+      M34WORK            RANK-MOST SERIOUS INCIDENT AT WORK
+
+           Thinking back over the incidents in the past year, particularly
+           those that were most severe or that bothered you the most, where did
+           they happen? Rank the most frequent, second most frequent, etc.
+
+           VALUE  LABEL
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/126-129
+
+      ________________________________________________________________________
+
+      M34RELTV           RANK INCIDENTS-RELATIVE'S HOUSE
+
+           Thinking back over the incidents in the past year, particularly
+           those that were most severe or that bothered you the most, where did
+           they happen? Rank the most frequent, second most frequent, etc.
+
+           VALUE  LABEL
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/131-134
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage 13tion M, Clinic/Hospital Initial Interview Data
+
+
+      M34PHONE           RANK INCIDENTS-ON THE PHONE
+
+           Thinking back over the incidents in the past year, particularly
+           those that were most severe or that bothered you the most, where did
+           they happen? Rank the most frequent, second most frequent, etc.
+
+           VALUE  LABEL
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/136-139
+
+      ________________________________________________________________________
+
+      M34EVERY           RANK INCIDENTS-ANYWHERE/EVERYWHERE
+
+           Thinking back over the incidents in the past year, particularly
+           those that were most severe or that bothered you the most, where did
+           they happen? Rank the most frequent, second most frequent, etc.
+
+           VALUE  LABEL
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/141-144
+
+      ________________________________________________________________________
+
+      M35SAFE            SOMEPLACE R CAN GO WHERE R FEELS SAFE
+
+           Is there someplace you can go where you feel safe?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 888,999
+           Record/columns: 1/146-148
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage 14tion M, Clinic/Hospital Initial Interview Data
+
+
+      M36WHERE           PLACE(S) R CAN GO AND FEEL SAFE
+
+           Where is this place (are these places)?
+
+           VALUE  LABEL
+               1  In my home
+               2  In someone else's home
+               3  Somewhere else
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/150-153
+
+      ________________________________________________________________________
+
+      M36HOME            PLACE IN R'S HOME WHERE SHE FEELS SAFE
+
+           If you feel safe in your home, any particular spot in your
+           home?
+
+           VALUE  LABEL
+               1  Entire house/ no specific place
+               2  R's room
+               3  Other specific room
+               4  Closet or other small space
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/155-158
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage 15tion M, Clinic/Hospital Initial Interview Data
+
+
+      M36WHOSE           WHO ELSE'S HOME DOES R FEEL SAFE IN
+
+           If you feel safe in someone else's home, where?
+
+           VALUE  LABEL
+               1  Her mother and/or father's home
+               2  Her brother/ sister's home
+               3  Her grandparent's home
+               4  Her son/ daughter's home
+               5  Other relative's home
+               6  Friend's home
+               7  Partner's home
+               8  Partner's parent's home
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/160-163
+
+      ________________________________________________________________________
+
+      M36OTHRC           WHERE ELSE DOES R FEEL SAFE
+
+           If you feel safe somewhere else, where?
+
+           VALUE  LABEL
+               1  Work
+               2  Church
+               3  Shelter
+               4  Treatment center
+               5  Street
+               6  Out of town
+               7  Anywhere but home
+               8  Other
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/165-168
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage 16tion M, Clinic/Hospital Initial Interview Data
+
+
+      M41ILLGL           PARTNER FORCE R TO DO SOMETHING ILLEGAL
+
+           Thinking about the past year, did (name) ever force you to do
+           something that you think is wrong, or that might be illegal?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 888,999
+           Record/columns: 1/170-172
+
+      ________________________________________________________________________
+
+      M42DNGER           R EVER FEEL THAT HER LIFE WAS IN DANGER
+
+           Thinking about the events of the past year, did you ever feel that
+           your life was in danger?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               3  Don't know for sure; maybe
+             999  Missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/174-176
+
+      ________________________________________________________________________
+
+      M42DAGRR           RECODE-DID R THINK LIFE WAS IN DANGER
+
+           Thinking about the events of the past year, did you ever feel that
+           your life was in danger?
+
+           VALUE  LABEL
+               0  No
+               1  Yes or maybe
+             999  Missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/178-180
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage 17tion M, Clinic/Hospital Initial Interview Data
+
+
+      M13TALK            R TALK THINGS OVER WITH SOMEONE
+
+           For these questions, I am looking for what happened over the past
+           year taken as a whole, not for each separate incident. I would like
+           you to tell me if you ever did any of these things in the past year.
+           Did you talk things over with someone you know (a friend, family
+           member or someone else) in the past year?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               3  Sometimes
+             888  Don't know
+             998  NAW
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 888-999
+           Record/columns: 1/182-184
+
+      ________________________________________________________________________
+
+      M13TALKR           TALKING-RECODE
+
+           For these questions, I am looking for what happened over the past
+           year taken as a whole, not for each separate incident. I would like
+           you to tell me if you ever did any of these things in the past year.
+           Did you talk things over with someone you know (a friend, family
+           member or someone else) in the past year?
+
+           VALUE  LABEL
+               1  Yes or sometimes
+               2  No
+             998  NAW
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 998,999
+           Record/columns: 1/186-188
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage 18tion M, Clinic/Hospital Initial Interview Data
+
+
+      M14REAS1           RECODE-REASON 1 R DIDN'T TALK TO ANYONE
+
+           When you decided not to talk to someone or contact someone about an
+           incident, what were your reason(s)?
+
+           VALUE  LABEL
+             1.1  My problem, I'll fix it
+             1.2  Why, what for?
+             1.3  Don't want to (talk).
+             2.1  Others can't help
+             2.2  Others don't want to help
+             3.1  No one to talk to
+             3.2  No friends
+             4.1  Don't want anyone to know
+             4.2  I'm a private person
+             4.3  Nobody else's business
+             4.4  The incident is private
+             5.1  Not a big deal
+             5.2  Excusing partner
+             6.1  My fault
+             7.1  Don't trust anyone
+             8.1  Shame, embarrassment
+             8.2  Fear being criticized
+             8.3  Others don't understand
+             9.1  Scared
+             9.2  Fear of abuser finding out
+             9.3  Fear of putting others in the middle
+             9.4  Fear of family's revenge
+            10.1  Did something else
+            11.1  Other
+            12.1  Don't know/ didn't think of it
+           777.7  Not applicable
+           999.9  Missing
+
+           Data type: numeric
+           Decimals: 1
+           Missing-data codes: 777.7,999.9,444.4
+           Record/columns: 1/190-193
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage 19tion M, Clinic/Hospital Initial Interview Data
+
+
+      M14REAS2           REASON 2 R DIDN'T TELL SOMEONE
+
+           When you decided not to talk to someone or contact someone about an
+           incident, what were your reason(s)?
+
+            VALUE  LABEL
+              1.1  My problem, I'll fix it
+              1.2  Why, what for?
+              1.3  Don't want to (talk)
+              2.1  Others can't help
+              2.2  Others don't want to help
+              3.1  No one to talk to
+              3.2  No friends
+              4.1  Don't want anyone to know
+              4.2  I'm a private person
+              4.3  Nobody else's business
+              4.4  The incident is private
+              5.1  Not a big deal
+              5.2  Excusing partner
+              6.1  My fault
+              7.1  Don't trust anyone
+              8.1  Shame, embarrassment
+              8.2  Fear being criticized
+              8.3  Others don't understand
+              9.1  Scared
+              9.2  Fear of abuser finding out
+              9.3  Fear of putting others in the middle
+              9.4  Fear of family's revenge
+             10.1  Did something else
+             11.1  Other
+             12.1  Don't know/ didn't think of it
+            777.7  Not applicable
+            999.9  Missing
+           9999.9  Unknown
+
+           Data type: numeric
+           Decimals: 1
+           Missing-data codes: 444.4-9999.9
+           Record/columns: 1/195-199
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage 20tion M, Clinic/Hospital Initial Interview Data
+
+
+      M14REAS3           REASON 3 R DIDN'T TELL SOMEONE
+
+           When you decided not to talk to someone or contact someone about an
+           incident, what were your reason(s)?
+
+           VALUE  LABEL
+             1.1  My problem, I'll fix it
+             1.2  Why, what for?
+             1.3  Don't want to (talk)
+             2.1  Others can't help
+             2.2  Others don't want to help
+             3.1  No one to talk to
+             3.2  No friends
+             4.1  Don't want anyone to know
+             4.2  I'm a private person
+             4.3  Nobody else's business
+             4.4  The incident is private
+             5.1  Not a big deal
+             5.2  Excusing partner
+             6.1  My fault
+             7.1  Don't trust anyone
+             8.1  Shame, embarrassment
+             8.2  Fear being criticized
+             8.3  Others don't understand
+             9.1  Scared
+             9.2  Fear of abuser finding out
+             9.3  Fear of putting others in the middle
+             9.4  Fear of family's revenge
+            10.1  Did something else
+            11.1  Other
+            12.1  Don't know/ didn't think of it
+           777.7  Not applicable
+           999.9  Missing
+
+           Data type: numeric
+           Decimals: 1
+           Missing-data codes: 777.7,999.9,444.4
+           Record/columns: 1/201-204
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage 21tion M, Clinic/Hospital Initial Interview Data
+
+
+      M15WHO1            WHO DID R TALK THINGS OVER WITH
+
+           Who did you talk things over with? Circle all cited.
+
+           VALUE  LABEL
+               1  Family
+               2  Friend or neighbor
+               3  Minister, priest or clergy
+               4  Someone else
+               5  Partner's family/ in-laws
+               6  Partner (abuser)
+               7  Other partner
+               8  Police
+               9  Doctor
+              10  Counselor/ social worker
+              11  Teacher
+              12  Acquaintance
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/206-209
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage 22tion M, Clinic/Hospital Initial Interview Data
+
+
+      M15WHO2            WHO DID R TALK THINGS OVER WITH (2)
+
+           Who did you talk things over with? Circle all cited.
+
+           VALUE  LABEL
+               1  Family
+               2  Friend or neighbor
+               3  Minister, priest or clergy
+               4  Someone else
+               5  Partner's family/ in-laws
+               6  Partner (abuser)
+               7  Other partner
+               8  Police
+               9  Doctor
+              10  Counselor/ social worker
+              11  Teacher
+              12  Acquaintance
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/211-214
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage 23tion M, Clinic/Hospital Initial Interview Data
+
+
+      M15WHO3            WHO DID R TALK THINGS OVER WITH (3)
+
+           Who did you talk things over with? Circle all cited.
+
+           VALUE  LABEL
+               1  Family
+               2  Friend or neighbor
+               3  Minister, priest or clergy
+               4  Someone else
+               5  Partner's family/ in-laws
+               6  Partner (abuser)
+               7  Other partner
+               8  Police
+               9  Doctor
+              10  Counselor/ social worker
+              11  Teacher
+              12  Acquaintance
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/216-219
+
+      ________________________________________________________________________
+
+      M15FAMIL           TALKED TO FAMILY
+
+           Who did you talk things over with?
+
+           VALUE  LABEL
+               0  No
+               1  Yes
+             999  Missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/221-223
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage 24tion M, Clinic/Hospital Initial Interview Data
+
+
+      M15NAMEF           TALKED TO PARTNER'S FAMILY
+
+           Who did you talk things over with?
+
+           VALUE  LABEL
+               0  No
+               1  Yes
+             999  Missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/225-227
+
+      ________________________________________________________________________
+
+      M15FRIEN           TALKED TO FRIEND OR NEIGHBOR
+
+           Who did you talk things over with?
+
+           VALUE  LABEL
+               0  No
+               1  Yes
+             999  Missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/229-231
+
+      ________________________________________________________________________
+
+      M15CLERG           TALKED TO CLERGY
+
+           Who did you talk things over with?
+
+           VALUE  LABEL
+               0  No
+               1  Yes
+             999  Missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/233-235
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage 25tion M, Clinic/Hospital Initial Interview Data
+
+
+      M15POLIC           TALKED TO POLICE
+
+           Who did you talk things over with?
+
+           VALUE  LABEL
+               0  No
+               1  Yes
+             999  Missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/237-239
+
+      ________________________________________________________________________
+
+      M15DOCTO           TALKED TO DOCTOR
+
+           Who did you talk things over with?
+
+           VALUE  LABEL
+               0  No
+               1  Yes
+             999  Missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/241-243
+
+      ________________________________________________________________________
+
+      M15COUNS           TALKED TO COUNSELOR
+
+           Who did you talk things over with?
+
+           VALUE  LABEL
+               0  No
+               1  Yes
+             999  Missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/245-247
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage 26tion M, Clinic/Hospital Initial Interview Data
+
+
+      M16HELP            TALKING THIS OVER EVER HELPFUL
+
+           Was talking things over ever helpful?
+
+           VALUE  LABEL
+               1  Yes
+               2  No, what they did(said) was not helpful
+               3  No, they never gave me help(refused to t
+             777  N/A
+             888  Don't know
+             998  NAW
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 777-999
+           Record/columns: 1/249-251
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage 27tion M, Clinic/Hospital Initial Interview Data
+
+
+      M16WHY             RECODE-WHY TALKING WAS HELPFUL
+
+           If talking things over was ever helpful, in what way?
+
+           VALUE  LABEL
+               1  Just having someone to talk to
+               2  Just listened to me
+               3  Got it off my chest
+               4  Relieved me/ tension
+               5  Calm down
+               6  Express anger
+               7  Support
+               8  Encouragement
+               9  Comforting
+              10  Feel better
+              11  Shared experience
+              12  Realize not my fault/ I'm not crazy
+              13  Better outlook on self/ confidence
+              14  Realize my part in it
+              15  Gave advice
+              17  Told me to leave
+              18  Helped me to leave
+              19  They confronted abuser
+              20  Confidant could take action
+              21  Violence stopped
+              22  Offered other information or help
+              23  Someone knows
+              24  Apologized/ made up.
+              25  Specific advice or info
+              26  Other
+             777  Not applicable
+             998  Non-abused woman
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 777-999
+           Record/columns: 1/253-255
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage 28tion M, Clinic/Hospital Initial Interview Data
+
+
+      M16NWHY            RECODE-WHY TALKING WAS NOT HELPFUL
+
+           If talking things over was not helpful, why not?
+
+           VALUE  LABEL
+               1  Confidant can't do anything
+               2  Confidant doesn't know what to do
+               3  Confidant judged her or took abusers si
+               4  Confidant told abuser
+               5  Help confidant gave was not useful
+               6  I stayed with abuser/ didn't leave
+               7  I wasn't ready
+               8  Other
+             777  Not applicable
+             998  Non-abused woman
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 777-999
+           Record/columns: 1/257-259
+
+      ________________________________________________________________________
+
+      M32GTHLP           R DO ANYTHING NOT MENTIONED
+
+           Sometimes women do something else to try to help themselves after
+           something like this happens. Did you do something that we have not
+           mentioned so far after any of the incidents in the past year?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 888,999
+           Record/columns: 1/261-263
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage 29tion M, Clinic/Hospital Initial Interview Data
+
+
+      M32OTHER           RECODE-WHAT R DID TO HELP HERSELF
+
+           Sometimes women do something else to try to help themselves after
+           something like this happens. If you did something that we have not
+           mentioned so far after any of the incidents in the past year, what
+           did you do?
+
+           VALUE  LABEL
+             1.1  Left abuser
+             1.2  Moved
+             1.3  Left town
+             1.4  Left for awhile
+             1.5  Moved with friends/family-got their help
+             1.6  Went to a shelter
+             1.7  Kicked abuser out
+             1.8  Tried to leave/stay away from
+             1.9  Got into another relationship
+             2.1  Talked with abuser
+             2.2  Tried not to upset him/appease him
+             3.1  Counseling for r or abuser
+             3.2  Church/spiritual
+             3.3  Rehab/stopped drinking
+             4.1  Defended self/fought back
+             4.2  Got job
+             4.3  Got OFP
+             4.4  Did drugs
+             4.5  Activity/walk, shop, read
+             4.6  Other things for herself
+             9.9  Unknown
+
+           Data type: numeric
+           Decimals: 1
+           Missing-data code: 9.9
+           Record/columns: 1/265-266
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage 30tion M, Clinic/Hospital Initial Interview Data
+
+
+      M17CNSLR           R CONTACT AGENCY/COUNSELOR AFT INCIDENT
+
+           Sometimes women contact an agency or counselor when an incident like
+           this happens. Did you contact an agency or counselor in the past
+           year?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               3  Sometimes
+             998  NAW
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 998,999
+           Record/columns: 1/268-270
+
+      ________________________________________________________________________
+
+      M18NWHY1           RECODE-REASON R DID NOT CONTACT AGENCY
+
+           When you decided not to contact an agency or counselor, what were
+           your reasons?
+
+           Data type: numeric
+           Decimals: 1
+           Missing-data codes: 444.4-999.9
+           Record/columns: 1/272-275
+
+      ________________________________________________________________________
+
+      M18NWHY2           REASON 2 R DID NOT CONTACT AN AGENCY
+
+           When you decided not to contact an agency or counselor, what were
+           your reasons?
+
+           Data type: numeric
+           Decimals: 1
+           Missing-data codes: 777.7,999.9,444.4
+           Record/columns: 1/277-280
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage 31tion M, Clinic/Hospital Initial Interview Data
+
+
+      M18NWHY3           REASON 3 R DID NOT CONTACT AN AGENCY
+
+           When you decided not to contact an agency or counselor, what were
+           your reasons?
+
+           Data type: numeric
+           Decimals: 1
+           Missing-data codes: 777.7,999.9,444.4
+           Record/columns: 1/282-285
+
+      ________________________________________________________________________
+
+      M19AGNC1           AGENCY(IES)/COUNSELORS R CONTACTED
+
+           What agency(ies) or counselors did you contact for advice or help?
+
+           VALUE  LABEL
+               1  Shelter
+               2  Crisis line
+               3  Domestic violence counseling
+               4  Other counseling
+               5  Legal services
+               6  Mental health center
+               7  Other
+               8  Treatment program
+               9  Medical center
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/287-290
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage 32tion M, Clinic/Hospital Initial Interview Data
+
+
+      M19AGNC2           AGENCY(IES)/COUNSELORS(2) R CONTACTED
+
+           What agency(ies) or counselors did you contact for advice or help?
+
+           VALUE  LABEL
+               1  Shelter
+               2  Crisis line
+               3  Domestic violence counseling
+               4  Other counseling
+               5  Legal services
+               6  Mental health center
+               7  Other
+               8  Treatment program
+               9  Medical center
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/292-295
+
+      ________________________________________________________________________
+
+      M19AGNC3           AGENCY(IES)/COUNSELORS(3) R CONTACTED
+
+           What agency(ies) or counselors did you contact for advice or help?
+
+           VALUE  LABEL
+               1  Shelter
+               2  Crisis line
+               3  Domestic violence counseling
+               4  Other counseling
+               5  Legal services
+               6  Mental health center
+               7  Other
+               8  Treatment program
+               9  Medical center
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/297-300
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage 33tion M, Clinic/Hospital Initial Interview Data
+
+
+      M19OTHER           RECODE-OTHER AGENCIES/COUNSELORS
+
+           What agency(ies) or counselors did you contact for advice or help?
+
+           VALUE  LABEL
+               1  Erie
+               2  Drug/ alcohol treatment/ counselor
+               3  Other organizations
+               4  Social worker/ counselor
+               5  Don't know
+               6  Other
+             777  Not applicable
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 999,777
+           Record/columns: 1/302-304
+
+      ________________________________________________________________________
+
+      M20HLPFL           AGENCIES/COUNSELORS R CONTACTED HELPFUL
+
+           Were the agency(ies) or counselors you contacted helpful?
+
+           VALUE  LABEL
+               1  Yes
+               2  No, what they did was not helpful
+               3  No, they never gave me any help
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/306-309
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage 34tion M, Clinic/Hospital Initial Interview Data
+
+
+      M20WAYS            RECODE-WAYS AGENCY/COUNSELOR WAS HELPFUL
+
+           If the agency(ies) or counselors you contacted were helpful, what
+           was helpful?
+
+           VALUE  LABEL
+             1.1  Someone to talk to
+             1.2  They listen
+             1.3  Support
+             2.1  Advice/ alternatives
+             2.2  Shelter information
+             2.3  Helped me to leave
+             2.4  Information about other resources
+             2.5  Other information/ advice/ questions ans
+             3.1  Regain self-esteem
+             3.2  Provided release of tension/ anger
+             3.3  Relieved depression
+             3.4  Work through problems
+             4.1  Improved communication with partner
+             4.2  Understanding/ dealing with partner
+           777.7  Not applicable
+           999.9  Missing
+
+           Data type: numeric
+           Decimals: 1
+           Missing-data codes: 777.7,999.9
+           Record/columns: 1/311-314
+
+      ________________________________________________________________________
+
+      M21MED1            R CONTACT/VISIT MEDICAL PROVIDER
+
+           Did you contact or visit a doctor or a medical center after any of
+           these (this) incident(s) in the past year?
+
+           VALUE  LABEL
+               1  Yes, I called a medical center or doctor
+               2  Yes, I visited a medical center or docto
+               3  Yes, I stayed overnight in a hospital.
+               4  This is first time I ever contacted doct
+               5  Sometimes
+               6  No, I never contacted a doctor or med ce
+             888  Don't know
+             999  Missing
+            9999  NAW
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/316-318
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage 35tion M, Clinic/Hospital Initial Interview Data
+
+
+      M21MEDR            DID R GET MEDICAL CARE BEFORE VISIT
+
+           VALUE  LABEL
+               1  Yes
+               2  No, or this is the first time
+             999  NAW
+            9999  No answer
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/320-323
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage 36tion M, Clinic/Hospital Initial Interview Data
+
+
+      M22NWHY            RECODE-REASON 1 R DID NOT SEEK MED CARE
+
+           When you decided not to contact a doctor or medical center, what
+           were your reasons?
+
+           VALUE  LABEL
+             1.1  Not hurt or injured
+             1.2  No bruises or pain
+             1.3  Injuries weren't that severe/ serious
+             1.4  Wasn't hurt that bad
+             1.5  It was just a ...
+             1.6  Hurt, but not enough for a doctor
+             2.1  Didn't need to
+             2.2  Wasn't important
+             2.3  They can't do anything
+             2.4  Didn't want to
+             2.5  I can take care of it myself
+             3.1  Don't want anyone to know
+             3.2  Other privacy issues
+             4.1  Excusing partner
+             4.2  Keep partner out of trouble/ jail
+             5.1  Embarrassed
+             5.2  Stupid
+             6.1  Scared
+             6.2  Afraid of further abuse
+             6.3  Fear other authorities will become invol
+             7.1  Did something else
+             7.2  Spiritual
+             8.1  (name) prevented
+             9.1  No money or insurance
+             9.2  Logistical problems
+            10.1  Don't know/ didn't think of it
+            10.2  Just didn't
+            10.3  Forgot about it
+           444.4  Missing case
+           777.7  Not applicable
+           999.9  Missing
+
+           Data type: numeric
+           Decimals: 1
+           Missing-data codes: 444.4-999.9
+           Record/columns: 1/325-328
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage 37tion M, Clinic/Hospital Initial Interview Data
+
+
+      M22NWHY2           RECODE-REASON 2 R DID NOT SEEK MED CARE
+
+           When you decided not to contact a doctor or medical center, what
+           were your reasons?
+
+           VALUE  LABEL
+             1.1  Not hurt or injured
+             1.2  No bruises or pain
+             1.3  Injuries weren't that severe/serious
+             1.4  Wasn't hurt that bad
+             1.5  It was just a ...
+             1.6  Hurt, but not enough for a doctor
+             2.1  Didn't need to
+             2.2  Wasn't important
+             2.3  They can't do anything
+             2.4  Didn't want to
+             2.5  I can take care of it myself
+             3.1  Don't want anyone to know
+             3.2  Other privacy issues
+             4.1  Excusing partner
+             4.2  Keep partner out of trouble/ jail
+             5.1  Embarrassed
+             5.2  Stupid
+             6.1  Scared
+             6.2  Afraid of further abuse
+             6.3  Fear other authorities will become invol
+             7.1  Did something else
+             7.2  Spiritual
+             8.1  (name) prevented
+             9.1  No money or insurance
+             9.2  Logistical problems
+            10.1  Don't know/ didn't think of it
+            10.2  Just didn't
+            10.3  Forgot about it
+           444.4  Missing case
+           777.7  Not applicable
+           999.9  Missing
+
+           Data type: numeric
+           Decimals: 1
+           Missing-data codes: 444.4-999.9
+           Record/columns: 1/330-333
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage 38tion M, Clinic/Hospital Initial Interview Data
+
+
+      M22NWHY3           RECODE-REASON 3 R DID NOT SEEK MED CARE
+
+           When you decided not to contact a doctor or medical center, what
+           were your reasons?
+
+           VALUE  LABEL
+             1.1  Not hurt or injured
+             1.2  No bruises or pain
+             1.3  Injuries weren't that severe/serious
+             1.4  Wasn't hurt that bad
+             1.5  It was just a ...
+             1.6  Hurt, but not enough for a doctor
+             2.1  Didn't need to
+             2.2  Wasn't important
+             2.3  They can't do anything
+             2.4  Didn't want to
+             2.5  I can take care of it myself
+             3.1  Don't want anyone to know
+             3.2  Other privacy issues
+             4.1  Excusing partner
+             4.2  Keep partner out of trouble/ jail
+             5.1  Embarrassed
+             5.2  Stupid
+             6.1  Scared
+             6.2  Afraid of further abuse
+             6.3  Fear other authorities will become invol
+             7.1  Did something else
+             7.2  Spiritual
+             8.1  (name) prevented
+             9.1  No money or insurance
+             9.2  Logistical problems
+            10.1  Don't know/ didn't think of it
+            10.2  Just didn't
+            10.3  Forgot about it
+           444.4  Missing case
+           777.7  Not applicable
+           999.9  Missing
+
+           Data type: numeric
+           Decimals: 1
+           Missing-data codes: 444.4-999.9
+           Record/columns: 1/335-338
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage 39tion M, Clinic/Hospital Initial Interview Data
+
+
+      M23ASK             MED STAFF ASK R ABOUT BEATING
+
+           When you got medical help, did someone ever ask you about the
+           beating?
+
+           VALUE  LABEL
+               1  Yes, they always asked
+               2  No, no one ever asked
+               3  Yes, they asked sometimes
+               4  They asked this first time
+             777  This is the first time r sought medical
+             888  Don't know
+             997  R never sought medical help
+             998  NAW
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 777-999
+           Record/columns: 1/340-342
+
+      ________________________________________________________________________
+
+      M24TELL            DID R TELL MED STAFF WHAT HAPPENED
+
+           Did you tell them about what happened?
+
+           VALUE  LABEL
+               1  Yes,  I always told them
+               2  No, I never told them
+               3  Yes, but not always
+               4  I told them this first time
+               5  No, didn't tell this first time
+             777  This is the first time r sought medical
+             888  Don't know
+             996  R never sought medical help
+             997  No one ever asked
+             998  NAW
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 777-999
+           Record/columns: 1/344-346
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage 40tion M, Clinic/Hospital Initial Interview Data
+
+
+      M25NWHY            RECODE-REASON 1 R DIDN'T TELL MED STAFF
+
+           When you decided not to tell them about what happened, what were
+           your reasons?
+
+           VALUE  LABEL
+             1.1  Embarrassed or ashamed
+             1.2  Concern about confidentiality
+             2.1  Scared
+             2.2  Scared of him
+             2.3  Fear of further abuse or make situation
+             2.4  Name prevented
+             2.5  Protect children or scared of DCFS
+             3.1  Did not want to be bothered
+             3.2  They can not or will not help
+             4.1  Did not want him to get in trouble
+             4.2  Was not seriously hurt
+             5.1  Other
+             5.2  Just didn't
+             9.2  Scared of abuser/ afraid abuser will fin
+           777.7  Not applicable
+           999.9  Missing
+
+           Data type: numeric
+           Decimals: 1
+           Missing-data codes: 777.7,999.9
+           Record/columns: 1/348-351
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage 41tion M, Clinic/Hospital Initial Interview Data
+
+
+      M25NWHY2           RECODE-REASON 2 R DID NOT TELL MED STAFF
+
+           When you decided not to tell them about what happened, what were
+           your reasons?
+
+           VALUE  LABEL
+             1.1  Embarrassed or ashamed
+             1.2  Concern about confidentiality
+             2.1  Scared
+             2.2  Scared of him
+             2.3  Fear of further abuse or make situation
+             2.4  Name prevented
+             2.5  Protect children or scared of DCFS
+             3.1  Did not want to be bothered
+             3.2  They can not or will not help
+             4.1  Did not want him to get in trouble
+             4.2  Was not seriously hurt
+             5.1  Other
+             5.2  Just didn't
+           777.7  Not applicable
+           999.9  Missing
+
+           Data type: numeric
+           Decimals: 1
+           Missing-data codes: 777.7,999.9
+           Record/columns: 1/353-356
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage 42tion M, Clinic/Hospital Initial Interview Data
+
+
+      M25NWHY3           RECODE-REASON 3 R DID NOT TELL MED STAFF
+
+           When you decided not to tell them about what happened, what were
+           your reasons?
+
+           VALUE  LABEL
+             1.1  Embarrassed or ashamed
+             1.2  Concern about confidentiality
+             2.1  Scared
+             2.2  Scared of him
+             2.3  Fear of further abuse or make situation
+             2.4  Name prevented
+             2.5  Protect children or scared of DCFS
+             3.1  Did not want to be bothered
+             3.2  They can not or will not help
+             4.1  Did not want him to get in trouble
+             4.2  Was not seriously hurt
+             5.1  Other
+             5.2  Just didn't
+           777.7  Not applicable
+           999.9  Missing
+
+           Data type: numeric
+           Decimals: 1
+           Missing-data codes: 777.7,999.9
+           Record/columns: 1/358-361
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage 43tion M, Clinic/Hospital Initial Interview Data
+
+
+      M26TOLD1           WHAT DID MEDICAL STAFF DO
+
+           When you told them what happened, what did they do?
+
+           VALUE  LABEL
+               1  Had someone talk to me about the violenc
+               2  Notified the police
+               3  Referred me to an agency or organization
+               4  Something else
+               5  They didn't do anything
+               6  Filed a report/ offered to make a report
+               7  Gave advice
+               8  Took legal action (got restraining order
+             777  This is the first time r sought medical
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/363-366
+
+      ________________________________________________________________________
+
+      M26TOLD2           WHAT DID MEDICAL STAFF DO (2)
+
+           When you told them what happened, what did they do?
+
+           VALUE  LABEL
+               1  Had someone talk to me about the violenc
+               2  Notified the police
+               3  Referred me to an agency or organization
+               4  Something else
+               5  They didn't do anything
+               6  Filed report/ offered to file a report
+               7  Gave advice
+               8  Took legal action (restraining order/ ar
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/368-371
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage 44tion M, Clinic/Hospital Initial Interview Data
+
+
+      M26TOLD3           WHAT DID MEDICAL STAFF DO (3)
+
+           When you told them what happened, what did they do?
+
+           VALUE  LABEL
+               1  Had someone talk to me about the violenc
+               2  Notified the police
+               3  Referred me to an agency or organization
+               4  Something else
+               5  They didn't do anything
+               6  Filed report/ offered to file a report
+               7  Gave advice
+               8  Took legal action (restraining order/ ar
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/373-376
+
+      ________________________________________________________________________
+
+      M26REFER           RECODE-MED STAFF GAVE AGENCY REFERRAL
+
+           If you told them what happened, what agency or organization did they
+           refer you to?
+
+           VALUE  LABEL
+               1  Domestic violence agency/ shelter
+               2  HCIP
+               3  Mental health/ counseling
+               4  Other
+               5  Respondent refused to talk to counselor
+             777  Not applicable
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 777-999
+           Record/columns: 1/378-380
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage 45tion M, Clinic/Hospital Initial Interview Data
+
+
+      M26OTHER           RECODE-WHAT ELSE DID MED STAFF DO
+
+           Is there something else that they did after you told them what
+           happened?
+
+           VALUE  LABEL
+               1  Filed a report
+               2  Police involvement
+               3  Gave me advice/ told me to leave
+               4  Other
+             777  Not applicable
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 777-999
+           Record/columns: 1/382-384
+
+      ________________________________________________________________________
+
+      M27HLPFL           WAS WHAT MEDICAL STAFF DID HELPFUL
+
+           Was what they did helpful?
+
+           VALUE  LABEL
+               1  Yes
+               2  No, what they did was not helpful
+               3  No, they never gave me any help
+             777  This is the first time r sought medical
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 777-9999
+           Record/columns: 1/386-389
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage 46tion M, Clinic/Hospital Initial Interview Data
+
+
+      M27HOW             RECODE-HOW MEDICAL STAFF WAS HELPFUL
+
+           If what they did was helpful, what was helpful?
+
+            VALUE  LABEL
+              1.1  Treat injuries
+              2.1  Talked to me/ gave me advice
+              2.2  Support/ encouragement
+              2.3  Felt calmer
+              2.4  Understand he was wrong
+              3.1  Referred to counseling or other services
+              3.2  Police involvement
+              3.3  Abuser arrested/ taken to jail
+              4.1  Other
+            777.7  Not applicable
+            999.9  Missing
+           9999.9  Unknown
+
+           Data type: numeric
+           Decimals: 1
+           Missing-data codes: 777.7-9999.9
+           Record/columns: 1/391-395
+
+      ________________________________________________________________________
+
+      M28POLIC           R CONTACT POLICE AFTER AN INCIDENT
+
+           Did you contact the police after any of these incidents in the past
+           year?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               3  Sometimes
+               4  Someone else called the police
+             888  Don't know
+             998  NAW
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 888-999
+           Record/columns: 1/397-399
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage 47tion M, Clinic/Hospital Initial Interview Data
+
+
+      M28POLR            R CONTACT POLICE AFT INCIDENT IN PAST YR
+
+           Did you contact the police after any of these incidents in the past
+           year?
+
+           VALUE  LABEL
+               1  Yes, r or someone else
+               2  No
+              99  No answer
+             998  NAW
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 99,999,998
+           Record/columns: 1/401-403
+
+      ________________________________________________________________________
+
+      M29NWHY            RECODE-REASON R DID NOT CONTACT POLICE
+
+           When you decided not to contact the police, what were your reasons?
+
+           Data type: numeric
+           Decimals: 1
+           Missing-data codes: 444.4-999.9
+           Record/columns: 1/405-408
+
+      ________________________________________________________________________
+
+      M29NWHY2           RECODE-REASON 2 R DID NOT CONTACT POLICE
+
+           When you decided not to contact the police, what were your reasons?
+
+           Data type: numeric
+           Decimals: 1
+           Missing-data codes: 444.4-9999.9
+           Record/columns: 1/410-414
+
+      ________________________________________________________________________
+
+      M29NWHY3           RECODE-REASON 3 R DID NOT CONTACT POLICE
+
+           When you decided not to contact the police, what were your reasons?
+
+           Data type: numeric
+           Decimals: 1
+           Missing-data codes: 444.4-999.9
+           Record/columns: 1/416-419
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage 48tion M, Clinic/Hospital Initial Interview Data
+
+
+      M30ARRES           POLICE EVER ARREST [NAME]
+
+           When you notified the police, what did they do?
+
+           VALUE  LABEL
+               0  No
+               1  Yes, arrested
+               2  Took name away
+               3  Not notified
+             998  NAW
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 3,998,999
+           Record/columns: 1/421-423
+
+      ________________________________________________________________________
+
+      M30NOINT           POLICE RESPONDED, NO OTHER INTERVENTION
+
+           When you notified the police, what did they do?
+
+           VALUE  LABEL
+               0  Some intervention
+               1  Responded, made report only
+               3  Not notified
+             998  NAW
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 3,998,999
+           Record/columns: 1/425-427
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage 49tion M, Clinic/Hospital Initial Interview Data
+
+
+      M30PD1             WHAT DID POLICE DO WHEN R NOTIFIED THEM
+
+           When you notified the police, what did they do?
+
+           VALUE  LABEL
+               1  Responded by seeing you
+               2  Took partner away
+               3  Confiscated a weapon
+               4  Put you in touch with an agency/organiza
+               5  Arrested partner
+               6  Had you sign a complaint
+               7  Something else
+               8  They didn't do anything
+               9  Made a report
+              10  Arrested r
+              11  Took r someplace (hospital, safe place)
+              12  Gave r advice (i.e. told her to press ch
+              13  Restraining order
+              14  Searched for abuser
+              15  Told abuser to leave r alone
+              16  Tried to get r and abuser to talk
+             777  Other
+             888  Don't know
+             997  Not notified
+             998  NAW
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 888-999
+           Record/columns: 1/429-431
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage 50tion M, Clinic/Hospital Initial Interview Data
+
+
+      M30PD2             WHAT DID POLICE DO WHEN NOTIFIED (2)
+
+           When you notified the police, what did they do?
+
+           VALUE  LABEL
+               1  Responded by seeing r
+               2  Took partner away
+               3  Confiscated weapon
+               4  Put you in touch with an agency or organ
+               5  Arrested partner
+               6  Had you sign a complaint
+               7  Something else
+               8  They didn't do anything
+               9  Made a report
+              10  Arrested r
+              11  Took r someplace (hospital, safe place)
+              12  Gave r advice (told her to press charges
+              13  Restraining order
+              14  Searched for abuser
+              15  Told abuser to leave r alone
+              16  Tied to get abuser and r to talk
+             888  Don't know
+             998  NAW
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 888-999
+           Record/columns: 1/433-435
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage 51tion M, Clinic/Hospital Initial Interview Data
+
+
+      M30PD3             WHAT DID POLICE DO WHEN NOTIFIED (3)
+
+           When you notified the police, what did they do?
+
+           VALUE  LABEL
+               1  Responded by seeing you
+               2  Took partner away
+               3  Confiscated weapon
+               4  Put you in touch with an agency or organ
+               5  Arrested partner
+               6  Had you sign a complaint
+               7  Something else
+               8  They didn't do anything
+               9  Made a report
+              10  Arrested r
+              11  Took r someplace (hospital, safe place)
+              12  Gave r advice (told her to press charges
+              13  Restraining order
+              14  Searched for abuser
+              15  Told abuser to leave r alone
+              16  Tried to get r and abuser to talk
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 888-999
+           Record/columns: 1/437-439
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage 52tion M, Clinic/Hospital Initial Interview Data
+
+
+      M30PD4             WHAT DID POLICE DO WHEN NOTIFIED (4)
+
+           When you notified the police, what did they do?
+
+           VALUE  LABEL
+               1  Responded by seeing you
+               2  Took partner away
+               3  Confiscated a weapon
+               4  Put you in touch with an agency or organ
+               5  Arrested partner
+               6  Had you sign a complaint
+               7  Something else
+               8  They didn't do anything
+               9  Made a report
+              10  Arrested r
+              11  Took r someplace (hospital, safe place)
+              12  Gave r advice (told her to press charges
+              13  Restraining order
+              14  Searched for abuser
+              15  Told abuser to leave r alone
+              16  Tried to get r and abuser to talk
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 888-999
+           Record/columns: 1/441-443
+
+      ________________________________________________________________________
+
+      M30AGENC           RECODE-AGENCY POLICE PUT R IN TOUCH WITH
+
+           If the police put you in touch with an agency or organization, what
+           agency or organization?
+
+           VALUE  LABEL
+               1  Domestic violence agency
+               2  Other
+             777  Not applicable
+             888  I don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 777-999
+           Record/columns: 1/445-447
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage 53tion M, Clinic/Hospital Initial Interview Data
+
+
+      M30AGNCD           AGENCY R WAS REFERRED TO
+
+           If the police put you in touch with an agency or organization, what
+           agency or organization?
+
+           VALUE  LABEL
+               1  Domestic violence counselor
+               2  Shelter
+               3  Mental health center
+               4  R refused to talk to a counselor
+               5  Other
+             888  Don't know
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/449-452
+
+      ________________________________________________________________________
+
+      M30OTHER           RECODE-HOW DID POLICE RESPOND
+
+           VALUE  LABEL
+               1  Police made abuser leave
+               2  Police filed a report
+               3  Told r how to sign a complaint or get or
+               4  Took r someplace
+               5  Arrested r
+               6  Told r to stay away
+               7  Other
+             777  Not applicable
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 777-999
+           Record/columns: 1/454-456
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage 54tion M, Clinic/Hospital Initial Interview Data
+
+
+      M31PDHLP           WAS WHAT THE POLICE DID HELPFUL
+
+           Was what the police did helpful?
+
+           VALUE  LABEL
+               1  Yes
+               2  No, what they did was not helpful
+               3  No, they never gave me any help
+             888  Don't know
+             997  Not notified
+             998  NAW
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 888-999
+           Record/columns: 1/458-460
+
+      ________________________________________________________________________
+
+      M31HOW             RECODE-REASON POLICE WERE HELPFUL
+
+           If what the police did was helpful, what was helpful?
+
+           VALUE  LABEL
+               1  Had abuser leave/ took abuser away
+               2  Took r somewhere
+               3  Abuser stayed away
+               4  Arrested abuser/ took abuser to jail
+               5  Abuser changed
+               6  Violence stopped for awhile
+               7  Scared abuser
+               8  Gave information/ advice about pressing
+               9  Gave other information/ advice
+              10  Got an order of protection
+              11  Report is on file
+              12  Let her know abuser couldn't come back
+              13  Other
+             777  Not applicable
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 777-999
+           Record/columns: 1/462-464
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage 55tion M, Clinic/Hospital Initial Interview Data
+
+
+      M33HLPFL           R DO ANY OTHER THINGS THAT WERE HELPFUL
+
+           Were any of these other things that you did helpful?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/466-469
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage 56tion M, Clinic/Hospital Initial Interview Data
+
+
+      M33WHATR           IN WHAT WAY WERE THESE THINGS HELPFUL
+
+           If any of these other things that you did were helpful, what was
+           helpful and in what way?
+
+            VALUE  LABEL
+              1.1  Abuse stopped/not in situation anymore
+              1.2  Less fighting
+              1.3  He doesn't bother me anymore
+              1.4  I haven't seen him
+              1.5  I didn't go back to him
+              1.6  He doesn't know where I am
+              1.7  Leave situation
+              1.8  Learned to protect self
+              1.9  Feel safe
+              2.1  Peace/less stress/relax/calm down
+              2.2  Take mind off him/off problem
+              2.3  Personal growth/self esteem
+              2.4  Feel better
+              2.5  Getting life together
+              2.6  Spiritual
+              2.7  Gave r support/encouragement/information
+              3.1  He changed/realized what he was doing
+              3.2  He/we calmed down
+              3.3  Scared him
+              4.1  Other
+            999.9  Missing
+           9999.9  Unknown
+
+           Data type: numeric
+           Decimals: 1
+           Missing-data codes: 999.9,9999.9
+           Record/columns: 1/471-475
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage 57tion M, Clinic/Hospital Initial Interview Data
+
+
+      M43NEED            ANYTHING R NEEDED FROM POLICE/AGENCIES
+
+           Was there anything you needed from the police, agencies, or medical
+           providers that you did not get?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               3  N/A (didn't go to any agency/provider)
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 3,888-9999
+           Record/columns: 1/477-480
+
+      ________________________________________________________________________
+
+      M43WHAT1           SPECIFY OTHER NEEDS
+
+           If there was anything you needed from the police, agencies, or
+           medical providers that you did not get, please specify.
+
+            VALUE  LABEL
+              1.1  Arrest him/keep in jail longer
+              1.2  Take him away/threaten to arrest him
+              1.3  Quicker/better police response
+              1.4  Protection
+              1.5  Order for protection
+              1.6  Police report
+              2.1  Treatment or appropriate treatment
+              3.1  Information
+              3.2  Counseling
+              3.3  Shelter
+              3.4  Replace/retrieve property
+              3.5  Other specific tangible things
+              4.1  Support
+              4.2  Believe her
+              5.1  Other
+            999.9  Missing
+           9999.9  Unknown
+
+           Data type: numeric
+           Decimals: 1
+           Missing-data codes: 999.9,9999.9
+           Record/columns: 1/482-486
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage 58tion M, Clinic/Hospital Initial Interview Data
+
+
+      M43WHAT2           SPECIFY OTHER NEEDS (2)
+
+           If there was anything you needed from the police, agencies, or
+           medical providers that you did not get, please specify.
+
+           VALUE  LABEL
+             1.1  Arrest him/keep in jail longer
+             1.2  Take him away/threaten to arrest him
+             1.3  Quicker/better police response
+             1.4  Police protection
+             1.5  Order for protection
+             1.6  Police report
+             2.1  Treatment or appropriate treatment
+             3.1  Information
+             3.2  Counseling
+             3.3  Shelter
+             3.4  Replace/retrieve property
+             3.5  Other specific tangible things
+             4.1  Support
+             4.2  Believe her
+             5.1  Other
+             9.9  Unknown
+
+           Data type: numeric
+           Decimals: 1
+           Missing-data code: 9.9
+           Record/columns: 1/488-489
+
+      ________________________________________________________________________
+
+      M37COURT           R GO TO COURT IN PAST YEAR FOR ABUSE
+
+           Did you ever go to court in the past year for something related to
+           these incidents?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+             888  Don't know
+             998  NAW
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 888-999
+           Record/columns: 1/491-493
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage 59tion M, Clinic/Hospital Initial Interview Data
+
+
+      M37TYPE            WHICH COURT DID R GO TO FOR ABUSE INCID
+
+           If you have ever gone to court in the past year for something
+           related to these incidents, which court did you go to?
+
+            VALUE  LABEL
+              1.1  Domestic violence court (13th/Michigan)
+              1.2  Criminal court(26th and California)
+              1.3  Civil court (Daley Center)
+              1.4  Other
+              1.5  Markham courthouse (district 6; 16501 Ke
+              1.6  Skokie courthouse (district 2)
+              1.7  Juvenile court (11th/ Hamilton)
+              1.8  Circuit court clerk branches
+            888.8  Don't know
+            999.9  Missing
+           9999.9  Unknown
+
+           Data type: numeric
+           Decimals: 1
+           Missing-data codes: 888.8-9999.9
+           Record/columns: 1/495-499
+
+      ________________________________________________________________________
+
+      M38OUTCM           OUTCOME OF THE COURT CASE
+
+           If you ever went to court, what was the outcome of the
+           case?
+
+           VALUE  LABEL
+               1  Order of protection against partner
+               2  Jail time for partner
+               3  Probation for partner
+               4  Supervision for partner
+               5  Partner ordered to get counseling
+               6  The court gave me a penalty
+               7  Other
+               8  Charges dropped
+               9  Case thrown out/ abuser was released
+              10  Still in court/ continuance
+              11  Warrant for abusers arrest
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/501-504
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage 60tion M, Clinic/Hospital Initial Interview Data
+
+
+      M38OUTC2           OUTCOME OF THE COURT CASE (2)
+
+           If you ever went to court, what was the outcome of the
+           case?
+
+           VALUE  LABEL
+               1  Order of protection against partner
+               2  Jail time for partner
+               3  Probation for partner
+               4  Supervision for partner
+               5  Partner ordered to counseling
+               6  Court gave r a penalty
+               7  Other
+               8  Charges dropped
+               9  Case thrown out/ abuser released
+              10  Still in court/ continuance
+              11  Warrant for abusers arrest
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/506-509
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage 61tion M, Clinic/Hospital Initial Interview Data
+
+
+      M38OUTC3           OUTCOME OF THE COURT CASE (3)
+
+           If you ever went to court, what was the outcome of the
+           case?
+
+           VALUE  LABEL
+               1  Order of protection against partner
+               2  Jail time for partner
+               3  Probation for partner
+               4  Supervision for partner
+               5  Partner ordered to get counseling
+               6  The court gave r a penalty
+               7  Other
+               8  Charges dropped
+               9  Case thrown out/ abuser released
+              10  Still in court/ continuance
+              11  Warrant for his arrest
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/511-514
+
+      ________________________________________________________________________
+
+      M38ORDER           ORDER OF PROTECTION
+
+           If you ever went to court, what was the outcome of the case?
+           Order of Protection against (name)
+
+           VALUE  LABEL
+               1  Yes, r got order of protection in past y
+               2  Court, but no order of protection
+               3  Didn't go to court
+             998  NAW
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 998-9999
+           Record/columns: 1/516-519
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage 62tion M, Clinic/Hospital Initial Interview Data
+
+
+      M38YJAIL           # OF YEARS IN JAIL TIME ORDERED
+
+           If you ever went to court, what was the outcome of the case?
+           Jail time for (name) - how long (years)?
+
+           VALUE  LABEL
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/521-524
+
+      ________________________________________________________________________
+
+      M38MJAIL           # OF MONTHS JAIL TIME ORDERED
+
+           If you ever went to court, what was the outcome of the case?
+           Jail time for (name) - how long (months)?
+
+           VALUE  LABEL
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/526-529
+
+      ________________________________________________________________________
+
+      M38YPROB           # OF YEARS PROBATION ORDERED
+
+           If you ever went to court, what was the outcome of the case?
+           Probation for (name) - how long (years)?
+
+           VALUE  LABEL
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/531-534
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage 63tion M, Clinic/Hospital Initial Interview Data
+
+
+      M38MPROB           # OF MONTHS OF PROBATION ORDERED
+
+           If you ever went to court, what was the outcome of the case?
+           Probation for (name) - how long (months)?
+
+           VALUE  LABEL
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/536-539
+
+      ________________________________________________________________________
+
+      M38YSUP            # OF YEARS OF SUPERVISION ORDERED
+
+           If you ever went to court, what was the outcome of the case?
+           Supervision for (name) - how long (years)?
+
+           VALUE  LABEL
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/541-544
+
+      ________________________________________________________________________
+
+      M38MSUP            # OF MONTHS OF SUPERVISION ORDERED
+
+           If you ever went to court, what was the outcome of the case?
+           Supervision for (name) - how long (months)?
+
+           VALUE  LABEL
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/546-549
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage 64tion M, Clinic/Hospital Initial Interview Data
+
+
+      M38YCOUN           # OF YEARS OF COUNSELING ORDERED
+
+           If you ever went to court, what was the outcome of the case?
+           (Name) ordered to get counseling - how long (years)?
+
+           VALUE  LABEL
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/551-554
+
+      ________________________________________________________________________
+
+      M38MCOUN           # OF MONTHS OF COUNSELING ORDERED
+
+           If you ever went to court, what was the outcome of the case?
+           (Name) ordered to get counseling - how long (months)?
+
+           VALUE  LABEL
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/556-559
+
+      ________________________________________________________________________
+
+      M39TRTMT           PARTNER RECEIVE ANY COUNSELING/RX
+
+           Did (name) ever receive any type of counseling or treatment for
+           violent behavior in the past year?
+
+           VALUE  LABEL
+               1  Yes
+               2  Partner is supposed to be, but r not cer
+               3  No
+               4  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 4,999,9999
+           Record/columns: 1/561-564
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage 65tion M, Clinic/Hospital Initial Interview Data
+
+
+      M40CNSL1           TYPE OF COUNSELING/TREATMENT RECEIVED
+
+           What kind of counseling or treatment did (name) receive (is supposed
+           to be receiving)?
+
+           VALUE  LABEL
+               1  Family or couple counseling
+               2  Individual treatment for battering
+               3  Group treatment for battering
+               4  Treatment or counseling for drug or alco
+               5  Treatment/counseling for an emotional
+               6  Other
+               7  Church
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/566-569
+
+      ________________________________________________________________________
+
+      M40CNSL2           TYPE OF COUNSELING/RX RECEIVED (2)
+
+           What kind of counseling or treatment did (name) receive (is supposed
+           to be receiving)?
+
+           VALUE  LABEL
+               1  Family or couple counseling
+               2  Individual treatment for battering
+               3  Group treatment for battering
+               4  Treatment for drug or alcohol abuse
+               5  Treatment or counseling for an emotional
+               6  Other
+               7  Church
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/571-574
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage 66tion M, Clinic/Hospital Initial Interview Data
+
+
+      M40CNSL3           TYPE OF COUNSELING/RX RECEIVED (3)
+
+           What kind of counseling or treatment did (name) receive (is supposed
+           to be receiving)?
+
+           VALUE  LABEL
+               1  Family or couple counseling
+               2  Individual treatment for battering
+               3  Group treatment for battering
+               4  Treatment or counseling for drug or alco
+               5  Treatment/counseling for an emotional
+               6  Other
+               7  Church
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/576-579
+
+      ________________________________________________________________________
+
+      M40CNSL4           TYPE OF COUNSELING/RX RECEIVED (4)
+
+           What kind of counseling or treatment did (name) receive (is supposed
+           to be receiving)?
+
+           VALUE  LABEL
+               1  Family or couple counseling
+               2  Individual treatment for battering
+               3  Group treatment for battering
+               4  Treatment or counseling for drug or alco
+               5  Treatment/counseling for an emotional
+               6  Other
+               7  Church
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/581-584
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage 67tion M, Clinic/Hospital Initial Interview Data
+
+
+      M44ADV1            R'S ADVICE FOR OTHER ABUSED WOMEN
+
+           From your experience, what advice would you give another woman
+           living in a similar situation?
+
+           VALUE  LABEL
+               1  Get out/ leave
+               2  Get counseling, help
+               3  Call police/ press charges
+               4  Talk to abuser
+               5  Make abuser feel guilty
+               6  Investigate partner/ potential partners
+               7  Get to know a person before entering a r
+               8  Look for warning signs
+               9  Be careful who you get involved with(dru
+              10  Learn to be independent
+              11  Don't live with someone out of wedlock
+              12  Don't get involved with a married man
+              13  Don't have children
+              14  Find someone else
+              15  Fight back
+              16  Kill him
+              17  Do not fight back
+              18  Put up with it as long as she can/ don't
+              19  Try to work it out/ give abuser a second
+              20  Be realistic about the situation
+              21  Learn self-defense
+              22  Believe in herself/ find peace
+              23  Get a better education/ improve herself
+              24  Pray
+              25  Stash money
+              26  Doesn't know/ cannot give advice to anyo
+              27  Depends on situation/ everyone must make
+              28  Other
+              29  Do not provoke abuser
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/586-589
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage 68tion M, Clinic/Hospital Initial Interview Data
+
+
+      M44ADV2            R'S ADVICE FOR OTHER ABUSED WOMEN (2)
+
+           From your experience, what advice would you give another woman
+           living in a similar situation?
+
+           VALUE  LABEL
+               1  Get out/ leave
+               2  Get counseling, help
+               3  Call police/ press charges
+               4  Talk to abuser
+               5  Make abuser feel guilty
+               6  Investigate partner/ potential partners
+               7  Get to know a person before entering a r
+               8  Look for warning signs
+               9  Be careful who she gets involved with (d
+              10  Learn to be independent
+              11  Don't live with someone out of wedlock
+              12  Don't get involved with a married man
+              13  Don't have children
+              14  Find someone else
+              15  Fight back
+              16  Kill him
+              17  Do not fight back
+              18  Put up with it as long as she can/ don't
+              19  Try to work it out/ give abuser a second
+              20  Be realistic about the situation
+              21  Learn self-defense
+              22  Believe in herself/ find peace
+              23  Get a better education/ improve herself
+              24  Pray
+              25  Stash money
+              26  Doesn't know/ cannot give advice to anyo
+              27  Depends on situation/ everyone must make
+              28  Other
+              29  Do not provoke abuser
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/591-594
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage 69tion M, Clinic/Hospital Initial Interview Data
+
+
+      M44ADV3            R'S ADVICE FOR OTHER ABUSED WOMEN (3)
+
+           From your experience, what advice would you give another woman
+           living in a similar situation?
+
+           VALUE  LABEL
+               1  Get out/ leave
+               2  Get counseling, help
+               3  Call police/ press charges
+               4  Talk to abuser
+               5  Make abuser feel guilty
+               6  Investigate partner/ potential partners
+               7  Get to know a person before entering a r
+               8  Look for warning signs
+               9  Be careful who she gets involved with (d
+              10  Learn to be independent
+              11  Don't live with someone out of wedlock
+              12  Don't get involved with a married man
+              13  Don't have children
+              14  Find someone else
+              15  Fight back
+              16  Kill him
+              17  Do not fight back
+              18  Put up with it as long as she can/ don't
+              19  Try to work it out/ give abuser a second
+              20  Be realistic about the situation
+              21  Learn self-defense
+              22  Believe in herself/ find peace
+              23  Get a better education
+              24  Pray
+              25  Stash money
+              26  Doesn't know/ cannot give advice to anyo
+              27  Depends on situation/ everyone must make
+              28  Other
+              29  Do not provoke abuser
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/596-599
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage 70tion M, Clinic/Hospital Initial Interview Data
+
+
+      M22NOINJ           TOTAL-NOT HURT/NO INJURY/NO NEED FOR DR.
+
+           VALUE  LABEL
+             999  Missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/601-603
+
+      ________________________________________________________________________
+
+      M22NONED           TOTAL-'NO NEED' RESPONSES (2.1 - 2.5)
+
+           VALUE  LABEL
+             999  Missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/605-607
+
+      ________________________________________________________________________
+
+      M22PRIV            TOTAL-REASON: PRIVACY
+
+           VALUE  LABEL
+             999  Missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/609-611
+
+      ________________________________________________________________________
+
+      M22EMBAR           TOTAL-'DIDN'T BECAUSE EMBARRASSED'(5.1)
+
+           VALUE  LABEL
+             999  Missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/613-615
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 6: QuestionnaPage 71tion M, Clinic/Hospital Initial Interview Data
+
+
+      HELPTYPE           COUNT OF TYPES OF HELP-SEEKING
+
+           VALUE  LABEL
+               0  None
+               1  One type
+               2  Two types
+               3  Three types
+               4  Four types
+             999  Missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/617-619
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019

@@ -1,0 +1,2124 @@
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                      CODEBOOK
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 3: Questionnaire Sections E and F, Clinic/Hospital Initial Interview Data
+                                          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 3: QuestionnaiPage itions E and F, Clinic/Hospital Initial Interview Data
+
+
+                                      CONTENTS
+
+
+      item                                                                page
+
+      CASEID             RESPONDENT IDENTIFICATION NUMBER                    1
+      INVIEWN            INTERVIEW NUMBER                                    1
+      ABUSED             PHYSICALLY ABUSED IN PAST YEAR                      1
+      HINCOME            HOUSEHOLD INCOME                                    1
+      E1HEALTH           R'S GENERAL HEALTH                                  2
+      POORHTH            POOR HEALTH, RECODED E1                             2
+      E2HLTHNW           R'S GENERAL HEALTH COMPARED TO YEAR AGO             2
+      E3VISIT            NUMBER TIMES R SAW HEALTH CARE PRFSSNL              3
+      E4PROBLM           R LIMITED DUE TO PHYSICAL CONDITION                 3
+      E5CODE1            MAIN HEALTH CONDITION LIMITING R                    4
+      E5CODE2            MAIN HEALTH CONDITION LIMITING R-2                  5
+      E5CODE3            MAIN HEALTH CONDITION LIMITING R-3                  6
+      E6TIME             LENGTH OF TIME R HAS HAD HEALTH PROBLEM             7
+      E6YEARS            # OF YEARS R HAD PHYSICAL CONDITION                 7
+      E6DATE             R HAS HAD CONDITION SINCE WHAT DATE                 8
+      E7EMTION           R BEEN LIMITED BY EMOTIONAL CONDITION               9
+      E8CODE1            EMOTIONAL CONDITION THAT LIMITS R                   9
+      E8CODE2            EMOTIONAL CONDITION THAT LIMITS R-2                10
+      E11PAIN            AMOUNT OF BODILY PAIN R HAS HAD                    10
+      E12INWRK           HOW MUCH HAS PAIN INTERFERED WITH WORK             11
+      DEPRESS            EMOTIONAL CONDITION: DEPRESSION                    11
+      E9TIME             TIME LENGTH R'S HAD EMOTIONAL CONDITION            11
+      E9YEARS            # OF YRS. R HAS HAD EMOTIONAL CONDITION            12
+      E9DATE             HOW LONG IN PAST YEAR R'S HAD CONDITION            12
+      E10INRFR           HOW MUCH EMOTION/PHYS PRBLMS INTERFERED            13
+      E21BLUE            R FELT BLUE/DOWNHEARTED                            13
+      E22DUMPS           R FELT SO DOWN-NOTHING WOULD CHEER R UP            14
+      E23HAPPY           R HAS BEEN HAPPY                                   14
+      E24CALM            R HAS FELT CALM/PEACE                              15
+      RSUICIDE           R'S SUICIDE ATTEMPT-RECODE FROM SEC H              15
+      E13PRGNT           R PREGNANT NOW OR IN PAST YEAR                     15
+      E13DUE             R'S DUE DATE                                       16
+      E13END             DATE PREGNANCY ENDED                               17
+      E14OUTC            OUTCOME OF PREGNANCY                               17
+      N7PREGNT           N7-PARTNER BEAT R WHILE PREGNANT                   18
+      SUBTOTAL           R'S SUBSTANCE USE, TOTAL                           18
+      E15ALCHL           R EVER HAD A PROBLEM WITH ALCOHOL                  18
+      E16CRRNT           ALCOHOL CURRENTLY A PROBLEM FOR R                  19
+      E17TRTMT           R EVER RECEIVED RX FOR ALCOHOL PROBLEM             19
+      E18DRUG            R EVER HAD A PROBLEM WITH DRUGS                    19
+      E19CRRNT           DRUGS CURRENTLY A PROBLEM FOR R                    20
+      E20TRTMT           R EVER RECEIVED RX FOR DRUG PROBLEMS               20
+      F1CNFDNT           ANYONE MAKES R FEEL CONFIDENT IN SELF              21
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 3: QuestionnaPage iitions E and F, Clinic/Hospital Initial Interview Data
+
+
+      item                                                                page
+
+      F2TALK             SOMEONE R CAN TALK TO OPENLY                       21
+      F3LNGUAG           HARD TO ASK FOR HELP B/C OF LANGUAGE               22
+      F3LNGPRB           WHY DO PEOPLE NOT SPEAK R'S LANGUAGE               22
+      F4PROBLM           ANYONE R CAN TALK TO ABOUT RELATION PROB           23
+      F5STNDBY           SOMEONE STANDS BY R IN GOOD/BAD TIMES              23
+      F6EMRGNC           R HAD SOMEONE TO STAY W/ IN AN EMERGENCY           24
+      F7DECISN           SOMEONE TO SUPPORT R'S DECISIONS                   24
+      F8DANGER           SOMEONE TO HELP IF R IS IN DANGER                  25
+      F9DIVRCE           DIVORCE IS NOT ACCEPTABLE IN R'S FAMILY            25
+      F10HELP            COULD TELL A FRIEND WHERE TO GET HELP              26
+      F11DCFS            R HESTITATES TO TELL PROBLEMS                      26
+      F12TRUBL           R HAS SOMEONE THERE IN TIMES OF TROUBLE            27
+      F13MONEY           R CAN BORROW MONEY FROM SOMEONE IN EMERG           27
+      F14CHICG           HOW LONG R HAS BEEN IN CHICAGO                     28
+      F14YEARS           # OF YRS R HAS LIVED IN CHICAGO                    28
+      F14MNTH            MONTH R MOVED TO CHICAGO IN PAST YEAR              29
+      F15MONEY           R HAS MONEY/INCOME SHE CONTROLS                    29
+      F16INCOM           R'S 1996 PERSONAL INCOME                           30
+      PINCOM             PERSONAL INCOME R CONTROLS                         30
+      ANYPINC            R HAS ANY PERSONAL INCOME-F15/F16 SUMMRY           31
+      F17HINCM           R'S 1996 HOUSEHOLD INCOME                          31
+      DEPTOT             TOTAL DEPRESSED FEELINGS, COUNT                    31
+      DEPTOT2            TOT DEPRESSION-COUNTING EMOTNL CONDITION           32
+      ACCESS             3,10,11:ACCESS TO/KNOWLEDGE OF RESOURCES           32
+      ACCESS2            3,10,11-COUNTING ONLY LANGUAGE-ACCESS              32
+      EMERHELP           6,8,12,13: TANGIBLE HELP IN EMERGENCIES            32
+      SUPPORT            1,2,4,5,7: ACCEPTANCE AND SUPPORT                  32
+      TOTSUPRT           TOTAL SUPPORT NETWORK SCORE, OUT OF 12             33
+      TOTSUPT2           TOTAL SUPPORT, WITH F3 ONLY LANGUAGE               33
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 3: QuestionnaiPage 1tions E and F, Clinic/Hospital Initial Interview Data
+
+
+      CASEID             RESPONDENT IDENTIFICATION NUMBER
+
+           Data type: numeric
+           Record/columns: 1/1-6
+
+      ________________________________________________________________________
+
+      INVIEWN            INTERVIEW NUMBER
+
+           VALUE  LABEL
+               1  Initial
+               2  First followup
+               3  Second followup
+
+           Data type: numeric
+           Record/column: 1/8
+
+      ________________________________________________________________________
+
+      ABUSED             PHYSICALLY ABUSED IN PAST YEAR
+
+           VALUE  LABEL
+               1  AW
+               2  NAW
+              95  Not reliable
+
+           Data type: numeric
+           Missing-data code: 95
+           Record/column: 1/10
+
+      ________________________________________________________________________
+
+      HINCOME            HOUSEHOLD INCOME
+
+           VALUE  LABEL
+               1  Less than $5000
+               2  $5,000 to $9,999
+               3  $10,000 to $19,999
+               4  $20,000 to $29,999
+               5  $30,000 to $39,999
+               6  More than $40,000
+              99  Missing
+             888  Don't know
+
+           Data type: numeric
+           Missing-data codes: 99,888
+           Record/columns: 1/12-14
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 3: QuestionnaiPage 2tions E and F, Clinic/Hospital Initial Interview Data
+
+
+      E1HEALTH           R'S GENERAL HEALTH
+
+           Compared to other women your age, would you say your general health
+           is:
+
+           VALUE  LABEL
+               1  Excellent
+               2  Very good
+               3  Good
+               4  Fair
+               5  Poor
+             999  Missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/column: 1/16
+
+      ________________________________________________________________________
+
+      POORHTH            POOR HEALTH, RECODED E1
+
+           VALUE  LABEL
+               0  No
+               1  Yes
+
+           Data type: numeric
+           Record/column: 1/18
+
+      ________________________________________________________________________
+
+      E2HLTHNW           R'S GENERAL HEALTH COMPARED TO YEAR AGO
+
+           Compared to a year ago, how would you rate your health in general
+           now?
+
+           VALUE  LABEL
+               1  Much better now
+               2  Somewhat better now
+               3  About the same now
+               4  Somewhat worse now
+               5  Much worse now
+             999  Missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/column: 1/20
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 3: QuestionnaiPage 3tions E and F, Clinic/Hospital Initial Interview Data
+
+
+      E3VISIT            NUMBER TIMES R SAW HEALTH CARE PRFSSNL
+
+           Overall, how many times did you see a health care professional about
+           your own health in the past year, before today?
+
+           VALUE  LABEL
+               1  Never
+               2  Once
+               3  Twice
+               4  Three or four times
+               5  Five or more times
+             999  Missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/22-24
+
+      ________________________________________________________________________
+
+      E4PROBLM           R LIMITED DUE TO PHYSICAL CONDITION
+
+           During the past month, have you been limited in the amount or kind
+           of activity you can do at home, work or at school because of a
+           physical condition or health problem?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+             999  Missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/26-28
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 3: QuestionnaiPage 4tions E and F, Clinic/Hospital Initial Interview Data
+
+
+      E5CODE1            MAIN HEALTH CONDITION LIMITING R
+
+           What is the main condition or health problem that
+           limits you?
+
+           VALUE  LABEL
+               1  Pregnancy/ postpartum/gynecological
+               2  Migraine/ headache/ head injury
+               3  Asthma/ bronchitis
+               4  Back problems/ pain
+               5  Epilepsy/ seizures
+               6  Cancer/ tumors
+               7  HIV-positive/ AIDS
+               8  Diabetes
+               9  Heart problems
+              10  Other diseases (lupus, MS)
+              11  Stomach problems/ pain
+              12  Infections
+              13  Injuries/ accidents
+              14  Arthritis
+              15  Allergies
+              16  Eye problems
+              17  Surgery
+              18  Other
+             888  Don't know
+             999  Missing
+            9999  No problem
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/30-33
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 3: QuestionnaiPage 5tions E and F, Clinic/Hospital Initial Interview Data
+
+
+      E5CODE2            MAIN HEALTH CONDITION LIMITING R-2
+
+           What is the main condition or health problem that
+           limits you?
+
+           VALUE  LABEL
+               1  Pregnancy/ postpartum
+               2  Migraine/ headache/ head injury
+               3  Asthma/ bronchitis
+               4  Back problems/ pain
+               5  Epilepsy/ seizures
+               6  Cancer/ tumors
+               7  HIV-positive/ AIDS
+               8  Diabetes
+               9  Heart problems
+              10  Other diseases (lupus, MS)
+              11  Stomach problems/ pain
+              12  Infections
+              13  Injuries/ accidents
+              14  Arthritis
+              15  Allergies
+              16  Eye problems
+              17  Surgery
+              18  Other
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/35-38
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 3: QuestionnaiPage 6tions E and F, Clinic/Hospital Initial Interview Data
+
+
+      E5CODE3            MAIN HEALTH CONDITION LIMITING R-3
+
+           What is the main condition or health problem that
+           limits you?
+
+           VALUE  LABEL
+               1  Pregnancy/ postpartum
+               2  Migraine/ headache/ head injury
+               3  Asthma/ bronchitis
+               4  Back problems/ pain
+               5  Epilepsy/ seizures
+               6  Cancer/ tumors
+               7  HIV-positive/ AIDS
+               8  Diabetes
+               9  Heart problems
+              10  Other diseases (lupus, MS)
+              11  Stomach problems/ pain
+              12  Infections
+              13  Injuries/ accidents
+              14  Arthritis
+              15  Allergies
+              16  Eye problems
+              17  Surgery
+              18  Other
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/40-43
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 3: QuestionnaiPage 7tions E and F, Clinic/Hospital Initial Interview Data
+
+
+      E6TIME             LENGTH OF TIME R HAS HAD HEALTH PROBLEM
+
+           How long have you had it?
+
+           VALUE  LABEL
+               1  All her life
+               2  Many years
+               3  In the past year
+               4  Other
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/45-48
+
+      ________________________________________________________________________
+
+      E6YEARS            # OF YEARS R HAD PHYSICAL CONDITION
+
+           How many years have you had it?
+
+           VALUE  LABEL
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/50-53
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 3: QuestionnaiPage 8tions E and F, Clinic/Hospital Initial Interview Data
+
+
+      E6DATE             R HAS HAD CONDITION SINCE WHAT DATE
+
+           If you have had this condition or health problem since
+           last year, since what month?
+
+           VALUE  LABEL
+               2  APR 97
+               3  APR 98
+               4  AUG 97
+               5  AUG 98
+               6  DEC 96
+               7  DEC 97
+               8  FEB 97
+               9  FEB 98
+              10  JAN 97
+              11  JAN 98
+              12  JUL 96
+              13  JUL 97
+              14  JUL 98
+              15  JUN 97
+              16  MAR 97
+              17  MAR 98
+              18  MAY 97
+              19  NOV 96
+              20  NOV 97
+              21  OCT 96
+              22  OCT 97
+              23  SEP 96
+              24  SEP 97
+              25  Missing
+
+           Data type: numeric
+           Missing-data codes: 1,25
+           Record/columns: 1/55-56
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 3: QuestionnaiPage 9tions E and F, Clinic/Hospital Initial Interview Data
+
+
+      E7EMTION           R BEEN LIMITED BY EMOTIONAL CONDITION
+
+           During the past month, have you been limited in the amount or kind
+           of activity that you can do at home, at work or at school because of
+           an emotional condition such as depression, nervousness or panic
+           attacks?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               3  Interviewer says r unstable
+               4  Later int. r says there was a problem
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 888,999
+           Record/columns: 1/58-60
+
+      ________________________________________________________________________
+
+      E8CODE1            EMOTIONAL CONDITION THAT LIMITS R
+
+           What is the main emotional condition that limits you?
+
+           VALUE  LABEL
+               1  Depression
+               2  Manic-depression/ bi-polar
+               3  Stress/ nerves/ anxiety
+               4  Problems with significant other
+               5  Panic attacks
+               6  Anger
+               7  Emptiness
+               8  Nightmares
+               9  Low self-esteem
+              10  Other
+             888  Don't know
+             999  Missing
+            9999  No emotional problem
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/62-65
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 3: QuestionnaPage 10tions E and F, Clinic/Hospital Initial Interview Data
+
+
+      E8CODE2            EMOTIONAL CONDITION THAT LIMITS R-2
+
+           What is the main emotional condition that limits you?
+
+           VALUE  LABEL
+               1  Depression
+               2  Manic-depression/ bi-polar
+               3  Stress/ nerves/ anxiety
+               4  Problems with significant other
+               5  Panic attacks
+               6  Anger
+               7  Emptiness
+               8  Nightmares
+               9  Low self-esteem
+              10  Other
+             888  Don't know
+             999  Missing
+            9999  No second condition
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/67-70
+
+      ________________________________________________________________________
+
+      E11PAIN            AMOUNT OF BODILY PAIN R HAS HAD
+
+           During the past month, how much bodily pain have you
+           had?
+
+           VALUE  LABEL
+               1  None
+               2  A little bit
+               3  Moderate
+               4  Severe
+               5  Very severe
+             999  Missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/72-74
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 3: QuestionnaPage 11tions E and F, Clinic/Hospital Initial Interview Data
+
+
+      E12INWRK           HOW MUCH HAS PAIN INTERFERED WITH WORK
+
+           During the past month, how much did pain interfere with your
+           normal work, including both work outside the home and housework?
+
+           VALUE  LABEL
+               1  None of the time
+               2  A little of the time
+               3  Some of the time
+               4  Most of the time
+               5  All of the time
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/76-79
+
+      ________________________________________________________________________
+
+      DEPRESS            EMOTIONAL CONDITION: DEPRESSION
+
+           VALUE  LABEL
+               0  No
+               1  Yes
+             999  Missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/81-83
+
+      ________________________________________________________________________
+
+      E9TIME             TIME LENGTH R'S HAD EMOTIONAL CONDITION
+
+           How long have you had it?
+
+           VALUE  LABEL
+               1  All her life
+               2  Many years
+               3  In the past year
+               4  Other
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/85-88
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 3: QuestionnaPage 12tions E and F, Clinic/Hospital Initial Interview Data
+
+
+      E9YEARS            # OF YRS. R HAS HAD EMOTIONAL CONDITION
+
+           How many years have you had it?
+
+           VALUE  LABEL
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/90-93
+
+      ________________________________________________________________________
+
+      E9DATE             HOW LONG IN PAST YEAR R'S HAD CONDITION
+
+           Since what month have you had it?
+
+           VALUE  LABEL
+               2  APR 97
+               3  AUG 97
+               4  DEC 96
+               5  DEC 97
+               6  FEB 97
+               7  FEB 98
+               8  JAN 97
+               9  JAN 98
+              10  JUL 97
+              11  JUN 97
+              12  MAR 97
+              13  MAR 98
+              14  MAY 97
+              15  NOV 97
+              16  OCT 96
+              17  OCT 97
+              18  SEP 96
+              19  SEP 97
+
+           Data type: numeric
+           Missing-data code: 1
+           Record/columns: 1/95-96
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 3: QuestionnaPage 13tions E and F, Clinic/Hospital Initial Interview Data
+
+
+      E10INRFR           HOW MUCH EMOTION/PHYS PRBLMS INTERFERED
+
+           During the past month, how much did your physical health or
+           emotional health interfere with your normal social activities with
+           family, friends, neighbors, or groups?
+
+           VALUE  LABEL
+               1  None of the time
+               2  A little of the time
+               3  Some of the time
+               4  Most of the time
+               5  All of the time
+             999  Missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/98-100
+
+      ________________________________________________________________________
+
+      E21BLUE            R FELT BLUE/DOWNHEARTED
+
+           During the past month, how much of the time have you felt
+           downhearted and blue?
+
+           VALUE  LABEL
+               1  None of the time
+               2  A little of the time
+               3  Some of the time
+               4  Most of the time
+               5  All of the time
+             999  Missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/102-104
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 3: QuestionnaPage 14tions E and F, Clinic/Hospital Initial Interview Data
+
+
+      E22DUMPS           R FELT SO DOWN-NOTHING WOULD CHEER R UP
+
+           During the past month, how much of the time have you felt so
+           down in the dumps that nothing could cheer you up?
+
+           VALUE  LABEL
+               1  None of the time
+               2  A little of the time
+               3  Some of the time
+               4  Most of the time
+               5  All of the time
+             999  Missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/106-108
+
+      ________________________________________________________________________
+
+      E23HAPPY           R HAS BEEN HAPPY
+
+           During the past month, how much of the time have you been a
+           happy person?
+
+           VALUE  LABEL
+               1  None of the time
+               2  A little of the time
+               3  Some of the time
+               4  Most of the time
+               5  All of the time
+             999  Missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/110-112
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 3: QuestionnaPage 15tions E and F, Clinic/Hospital Initial Interview Data
+
+
+      E24CALM            R HAS FELT CALM/PEACE
+
+           During the past month, how much of the time have you felt
+           calm and peaceful?
+
+           VALUE  LABEL
+               1  None of the time
+               2  A little of the time
+               3  Some of the time
+               4  Most of the time
+               5  All of the time
+             999  Missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/114-116
+
+      ________________________________________________________________________
+
+      RSUICIDE           R'S SUICIDE ATTEMPT-RECODE FROM SEC H
+
+           VALUE  LABEL
+               0  No
+               1  Yes
+             999  Missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/118-120
+
+      ________________________________________________________________________
+
+      E13PRGNT           R PREGNANT NOW OR IN PAST YEAR
+
+           Are you pregnant now, or were you pregnant in the past
+           year?
+
+           VALUE  LABEL
+               1  Yes, pregnant now
+               2  Yes, in past year
+               3  No
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 888,999
+           Record/columns: 1/122-124
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 3: QuestionnaPage 16tions E and F, Clinic/Hospital Initial Interview Data
+
+
+      E13DUE             R'S DUE DATE
+
+           If you are pregnant now, what is your due date?
+
+           VALUE  LABEL
+               2  APR 98
+               3  AUG 98
+               4  DEC 97
+               5  DEC 98
+               6  FEB 98
+               7  JAN 98
+               8  JUL 98
+               9  JUN 97
+              10  JUN 98
+              11  MAR 97
+              12  MAR 98
+              13  MAY 98
+              14  NOV 97
+              15  OCT 97
+              16  OCT 98
+              17  SEP 98
+              18  Missing
+
+           Data type: numeric
+           Missing-data codes: 1,18
+           Record/columns: 1/126-127
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 3: QuestionnaPage 17tions E and F, Clinic/Hospital Initial Interview Data
+
+
+      E13END             DATE PREGNANCY ENDED
+
+           If you were pregnant in the past year, when did that
+           pregnancy end?
+
+           VALUE  LABEL
+               2  APR 97
+               3  AUG 97
+               4  DEC 96
+               5  DEC 97
+               6  FEB 96
+               7  FEB 97
+               8  FEB 98
+               9  JAN 97
+              10  JAN 98
+              11  JUL 97
+              12  JUN 97
+              13  MAR 97
+              14  MAR 98
+              15  MAY 97
+              16  NOV 96
+              17  NOV 97
+              18  OCT 96
+              19  OCT 97
+              20  SEP 97
+              21  Missing
+
+           Data type: numeric
+           Missing-data codes: 1,21
+           Record/columns: 1/129-130
+
+      ________________________________________________________________________
+
+      E14OUTC            OUTCOME OF PREGNANCY
+
+           What was the outcome of that pregnancy?
+
+           VALUE  LABEL
+               1  Live birth
+               2  Miscarriage
+               3  Abortion
+               4  Stillbirth
+             998  Missing
+             999  Not applicable
+
+           Data type: numeric
+           Missing-data codes: 998,999
+           Record/columns: 1/132-134
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 3: QuestionnaPage 18tions E and F, Clinic/Hospital Initial Interview Data
+
+
+      N7PREGNT           N7-PARTNER BEAT R WHILE PREGNANT
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               3  R says never pregnant
+               9  NAW, not asked
+             777  N/A
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 777-999
+           Record/columns: 1/136-138
+
+      ________________________________________________________________________
+
+      SUBTOTAL           R'S SUBSTANCE USE, TOTAL
+
+           VALUE  LABEL
+               0  Other
+               1  Ever had alcohol or drug problem
+
+           Data type: numeric
+           Record/column: 1/140
+
+      ________________________________________________________________________
+
+      E15ALCHL           R EVER HAD A PROBLEM WITH ALCOHOL
+
+           Have you ever had a problem with alcohol?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+             999  Missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/142-144
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 3: QuestionnaPage 19tions E and F, Clinic/Hospital Initial Interview Data
+
+
+      E16CRRNT           ALCOHOL CURRENTLY A PROBLEM FOR R
+
+           Is alcohol currently a problem for you?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/146-149
+
+      ________________________________________________________________________
+
+      E17TRTMT           R EVER RECEIVED RX FOR ALCOHOL PROBLEM
+
+           Did you ever receive treatment for this problem?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/151-154
+
+      ________________________________________________________________________
+
+      E18DRUG            R EVER HAD A PROBLEM WITH DRUGS
+
+           Have you ever had a problem with drugs? By drugs, I mean
+           "uppers" or amphetamines, speed, angel dust, cocaine, "crack,"
+           street drugs or mixtures.
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+             999  Missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/156-158
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 3: QuestionnaPage 20tions E and F, Clinic/Hospital Initial Interview Data
+
+
+      E19CRRNT           DRUGS CURRENTLY A PROBLEM FOR R
+
+           Are drugs currently a problem for you?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/160-163
+
+      ________________________________________________________________________
+
+      E20TRTMT           R EVER RECEIVED RX FOR DRUG PROBLEMS
+
+           Did you ever receive treatment for this problem?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/165-168
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 3: QuestionnaPage 21tions E and F, Clinic/Hospital Initial Interview Data
+
+
+      F1CNFDNT           ANYONE MAKES R FEEL CONFIDENT IN SELF
+
+           Everyone needs help and support from time to time. These are some
+           questions about your friends, family, neighbors, or anyone else you
+           know who can help you. For these questions, please do not answer
+           about anyone you've been in an intimate or romantic relationship
+           with. Please tell me if you agree or disagree with the following:
+           Someone I'm close to makes me feel confident in myself.
+
+           VALUE  LABEL
+               1  Agree
+               2  Disagree
+               3  God only
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 999,3,888
+           Record/columns: 1/170-172
+
+      ________________________________________________________________________
+
+      F2TALK             SOMEONE R CAN TALK TO OPENLY
+
+           Everyone needs help and support from time to time. These are some
+           questions about your friends, family, neighbors, or anyone else you
+           know who can help you. For these questions, please do not answer
+           about anyone you've been in an intimate or romantic relationship
+           with. Please tell me if you agree or disagree with the following:
+           There is someone I can talk to openly about anything.
+
+           VALUE  LABEL
+               1  Agree
+               2  Disagree
+               3  God only
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 999,3,888
+           Record/columns: 1/174-176
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 3: QuestionnaPage 22tions E and F, Clinic/Hospital Initial Interview Data
+
+
+      F3LNGUAG           HARD TO ASK FOR HELP B/C OF LANGUAGE
+
+           Everyone needs help and support from time to time. These are some
+           questions about your friends, family, neighbors, or anyone else you
+           know who can help you. For these questions, please do not answer
+           about anyone you've been in an intimate or romantic relationship
+           with. Please tell me if you agree or disagree with the following:
+           It is difficult for me to ask for help because people don't always
+           speak my language.
+
+           VALUE  LABEL
+               1  Agree
+               2  Disagree
+             777  Not applicable
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 3,777-999
+           Record/columns: 1/178-180
+
+      ________________________________________________________________________
+
+      F3LNGPRB           WHY DO PEOPLE NOT SPEAK R'S LANGUAGE
+
+           Why is it that people don't always speak your
+           language?
+
+            VALUE  LABEL
+              1.1  Don't speak rs native language
+              1.2  Other communication problem
+            999.9  Missing
+           9999.9  Unknown
+
+           Data type: numeric
+           Decimals: 1
+           Missing-data codes: 999.9,9999.9
+           Record/columns: 1/182-186
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 3: QuestionnaPage 23tions E and F, Clinic/Hospital Initial Interview Data
+
+
+      F4PROBLM           ANYONE R CAN TALK TO ABOUT RELATION PROB
+
+           Everyone needs help and support from time to time. These are some
+           questions about your friends, family, neighbors, or anyone else you
+           know who can help you. For these questions, please do not answer
+           about anyone you've been in an intimate or romantic relationship
+           with. Please tell me if you agree or disagree with the following:
+           There is someone I can talk to about any problems in my
+           relationship.
+
+           VALUE  LABEL
+               1  Agree
+               2  Disagree
+               3  God only
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 999,3,888
+           Record/columns: 1/188-190
+
+      ________________________________________________________________________
+
+      F5STNDBY           SOMEONE STANDS BY R IN GOOD/BAD TIMES
+
+           Everyone needs help and support from time to time. These are some
+           questions about your friends, family, neighbors, or anyone else you
+           know who can help you. For these questions, please do not answer
+           about anyone you've been in an intimate or romantic relationship
+           with. Please tell me if you agree or disagree with the following:
+           Someone I care about stands by me through good times and bad times.
+
+           VALUE  LABEL
+               1  Agree
+               2  Disagree
+               3  God only
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 999,3,888
+           Record/columns: 1/192-194
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 3: QuestionnaPage 24tions E and F, Clinic/Hospital Initial Interview Data
+
+
+      F6EMRGNC           R HAD SOMEONE TO STAY W/ IN AN EMERGENCY
+
+           Everyone needs help and support from time to time. These are some
+           questions about your friends, family, neighbors, or anyone else you
+           know who can help you. For these questions, please do not answer
+           about anyone you've been in an intimate or romantic relationship
+           with. Please tell me if you agree or disagree with the following: I
+           have someone to stay with in an emergency.
+
+           VALUE  LABEL
+               1  Agree
+               2  Disagree
+             666  Sometimes
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 999,3,888
+           Record/columns: 1/196-198
+
+      ________________________________________________________________________
+
+      F7DECISN           SOMEONE TO SUPPORT R'S DECISIONS
+
+           Everyone needs help and support from time to time. These are some
+           questions about your friends, family, neighbors, or anyone else you
+           know who can help you. For these questions, please do not answer
+           about anyone you've been in an intimate or romantic relationship
+           with. Please tell me if you agree or disagree with the following:
+           Someone I know supports my decisions no matter what they are.
+
+           VALUE  LABEL
+               1  Agree
+               2  Disagree
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 999,3,888
+           Record/columns: 1/200-202
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 3: QuestionnaPage 25tions E and F, Clinic/Hospital Initial Interview Data
+
+
+      F8DANGER           SOMEONE TO HELP IF R IS IN DANGER
+
+           Everyone needs help and support from time to time. These are some
+           questions about your friends, family, neighbors, or anyone else you
+           know who can help you. For these questions, please do not answer
+           about anyone you've been in an intimate or romantic relationship
+           with. Please tell me if you agree or disagree with the following:
+           Someone I know will help me if I am in danger.
+
+           VALUE  LABEL
+               1  Agree
+               2  Disagree
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 999,3,888
+           Record/columns: 1/204-206
+
+      ________________________________________________________________________
+
+      F9DIVRCE           DIVORCE IS NOT ACCEPTABLE IN R'S FAMILY
+
+           Everyone needs help and support from time to time. These are some
+           questions about your friends, family, neighbors, or anyone else you
+           know who can help you. For these questions, please do not answer
+           about anyone you've been in an intimate or romantic relationship
+           with. Please tell me if you agree or disagree with the following:
+           Divorce is not acceptable in my family.
+
+           VALUE  LABEL
+               1  Agree
+               2  Disagree
+             777  Not applicable
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 999,888,777
+           Record/columns: 1/208-210
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 3: QuestionnaPage 26tions E and F, Clinic/Hospital Initial Interview Data
+
+
+      F10HELP            COULD TELL A FRIEND WHERE TO GET HELP
+
+           Everyone needs help and support from time to time. These are some
+           questions about your friends, family, neighbors, or anyone else you
+           know who can help you. For these questions, please do not answer
+           about anyone you've been in an intimate or romantic relationship
+           with. Please tell me if you agree or disagree with the following:  I
+           would know where to tell a friend to get help if they were harmed or
+           beaten by their partner.
+
+           VALUE  LABEL
+               1  Agree
+               2  Disagree
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 999,888
+           Record/columns: 1/212-214
+
+      ________________________________________________________________________
+
+      F11DCFS            R HESTITATES TO TELL PROBLEMS
+
+           Everyone needs help and support from time to time. These are some
+           questions about your friends, family, neighbors, or anyone else you
+           know who can help you. For these questions, please do not answer
+           about anyone you've been in an intimate or romantic relationship
+           with. Please tell me if you agree or disagree with the following:  I
+           hesitate to tell anyone about my problems because I am worried that
+           the authorities, like DCFS or immigration, may find out.
+
+           VALUE  LABEL
+               1  Agree
+               2  Disagree
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 999,3,888
+           Record/columns: 1/216-218
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 3: QuestionnaPage 27tions E and F, Clinic/Hospital Initial Interview Data
+
+
+      F12TRUBL           R HAS SOMEONE THERE IN TIMES OF TROUBLE
+
+           Everyone needs help and support from time to time. These are some
+           questions about your friends, family, neighbors, or anyone else you
+           know who can help you. For these questions, please do not answer
+           about anyone you've been in an intimate or romantic relationship
+           with. Please tell me if you agree or disagree with the following:  I
+           have someone who will be there for me in times of trouble.
+
+           VALUE  LABEL
+               1  Agree
+               2  Disagree
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 999,888,3
+           Record/columns: 1/220-222
+
+      ________________________________________________________________________
+
+      F13MONEY           R CAN BORROW MONEY FROM SOMEONE IN EMERG
+
+           Everyone needs help and support from time to time. These are some
+           questions about your friends, family, neighbors, or anyone else you
+           know who can help you. For these questions, please do not answer
+           about anyone you've been in an intimate or romantic relationship
+           with. Please tell me if you agree or disagree with the following:  I
+           have someone to borrow money from in an emergency.
+
+           VALUE  LABEL
+               1  Agree
+               2  Disagree
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 999,3,888
+           Record/columns: 1/224-226
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 3: QuestionnaPage 28tions E and F, Clinic/Hospital Initial Interview Data
+
+
+      F14CHICG           HOW LONG R HAS BEEN IN CHICAGO
+
+           How long have you been living in Chicago or the Chicago area?
+
+           VALUE  LABEL
+               1  All her life
+               2  Many years
+               3  Three to four years
+               4  One to two years
+               5  Moved here in the past year
+               6  Other (e.g. two residences)
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 777-999
+           Record/columns: 1/228-230
+
+      ________________________________________________________________________
+
+      F14YEARS           # OF YRS R HAS LIVED IN CHICAGO
+
+           How many years have you been living in Chicago or the Chicago area?
+
+           VALUE  LABEL
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/232-235
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 3: QuestionnaPage 29tions E and F, Clinic/Hospital Initial Interview Data
+
+
+      F14MNTH            MONTH R MOVED TO CHICAGO IN PAST YEAR
+
+           If you moved here in this past year, what month did you move here?
+
+           VALUE  LABEL
+               1  January
+               2  February
+               3  March
+               4  April
+               5  May
+               6  June
+               7  July
+               8  August
+               9  September
+              10  October
+              11  November
+              12  December
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/237-240
+
+      ________________________________________________________________________
+
+      F15MONEY           R HAS MONEY/INCOME SHE CONTROLS
+
+           One important source of support for many women is the amount of
+           money they have that is under their own name, or that they can
+           control. This might include income from a job outside the home or
+           from working at home, help from family, assistance from AFDC or
+           Disability, or any other kind of income. Do you have any money or
+           income of your own that you control?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 888,999
+           Record/columns: 1/242-244
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 3: QuestionnaPage 30tions E and F, Clinic/Hospital Initial Interview Data
+
+
+      F16INCOM           R'S 1996 PERSONAL INCOME
+
+           One important source of support for many women is the amount of
+           money they have that is under their own name, or that they can
+           control. This might include income from a job outside the home or
+           from working at home, help from family, assistance from AFDC or
+           Disability, or any other kind of income.  About how much income is
+           that (before taxes)? What is your best estimate of your total
+           personal income from all sources for 1996?
+
+           VALUE  LABEL
+               1  Less than $5,000
+               2  $5,000 - $10,000
+               3  $10,000 - $20,000
+               4  $20,000 - $30,000
+               5  $30,000 - $40,000
+               6  $40,000 - $50,000
+               7  $50,000 - $80,000
+               8  $80,000 - $100,000
+               9  More than $100,000
+             666  No income
+             777  N/A
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 666-9999
+           Record/columns: 1/246-249
+
+      ________________________________________________________________________
+
+      PINCOM             PERSONAL INCOME R CONTROLS
+
+           VALUE  LABEL
+               0  None
+               1  Under $5,000
+               2  $5,000 to $9,999
+               3  $10,000 to $19,999
+               4  $20,000 to $29,999
+               5  $30,000 to $39,999
+               6  $40,000 or more
+              99  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 99,999
+           Record/columns: 1/251-253
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 3: QuestionnaPage 31tions E and F, Clinic/Hospital Initial Interview Data
+
+
+      ANYPINC            R HAS ANY PERSONAL INCOME-F15/F16 SUMMRY
+
+           VALUE  LABEL
+               0  No
+               1  Yes
+              99  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 99,999
+           Record/columns: 1/255-257
+
+      ________________________________________________________________________
+
+      F17HINCM           R'S 1996 HOUSEHOLD INCOME
+
+           Household income means income for everyone in your household taken
+           together. What is your best estimate of your total household income
+           before taxes from all sources for 1996?
+
+           VALUE  LABEL
+               1  Less than $5,000
+               2  $5,000 - $10,000
+               3  $10,000 - $20,000
+               4  $20,000 - $30,000
+               5  $30,000 - $40,000
+               6  $40,000 - $50,000
+               7  $50,000 - $80,000
+               8  $80,000 - $100,000
+               9  More than $100,000
+             666  No income
+             777  N/A
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 666-9999
+           Record/columns: 1/259-262
+
+      ________________________________________________________________________
+
+      DEPTOT             TOTAL DEPRESSED FEELINGS, COUNT
+
+           VALUE  LABEL
+             999  Missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/264-266
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 3: QuestionnaPage 32tions E and F, Clinic/Hospital Initial Interview Data
+
+
+      DEPTOT2            TOT DEPRESSION-COUNTING EMOTNL CONDITION
+
+           VALUE  LABEL
+             999  Missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/268-270
+
+      ________________________________________________________________________
+
+      ACCESS             3,10,11:ACCESS TO/KNOWLEDGE OF RESOURCES
+
+           VALUE  LABEL
+             999  Missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/272-274
+
+      ________________________________________________________________________
+
+      ACCESS2            3,10,11-COUNTING ONLY LANGUAGE-ACCESS
+
+           VALUE  LABEL
+             999  Missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/276-278
+
+      ________________________________________________________________________
+
+      EMERHELP           6,8,12,13: TANGIBLE HELP IN EMERGENCIES
+
+           VALUE  LABEL
+             999  Missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/280-282
+
+      ________________________________________________________________________
+
+      SUPPORT            1,2,4,5,7: ACCEPTANCE AND SUPPORT
+
+           VALUE  LABEL
+             999  Missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/284-286
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 3: QuestionnaPage 33tions E and F, Clinic/Hospital Initial Interview Data
+
+
+      TOTSUPRT           TOTAL SUPPORT NETWORK SCORE, OUT OF 12
+
+           VALUE  LABEL
+             999  Missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/288-290
+
+      ________________________________________________________________________
+
+      TOTSUPT2           TOTAL SUPPORT, WITH F3 ONLY LANGUAGE
+
+           VALUE  LABEL
+             999  Missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/292-294
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019

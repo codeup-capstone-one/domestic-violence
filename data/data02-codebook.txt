@@ -1,0 +1,2987 @@
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                      CODEBOOK
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 2: Questionnaire Section D, Clinic/Hospital Initial Interview Data
+                                          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 2: QuestionnaiPage ition D, Clinic/Hospital Initial Interview Data
+
+
+                                      CONTENTS
+
+
+      item                                                                page
+
+      CASEID             RESPONDENT IDENTIFICATION NUMBER                    1
+      INVIEWN            INTERVIEW NUMBER                                    1
+      ABUSED             PHYSICAL ABUSE IN LAST YEAR                         1
+      RACER              RACE, RECODED                                       1
+      D1ALONE            PEOPLE LIVING IN R'S HOUSEHOLD                      2
+      NOHOME             R HOMELESS/IN A GROUP HOME/INSTITUTION              2
+      RCHANY             R HAS ANY CHILDREN                                  2
+      RCHILD17           R'S CHILDREN TOTAL, 17 OR YOUNGER                   3
+      RCHILD18           R'S CHILDREN TOTAL, 18 OR OLDER                     3
+      DECEASED           NUMBER OF DECEASED CHILDREN BY [NAME]               3
+      D1INHH             # OF PEOPLE IN HOUSEHOLD OTHER THAN R               3
+      D2CHILDH           IS ONE OF THESE PEOPLE A CHILD                      4
+      RCHTOT             TOT # R'S CHILDREN/BIRTH/ADOPTED/FOSTER             4
+      D3CHIL17           ANY CHILD 17 OR YOUNGER IN HOUSEHOLD                4
+      D3TOT12            # OF CHILDREN AGE 12 & UNDER IN HOUSEHLD            5
+      D3TOT17            # OF CHILDREN AGE 13 TO 17 IN HOUSEHLD              5
+      D3TOTAL            # OF CHILDREN AGE 17 & UNDER IN HOUSEHLD            5
+      D3TOTALR           CHILDREN 17 & UNDER IN HH RECODED                   5
+      D3RCH18            R'S CHILDREN 18 AND OVER IN HOUSEHOLD               6
+      D3RCHILD           R'S CHILDREN BY BIRTH IN HOUSEHOLD                  6
+      D3RCHILA           R'S ADOPTED CHILDREN IN HOUSEHOLD                   6
+      D3RCHILF           R'S FOSTER CHILDREN IN HOUSEHOLD                    6
+      D3RCHILT           TOTAL R'S CHILDREN IN HOUSEHOLD, ANY AGE            7
+      D3SEX1             SEX OF 1ST CHILD LIVING IN HOUSEHOLD                7
+      D3YEAR1            AGE(YRS) OF 1ST CHILD LIVING IN HH                  7
+      D3MNTH1            AGE(MONTHS) OF 1ST CHILD LIVING IN HH               8
+      D3REL1             RELATIONSHIP OF FIRST CHILD LIVING IN HH            8
+      D3SEX2             SEX OF SECOND CHILD LIVING IN R'S HH                8
+      D3YEAR2            AGE(YEARS) OF SECOND CHILD                          9
+      D3MNTH2            AGE(MONTHS) OF SECOND CHILD                         9
+      D3REL2             RELATIONSHIP OF SECOND CHILD IN HH                  9
+      D3SEX3             SEX OF THIRD CHILD IN HH                           10
+      D3YEAR3            AGE(YEARS) OF THIRD CHILD                          10
+      D3MNTH3            AGE(MONTHS) OF THIRD CHILD                         10
+      D3REL3             RELATIONSHIP OF THIRD CHILD IN HH                  11
+      D3SEX4             SEX OF FOURTH CHILD IN HH                          11
+      D3YEAR4            AGE(YEARS) OF FOURTH CHILD                         11
+      D3MNTH4            AGE(MONTHS) OF FOURTH CHILD                        12
+      D3REL4             RELATIONSHIP OF FOURTH CHILD IN HH                 12
+      D3SEX5             SEX OF FIFTH CHILD LIVING IN HH                    12
+      D3YEAR5            AGE(YEARS) OF FIFTH CHILD                          13
+      D3MNTH5            AGE(MONTHS) OF FIFTH CHILD LIVING IN HH            13
+      D3REL5             RELATIONSHIP OF FIFTH CHILD IN HH                  13
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 2: QuestionnaPage iition D, Clinic/Hospital Initial Interview Data
+
+
+      item                                                                page
+
+      D3SEX6             SEX OF SIXTH CHILD LIVING IN HH                    14
+      D3YEAR6            AGE(YEARS) OF SIXTH CHILD IN HH                    14
+      D3MNTH6            AGE(MONTHS) OF SIXTH CHILD IN HH                   14
+      D3REL6             RELATIONSHIP OF SEVENTH CHILD IN HH                15
+      D3SEX7             SEX OF SEVENTH CHILD IN HH                         15
+      D3YEAR7            AGE(YEARS) OF CHILD LIVING IN HH                   15
+      D3MNTH7            AGE(MONTHS) OF SEVENTH CHILD IN HH                 16
+      D3REL7             RELATIONSHIP OF SEVENTH CHILD IN HH                16
+      D3SEX8             SEX OF EIGHTH CHILD IN HH                          16
+      D3YEAR8            AGE(YEARS) OF EIGHTH CHILD                         17
+      D3MNTH8            AGE(MONTHS) OF EIGHTH CHILD IN HH                  17
+      D3REL8             RELATION OF EIGHTH CHILD LIVING IN HH              17
+      D3SEX9             SEX OF NINTH CHILD IN HH                           18
+      D3YEAR9            AGE(YEARS) OF NINTH CHILD LIVING IN HH             18
+      D3MNTH9            AGE(MONTHS) OF NINTH CHILD IN HH                   18
+      D3REL9             RELATIONSHIP OF NINTH CHILD IN HH                  19
+      D3SEX10            SEX OF TENTH CHILD IN HH                           19
+      D3YR10             AGE(YEARS) OF TENTH CHILD IN HH                    19
+      D3MTH10            AGE(MONTHS) OF TENTH CHILD LIVING IN HH            20
+      D3REL10            RELATIONSHIP OF TENTH CHILD LIVING IN HH           20
+      D4ADULT            ANY OTHER ADULTS IN R'S HOUSEHOLD                  21
+      D4NADULT           NUMBER OF OTHER ADULTS LIVING IN R'S HH            21
+      LIVEWITH           [NAME] LIVE IN SAME HOUSEHOLD WITH R               22
+      D5SEX1             SEX OF FIRST ADULT IN HH                           22
+      D5AGE1             AGE OF FIRST ADULT IN HH                           22
+      D5REL1             RELATIONSHIP OF FIRST ADULT IN HH                  23
+      D5SEX2             SEX OF SECOND ADULT IN HH                          23
+      D5AGE2             AGE OF SECOND ADULT IN HH                          23
+      D5REL2             RELATIONSHIP OF SECOND ADULT IN HH                 24
+      D5SEX3             SEX OF THIRD ADULT IN HH                           24
+      D5AGE3             AGE OF THIRD ADULT IN HH                           24
+      D5REL3             RELATIONSHIP OF THIRD ADULT IN HH                  25
+      D5SEX4             SEX OF FOURTH ADULT IN HH                          25
+      D5AGE4             AGE OF FOURTH ADULT IN HH                          25
+      D5REL4             RELATIONSHIP OF FOURTH ADULT IN HH                 26
+      D5SEX5             SEX OF FIFTH ADULT IN HH                           26
+      D5AGE5             AGE OF FIFTH ADULT IN HH                           26
+      D5REL5             RELATIONSHIP OF FIFTH ADULT IN HH                  27
+      D5SEX6             SEX OF SIXTH ADULT IN HH                           27
+      D5AGE6             AGE OF SIXTH ADULT IN HH                           27
+      D5REL6             RELATIONSHIP OF SIXTH ADULT IN HH                  28
+      D5SEX7             SEX OF SEVENTH ADULT IN HH                         28
+      D5AGE7             AGE OF SEVENTH ADULT IN HH                         28
+      D5REL7             RELATIONSHIP OF SEVENTH ADULT IN HH                29
+      D5SEX8             SEX OF EIGHTH ADULT IN HH                          29
+      D5AGE8             AGE OF EIGHTH ADULT IN HH                          29
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 2: QuestionnPage iiition D, Clinic/Hospital Initial Interview Data
+
+
+      item                                                                page
+
+      D5REL8             RELATIONSHIP OF EIGHTH ADULT IN HH                 30
+      D5SEX9             SEX OF NINTH ADULT IN HH                           30
+      D5AGE9             AGE OF NINTH ADULT IN HH                           30
+      D5REL9             RELATIONSHIP OF NINTH ADULT IN HH                  31
+      D5SEX10            SEX OF TENTH ADULT IN HH                           31
+      D5AGE10            AGE OF TENTH ADULT IN HH                           31
+      D5REL10            RELATIONSHIP OF TENTH ADULT IN HH                  32
+      D6KIDOUT           DOES R HAVE CHILDREN NOT LIVING IN HH              32
+      KIDOUT17           KIDS OUTSIDE OF HOME, 17 AND YOUNGER               32
+      KIDADULT           KIDS OUT OF THE HOUSEHOLD, 18 OR OVER              33
+      KIDOUTTO           TOTAL KIDS OUT OF HOUSEHOLD                        33
+      D7SEX1             SEX OF FIRST CHILD NOT IN HH                       33
+      D7YEAR1            AGE(YEARS) OF FIRST CHILD NOT IN HH                33
+      D7MNTH1            AGE(MONTHS) OF FIRST CHILD NOT IN HH               34
+      D7SEX2             SEX OF SECOND CHILD NOT IN HH                      34
+      D7YEAR2            AGE(YEARS) OF SECOND CHILD NOT IN HH               34
+      D7MNTH2            AGE(MONTHS) OF SECOND CHILD NOT IN HH              34
+      D7SEX3             SEX OF THIRD CHILD NOT IN HH                       35
+      D7YEAR3            AGE(YEARS) OF THIRD CHILD NOT IN HH                35
+      D7MNTH3            AGE(MONTHS) OF THIRD CHILD NOT IN HH               35
+      D7SEX4             SEX OF FOURTH CHILD NOT IN HH                      35
+      D7YEAR4            AGE(YEARS) OF FOURTH CHILD NOT IN HH               36
+      D7MNTH4            AGE(MONTHS) OF FOURTH CHILD NOT IN HH              36
+      D7SEX5             SEX OF FIFTH CHILD NOT LIVING IN HH                36
+      D7YEAR5            AGE(YEARS) OF FIFTH CHILD NOT IN HH                36
+      D7MNTH5            AGE(MONTHS) OF FIFTH CHILD NOT IN HH               37
+      D7SEX6             SEX OF SIXTH CHILD NOT LIVING IN HH                37
+      D7YEAR6            AGE(YEARS) OF SIXTH CHILD NOT IN HH                37
+      D7MNTH6            AGE(MONTHS) OF SIXTH CHILD NOT IN HH               37
+      D7SEX7             SEX OF SEVENTH CHILD NOT IN HH                     38
+      D7YEAR7            AGE(YEARS) OF SEVENTH CHILD NOT IN HH              38
+      D7MNTH7            AGE(MONTHS) OF SEVENTH CHILD NOT IN HH             38
+      D7SEX8             SEX OF EIGHTH CHILD NOT LIVING IN HH               38
+      D7YEAR8            AGE(YEARS) OF EIGHTH CHILD NOT IN HH               39
+      D7MNTH8            AGE(MONTHS) OF CHILD NOT LIVING IN HH              39
+      D7SEX9             SEX OF NINTH CHILD NOT LIVING IN HH                39
+      D7YEAR9            AGE(YEARS) OF NINTH CHILD NOT IN HH                39
+      D7MNTH9            AGE(MONTHS) OF NINTH CHILD NOT IN HH               40
+      D7SEX10            SEX OF TENTH CHILD NOT LIVING IN HH                40
+      D7YR10             AGE(YEARS) OF TENTH CHILD NOT IN HH                40
+      D7MTH10            AGE(MONTHS) OF TENTH CHILD NOT IN HH               40
+      D8JNLFT            ANYONE JOIN/LEAVE R'S HH IN PAST YEAR              41
+      D9CODE1            CHANGES IN THE HOUSEHOLD-1                         41
+      D9CODE2            CHANGES IN THE HOUSEHOLD-2                         42
+      D9CODE3            CHANGES IN THE HOUSEHOLD-3                         43
+      D9DATE1            DATE OF FIRST CHANGE IN R'S HH                     44
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 2: QuestionnaPage ivtion D, Clinic/Hospital Initial Interview Data
+
+
+      item                                                                page
+
+      D9DATE2            DATE OF SECOND CHANGE IN R'S HH                    45
+      D9DATE3            DATE OF THIRD CHANGE IN R'S HH                     45
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 2: QuestionnaiPage 1tion D, Clinic/Hospital Initial Interview Data
+
+
+      CASEID             RESPONDENT IDENTIFICATION NUMBER
+
+           Data type: numeric
+           Record/columns: 1/1-6
+
+      ________________________________________________________________________
+
+      INVIEWN            INTERVIEW NUMBER
+
+           VALUE  LABEL
+               1  Initial
+               2  First followup
+               3  Second followup
+
+           Data type: numeric
+           Record/column: 1/8
+
+      ________________________________________________________________________
+
+      ABUSED             PHYSICAL ABUSE IN LAST YEAR
+
+           VALUE  LABEL
+               1  AW
+               2  NAW
+              95  Not reliable
+
+           Data type: numeric
+           Missing-data code: 95
+           Record/column: 1/10
+
+      ________________________________________________________________________
+
+      RACER              RACE, RECODED
+
+           VALUE  LABEL
+               1  Black
+               2  Latina
+               3  Other
+               9  Multiracial or missing
+
+           Data type: numeric
+           Record/column: 1/12
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 2: QuestionnaiPage 2tion D, Clinic/Hospital Initial Interview Data
+
+
+      D1ALONE            PEOPLE LIVING IN R'S HOUSEHOLD
+
+           Including yourself, how many people are currently living in
+           your household?
+
+           VALUE  LABEL
+               1  R lives alone
+               2  More than one
+             333  R lives in group home, institution, shel
+             444  R is homeless
+             555  Refusal
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 333-999
+           Record/columns: 1/14-16
+
+      ________________________________________________________________________
+
+      NOHOME             R HOMELESS/IN A GROUP HOME/INSTITUTION
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+             999  Refusal
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/18-20
+
+      ________________________________________________________________________
+
+      RCHANY             R HAS ANY CHILDREN
+
+           VALUE  LABEL
+               0  No
+               1  Yes
+             666  Unreliable
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 666,999
+           Record/columns: 1/22-24
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 2: QuestionnaiPage 3tion D, Clinic/Hospital Initial Interview Data
+
+
+      RCHILD17           R'S CHILDREN TOTAL, 17 OR YOUNGER
+
+           VALUE  LABEL
+             999  Missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/26-28
+
+      ________________________________________________________________________
+
+      RCHILD18           R'S CHILDREN TOTAL, 18 OR OLDER
+
+           VALUE  LABEL
+             999  Missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/30-32
+
+      ________________________________________________________________________
+
+      DECEASED           NUMBER OF DECEASED CHILDREN BY [NAME]
+
+           Data type: numeric
+           Record/column: 1/34
+
+      ________________________________________________________________________
+
+      D1INHH             # OF PEOPLE IN HOUSEHOLD OTHER THAN R
+
+           VALUE  LABEL
+              99  Unreliable answer
+             555  Refusal
+             666  Homeless
+             777  Treatment center, shelter or group home
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 99-999
+           Record/columns: 1/36-38
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 2: QuestionnaiPage 4tion D, Clinic/Hospital Initial Interview Data
+
+
+      D2CHILDH           IS ONE OF THESE PEOPLE A CHILD
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+             444  R is homeless
+             555  Refusal
+             777  Living in a group home or homeless
+             999  R lives alone
+
+           Data type: numeric
+           Missing-data codes: 444-999
+           Record/columns: 1/40-42
+
+      ________________________________________________________________________
+
+      RCHTOT             TOT # R'S CHILDREN/BIRTH/ADOPTED/FOSTER
+
+           Now we want to list the people living in your household,
+           other than you. First, let's start with children. Are there any
+           children living with you now, including your own children or any
+           other children? Please include all of your own children living with
+           you, even if they are now grown up.
+
+           VALUE  LABEL
+             555  Refusal
+             666  Unreliable
+             777  Has kids not in household, no other info
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 555-999
+           Record/columns: 1/44-46
+
+      ________________________________________________________________________
+
+      D3CHIL17           ANY CHILD 17 OR YOUNGER IN HOUSEHOLD
+
+           VALUE  LABEL
+               0  No
+               1  Yes
+             555  Refusal
+             777  Treatment center or group home
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 555-9999
+           Record/columns: 1/48-51
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 2: QuestionnaiPage 5tion D, Clinic/Hospital Initial Interview Data
+
+
+      D3TOT12            # OF CHILDREN AGE 12 & UNDER IN HOUSEHLD
+
+           VALUE  LABEL
+             555  Refusal
+
+           Data type: numeric
+           Missing-data code: 555
+           Record/columns: 1/53-55
+
+      ________________________________________________________________________
+
+      D3TOT17            # OF CHILDREN AGE 13 TO 17 IN HOUSEHLD
+
+           VALUE  LABEL
+             555  Refusal
+
+           Data type: numeric
+           Missing-data code: 555
+           Record/columns: 1/57-59
+
+      ________________________________________________________________________
+
+      D3TOTAL            # OF CHILDREN AGE 17 & UNDER IN HOUSEHLD
+
+           VALUE  LABEL
+             555  Refusal
+             777  Treatment center, shelter
+
+           Data type: numeric
+           Missing-data codes: 555,777
+           Record/columns: 1/61-63
+
+      ________________________________________________________________________
+
+      D3TOTALR           CHILDREN 17 & UNDER IN HH RECODED
+
+           VALUE  LABEL
+               0  None
+               1  One
+               2  Two
+               3  Three
+               4  Four or more
+             999  No home or missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/65-67
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 2: QuestionnaiPage 6tion D, Clinic/Hospital Initial Interview Data
+
+
+      D3RCH18            R'S CHILDREN 18 AND OVER IN HOUSEHOLD
+
+           VALUE  LABEL
+             555  Refusal
+             777  Treatment center or group home
+             999  Missing or homeless
+
+           Data type: numeric
+           Missing-data codes: 555,777,999
+           Record/columns: 1/69-71
+
+      ________________________________________________________________________
+
+      D3RCHILD           R'S CHILDREN BY BIRTH IN HOUSEHOLD
+
+           VALUE  LABEL
+             555  Refusal
+             666  Unreliable answer
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 555-999
+           Record/columns: 1/73-75
+
+      ________________________________________________________________________
+
+      D3RCHILA           R'S ADOPTED CHILDREN IN HOUSEHOLD
+
+           VALUE  LABEL
+             555  Refusal
+             666  Unreliable answer
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 555-999
+           Record/columns: 1/77-79
+
+      ________________________________________________________________________
+
+      D3RCHILF           R'S FOSTER CHILDREN IN HOUSEHOLD
+
+           VALUE  LABEL
+             555  Refusal
+             666  Unreliable answer
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 555-999
+           Record/columns: 1/81-83
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 2: QuestionnaiPage 7tion D, Clinic/Hospital Initial Interview Data
+
+
+      D3RCHILT           TOTAL R'S CHILDREN IN HOUSEHOLD, ANY AGE
+
+           VALUE  LABEL
+             555  Refusal
+             666  Unreliable answer
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 555-999
+           Record/columns: 1/85-87
+
+      ________________________________________________________________________
+
+      D3SEX1             SEX OF 1ST CHILD LIVING IN HOUSEHOLD
+
+           VALUE  LABEL
+               1  Male
+               2  Female
+             666  Unreliable answer
+             777  N/A
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 666-9999
+           Record/columns: 1/89-92
+
+      ________________________________________________________________________
+
+      D3YEAR1            AGE(YRS) OF 1ST CHILD LIVING IN HH
+
+           VALUE  LABEL
+             666  Unreliable answer
+             777  N/A
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 666-9999
+           Record/columns: 1/94-97
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 2: QuestionnaiPage 8tion D, Clinic/Hospital Initial Interview Data
+
+
+      D3MNTH1            AGE(MONTHS) OF 1ST CHILD LIVING IN HH
+
+           VALUE  LABEL
+             666  Unreliable answer
+             777  N/A
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 666-9999
+           Record/columns: 1/99-102
+
+      ________________________________________________________________________
+
+      D3REL1             RELATIONSHIP OF FIRST CHILD LIVING IN HH
+
+           VALUE  LABEL
+               1  Child by birth
+               2  Adopted child
+               3  Foster child
+               4  Child of other relative
+               5  Other
+               6  Grandchild
+             666  Unreliable answer
+             777  N/A
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 666-9999
+           Record/columns: 1/104-107
+
+      ________________________________________________________________________
+
+      D3SEX2             SEX OF SECOND CHILD LIVING IN R'S HH
+
+           VALUE  LABEL
+               1  Male
+               2  Female
+             666  Unreliable answer
+             777  N/A
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 666-9999
+           Record/columns: 1/109-112
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 2: QuestionnaiPage 9tion D, Clinic/Hospital Initial Interview Data
+
+
+      D3YEAR2            AGE(YEARS) OF SECOND CHILD
+
+           VALUE  LABEL
+             666  Unreliable answer
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 666-9999
+           Record/columns: 1/114-117
+
+      ________________________________________________________________________
+
+      D3MNTH2            AGE(MONTHS) OF SECOND CHILD
+
+           VALUE  LABEL
+             666  Unreliable answer
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 666-9999
+           Record/columns: 1/119-122
+
+      ________________________________________________________________________
+
+      D3REL2             RELATIONSHIP OF SECOND CHILD IN HH
+
+           VALUE  LABEL
+               1  Child by birth
+               2  Adopted child
+               3  Foster child
+               4  Child of relative
+               5  Other
+             666  Unreliable answer
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 666-9999
+           Record/columns: 1/124-127
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 2: QuestionnaPage 10tion D, Clinic/Hospital Initial Interview Data
+
+
+      D3SEX3             SEX OF THIRD CHILD IN HH
+
+           VALUE  LABEL
+               1  Male
+               2  Female
+             666  Unreliable answer
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 666-9999
+           Record/columns: 1/129-132
+
+      ________________________________________________________________________
+
+      D3YEAR3            AGE(YEARS) OF THIRD CHILD
+
+           VALUE  LABEL
+             666  Unreliable answer
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 666-9999
+           Record/columns: 1/134-137
+
+      ________________________________________________________________________
+
+      D3MNTH3            AGE(MONTHS) OF THIRD CHILD
+
+           VALUE  LABEL
+             666  Unreliable answer
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 666-9999
+           Record/columns: 1/139-142
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 2: QuestionnaPage 11tion D, Clinic/Hospital Initial Interview Data
+
+
+      D3REL3             RELATIONSHIP OF THIRD CHILD IN HH
+
+           VALUE  LABEL
+               1  Child by birth
+               2  Adopted child
+               3  Foster child
+               4  Child of other relative
+               5  Other
+             666  Unreliable answer
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 666-9999
+           Record/columns: 1/144-147
+
+      ________________________________________________________________________
+
+      D3SEX4             SEX OF FOURTH CHILD IN HH
+
+           VALUE  LABEL
+               1  Male
+               2  Female
+             666  Unreliable answer
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 666-9999
+           Record/columns: 1/149-152
+
+      ________________________________________________________________________
+
+      D3YEAR4            AGE(YEARS) OF FOURTH CHILD
+
+           VALUE  LABEL
+             666  Unreliable answer
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 666-9999
+           Record/columns: 1/154-157
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 2: QuestionnaPage 12tion D, Clinic/Hospital Initial Interview Data
+
+
+      D3MNTH4            AGE(MONTHS) OF FOURTH CHILD
+
+           VALUE  LABEL
+             666  Unreliable answer
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 666-9999
+           Record/columns: 1/159-162
+
+      ________________________________________________________________________
+
+      D3REL4             RELATIONSHIP OF FOURTH CHILD IN HH
+
+           VALUE  LABEL
+               1  Child by birth
+               2  Adopted child
+               3  Foster child
+               4  Child of other relative
+               5  Other
+             666  Unreliable answer
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 666-9999
+           Record/columns: 1/164-167
+
+      ________________________________________________________________________
+
+      D3SEX5             SEX OF FIFTH CHILD LIVING IN HH
+
+           VALUE  LABEL
+               1  Male
+               2  Female
+             666  Unreliable answer
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 666-9999
+           Record/columns: 1/169-172
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 2: QuestionnaPage 13tion D, Clinic/Hospital Initial Interview Data
+
+
+      D3YEAR5            AGE(YEARS) OF FIFTH CHILD
+
+           VALUE  LABEL
+             666  Unreliable answer
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 666-9999
+           Record/columns: 1/174-177
+
+      ________________________________________________________________________
+
+      D3MNTH5            AGE(MONTHS) OF FIFTH CHILD LIVING IN HH
+
+           VALUE  LABEL
+             666  Unreliable answer
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 666-9999
+           Record/columns: 1/179-182
+
+      ________________________________________________________________________
+
+      D3REL5             RELATIONSHIP OF FIFTH CHILD IN HH
+
+           VALUE  LABEL
+               1  Child by birth
+               2  Adopted child
+               3  Foster child
+               4  Child of other relative
+               5  Other
+             666  Unreliable answer
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 666-9999
+           Record/columns: 1/184-187
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 2: QuestionnaPage 14tion D, Clinic/Hospital Initial Interview Data
+
+
+      D3SEX6             SEX OF SIXTH CHILD LIVING IN HH
+
+           VALUE  LABEL
+               1  Male
+               2  Female
+             666  Unreliable answer
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 666-9999
+           Record/columns: 1/189-192
+
+      ________________________________________________________________________
+
+      D3YEAR6            AGE(YEARS) OF SIXTH CHILD IN HH
+
+           VALUE  LABEL
+             666  Unreliable answer
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 666-9999
+           Record/columns: 1/194-197
+
+      ________________________________________________________________________
+
+      D3MNTH6            AGE(MONTHS) OF SIXTH CHILD IN HH
+
+           VALUE  LABEL
+             666  Unreliable answer
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 666-9999
+           Record/columns: 1/199-202
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 2: QuestionnaPage 15tion D, Clinic/Hospital Initial Interview Data
+
+
+      D3REL6             RELATIONSHIP OF SEVENTH CHILD IN HH
+
+           VALUE  LABEL
+               1  Child by birth
+               2  Adopted child
+               3  Foster child
+               4  Child of other relative
+               5  Other
+             666  Unreliable answer
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 666-9999
+           Record/columns: 1/204-207
+
+      ________________________________________________________________________
+
+      D3SEX7             SEX OF SEVENTH CHILD IN HH
+
+           VALUE  LABEL
+               1  Male
+               2  Female
+             666  Unreliable answer
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 666-9999
+           Record/columns: 1/209-212
+
+      ________________________________________________________________________
+
+      D3YEAR7            AGE(YEARS) OF CHILD LIVING IN HH
+
+           VALUE  LABEL
+             666  Unreliable answer
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 666-9999
+           Record/columns: 1/214-217
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 2: QuestionnaPage 16tion D, Clinic/Hospital Initial Interview Data
+
+
+      D3MNTH7            AGE(MONTHS) OF SEVENTH CHILD IN HH
+
+           VALUE  LABEL
+             666  Unreliable answer
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 666-9999
+           Record/columns: 1/219-222
+
+      ________________________________________________________________________
+
+      D3REL7             RELATIONSHIP OF SEVENTH CHILD IN HH
+
+           VALUE  LABEL
+               1  Child by birth
+               2  Adopted child
+               3  Foster child
+               4  Child of other relative
+               5  Other
+             666  Unreliable answer
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 666-9999
+           Record/columns: 1/224-227
+
+      ________________________________________________________________________
+
+      D3SEX8             SEX OF EIGHTH CHILD IN HH
+
+           VALUE  LABEL
+               1  Male
+               2  Female
+             666  Unreliable answer
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 666-9999
+           Record/columns: 1/229-232
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 2: QuestionnaPage 17tion D, Clinic/Hospital Initial Interview Data
+
+
+      D3YEAR8            AGE(YEARS) OF EIGHTH CHILD
+
+           VALUE  LABEL
+             666  Unreliable answer
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 666-9999
+           Record/columns: 1/234-237
+
+      ________________________________________________________________________
+
+      D3MNTH8            AGE(MONTHS) OF EIGHTH CHILD IN HH
+
+           VALUE  LABEL
+             666  Unreliable answer
+             888  Missing
+             999  Don't know
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 666-9999
+           Record/columns: 1/239-242
+
+      ________________________________________________________________________
+
+      D3REL8             RELATION OF EIGHTH CHILD LIVING IN HH
+
+           VALUE  LABEL
+               1  Child by birth
+               2  Adopted child
+               3  Foster child
+               4  Child of other relative
+               5  Other
+             666  Unreliable answer
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 666-9999
+           Record/columns: 1/244-247
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 2: QuestionnaPage 18tion D, Clinic/Hospital Initial Interview Data
+
+
+      D3SEX9             SEX OF NINTH CHILD IN HH
+
+           VALUE  LABEL
+               1  Male
+               2  Female
+             666  Unreliable answer
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 666-9999
+           Record/columns: 1/249-252
+
+      ________________________________________________________________________
+
+      D3YEAR9            AGE(YEARS) OF NINTH CHILD LIVING IN HH
+
+           VALUE  LABEL
+             666  Unreliable answer
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 666-9999
+           Record/columns: 1/254-257
+
+      ________________________________________________________________________
+
+      D3MNTH9            AGE(MONTHS) OF NINTH CHILD IN HH
+
+           VALUE  LABEL
+             666  Unreliable answer
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 666-9999
+           Record/columns: 1/259-262
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 2: QuestionnaPage 19tion D, Clinic/Hospital Initial Interview Data
+
+
+      D3REL9             RELATIONSHIP OF NINTH CHILD IN HH
+
+           VALUE  LABEL
+               1  Child by birth
+               2  Adopted child
+               3  Foster child
+               4  Child of other relative
+               5  Other
+             666  Unreliable answer
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 666-9999
+           Record/columns: 1/264-267
+
+      ________________________________________________________________________
+
+      D3SEX10            SEX OF TENTH CHILD IN HH
+
+           VALUE  LABEL
+               1  Child by birth
+               2  Adopted child
+               3  Foster child
+               4  Child of other relative
+               5  Other
+             666  Unreliable answer
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 666-9999
+           Record/columns: 1/269-272
+
+      ________________________________________________________________________
+
+      D3YR10             AGE(YEARS) OF TENTH CHILD IN HH
+
+           VALUE  LABEL
+             666  Unreliable answer
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 666-9999
+           Record/columns: 1/274-277
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 2: QuestionnaPage 20tion D, Clinic/Hospital Initial Interview Data
+
+
+      D3MTH10            AGE(MONTHS) OF TENTH CHILD LIVING IN HH
+
+           VALUE  LABEL
+             666  Unreliable answer
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 666-9999
+           Record/columns: 1/279-282
+
+      ________________________________________________________________________
+
+      D3REL10            RELATIONSHIP OF TENTH CHILD LIVING IN HH
+
+           VALUE  LABEL
+               1  Child by birth
+               2  Adopted child
+               3  Foster child
+               4  Child of other relative
+               5  Other
+             666  Unreliable answer
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 666-9999
+           Record/columns: 1/284-287
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 2: QuestionnaPage 21tion D, Clinic/Hospital Initial Interview Data
+
+
+      D4ADULT            ANY OTHER ADULTS IN R'S HOUSEHOLD
+
+           Now let's list the rest of the people living in your
+           household.  Aside from you, are there any other adults living in
+           your home?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+             333  Lives in group home
+             444  R is homeless
+             555  Refusal
+             777  N/A
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 333-999
+           Record/columns: 1/289-291
+
+      ________________________________________________________________________
+
+      D4NADULT           NUMBER OF OTHER ADULTS LIVING IN R'S HH
+
+           Now we want to list the people living in your household,
+           other than you. How many other adults are living in your home?
+
+           VALUE  LABEL
+             333  Lives in group home
+             444  R is homeless
+             555  Refusal
+             777  N/A
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 333-9999
+           Record/columns: 1/293-296
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 2: QuestionnaPage 22tion D, Clinic/Hospital Initial Interview Data
+
+
+      LIVEWITH           [NAME] LIVE IN SAME HOUSEHOLD WITH R
+
+           VALUE  LABEL
+               0  No
+               1  Yes
+               2  R lives with an intimate partner, but no
+             555  Refusal
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 555-999
+           Record/columns: 1/298-300
+
+      ________________________________________________________________________
+
+      D5SEX1             SEX OF FIRST ADULT IN HH
+
+           VALUE  LABEL
+               1  Male
+               2  Female
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/302-305
+
+      ________________________________________________________________________
+
+      D5AGE1             AGE OF FIRST ADULT IN HH
+
+           VALUE  LABEL
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/307-310
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 2: QuestionnaPage 23tion D, Clinic/Hospital Initial Interview Data
+
+
+      D5REL1             RELATIONSHIP OF FIRST ADULT IN HH
+
+           VALUE  LABEL
+               1  Intimate partner (c1)
+               2  Another intimate partner
+               3  Adult relative
+               4  Other adult
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/312-315
+
+      ________________________________________________________________________
+
+      D5SEX2             SEX OF SECOND ADULT IN HH
+
+           VALUE  LABEL
+               1  Male
+               2  Female
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/317-320
+
+      ________________________________________________________________________
+
+      D5AGE2             AGE OF SECOND ADULT IN HH
+
+           VALUE  LABEL
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/322-325
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 2: QuestionnaPage 24tion D, Clinic/Hospital Initial Interview Data
+
+
+      D5REL2             RELATIONSHIP OF SECOND ADULT IN HH
+
+           VALUE  LABEL
+               1  Intimate partner (c1)
+               2  Another intimate partner
+               3  Adult relative of r
+               4  Other adult
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/327-330
+
+      ________________________________________________________________________
+
+      D5SEX3             SEX OF THIRD ADULT IN HH
+
+           VALUE  LABEL
+               1  Male
+               2  Female
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/332-335
+
+      ________________________________________________________________________
+
+      D5AGE3             AGE OF THIRD ADULT IN HH
+
+           VALUE  LABEL
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/337-340
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 2: QuestionnaPage 25tion D, Clinic/Hospital Initial Interview Data
+
+
+      D5REL3             RELATIONSHIP OF THIRD ADULT IN HH
+
+           VALUE  LABEL
+               1  Intimate partner (c1)
+               2  Another intimate partner
+               3  Adult relative of r
+               4  Other adult
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/342-345
+
+      ________________________________________________________________________
+
+      D5SEX4             SEX OF FOURTH ADULT IN HH
+
+           VALUE  LABEL
+               1  Male
+               2  Female
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/347-350
+
+      ________________________________________________________________________
+
+      D5AGE4             AGE OF FOURTH ADULT IN HH
+
+           VALUE  LABEL
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/352-355
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 2: QuestionnaPage 26tion D, Clinic/Hospital Initial Interview Data
+
+
+      D5REL4             RELATIONSHIP OF FOURTH ADULT IN HH
+
+           VALUE  LABEL
+               1  Intimate partner (c1)
+               2  Another intimate partner
+               3  Adult relative of r
+               4  Other adult
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/357-360
+
+      ________________________________________________________________________
+
+      D5SEX5             SEX OF FIFTH ADULT IN HH
+
+           VALUE  LABEL
+               1  Male
+               2  Female
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/362-365
+
+      ________________________________________________________________________
+
+      D5AGE5             AGE OF FIFTH ADULT IN HH
+
+           VALUE  LABEL
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/367-370
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 2: QuestionnaPage 27tion D, Clinic/Hospital Initial Interview Data
+
+
+      D5REL5             RELATIONSHIP OF FIFTH ADULT IN HH
+
+           VALUE  LABEL
+               1  Intimate partner (c1)
+               2  Another intimate partner
+               3  Adult relative of r
+               4  Other adult
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/372-375
+
+      ________________________________________________________________________
+
+      D5SEX6             SEX OF SIXTH ADULT IN HH
+
+           VALUE  LABEL
+               1  Male
+               2  Female
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/377-380
+
+      ________________________________________________________________________
+
+      D5AGE6             AGE OF SIXTH ADULT IN HH
+
+           VALUE  LABEL
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/382-385
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 2: QuestionnaPage 28tion D, Clinic/Hospital Initial Interview Data
+
+
+      D5REL6             RELATIONSHIP OF SIXTH ADULT IN HH
+
+           VALUE  LABEL
+               1  Intimate partner (c1)
+               2  Another intimate partner
+               3  Adult relative of r
+               4  Other adult
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/387-390
+
+      ________________________________________________________________________
+
+      D5SEX7             SEX OF SEVENTH ADULT IN HH
+
+           VALUE  LABEL
+               1  Male
+               2  Female
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/392-395
+
+      ________________________________________________________________________
+
+      D5AGE7             AGE OF SEVENTH ADULT IN HH
+
+           VALUE  LABEL
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/397-400
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 2: QuestionnaPage 29tion D, Clinic/Hospital Initial Interview Data
+
+
+      D5REL7             RELATIONSHIP OF SEVENTH ADULT IN HH
+
+           VALUE  LABEL
+               1  Intimate partner (c1)
+               2  Another intimate partner
+               3  Adult relative of respondent
+               4  Other adult
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/402-405
+
+      ________________________________________________________________________
+
+      D5SEX8             SEX OF EIGHTH ADULT IN HH
+
+           VALUE  LABEL
+               1  Male
+               2  Female
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/407-410
+
+      ________________________________________________________________________
+
+      D5AGE8             AGE OF EIGHTH ADULT IN HH
+
+           VALUE  LABEL
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/412-415
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 2: QuestionnaPage 30tion D, Clinic/Hospital Initial Interview Data
+
+
+      D5REL8             RELATIONSHIP OF EIGHTH ADULT IN HH
+
+           VALUE  LABEL
+               1  Intimate partner (c1)
+               2  Another intimate partner
+               3  Adult relative of respondent
+               4  Other adult
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/417-420
+
+      ________________________________________________________________________
+
+      D5SEX9             SEX OF NINTH ADULT IN HH
+
+           VALUE  LABEL
+               1  Male
+               2  Female
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/422-425
+
+      ________________________________________________________________________
+
+      D5AGE9             AGE OF NINTH ADULT IN HH
+
+           VALUE  LABEL
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/427-430
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 2: QuestionnaPage 31tion D, Clinic/Hospital Initial Interview Data
+
+
+      D5REL9             RELATIONSHIP OF NINTH ADULT IN HH
+
+           VALUE  LABEL
+               1  Intimate partner (c1)
+               2  Another intimate partner
+               3  Adult relative of r
+               4  Other adult
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/432-435
+
+      ________________________________________________________________________
+
+      D5SEX10            SEX OF TENTH ADULT IN HH
+
+           VALUE  LABEL
+               1  Male
+               2  Female
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/437-440
+
+      ________________________________________________________________________
+
+      D5AGE10            AGE OF TENTH ADULT IN HH
+
+           VALUE  LABEL
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/442-445
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 2: QuestionnaPage 32tion D, Clinic/Hospital Initial Interview Data
+
+
+      D5REL10            RELATIONSHIP OF TENTH ADULT IN HH
+
+           VALUE  LABEL
+               1  Intimate partner (c1)
+               2  Another intimate partner
+               3  Adult relative of r
+               4  Other adult
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/447-450
+
+      ________________________________________________________________________
+
+      D6KIDOUT           DOES R HAVE CHILDREN NOT LIVING IN HH
+
+           Do you have any children we have not mentioned?  Children who
+           are not living in the same household with you now?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/452-455
+
+      ________________________________________________________________________
+
+      KIDOUT17           KIDS OUTSIDE OF HOME, 17 AND YOUNGER
+
+           VALUE  LABEL
+             999  Missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/457-459
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 2: QuestionnaPage 33tion D, Clinic/Hospital Initial Interview Data
+
+
+      KIDADULT           KIDS OUT OF THE HOUSEHOLD, 18 OR OVER
+
+           VALUE  LABEL
+             999  Missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/461-463
+
+      ________________________________________________________________________
+
+      KIDOUTTO           TOTAL KIDS OUT OF HOUSEHOLD
+
+           VALUE  LABEL
+             999  Missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/465-467
+
+      ________________________________________________________________________
+
+      D7SEX1             SEX OF FIRST CHILD NOT IN HH
+
+           VALUE  LABEL
+               1  Male
+               2  Female
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/469-472
+
+      ________________________________________________________________________
+
+      D7YEAR1            AGE(YEARS) OF FIRST CHILD NOT IN HH
+
+           VALUE  LABEL
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/474-477
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 2: QuestionnaPage 34tion D, Clinic/Hospital Initial Interview Data
+
+
+      D7MNTH1            AGE(MONTHS) OF FIRST CHILD NOT IN HH
+
+           VALUE  LABEL
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/479-482
+
+      ________________________________________________________________________
+
+      D7SEX2             SEX OF SECOND CHILD NOT IN HH
+
+           VALUE  LABEL
+               1  Male
+               2  Female
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/484-487
+
+      ________________________________________________________________________
+
+      D7YEAR2            AGE(YEARS) OF SECOND CHILD NOT IN HH
+
+           VALUE  LABEL
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/489-492
+
+      ________________________________________________________________________
+
+      D7MNTH2            AGE(MONTHS) OF SECOND CHILD NOT IN HH
+
+           VALUE  LABEL
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/494-497
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 2: QuestionnaPage 35tion D, Clinic/Hospital Initial Interview Data
+
+
+      D7SEX3             SEX OF THIRD CHILD NOT IN HH
+
+           VALUE  LABEL
+               1  Male
+               2  Female
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/499-502
+
+      ________________________________________________________________________
+
+      D7YEAR3            AGE(YEARS) OF THIRD CHILD NOT IN HH
+
+           VALUE  LABEL
+             888  Don't know
+             999  Missing
+           99999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-99999
+           Record/columns: 1/504-508
+
+      ________________________________________________________________________
+
+      D7MNTH3            AGE(MONTHS) OF THIRD CHILD NOT IN HH
+
+           VALUE  LABEL
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/510-513
+
+      ________________________________________________________________________
+
+      D7SEX4             SEX OF FOURTH CHILD NOT IN HH
+
+           VALUE  LABEL
+               1  Male
+               2  Female
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/515-518
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 2: QuestionnaPage 36tion D, Clinic/Hospital Initial Interview Data
+
+
+      D7YEAR4            AGE(YEARS) OF FOURTH CHILD NOT IN HH
+
+           VALUE  LABEL
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/520-523
+
+      ________________________________________________________________________
+
+      D7MNTH4            AGE(MONTHS) OF FOURTH CHILD NOT IN HH
+
+           VALUE  LABEL
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/525-528
+
+      ________________________________________________________________________
+
+      D7SEX5             SEX OF FIFTH CHILD NOT LIVING IN HH
+
+           VALUE  LABEL
+               1  Male
+               2  Female
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/530-533
+
+      ________________________________________________________________________
+
+      D7YEAR5            AGE(YEARS) OF FIFTH CHILD NOT IN HH
+
+           VALUE  LABEL
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/535-538
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 2: QuestionnaPage 37tion D, Clinic/Hospital Initial Interview Data
+
+
+      D7MNTH5            AGE(MONTHS) OF FIFTH CHILD NOT IN HH
+
+           VALUE  LABEL
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/540-543
+
+      ________________________________________________________________________
+
+      D7SEX6             SEX OF SIXTH CHILD NOT LIVING IN HH
+
+           VALUE  LABEL
+               1  Male
+               2  Female
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/545-548
+
+      ________________________________________________________________________
+
+      D7YEAR6            AGE(YEARS) OF SIXTH CHILD NOT IN HH
+
+           VALUE  LABEL
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/550-553
+
+      ________________________________________________________________________
+
+      D7MNTH6            AGE(MONTHS) OF SIXTH CHILD NOT IN HH
+
+           VALUE  LABEL
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/555-558
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 2: QuestionnaPage 38tion D, Clinic/Hospital Initial Interview Data
+
+
+      D7SEX7             SEX OF SEVENTH CHILD NOT IN HH
+
+           VALUE  LABEL
+               1  Male
+               2  Female
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/560-563
+
+      ________________________________________________________________________
+
+      D7YEAR7            AGE(YEARS) OF SEVENTH CHILD NOT IN HH
+
+           VALUE  LABEL
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/565-568
+
+      ________________________________________________________________________
+
+      D7MNTH7            AGE(MONTHS) OF SEVENTH CHILD NOT IN HH
+
+           VALUE  LABEL
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/570-573
+
+      ________________________________________________________________________
+
+      D7SEX8             SEX OF EIGHTH CHILD NOT LIVING IN HH
+
+           VALUE  LABEL
+               1  Male
+               2  Female
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/575-578
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 2: QuestionnaPage 39tion D, Clinic/Hospital Initial Interview Data
+
+
+      D7YEAR8            AGE(YEARS) OF EIGHTH CHILD NOT IN HH
+
+           VALUE  LABEL
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/580-583
+
+      ________________________________________________________________________
+
+      D7MNTH8            AGE(MONTHS) OF CHILD NOT LIVING IN HH
+
+           VALUE  LABEL
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/585-588
+
+      ________________________________________________________________________
+
+      D7SEX9             SEX OF NINTH CHILD NOT LIVING IN HH
+
+           VALUE  LABEL
+               1  Male
+               2  Female
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/590-593
+
+      ________________________________________________________________________
+
+      D7YEAR9            AGE(YEARS) OF NINTH CHILD NOT IN HH
+
+           VALUE  LABEL
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/595-598
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 2: QuestionnaPage 40tion D, Clinic/Hospital Initial Interview Data
+
+
+      D7MNTH9            AGE(MONTHS) OF NINTH CHILD NOT IN HH
+
+           VALUE  LABEL
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/600-603
+
+      ________________________________________________________________________
+
+      D7SEX10            SEX OF TENTH CHILD NOT LIVING IN HH
+
+           VALUE  LABEL
+               1  Male
+               2  Female
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/605-608
+
+      ________________________________________________________________________
+
+      D7YR10             AGE(YEARS) OF TENTH CHILD NOT IN HH
+
+           VALUE  LABEL
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/610-613
+
+      ________________________________________________________________________
+
+      D7MTH10            AGE(MONTHS) OF TENTH CHILD NOT IN HH
+
+           VALUE  LABEL
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/615-618
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 2: QuestionnaPage 41tion D, Clinic/Hospital Initial Interview Data
+
+
+      D8JNLFT            ANYONE JOIN/LEAVE R'S HH IN PAST YEAR
+
+           Has anyone joined or left your household in the past year?
+           For example, was a new baby born, did someone come to live with you,
+           or did someone move out or pass away?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+             777  N/A
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 777-999
+           Record/columns: 1/620-622
+
+      ________________________________________________________________________
+
+      D9CODE1            CHANGES IN THE HOUSEHOLD-1
+
+           Please describe briefly what changed.
+
+           VALUE  LABEL
+               1  R and intimate partner began living toge
+               2  R &  intimate partner stopped living tog
+               3  Someone else joined the household
+               4  Someone else left the household
+               5  R's baby born
+               6  Someone died
+               7  R moved
+               8  R went to treatment center/ shelter
+               9  R went to jail
+              10  R got out of jail
+              11  Children removed (DCFS)
+              12  Child adopted
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/624-627
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 2: QuestionnaPage 42tion D, Clinic/Hospital Initial Interview Data
+
+
+      D9CODE2            CHANGES IN THE HOUSEHOLD-2
+
+           Please describe briefly what changed.
+
+           VALUE  LABEL
+               1  R and intimate partner began living toge
+               2  R &  intimate partner stopped living tog
+               3  Someone else joined the household
+               4  Someone else left the household
+               5  R's baby born
+               6  Someone died
+               7  R moved
+               8  R went to treatment center/ shelter
+               9  R went to jail
+              10  R got out of jail
+              11  Children removed (DCFS)
+             666  Unreliable answer
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 666-9999
+           Record/columns: 1/629-632
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 2: QuestionnaPage 43tion D, Clinic/Hospital Initial Interview Data
+
+
+      D9CODE3            CHANGES IN THE HOUSEHOLD-3
+
+           Please describe briefly what changed.
+
+           VALUE  LABEL
+               1  R and intimate partner began living toge
+               2  R &  intimate partner stopped living tog
+               3  Someone else joined the household
+               4  Someone else left the household
+               5  R's baby born
+               6  Someone died
+               7  R moved
+               8  R went to treatment center/ shelter
+               9  R went to jail
+              10  R got out of jail
+              11  Children removed (DCFS)
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/634-637
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 2: QuestionnaPage 44tion D, Clinic/Hospital Initial Interview Data
+
+
+      D9DATE1            DATE OF FIRST CHANGE IN R'S HH
+
+           VALUE  LABEL
+               2  APR 97
+               3  APR 98
+               4  AUG 96
+               5  AUG 97
+               6  DEC 96
+               7  DEC 97
+               8  FEB 97
+               9  FEB 98
+              10  JAN 97
+              11  JAN 98
+              12  JUL 96
+              13  JUL 97
+              14  JUN 96
+              15  JUN 97
+              16  JUN 98
+              17  MAR 97
+              18  MAR 98
+              19  MAY 97
+              20  NOV 96
+              21  NOV 97
+              22  OCT 96
+              23  OCT 97
+              24  SEP 96
+              25  SEP 97
+              26  Missing
+
+           Data type: numeric
+           Missing-data codes: 1,26
+           Record/columns: 1/639-640
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 2: QuestionnaPage 45tion D, Clinic/Hospital Initial Interview Data
+
+
+      D9DATE2            DATE OF SECOND CHANGE IN R'S HH
+
+           VALUE  LABEL
+               2  APR 98
+               3  AUG 97
+               4  DEC 97
+               5  DEC 98
+               6  FEB 97
+               7  FEB 98
+               8  JAN 97
+               9  JAN 98
+              10  JUL 96
+              11  JUL 97
+              12  JUN 97
+              13  MAR 97
+              14  MAR 98
+              15  MAY 97
+              16  NOV 97
+              17  OCT 19
+              18  OCT 97
+              19  SEP 97
+              20  Missing
+
+           Data type: numeric
+           Missing-data codes: 1,20
+           Record/columns: 1/642-643
+
+      ________________________________________________________________________
+
+      D9DATE3            DATE OF THIRD CHANGE IN R'S HH
+
+           VALUE  LABEL
+               2  AUG 97
+               3  FEB 97
+               4  JUL 96
+               5  JUL 97
+               6  JUN 97
+               7  MAR 97
+               8  NOV 97
+               9  OCT 97
+              10  SEP 97
+
+           Data type: numeric
+           Missing-data code: 1
+           Record/columns: 1/645-646
+
+
+
+
+
+
+
+                                    May 28, 2019

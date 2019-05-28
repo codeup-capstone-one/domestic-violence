@@ -1,0 +1,2480 @@
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                      CODEBOOK
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 4: Questionnaire Sections G Through K, Clinic/Hospital Initial Interview Data
+                                          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 4: QuestionnaiPage itions G Through K, Clinic/Hospital Initial Interview Data
+
+
+                                      CONTENTS
+
+
+      item                                                                page
+
+      CASEID             RESPONDENT IDENTIFICATION NUMBER                    1
+      INVIEWN            INTERVIEW NUMBER                                    1
+      ABUSED             PHYSICALLY ABUSED IN LAST YEAR                      1
+      AWSTATUS           WHY CASES ARE CODED NAW/YES TO ANY J/H19            1
+      RACER              RACE, RECODED                                       2
+      G1GUNS             ANY GUNS IN R'S HOME                                2
+      G1NUMBER           HOW MANY GUNS ARE IN R'S HOME                       2
+      G2HNDGUN           ANY OF THE GUNS IN R'S HOME HANDGUNS                3
+      G2NUMBER           HOW MANY HANDGUNS ARE IN R'S HOME                   3
+      GUNS               GUNS IN HOME-INIT INTRVW-G1,G2,G3 SUMMRY            3
+      GUNSR              LOADED GUN IN THE HOUSE                             4
+      G3LOADED           ANY OF THE GUNS KEPT LOADED IN THE HOME             4
+      G3HGLOAD           ARE ANY OF THE LOADED GUNS HANDGUNS                 4
+      G4ACQUIR           WHO(1) ACQUIRED THE GUNS IN R'S HOME                5
+      G4ACQUR2           WHO(2) ACQUIRED THE GUNS IN R'S HOME                5
+      G4ACQUR3           WHO(3) ACQUIRED THE GUNS IN R'S HOME                6
+      G5CHANGE           GUNS IN R'S HOME CHANGED IN THE PAST YR             6
+      G6CODE1            CHANGES IN THE GUNS IN R'S HOME                     7
+      G6DATE1            DATE OF GUN CHANGE(1)                               7
+      H1JEALUS           INTIMATE PARTNER JEALOUS IN PAST YR                 8
+      H2LIMIT            INTIMATE PARTNER LIMIT CONTACT W/ FAMILY            8
+      H3KNOWNG           INT PART INSISTED ON KNOWING WHERE R WAS            9
+      H4NAMES            INT PART CALL R NAMES/PUT R DOWN                    9
+      H5PREVNT           INT PART HID FAMILY INCOME FROM R                  10
+      H6WEAPON           INT PART SCARED R W/ WEAPON                        10
+      H7HRMPET           INT PART THREATENED TO HARM PET                    11
+      H7PURPSE           INT PART HURT PET ON PURPOSE                       11
+      H8KILSLF           INT PARTNER THREATEN TO KILL HIMSELF               12
+      H9CALL             INT PARTNER CALL AND HUNG UP ON R                  12
+      H9NTIMES           FREQ OF HANG UP CALLS IN PAST MONTH                13
+      H10VCMAL           INT PART LEFT THREATENING MESSAGES                 13
+      H10NTIME           FREQ OF THREATENING MESSAGES IN PAST MO.           14
+      H11FIRED           INT PART TRIED TO GET R FIRED FROM WORK            14
+      H12FOLLW           INT PART FOLLOWED R                                15
+      H12NTIME           FREQ INT PART FOLLOWED R IN PAST MONTH             15
+      H13CAR             INT PART SAT IN CAR/STOOD OUTSIDE HOME             16
+      H13NTIME           FREQ INT PART SAT IN CAR/STOOD OUTSIDE             16
+      H14DSTRY           INT PART DESTROYED R'S BELONGINGS                  17
+      H15FRGHT           INT PART FRIGHTENED/THREATENED FAMILY              17
+      H16KIDS            INT PART THREATEN TO HARM KIDS IF R LEFT           18
+      H17TAKID           INT PART THREATEN TO TAKE KIDS IF R LEFT           18
+      H18NOTES           INT PART LEFT NOTES ON R'S CAR                     19
+      H18NTIME           FREQ INT PART LEFT NOTES ON CAR                    19
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 4: QuestionnaPage iitions G Through K, Clinic/Hospital Initial Interview Data
+
+
+      item                                                                page
+
+      H19KLYOU           INT PART THREATENED TO KILL R                      20
+      H20SHWUP           INT PART SHOWED UP W/OUT WARNING                   20
+      H20NTIME           FREQ INT PART SHOWED UP IN PAST MO.                21
+      H21SEX             INT PART FORCE R INTO SEX                          21
+      H22FREND           INT PART FRIGHTEN/THREATEN FRIENDS                 22
+      H23BILLS           INT PART AGREED TO BUT NEVER PAID BILLS            22
+      H24REPRT           INT PART REPORT R'S DRUG USE TO AUTHOR.            23
+      H25DIVRC           INT PART REFUSED TO GRANT R A DIVORCE              23
+      J1HIT              INT PART THREATENED TO HIT R                       24
+      J2THROWN           INT PART THROW ANYTHING AT R                       24
+      J3PUSH             INT PART PUSHED/GRABBED/SHOVED R                   25
+      J4SLAP             INT PART SLAPPED R                                 25
+      J5KICK             INT PART KICKED/BIT/HIT WITH FIST                  26
+      J6OBJECT           INT PART HIT R W/ AN OBJECT                        26
+      J7BEAT             INT PART BEAT R REPEATEDLY                         27
+      J8CHOKE            INT PART CHOKED R                                  27
+      J9KNIFE            INT PART THREATENED R W/ KNIFE                     28
+      J10GUN             INT PART THREATENED R W/ GUN                       28
+      J11SEX             INT PART FORCE R INTO SEXUAL ACTIVITY              29
+      COUNTJ_1           # OF YES IN SEC J INITIAL INTERVIEW                29
+      K1MEMORY           REPEATED DISTURBING MEMORIES                       30
+      K2DREAM            REPEATED DISTURBING DREAMS                         30
+      K3RELVNG           SUDDEN FEELINGS OF RELIVING EXPERIENCE             31
+      K4UPSET            FEEL UPSET WHEN REMINDED OF EXPERIENCE             31
+      K5REACT            PHYSICAL REACTION (HEART POUNDNG)                  32
+      K6THINK            AVOID THINKING/TALKING ABOUT EXPERIENCE            32
+      K7ACTVTY           AVOID CERTAIN ACTIVITIES/SITUATIONS                33
+      K8REMMBR           TROUBLE REMEMBERING EXPERIENCE                     33
+      K9INTRST           LOSS OF INTEREST IN ACTIVITIES                     34
+      K10DSTNT           FEEL DISTANT/CUT OFF FROM PEOPLE                   34
+      K11NUMB            FEEL EMOTIONALLY NUMB                              35
+      K12FUTUR           FEEL FUTURE WILL BE CUT SHORT                      35
+      K13SLEEP           TROUBLE FALLING/STAYING ASLEEP                     36
+      K14ANGRY           FEEL IRRITABLE/ANGRY OUTBURSTS                     36
+      K15CNTRT           DIFFICULTY CONCENTRATING                           37
+      K16ALRT            SUPERALERT/WATCHFUL/ON GUARD                       37
+      K17STRTL           FEEL JUMPY/EASILY STARTLED                         38
+      POWER              TOTAL POWER AND CONTROL SCALE (OUT OF 5)           38
+      HARASS             HARASS SCORE:COUNT OF H6-H24 (MAX.=19)             38
+      REEXPER            RE-EXPERIENCING TOT-QUESTIONS 1,2,3,4              38
+      AVOIDANC           AVOIDANCE TOT-QUESTIONS 6,7,8,9,10,11,12           38
+      AROUSAL            AROUSAL TOT-QUESTIONS 5,13,14,15,16,17             39
+      PTSDDX             PTSD DIAG-MIN 1 RE-EX/3 AVOID/2 AROUSL             39
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 4: QuestionnaiPage 1tions G Through K, Clinic/Hospital Initial Interview Data
+
+
+      CASEID             RESPONDENT IDENTIFICATION NUMBER
+
+           Data type: numeric
+           Record/columns: 1/1-6
+
+      ________________________________________________________________________
+
+      INVIEWN            INTERVIEW NUMBER
+
+           VALUE  LABEL
+               1  Initial
+               2  First followup
+               3  Second followup
+
+           Data type: numeric
+           Record/column: 1/8
+
+      ________________________________________________________________________
+
+      ABUSED             PHYSICALLY ABUSED IN LAST YEAR
+
+           VALUE  LABEL
+               1  AW
+               2  NAW
+              95  Not reliable
+
+           Data type: numeric
+           Missing-data code: 95
+           Record/column: 1/10
+
+      ________________________________________________________________________
+
+      AWSTATUS           WHY CASES ARE CODED NAW/YES TO ANY J/H19
+
+           VALUE  LABEL
+               1  Incident(s) occurred over a year ago
+               2  Threat to kill (H19), but no yes to a J
+               9  Unknown
+
+           Data type: numeric
+           Missing-data code: 9
+           Record/column: 1/12
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 4: QuestionnaiPage 2tions G Through K, Clinic/Hospital Initial Interview Data
+
+
+      RACER              RACE, RECODED
+
+           VALUE  LABEL
+               1  Black
+               2  Latina
+               3  Other
+               9  Multiracial or missing
+
+           Data type: numeric
+           Missing-data code: 9
+           Record/column: 1/14
+
+      ________________________________________________________________________
+
+      G1GUNS             ANY GUNS IN R'S HOME
+
+           Are there any guns in your home?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               3  Yes, in name's home
+             333  No home
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 888,999
+           Record/columns: 1/16-18
+
+      ________________________________________________________________________
+
+      G1NUMBER           HOW MANY GUNS ARE IN R'S HOME
+
+           How many guns are there?
+
+           VALUE  LABEL
+             888  Don't know
+             999  Missing
+            9999  No gun in home
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/20-23
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 4: QuestionnaiPage 3tions G Through K, Clinic/Hospital Initial Interview Data
+
+
+      G2HNDGUN           ANY OF THE GUNS IN R'S HOME HANDGUNS
+
+           Is it (are any of them) a handgun?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+             888  Don't know
+             999  Missing
+            9999  No gun in home
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/25-28
+
+      ________________________________________________________________________
+
+      G2NUMBER           HOW MANY HANDGUNS ARE IN R'S HOME
+
+           How many handguns are there?
+
+           VALUE  LABEL
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/30-33
+
+      ________________________________________________________________________
+
+      GUNS               GUNS IN HOME-INIT INTRVW-G1,G2,G3 SUMMRY
+
+           VALUE  LABEL
+               0  Loaded handgun(s)
+               1  Handgun(s), not loaded
+               2  Other gun(s)
+               3  No
+              99  No home
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 99,999
+           Record/columns: 1/35-37
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 4: QuestionnaiPage 4tions G Through K, Clinic/Hospital Initial Interview Data
+
+
+      GUNSR              LOADED GUN IN THE HOUSE
+
+           VALUE  LABEL
+               0  Yes
+               1  No
+              99  No home
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 99,999
+           Record/columns: 1/39-41
+
+      ________________________________________________________________________
+
+      G3LOADED           ANY OF THE GUNS KEPT LOADED IN THE HOME
+
+           Is it (are any of them) kept loaded in your home?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/43-46
+
+      ________________________________________________________________________
+
+      G3HGLOAD           ARE ANY OF THE LOADED GUNS HANDGUNS
+
+           Is this (are any of them) a handgun(s)?
+
+            VALUE  LABEL
+              1.1  Yes
+              1.2  No
+            888.8  Don't know
+            999.9  Missing
+           9999.9  Unknown
+
+           Data type: numeric
+           Decimals: 1
+           Missing-data codes: 888.8-9999.9
+           Record/columns: 1/48-52
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 4: QuestionnaiPage 5tions G Through K, Clinic/Hospital Initial Interview Data
+
+
+      G4ACQUIR           WHO(1) ACQUIRED THE GUNS IN R'S HOME
+
+           Who acquired it (them)?
+
+           VALUE  LABEL
+               1  Respondent
+               2  Husband/partner
+               3  Other individual
+               4  Don't know
+               5  Father
+               6  Mother
+               7  Father or mothers partner
+               8  Other family member (sibling, uncle, gra
+               9  Friend
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/54-57
+
+      ________________________________________________________________________
+
+      G4ACQUR2           WHO(2) ACQUIRED THE GUNS IN R'S HOME
+
+           Who acquired it (them)?
+
+           VALUE  LABEL
+               1  Respondent
+               2  Husband/partner
+               3  Other individual
+               4  Don't know
+               5  Father
+               6  Mother
+               7  Father or mothers partner
+               8  Other family member (sibling, uncle, gra
+               9  Friend
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/59-62
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 4: QuestionnaiPage 6tions G Through K, Clinic/Hospital Initial Interview Data
+
+
+      G4ACQUR3           WHO(3) ACQUIRED THE GUNS IN R'S HOME
+
+           Who acquired it (them)?
+
+           VALUE  LABEL
+               1  Respondent
+               2  Husband/partner
+               3  Other individual
+               4  Don't know
+               5  Father
+               6  Mother
+               7  Father or mothers partner
+               8  Other family member (sibling, uncle, gra
+               9  Friend
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/64-67
+
+      ________________________________________________________________________
+
+      G5CHANGE           GUNS IN R'S HOME CHANGED IN THE PAST YR
+
+           Have the guns in your home changed in the past year?
+           For example, did someone get rid of a gun or bring a new one into
+           the house?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/69-72
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 4: QuestionnaiPage 7tions G Through K, Clinic/Hospital Initial Interview Data
+
+
+      G6CODE1            CHANGES IN THE GUNS IN R'S HOME
+
+           Please describe briefly what changed.
+
+           VALUE  LABEL
+               1  New gun brought into home
+               2  Got rid of gun(s)
+               3  Change in type of gun
+               4  Changes every day
+               5  Other
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/74-77
+
+      ________________________________________________________________________
+
+      G6DATE1            DATE OF GUN CHANGE(1)
+
+           VALUE  LABEL
+               2  AUG 97
+               3  DEC 97
+               4  JAN 98
+               5  OCT 97
+               6  Missing
+
+           Data type: numeric
+           Missing-data codes: 1,6
+           Record/column: 1/79
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 4: QuestionnaiPage 8tions G Through K, Clinic/Hospital Initial Interview Data
+
+
+      H1JEALUS           INTIMATE PARTNER JEALOUS IN PAST YR
+
+           By "intimate partner" we mean a person you are or were romantically
+           or sexually involved with, such as your husband, a boyfriend or
+           girlfriend, or another sexual partner. I'd like you to tell me
+           whether or not each statement describes the behavior of any intimate
+           partner in the past year. In the past year, was an intimate partner
+           jealous and didn't want you to talk to other men (women)?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               4  Yes, not in past year
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 888,999
+           Record/columns: 1/81-83
+
+      ________________________________________________________________________
+
+      H2LIMIT            INTIMATE PARTNER LIMIT CONTACT W/ FAMILY
+
+           By "intimate partner" we mean a person you are or were romantically
+           or sexually involved with, such as your husband, a boyfriend or
+           girlfriend, or another sexual partner. I'd like you to tell me
+           whether or not each statement describes the behavior of any intimate
+           partner in the past year. In the past year, has an intimate partner
+           tried to limit your contact with family or friends?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               4  Yes, not in past year
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 888,999
+           Record/columns: 1/85-87
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 4: QuestionnaiPage 9tions G Through K, Clinic/Hospital Initial Interview Data
+
+
+      H3KNOWNG           INT PART INSISTED ON KNOWING WHERE R WAS
+
+           By "intimate partner" we mean a person you are or were romantically
+           or sexually involved with, such as your husband, a boyfriend or
+           girlfriend, or another sexual partner. I'd like you to tell me
+           whether or not each statement describes the behavior of any intimate
+           partner in the past year. In the past year, has an intimate partner
+           insisted on knowing who you are with and where you are at all times?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               4  Yes, not in past year
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 888,999
+           Record/columns: 1/89-91
+
+      ________________________________________________________________________
+
+      H4NAMES            INT PART CALL R NAMES/PUT R DOWN
+
+           By "intimate partner" we mean a person you are or were romantically
+           or sexually involved with, such as your husband, a boyfriend or
+           girlfriend, or another sexual partner. I'd like you to tell me
+           whether or not each statement describes the behavior of any intimate
+           partner in the past year. In the past year, has an intimate partner
+           called you names to put you down or make you feel bad?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               4  Yes, not in past year
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 888,999
+           Record/columns: 1/93-95
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 4: QuestionnaPage 10tions G Through K, Clinic/Hospital Initial Interview Data
+
+
+      H5PREVNT           INT PART HID FAMILY INCOME FROM R
+
+           By "intimate partner" we mean a person you are or were romantically
+           or sexually involved with, such as your husband, a boyfriend or
+           girlfriend, or another sexual partner. I'd like you to tell me
+           whether or not each statement describes the behavior of any intimate
+           partner in the past year. In the past year, has an intimate partner
+           prevented you from knowing about or having access to family income,
+           even if you ask?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               3  No shared family income(N/A)
+               4  Yes, not in past year
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 3,888,999
+           Record/columns: 1/97-99
+
+      ________________________________________________________________________
+
+      H6WEAPON           INT PART SCARED R W/ WEAPON
+
+           By "intimate partner" we mean a person you are or were romantically
+           or sexually involved with, such as your husband, a boyfriend or
+           girlfriend, or another sexual partner. I'd like you to tell me
+           whether or not each statement describes the behavior of any intimate
+           partner in the past year. In the past year, has an intimate partner
+           scared you with a weapon?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               4  Yes, not in past year
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 888,999
+           Record/columns: 1/101-103
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 4: QuestionnaPage 11tions G Through K, Clinic/Hospital Initial Interview Data
+
+
+      H7HRMPET           INT PART THREATENED TO HARM PET
+
+           By "intimate partner" we mean a person you are or were romantically
+           or sexually involved with, such as your husband, a boyfriend or
+           girlfriend, or another sexual partner. I'd like you to tell me
+           whether or not each statement describes the behavior of any intimate
+           partner in the past year. In the past year, has an intimate partner
+           threatened to harm your pet?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               3  No pet (N/A)
+               4  Yes, not in past year
+             666  Unreliable answer
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 3,666-999
+           Record/columns: 1/105-107
+
+      ________________________________________________________________________
+
+      H7PURPSE           INT PART HURT PET ON PURPOSE
+
+           If your intimate partner threatened to harm your pet, has he (she)
+           hurt your pet on purpose in the past year?
+
+            VALUE  LABEL
+              1.0  Yes, threatened to harm pet
+              1.1  Yes, hurt pet on purpose in past year
+              1.2  Did not hurt pet in past year
+              2.0  Did not threaten to harm pet
+            888.8  Don't know
+            999.9  Missing
+           9999.9  Unknown
+
+           Data type: numeric
+           Decimals: 1
+           Missing-data codes: 888.8-9999.9
+           Record/columns: 1/109-113
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 4: QuestionnaPage 12tions G Through K, Clinic/Hospital Initial Interview Data
+
+
+      H8KILSLF           INT PARTNER THREATEN TO KILL HIMSELF
+
+           By "intimate partner" we mean a person you are or were romantically
+           or sexually involved with, such as your husband, a boyfriend or
+           girlfriend, or another sexual partner. I'd like you to tell me
+           whether or not each statement describes the behavior of any intimate
+           partner in the past year. In the past year, has an intimate partner
+           threatened to kill himself (herself) if you leave (don't come back
+           to) him (or her)?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               4  Yes, not in past year
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 888,999
+           Record/columns: 1/115-117
+
+      ________________________________________________________________________
+
+      H9CALL             INT PARTNER CALL AND HUNG UP ON R
+
+           By "intimate partner" we mean a person you are or were romantically
+           or sexually involved with, such as your husband, a boyfriend or
+           girlfriend, or another sexual partner. I'd like you to tell me
+           whether or not each statement describes the behavior of any intimate
+           partner in the past year. In the past year, has an intimate partner
+           called you on the phone and hung up?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               3  No phone (N/A)
+               4  Yes, not in past year
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 3,888,999
+           Record/columns: 1/119-121
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 4: QuestionnaPage 13tions G Through K, Clinic/Hospital Initial Interview Data
+
+
+      H9NTIMES           FREQ OF HANG UP CALLS IN PAST MONTH
+
+           If an intimate partner called you on the phone and hung up, how
+           often did this happen in the past month?
+
+            VALUE  LABEL
+              1.1  Never
+              1.2  Once or twice
+              1.3  Three or more times
+            888.8  Don't know
+            999.9  Missing
+           9999.9  Unknown
+
+           Data type: numeric
+           Decimals: 1
+           Missing-data codes: 888.8-9999.9
+           Record/columns: 1/123-127
+
+      ________________________________________________________________________
+
+      H10VCMAL           INT PART LEFT THREATENING MESSAGES
+
+           By "intimate partner" we mean a person you are or were romantically
+           or sexually involved with, such as your husband, a boyfriend or
+           girlfriend, or another sexual partner. I'd like you to tell me
+           whether or not each statement describes the behavior of any intimate
+           partner in the past year. In the past year, has an intimate partner
+           left threatening messages on your voice mail or telephone answering
+           machine?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               3  No machine/voice mail (N/A)
+               4  Yes, not in past year
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 3,888,999
+           Record/columns: 1/129-131
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 4: QuestionnaPage 14tions G Through K, Clinic/Hospital Initial Interview Data
+
+
+      H10NTIME           FREQ OF THREATENING MESSAGES IN PAST MO.
+
+           If your intimate partner left threatening messages on your voice
+           mail or telephone answering machine, how often did this happen in
+           the past month?
+
+            VALUE  LABEL
+              1.1  Never
+              1.2  Once or twice
+              1.3  Three or more times
+            888.8  Don't know
+            999.9  Missing
+           9999.9  Unknown
+
+           Data type: numeric
+           Decimals: 1
+           Missing-data codes: 888.8-9999.9
+           Record/columns: 1/133-137
+
+      ________________________________________________________________________
+
+      H11FIRED           INT PART TRIED TO GET R FIRED FROM WORK
+
+           By "intimate partner" we mean a person you are or were romantically
+           or sexually involved with, such as your husband, a boyfriend or
+           girlfriend, or another sexual partner. I'd like you to tell me
+           whether or not each statement describes the behavior of any intimate
+           partner in the past year. In the past year, has an intimate partner
+           tried to get you fired from your job?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               3  No job (N/A)
+               4  Yes, not in past year
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 3,888,999
+           Record/columns: 1/139-141
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 4: QuestionnaPage 15tions G Through K, Clinic/Hospital Initial Interview Data
+
+
+      H12FOLLW           INT PART FOLLOWED R
+
+           By "intimate partner" we mean a person you are or were romantically
+           or sexually involved with, such as your husband, a boyfriend or
+           girlfriend, or another sexual partner. I'd like you to tell me
+           whether or not each statement describes the behavior of any intimate
+           partner in the past year. In the past year, has an intimate partner
+           followed you?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               4  Yes, not in past year
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 888,999
+           Record/columns: 1/143-145
+
+      ________________________________________________________________________
+
+      H12NTIME           FREQ INT PART FOLLOWED R IN PAST MONTH
+
+           If an intimate partner has followed you in the past year, how often
+           did this happen in the past month?
+
+            VALUE  LABEL
+              1.1  Never
+              1.2  Once or twice
+              1.3  Three or more times
+            888.8  Don't know
+            999.9  Missing
+           9999.9  Unknown
+
+           Data type: numeric
+           Decimals: 1
+           Missing-data codes: 888.8-9999.9
+           Record/columns: 1/147-151
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 4: QuestionnaPage 16tions G Through K, Clinic/Hospital Initial Interview Data
+
+
+      H13CAR             INT PART SAT IN CAR/STOOD OUTSIDE HOME
+
+           By "intimate partner" we mean a person you are or were romantically
+           or sexually involved with, such as your husband, a boyfriend or
+           girlfriend, or another sexual partner. I'd like you to tell me
+           whether or not each statement describes the behavior of any intimate
+           partner in the past year. In the past year, has an intimate partner
+           sat in a car or stood outside your home?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               4  Yes, not in past year
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 888,999
+           Record/columns: 1/153-155
+
+      ________________________________________________________________________
+
+      H13NTIME           FREQ INT PART SAT IN CAR/STOOD OUTSIDE
+
+           If an intimate partner has sat in a car or stood outside your home
+           in the past year, how often did this happen in the past month?
+
+            VALUE  LABEL
+              1.1  Never
+              1.2  Once or twice
+              1.3  Three or more times
+            888.8  Don't know
+            999.9  Missing
+           9999.9  Unknown
+
+           Data type: numeric
+           Decimals: 1
+           Missing-data codes: 888.8-9999.9
+           Record/columns: 1/157-161
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 4: QuestionnaPage 17tions G Through K, Clinic/Hospital Initial Interview Data
+
+
+      H14DSTRY           INT PART DESTROYED R'S BELONGINGS
+
+           By "intimate partner" we mean a person you are or were romantically
+           or sexually involved with, such as your husband, a boyfriend or
+           girlfriend, or another sexual partner. I'd like you to tell me
+           whether or not each statement describes the behavior of any intimate
+           partner in the past year. In the past year, has an intimate partner
+           destroyed something that belongs to you or that you like very much?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               4  Yes, not in past year
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 888,999
+           Record/columns: 1/163-165
+
+      ________________________________________________________________________
+
+      H15FRGHT           INT PART FRIGHTENED/THREATENED FAMILY
+
+           By "intimate partner" we mean a person you are or were romantically
+           or sexually involved with, such as your husband, a boyfriend or
+           girlfriend, or another sexual partner. I'd like you to tell me
+           whether or not each statement describes the behavior of any intimate
+           partner in the past year. In the past year, has an intimate partner
+           frightened or threatened your family?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               4  Yes, not in past year
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 888,999
+           Record/columns: 1/167-169
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 4: QuestionnaPage 18tions G Through K, Clinic/Hospital Initial Interview Data
+
+
+      H16KIDS            INT PART THREATEN TO HARM KIDS IF R LEFT
+
+           By "intimate partner" we mean a person you are or were romantically
+           or sexually involved with, such as your husband, a boyfriend or
+           girlfriend, or another sexual partner. I'd like you to tell me
+           whether or not each statement describes the behavior of any intimate
+           partner in the past year. In the past year, has an intimate partner
+           threatened to harm the kids if you leave (don't come back)?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               3  No kids (N/A)
+             777  Says no kids, but has kids under 18
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 3,777,999
+           Record/columns: 1/171-173
+
+      ________________________________________________________________________
+
+      H17TAKID           INT PART THREATEN TO TAKE KIDS IF R LEFT
+
+           By "intimate partner" we mean a person you are or were romantically
+           or sexually involved with, such as your husband, a boyfriend or
+           girlfriend, or another sexual partner. I'd like you to tell me
+           whether or not each statement describes the behavior of any intimate
+           partner in the past year. In the past year, has an intimate partner
+           threatened to take the kids if you leave (don't come back)?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               3  No kids (N/A)
+             777  Says no kids but has kids under 18
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 3,777,999
+           Record/columns: 1/175-177
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 4: QuestionnaPage 19tions G Through K, Clinic/Hospital Initial Interview Data
+
+
+      H18NOTES           INT PART LEFT NOTES ON R'S CAR
+
+           By "intimate partner" we mean a person you are or were romantically
+           or sexually involved with, such as your husband, a boyfriend or
+           girlfriend, or another sexual partner. I'd like you to tell me
+           whether or not each statement describes the behavior of any intimate
+           partner in the past year. In the past year, has an intimate partner
+           left notes on your car?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               3  No car (N/A)
+               4  Yes, not in past year
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 3,888,999
+           Record/columns: 1/179-181
+
+      ________________________________________________________________________
+
+      H18NTIME           FREQ INT PART LEFT NOTES ON CAR
+
+           If your intimate partner left notes on your car, how often did this
+           happen in the past month?
+
+            VALUE  LABEL
+              1.1  Never
+              1.2  Once or twice
+              1.3  Three or more times
+            888.8  Don't know
+            999.9  Missing
+           9999.9  Unknown
+
+           Data type: numeric
+           Decimals: 1
+           Missing-data codes: 888.8-9999.9
+           Record/columns: 1/183-187
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 4: QuestionnaPage 20tions G Through K, Clinic/Hospital Initial Interview Data
+
+
+      H19KLYOU           INT PART THREATENED TO KILL R
+
+           By "intimate partner" we mean a person you are or were romantically
+           or sexually involved with, such as your husband, a boyfriend or
+           girlfriend, or another sexual partner. I'd like you to tell me
+           whether or not each statement describes the behavior of any intimate
+           partner in the past year. In the past year, has an intimate partner
+           threatened to kill you if you leave (don't come back)?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               4  Yes, not in past year
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 888,999
+           Record/columns: 1/189-191
+
+      ________________________________________________________________________
+
+      H20SHWUP           INT PART SHOWED UP W/OUT WARNING
+
+           By "intimate partner" we mean a person you are or were romantically
+           or sexually involved with, such as your husband, a boyfriend or
+           girlfriend, or another sexual partner. I'd like you to tell me
+           whether or not each statement describes the behavior of any intimate
+           partner in the past year. In the past year, has an intimate partner
+           showed up without warning?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               4  Yes, not in past year
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 888,999
+           Record/columns: 1/193-195
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 4: QuestionnaPage 21tions G Through K, Clinic/Hospital Initial Interview Data
+
+
+      H20NTIME           FREQ INT PART SHOWED UP IN PAST MO.
+
+           If an intimate partner has shown up without warning in the past
+           year, how often did this happen in the past month?
+
+            VALUE  LABEL
+              1.1  Never
+              1.2  Once or twice
+              1.3  Three or more times
+            888.8  Don't know
+            999.9  Missing
+           9999.9  Unknown
+
+           Data type: numeric
+           Decimals: 1
+           Missing-data codes: 888.8-9999.9
+           Record/columns: 1/197-201
+
+      ________________________________________________________________________
+
+      H21SEX             INT PART FORCE R INTO SEX
+
+           By "intimate partner" we mean a person you are or were romantically
+           or sexually involved with, such as your husband, a boyfriend or
+           girlfriend, or another sexual partner. I'd like you to tell me
+           whether or not each statement describes the behavior of any intimate
+           partner in the past year. In the past year, has an intimate partner
+           made you feel like he (she) can again force you into sex?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               3  Has never force her into sex (N/A)
+               4  Yes, not in past year
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 3,888,999
+           Record/columns: 1/203-205
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 4: QuestionnaPage 22tions G Through K, Clinic/Hospital Initial Interview Data
+
+
+      H22FREND           INT PART FRIGHTEN/THREATEN FRIENDS
+
+           By "intimate partner" we mean a person you are or were romantically
+           or sexually involved with, such as your husband, a boyfriend or
+           girlfriend, or another sexual partner. I'd like you to tell me
+           whether or not each statement describes the behavior of any intimate
+           partner in the past year. In the past year, has an intimate partner
+           frightened or threatened your friends?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               4  Yes, not in past year
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 888,999
+           Record/columns: 1/207-209
+
+      ________________________________________________________________________
+
+      H23BILLS           INT PART AGREED TO BUT NEVER PAID BILLS
+
+           By "intimate partner" we mean a person you are or were romantically
+           or sexually involved with, such as your husband, a boyfriend or
+           girlfriend, or another sexual partner. I'd like you to tell me
+           whether or not each statement describes the behavior of any intimate
+           partner in the past year. In the past year, has an intimate partner
+           agreed to pay certain bills, then didn't pay them?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               4  Yes, not in past year
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 888,999
+           Record/columns: 1/211-213
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 4: QuestionnaPage 23tions G Through K, Clinic/Hospital Initial Interview Data
+
+
+      H24REPRT           INT PART REPORT R'S DRUG USE TO AUTHOR.
+
+           By "intimate partner" we mean a person you are or were romantically
+           or sexually involved with, such as your husband, a boyfriend or
+           girlfriend, or another sexual partner. I'd like you to tell me
+           whether or not each statement describes the behavior of any intimate
+           partner in the past year. In the past year, has an intimate partner
+           reported you to the authorities for taking drugs when you didn't?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               4  Yes, not in past year
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 888,999
+           Record/columns: 1/215-217
+
+      ________________________________________________________________________
+
+      H25DIVRC           INT PART REFUSED TO GRANT R A DIVORCE
+
+           By "intimate partner" we mean a person you are or were romantically
+           or sexually involved with, such as your husband, a boyfriend or
+           girlfriend, or another sexual partner. I'd like you to tell me
+           whether or not each statement describes the behavior of any intimate
+           partner in the past year. In the past year, has an intimate partner
+           refused to grant you a divorce?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               3  Not married (N/A)
+               4  Yes, not in past year
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 3,888,999
+           Record/columns: 1/219-221
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 4: QuestionnaPage 24tions G Through K, Clinic/Hospital Initial Interview Data
+
+
+      J1HIT              INT PART THREATENED TO HIT R
+
+           I'd like you to tell me if each thing has happened to you in an
+           intimate relationship with a current or former intimate partner
+           (husband, boyfriend, sex partner, etc.) in the past year (last 12
+           months). In the past year has an intimate partner threatened to hit
+           you with a fist or anything else that could hurt you?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               4  Yes, not in past year
+             666  Unreliable answer
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 666-999
+           Record/columns: 1/223-225
+
+      ________________________________________________________________________
+
+      J2THROWN           INT PART THROW ANYTHING AT R
+
+           I'd like you to tell me if each thing has happened to you in an
+           intimate relationship with a current or former intimate partner
+           (husband, boyfriend, sex partner, etc.) in the past year (last 12
+           months). In the past year has an intimate partner thrown anything at
+           you that could hurt you?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               4  Yes, not in past year
+             666  Unreliable answer
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 666-999
+           Record/columns: 1/227-229
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 4: QuestionnaPage 25tions G Through K, Clinic/Hospital Initial Interview Data
+
+
+      J3PUSH             INT PART PUSHED/GRABBED/SHOVED R
+
+           I'd like you to tell me if each thing has happened to you in an
+           intimate relationship with a current or former intimate partner
+           (husband, boyfriend, sex partner, etc.) in the past year (last 12
+           months). In the past year has an intimate partner pushed, grabbed or
+           shoved you?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               4  Yes, not in past year
+             666  Unreliable answer
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 666-999
+           Record/columns: 1/231-233
+
+      ________________________________________________________________________
+
+      J4SLAP             INT PART SLAPPED R
+
+           I'd like you to tell me if each thing has happened to you in an
+           intimate relationship with a current or former intimate partner
+           (husband, boyfriend, sex partner, etc.) in the past year (last 12
+           months). In the past year has an intimate partner slapped you?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               4  Yes, not in past year
+             666  Unreliable answer
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 666-999
+           Record/columns: 1/235-237
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 4: QuestionnaPage 26tions G Through K, Clinic/Hospital Initial Interview Data
+
+
+      J5KICK             INT PART KICKED/BIT/HIT WITH FIST
+
+           I'd like you to tell me if each thing has happened to you in an
+           intimate relationship with a current or former intimate partner
+           (husband, boyfriend, sex partner, etc.) in the past year (last 12
+           months). In the past year has an intimate partner kicked, bit or hit
+           you with a fist?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               4  Yes, not in past year
+             666  Unreliable answer
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 666-999
+           Record/columns: 1/239-241
+
+      ________________________________________________________________________
+
+      J6OBJECT           INT PART HIT R W/ AN OBJECT
+
+           I'd like you to tell me if each thing has happened to you in an
+           intimate relationship with a current or former intimate partner
+           (husband, boyfriend, sex partner, etc.) in the past year (last 12
+           months). In the past year has an intimate partner hit you with an
+           object that could hurt you?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               4  Yes, not in past year
+             666  Unreliable answer
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 666-999
+           Record/columns: 1/243-245
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 4: QuestionnaPage 27tions G Through K, Clinic/Hospital Initial Interview Data
+
+
+      J7BEAT             INT PART BEAT R REPEATEDLY
+
+           I'd like you to tell me if each thing has happened to you in an
+           intimate relationship with a current or former intimate partner
+           (husband, boyfriend, sex partner, etc.) in the past year (last 12
+           months). In the past year has an intimate partner beaten you up, for
+           example, hit you repeatedly?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               4  Yes, not in past year
+             666  Unreliable answer
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 666-999
+           Record/columns: 1/247-249
+
+      ________________________________________________________________________
+
+      J8CHOKE            INT PART CHOKED R
+
+           I'd like you to tell me if each thing has happened to you in an
+           intimate relationship with a current or former intimate partner
+           (husband, boyfriend, sex partner, etc.) in the past year (last 12
+           months). In the past year has an intimate partner choked you?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               4  Yes, not in past year
+             666  Unreliable answer
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 666-999
+           Record/columns: 1/251-253
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 4: QuestionnaPage 28tions G Through K, Clinic/Hospital Initial Interview Data
+
+
+      J9KNIFE            INT PART THREATENED R W/ KNIFE
+
+           I'd like you to tell me if each thing has happened to you in an
+           intimate relationship with a current or former intimate partner
+           (husband, boyfriend, sex partner, etc.) in the past year (last 12
+           months). In the past year has an intimate partner threatened to or
+           used a knife on you?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               4  Yes, not in past year
+             666  Unreliable answer
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 666-999
+           Record/columns: 1/255-257
+
+      ________________________________________________________________________
+
+      J10GUN             INT PART THREATENED R W/ GUN
+
+           I'd like you to tell me if each thing has happened to you in an
+           intimate relationship with a current or former intimate partner
+           (husband, boyfriend, sex partner, etc.) in the past year (last 12
+           months). In the past year has an intimate partner threatened to or
+           used a gun on you?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               4  Yes, not in past year
+             666  Unreliable answer
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 666-999
+           Record/columns: 1/259-261
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 4: QuestionnaPage 29tions G Through K, Clinic/Hospital Initial Interview Data
+
+
+      J11SEX             INT PART FORCE R INTO SEXUAL ACTIVITY
+
+           I'd like you to tell me if each thing has happened to you in an
+           intimate relationship with a current or former intimate partner
+           (husband, boyfriend, sex partner, etc.) in the past year (last 12
+           months). In the past year has an intimate partner forced you into
+           any sexual activity which you did not want to by threatening you,
+           holding you down, or hurting you in some way?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               4  Yes, not in past year
+             666  Unreliable answer
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 666-999
+           Record/columns: 1/263-265
+
+      ________________________________________________________________________
+
+      COUNTJ_1           # OF YES IN SEC J INITIAL INTERVIEW
+
+           VALUE  LABEL
+             999  Missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/267-269
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 4: QuestionnaPage 30tions G Through K, Clinic/Hospital Initial Interview Data
+
+
+      K1MEMORY           REPEATED DISTURBING MEMORIES
+
+           For abused or harassed women: Thinking about the incidents that we
+           just talked about...For non-abused or harassed women: Thinking about
+           a stressful event (such as a car accident, death or serious illness
+           in the family) that may have happened to you... During the past
+           month, have you been bothered by repeated, disturbing memories,
+           thoughts or images of the stressful experience?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               8  Does not apply
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 8,888,999
+           Record/columns: 1/271-273
+
+      ________________________________________________________________________
+
+      K2DREAM            REPEATED DISTURBING DREAMS
+
+           For abused or harassed women: Thinking about the incidents that we
+           just talked about...For non-abused or harassed women: Thinking about
+           a stressful event (such as a car accident, death or serious illness
+           in the family) that may have happened to you... During the past
+           month, have you been bothered by repeated, disturbing dreams of the
+           stressful experience?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               8  Does not apply
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 8,888,999
+           Record/columns: 1/275-277
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 4: QuestionnaPage 31tions G Through K, Clinic/Hospital Initial Interview Data
+
+
+      K3RELVNG           SUDDEN FEELINGS OF RELIVING EXPERIENCE
+
+           For abused or harassed women: Thinking about the incidents that we
+           just talked about...For non-abused or harassed women: Thinking about
+           a stressful event (such as a car accident, death or serious illness
+           in the family) that may have happened to you... During the past
+           month, have you been bothered by suddenly acting or feeling as if
+           the stressful experience were happening again, as if you were
+           reliving it?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               8  Does not apply
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 8,888,999
+           Record/columns: 1/279-281
+
+      ________________________________________________________________________
+
+      K4UPSET            FEEL UPSET WHEN REMINDED OF EXPERIENCE
+
+           For abused or harassed women: Thinking about the incidents that we
+           just talked about...For non-abused or harassed women: Thinking about
+           a stressful event (such as a car accident, death or serious illness
+           in the family) that may have happened to you... During the past
+           month, have you been bothered by feeling very upset when something
+           reminded you of the stressful experience?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               8  Does not apply
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 8,888,999
+           Record/columns: 1/283-285
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 4: QuestionnaPage 32tions G Through K, Clinic/Hospital Initial Interview Data
+
+
+      K5REACT            PHYSICAL REACTION (HEART POUNDNG)
+
+           For abused or harassed women: Thinking about the incidents that we
+           just talked about...For non-abused or harassed women: Thinking about
+           a stressful event (such as a car accident, death or serious illness
+           in the family) that may have happened to you... During the past
+           month, have you been bothered by having physical reactions such as
+           heart pounding, trouble breathing or sweating when something
+           reminded you of the stressful experience?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               8  Does not apply
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 8,888,999
+           Record/columns: 1/287-289
+
+      ________________________________________________________________________
+
+      K6THINK            AVOID THINKING/TALKING ABOUT EXPERIENCE
+
+           For abused or harassed women: Thinking about the incidents that we
+           just talked about...For non-abused or harassed women: Thinking about
+           a stressful event (such as a car accident, death or serious illness
+           in the family) that may have happened to you... During the past
+           month, have you avoided thinking about or talking about your
+           stressful experience or avoiding having feelings related to it?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               8  Does not apply
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 8,888,999
+           Record/columns: 1/291-293
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 4: QuestionnaPage 33tions G Through K, Clinic/Hospital Initial Interview Data
+
+
+      K7ACTVTY           AVOID CERTAIN ACTIVITIES/SITUATIONS
+
+           For abused or harassed women: Thinking about the incidents that we
+           just talked about...For non-abused or harassed women: Thinking about
+           a stressful event (such as a car accident, death or serious illness
+           in the family) that may have happened to you... During the past
+           month, have you avoided activities or situations because they
+           reminded you of your stressful experience?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               8  Does not apply
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 8,888,999
+           Record/columns: 1/295-297
+
+      ________________________________________________________________________
+
+      K8REMMBR           TROUBLE REMEMBERING EXPERIENCE
+
+           For abused or harassed women: Thinking about the incidents that we
+           just talked about...For non-abused or harassed women: Thinking about
+           a stressful event (such as a car accident, death or serious illness
+           in the family) that may have happened to you... During the past
+           month, have you had trouble remembering important parts of the
+           stressful experience?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               8  Does not apply
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 8,888,999
+           Record/columns: 1/299-301
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 4: QuestionnaPage 34tions G Through K, Clinic/Hospital Initial Interview Data
+
+
+      K9INTRST           LOSS OF INTEREST IN ACTIVITIES
+
+           For abused or harassed women: Thinking about the incidents that we
+           just talked about...For non-abused or harassed women: Thinking about
+           a stressful event (such as a car accident, death or serious illness
+           in the family) that may have happened to you... During the past
+           month, have you been bothered by loss of interest in activities that
+           you used to enjoy?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               8  Does not apply
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 8,888,999
+           Record/columns: 1/303-305
+
+      ________________________________________________________________________
+
+      K10DSTNT           FEEL DISTANT/CUT OFF FROM PEOPLE
+
+           For abused or harassed women: Thinking about the incidents that we
+           just talked about...For non-abused or harassed women: Thinking about
+           a stressful event (such as a car accident, death or serious illness
+           in the family) that may have happened to you... During the past
+           month, have you been bothered by feeling distant or cut off from
+           other people?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               8  Does not apply
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 8,888,999
+           Record/columns: 1/307-309
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 4: QuestionnaPage 35tions G Through K, Clinic/Hospital Initial Interview Data
+
+
+      K11NUMB            FEEL EMOTIONALLY NUMB
+
+           For abused or harassed women: Thinking about the incidents that we
+           just talked about...For non-abused or harassed women: Thinking about
+           a stressful event (such as a car accident, death or serious illness
+           in the family) that may have happened to you... During the past
+           month, have you been bothered by feeling emotionally numb or being
+           unable to have loving feelings for those close to you?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               8  Does not apply
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 8,888,999
+           Record/columns: 1/311-313
+
+      ________________________________________________________________________
+
+      K12FUTUR           FEEL FUTURE WILL BE CUT SHORT
+
+           For abused or harassed women: Thinking about the incidents that we
+           just talked about...For non-abused or harassed women: Thinking about
+           a stressful event (such as a car accident, death or serious illness
+           in the family) that may have happened to you... During the past
+           month, have you been bothered by feeling as if your future somehow
+           will be cut short?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               8  Does not apply
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 8,888,999
+           Record/columns: 1/315-317
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 4: QuestionnaPage 36tions G Through K, Clinic/Hospital Initial Interview Data
+
+
+      K13SLEEP           TROUBLE FALLING/STAYING ASLEEP
+
+           For abused or harassed women: Thinking about the incidents that we
+           just talked about...For non-abused or harassed women: Thinking about
+           a stressful event (such as a car accident, death or serious illness
+           in the family) that may have happened to you... During the past
+           month, have you been bothered by trouble falling or staying asleep?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               8  Does not apply
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 8,888,999
+           Record/columns: 1/319-321
+
+      ________________________________________________________________________
+
+      K14ANGRY           FEEL IRRITABLE/ANGRY OUTBURSTS
+
+           For abused or harassed women: Thinking about the incidents that we
+           just talked about...For non-abused or harassed women: Thinking about
+           a stressful event (such as a car accident, death or serious illness
+           in the family) that may have happened to you... During the past
+           month, have you been bothered by feeling irritable or having angry
+           outbursts?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               8  Does not apply
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 8,888,999
+           Record/columns: 1/323-325
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 4: QuestionnaPage 37tions G Through K, Clinic/Hospital Initial Interview Data
+
+
+      K15CNTRT           DIFFICULTY CONCENTRATING
+
+           For abused or harassed women: Thinking about the incidents that we
+           just talked about...For non-abused or harassed women: Thinking about
+           a stressful event (such as a car accident, death or serious illness
+           in the family) that may have happened to you... During the past
+           month, have you had difficulty concentrating?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               8  Does not apply
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 8,888,999
+           Record/columns: 1/327-329
+
+      ________________________________________________________________________
+
+      K16ALRT            SUPERALERT/WATCHFUL/ON GUARD
+
+           For abused or harassed women: Thinking about the incidents that we
+           just talked about...For non-abused or harassed women: Thinking about
+           a stressful event (such as a car accident, death or serious illness
+           in the family) that may have happened to you... During the past
+           month, have you been bothered by being "superalert" or watchful or
+           on guard?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               8  Does not apply
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 8,888,999
+           Record/columns: 1/331-333
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 4: QuestionnaPage 38tions G Through K, Clinic/Hospital Initial Interview Data
+
+
+      K17STRTL           FEEL JUMPY/EASILY STARTLED
+
+           For abused or harassed women: Thinking about the incidents that we
+           just talked about...For non-abused or harassed women: Thinking about
+           a stressful event (such as a car accident, death or serious illness
+           in the family) that may have happened to you... During the past
+           month, have you been bothered by feeling jumpy or easily startled?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               8  Does not apply
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 8,888,999
+           Record/columns: 1/335-337
+
+      ________________________________________________________________________
+
+      POWER              TOTAL POWER AND CONTROL SCALE (OUT OF 5)
+
+           VALUE  LABEL
+             999  Missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/339-341
+
+      ________________________________________________________________________
+
+      HARASS             HARASS SCORE:COUNT OF H6-H24 (MAX.=19)
+
+           Data type: numeric
+           Record/columns: 1/343-344
+
+      ________________________________________________________________________
+
+      REEXPER            RE-EXPERIENCING TOT-QUESTIONS 1,2,3,4
+
+           Data type: numeric
+           Record/column: 1/346
+
+      ________________________________________________________________________
+
+      AVOIDANC           AVOIDANCE TOT-QUESTIONS 6,7,8,9,10,11,12
+
+           Data type: numeric
+           Record/column: 1/348
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 4: QuestionnaPage 39tions G Through K, Clinic/Hospital Initial Interview Data
+
+
+      AROUSAL            AROUSAL TOT-QUESTIONS 5,13,14,15,16,17
+
+           Data type: numeric
+           Record/column: 1/350
+
+      ________________________________________________________________________
+
+      PTSDDX             PTSD DIAG-MIN 1 RE-EX/3 AVOID/2 AROUSL
+
+           VALUE  LABEL
+               0  No
+               1  PTSD diagnosis
+             999  Missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/352-354
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019

@@ -1,0 +1,881 @@
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                      CODEBOOK
+
+
+      Chicago Women's Health Risk Study, 1995-1998. Part 7: Questionnaire Section N, Clinic/Hospital Initial Interview Data
+                                          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998. Part 7: QuestionnairPage iion N, Clinic/Hospital Initial Interview Data
+
+
+                                      CONTENTS
+
+
+      item                                                                page
+
+      CASEID             RESPONDENT IDENTIFICATION NUMBER                    1
+      INVIEWN            INTERVIEW NUMBER                                    1
+      RACER              RACE, RECODED                                       1
+      SAMESEXR           IS [NAME] SAME SEX PARTNER? RECODED                 1
+      N14SUHER           R EVER THREATEN/TRY TO COMMIT SUICIDE               2
+      N20OTHER           R HAD OTH PHYSICALLY ABUSIVE PARTNERS               2
+      N11DRUGS           PARTNER USE DRUGS                                   3
+      N12ALCHL           PARTNER NOW/EVER HAVE ALCOHOL PROBLEMS              3
+      N13SUHIM           PARTNER THREATEN/TRY TO COMMIT SUICIDE              4
+      N15HOME            PARTNER VIOLENT OUTSIDE OF THE HOME                 4
+      N16CHILD           PARTNER REPORTED FOR CHILD ABUSE                    4
+      N17ARRST           PARTNER EVER BEEN ARRESTED                          5
+      N18CHRGE           TYPE OF CHARGE(1) FOR THE ARREST                    5
+      N18CHRG2           TYPE OF CHARGE(2) FOR THE ARREST                    6
+      N18CHRG3           TYPE OR CHARGE(3) FOR THE ARREST                    7
+      N18CHRG4           TYPE OF CHARGE(4) FOR THE ARREST                    8
+      N1FRQNCY           PHYSICAL VIOLENCE INCREASE IN PAST YEAR             8
+      N2SVRITY           PHYSICAL VIOLENCE INCREASE IN SEVERITY              9
+      N3WEAPON           PARTNER EVER USE/THREATEN TO USE WEAPON             9
+      N4CHOKE            PARTNER EVER TRY TO CHOKE YOU                      10
+      N5SEX              PARTNER EVER FORCE R TO HAVE SEX                   10
+      N6CONTRL           PARTNER CONTROL R'S DAILY ACTIVITIES               11
+      N7PREGNT           PARTNER EVER BEAT R WHILE PREGNANT                 11
+      N8JEALUS           PARTNER VIOLENT/CONSTANTLY JEALOUS OF R            12
+      N9KILL             PARTNER THREATEN TO KILL R                         12
+      N10CPBLE           R BELIEVE PARTNER IS CAPABLE OF KILLING            13
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998. Part 7: QuestionnairPage 1ion N, Clinic/Hospital Initial Interview Data
+
+
+      CASEID             RESPONDENT IDENTIFICATION NUMBER
+
+           Data type: numeric
+           Record/columns: 1/1-6
+
+      ________________________________________________________________________
+
+      INVIEWN            INTERVIEW NUMBER
+
+           VALUE  LABEL
+               1  Initial
+               2  First followup
+               3  Second followup
+
+           Data type: numeric
+           Record/column: 1/8
+
+      ________________________________________________________________________
+
+      RACER              RACE, RECODED
+
+           VALUE  LABEL
+               1  Black
+               2  Latina
+               3  Other
+               9  Multiracial or missing
+
+           Data type: numeric
+           Missing-data code: 9
+           Record/column: 1/10
+
+      ________________________________________________________________________
+
+      SAMESEXR           IS [NAME] SAME SEX PARTNER? RECODED
+
+           VALUE  LABEL
+               1  Yes
+            9999  No
+
+           Data type: numeric
+           Record/columns: 1/12-15
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998. Part 7: QuestionnairPage 2ion N, Clinic/Hospital Initial Interview Data
+
+
+      N14SUHER           R EVER THREATEN/TRY TO COMMIT SUICIDE
+
+           Thinking about not just the past year, but things that may have ever
+           happened, have you ever threatened or tried to commit suicide?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               3  R later says yes
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 888,999,3
+           Record/columns: 1/17-19
+
+      ________________________________________________________________________
+
+      N20OTHER           R HAD OTH PHYSICALLY ABUSIVE PARTNERS
+
+           Besides what we have talked about in this interview, have you ever
+           had another intimate partner who was violent with you or who
+           physically hurt you?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/21-24
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998. Part 7: QuestionnairPage 3ion N, Clinic/Hospital Initial Interview Data
+
+
+      N11DRUGS           PARTNER USE DRUGS
+
+           Thinking about not just the past year, but things that may have ever
+           happened, does (name) use drugs? By drugs, I mean "uppers" or
+           amphetamines, speed, angel dust, cocaine, "crack," street drugs or
+           mixtures.
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 888,999
+           Record/columns: 1/26-28
+
+      ________________________________________________________________________
+
+      N12ALCHL           PARTNER NOW/EVER HAVE ALCOHOL PROBLEMS
+
+           Think about not just the past year, but things that may have ever
+           happened. In your opinion, does (name) now have or ever had an
+           alcohol problem?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 888,999
+           Record/columns: 1/30-32
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998. Part 7: QuestionnairPage 4ion N, Clinic/Hospital Initial Interview Data
+
+
+      N13SUHIM           PARTNER THREATEN/TRY TO COMMIT SUICIDE
+
+           Thinking about not just the past year, but things that may have ever
+           happened, has (name) ever threatened or tried to commit suicide?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 888,999
+           Record/columns: 1/34-36
+
+      ________________________________________________________________________
+
+      N15HOME            PARTNER VIOLENT OUTSIDE OF THE HOME
+
+           Think about not just the past year, but things that may have ever
+           happened. Is (name) violent outside the home?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 888,999
+           Record/columns: 1/38-40
+
+      ________________________________________________________________________
+
+      N16CHILD           PARTNER REPORTED FOR CHILD ABUSE
+
+           Thinking about not just the past year, but things that may have ever
+           happened, has (name) ever been reported for child abuse?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 888,999
+           Record/columns: 1/42-44
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998. Part 7: QuestionnairPage 5ion N, Clinic/Hospital Initial Interview Data
+
+
+      N17ARRST           PARTNER EVER BEEN ARRESTED
+
+           Thinking about not just the past year, but things that may have ever
+           happened, has (name) ever been arrested?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 888,999
+           Record/columns: 1/46-48
+
+      ________________________________________________________________________
+
+      N18CHRGE           TYPE OF CHARGE(1) FOR THE ARREST
+
+           What was the type of charge for the arrest(s) (incident)?
+
+           VALUE  LABEL
+               1  Domestic violence
+               2  Other violent crime against a person
+               3  Harming or abusing an animal
+               4  Other type of crime
+               5  Drug-related offenses
+               6  DUI; alcohol-related
+               7  Other traffic-related offenses
+               8  Robbery/ burglary/ theft
+               9  Disorderly conduct
+              10  Breaking and entering/ trespassing
+              11  Shoplifting
+              12  Prostitution
+              13  Gun-related
+              14  Social order problems (curfew, loud musi
+              15  Child support
+              16  Extortion
+              17  Gang crimes
+              18  Stalking
+              19  Criminal damage to property
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/50-53
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998. Part 7: QuestionnairPage 6ion N, Clinic/Hospital Initial Interview Data
+
+
+      N18CHRG2           TYPE OF CHARGE(2) FOR THE ARREST
+
+           What was the type of charge for the arrest(s) (incident)?
+
+           VALUE  LABEL
+               1  Domestic violence
+               2  Other violent crime against a person
+               3  Harming or abusing an animal
+               4  Other type of crime
+               5  Drug-related offenses
+               6  DUI; alcohol-related
+               7  Other traffic-related offenses
+               8  Robbery/ burglary/ theft
+               9  Disorderly conduct
+              10  Breaking and entering/ trespassing
+              11  Shoplifting
+              12  Prostitution
+              13  Gun-related
+              14  Social order problems (curfew, loud musi
+              15  Child support
+              16  Extortion
+              17  Gang crimes
+              18  Stalking
+              19  Criminal damage to property
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/55-58
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998. Part 7: QuestionnairPage 7ion N, Clinic/Hospital Initial Interview Data
+
+
+      N18CHRG3           TYPE OR CHARGE(3) FOR THE ARREST
+
+           What was the type of charge for the arrest(s) (incident)?
+
+           VALUE  LABEL
+               1  Domestic violence
+               2  Other violent crime against a person
+               3  Harming or abusing an animal
+               4  Other type of crime
+               5  Drug-related offenses
+               6  DUI; alcohol-related
+               7  Other traffic-related offenses
+               8  Robbery/ burglary/ theft
+               9  Disorderly conduct
+              10  Breaking and entering/ trespassing
+              11  Shoplifting
+              12  Prostitution
+              13  Gun-related
+              14  Social order problems (curfew, loud musi
+              15  Child support
+              16  Extortion
+              17  Gang crimes
+              18  Stalking
+              19  Criminal damage to property
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/60-63
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998. Part 7: QuestionnairPage 8ion N, Clinic/Hospital Initial Interview Data
+
+
+      N18CHRG4           TYPE OF CHARGE(4) FOR THE ARREST
+
+           What was the type of charge for the arrest(s) (incident)?
+
+           VALUE  LABEL
+               1  Domestic violence
+               2  Other violent crime against a person
+               3  Harming or abusing an animal
+               4  Other type of crime
+               5  Drug-related offenses
+               6  DUI; alcohol-related offenses
+               7  Other traffic-related offenses
+               8  Robbery; burglary; theft
+               9  Disorderly conduct
+              10  Breaking and entering/ shoplifting
+              11  Shoplifting
+              12  Prostitution
+              13  Gun-related
+              14  Social order problems (curfew, loud musi
+              15  Child support
+              16  Extortion
+              17  Gang crimes
+              18  Stalking
+              19  Criminal damage to property
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/65-68
+
+      ________________________________________________________________________
+
+      N1FRQNCY           PHYSICAL VIOLENCE INCREASE IN PAST YEAR
+
+           Looking over the calendar year, has the physical violence increased
+           in frequency over the past year?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               3  No abuse in past year
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 888,999,3
+           Record/columns: 1/70-72
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998. Part 7: QuestionnairPage 9ion N, Clinic/Hospital Initial Interview Data
+
+
+      N2SVRITY           PHYSICAL VIOLENCE INCREASE IN SEVERITY
+
+           Looking over the calendar year, has the physical violence increased
+           in severity over the past year?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               3  No abuse in past year
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 888,999,3
+           Record/columns: 1/74-76
+
+      ________________________________________________________________________
+
+      N3WEAPON           PARTNER EVER USE/THREATEN TO USE WEAPON
+
+           Thinking about not just the past year, but things that may have ever
+           happened, has (name) ever used a weapon or threatened to use a
+           weapon?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               3  No abuse in past year
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 3,888-9999
+           Record/columns: 1/78-81
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998. Part 7: QuestionnaiPage 10ion N, Clinic/Hospital Initial Interview Data
+
+
+      N4CHOKE            PARTNER EVER TRY TO CHOKE YOU
+
+           Thinking about not just the past year, but things that may have ever
+           happened, has (name) ever tried to choke you?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               3  No abuse in past year
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 3,888-9999
+           Record/columns: 1/83-86
+
+      ________________________________________________________________________
+
+      N5SEX              PARTNER EVER FORCE R TO HAVE SEX
+
+           Thinking about not just the past year, but things that may have ever
+           happened, has (name) ever forced you to have sex when you did not
+           wish to do so?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               3  No abuse in past year
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 3,888-9999
+           Record/columns: 1/88-91
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998. Part 7: QuestionnaiPage 11ion N, Clinic/Hospital Initial Interview Data
+
+
+      N6CONTRL           PARTNER CONTROL R'S DAILY ACTIVITIES
+
+           Thinking about not just the past year, but things that may have ever
+           happened, does (name) control most or all of your daily activities?
+           For instance: does (name) tell you who you can be friends with, how
+           much money you can take with you shopping, or when you can take the
+           car?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               3  No abuse in past year
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 3,888,999
+           Record/columns: 1/93-95
+
+      ________________________________________________________________________
+
+      N7PREGNT           PARTNER EVER BEAT R WHILE PREGNANT
+
+           Thinking about not just the past year, but things that may have ever
+           happened, has (name) ever beaten you while you were pregnant?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               3  R says never pregnant
+               9  NAW, not asked
+             777  N/A
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 9,777-999
+           Record/columns: 1/97-99
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998. Part 7: QuestionnaiPage 12ion N, Clinic/Hospital Initial Interview Data
+
+
+      N8JEALUS           PARTNER VIOLENT/CONSTANTLY JEALOUS OF R
+
+           Think about not just the past year, but things that may have ever
+           happened. Is (name) violently and constantly jealous of you? For
+           instance: does (name) say things like, "If I can't have you, no one
+           can"?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               3  No abuse in past year
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 3,888,999
+           Record/columns: 1/101-103
+
+      ________________________________________________________________________
+
+      N9KILL             PARTNER THREATEN TO KILL R
+
+           Thinking about not just the past year, but things that may have ever
+           happened, does (name) threaten to kill you?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               3  No abuse in past year
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 3,888-9999
+           Record/columns: 1/105-108
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998. Part 7: QuestionnaiPage 13ion N, Clinic/Hospital Initial Interview Data
+
+
+      N10CPBLE           R BELIEVE PARTNER IS CAPABLE OF KILLING
+
+           Thinking about not just the past year, but things that may have ever
+           happened, do you believe (name) is capable of killing you?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               3  No abuse in past year
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 3,888-9999
+           Record/columns: 1/110-113
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019

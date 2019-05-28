@@ -1,0 +1,2867 @@
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                      CODEBOOK
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 5: Questionnaire Section L, Clinic/Hospital Initial Interview Data
+                                          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 5: QuestionnaiPage ition L, Clinic/Hospital Initial Interview Data
+
+
+                                      CONTENTS
+
+
+      item                                                                page
+
+      CASEID             RESPONDENT IDENTIFICATION NUMBER                    1
+      INVIEWN            INTERVIEW NUMBER                                    1
+      ABUSED             PHYSICALLY ABUSED IN LAST YEAR                      1
+      C1SITUAT           ABUSE SITUATION FOR PERSON IN C1                    1
+      PARTNERS           # PARTNERS IDENTIFIED IN SECTIONS C OR L            2
+      PABUSE             # OF ABUSING INTIMATE PARTNERS-PAST YR              2
+      L1SAME             PERSON WHO THREATENED SAME AS BEGINNING             2
+      L2NAME             IF NOT SAME, NAME OF PARTNER                        3
+      L3CURRNT           L2-A CURRENT OR FORMER INTIMATE PARTNER             3
+      L4RELATE           PARTNER (L2) RELATIONSHIP TO R                      4
+      L5TIME             LENGTH R'S BEEN IN CURRENT RELATIONSHIP             4
+      L5YEARS            IF OVER 1 YR, HOW LONG AGO (YEARS)                  5
+      L5MNTHS            IF OVER 1 YR, HOW LONG (MONTHS)                     5
+      L5DATE             IF 1-12 MONTHS, WHEN DID IT BEGIN                   5
+      L6RELATE           L2'S RELATIONSHIP TO R NOW                          6
+      L6OTHER            OTHER RELATIONSHIP BETWEEN L2 AND R                 7
+      L7TIME             LENGTH OF RELATIONSHIP WHEN IT ENDED                7
+      L7DATE             LESS THAN 1 MONTH, MONTH BEGAN & ENDED              8
+      L7YEAR             OVER 1 YR, HOW MANY YRS AGO IT BEGAN                8
+      L7END              1-12 MONTHS, MONTH ENDED                            9
+      L7BEGIN            1-12 MONTHS, MONTH AND YEAR BEGAN                  10
+      L7MNTH             OVER 1 YR, MONTH ENDED                             11
+      L7OTHER            EXPLAIN OTH TIME FRAME FOR RELATIONSHIP            11
+      L8ALL              PERSON IN C1 OR L2 RESPONSIBLE FOR ABUSE           12
+      L11CURNT           L10 A CURRENT OR FORMER RELATIONSHIP               12
+      L12RELAT           CURRENT RELATIONSHIP B/T L10 AND R                 13
+      L13TIME            LENGTH OF RELATIONSHIP WITH L10                    14
+      L13YEARS           OVER ONE YEAR, LENGTH OF RELATION W/ L10           14
+      L14RELAT           CURRENT RELATIONSHIP B/T L10 AND R                 15
+      L15TIME            LENGTH OF RELATIONSHIP WHEN ENDED                  16
+      L15YEARS           OVER ONE YR, YRS AGO STARTED                       16
+      L15MNTH            OVER ONE MONTH, MONTH ENDED                        17
+      L16SEX             [NAME'S] SEX                                       17
+      L17AGE             [NAME'S] AGE                                       17
+      B1AGE              B1: RESPONDENT'S AGE                               18
+      AGEDISP            AGE DISPARITY B/T [NAME] & R                       18
+      L18RACE            [NAME'S] RACE OR ETHNICITY                         18
+      L18HSPNC           IF [NAME] IS HISPANIC, SPECIFY ETHNICITY           19
+      L18OTHER           [NAME'S] RACE/ETHNICITY OTH THAN LISTED            19
+      L19EDU             EDUCATION LEVEL OF [NAME]                          20
+      L20JOB1            EMPLOYMENT STATUS OF [NAME]                        21
+      L20JOB2            EMPLOYMENT STATUS OF [NAME]-2                      22
+      L20JOB3            EMPLOYMENT STATUS OF [NAME]-3                      23
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 5: QuestionnaPage iition L, Clinic/Hospital Initial Interview Data
+
+
+      item                                                                page
+
+      L20JOB4            EMPLOYMENT STATUS OF [NAME]-4                      24
+      L20PHOUR           # HRS/WEEK [NAME] WORKS PART-TIME                  24
+      L20VHOUR           # HRS/WEEK [NAME] VOLUNTEERS                       25
+      L20STDNT           [NAME] FULL OR PART-TIME STUDENT                   25
+      L21CHNGE           CHANGE IN [NAME'S] WORK/SCHOOL SCHEDULE            26
+      L22CODE1           TYPE OF CHANGE IN SCHOOL/WORK SCHEDULE             27
+      L22CODE2           CHANGE IN [NAME'S] WRK/SCHL SCHEDULE-2             28
+      L22CODE3           CHANGE IN [NAME'S] WRK/SCHL SCHEDULE-3             29
+      L22DATE1           DATE OF 1ST CHANGE-SCHOOL/WORK SCHEDULE            30
+      L22DATE2           DATE OF 2ND CHANGE-WORK/SCHOOL SCHEDULE            31
+      L22DATE3           DATE OF 3RD CHANGE IN WRK/SCHL SCHEDULE            31
+      L23LIVE            [NAME] & R LIVE IN THE SAME PLACE                  32
+      L24APART           R LEAVE/STAY APART FROM [NAME]                     32
+      L25REASN           REASON ONE R LEFT/TRIED TO LEAVE                   33
+      L25RESN2           REASON TWO R LEFT/TRIED TO LEAVE                   34
+      L25RESN3           REASON THREE R LEFT/TRIED TO LEAVE                 35
+      L25RESN4           REASON FOUR R LEFT/TRIED TO LEAVE                  36
+      L26RETRN           R RETURNED/ASK [NAME] TO RETURN                    37
+      L27REASN           REASON 1 R RETURNED/ASK [NAME] TO RETURN           38
+      L27RESN2           REASON 2 R RETURNED/ASK [NAME] TO RETURN           39
+      L27RESN3           REASON 3 R RETURNED/ASK [NAME] TO RETURN           40
+      L27RESN4           REASON 4 R RETURNED/ASK [NAME] TO RETURN           41
+      L27RESN5           REASON 5 R RETURNED/ASK [NAME] TO RETURN           42
+      L28KID             R AND [NAME] HAVE ANY CHILDREN                     42
+      L28BYHIM           NUMBER OF CHILDREN R HAS HAD BY [NAME]             43
+      DECEASED           # OF CHILDREN BY [NAME] WHO ARE DECEASED           43
+      L28FOSTR           # FOSTER/ADOPTED CHILDREN BY R & [NAME]            43
+      L29LIVE            WHERE DO R & [NAME'S] CHILDREN LIVE                44
+      L29LIVE2           WHERE DO R & [NAME'S] CHILDREN LIVE-2              45
+      STDETAI            R'S CHILDREN NOT BY [NAME] IN HOUSEHOLD            45
+      STEPCHIL           R'S HOUSEHLD, HER CHILD BUT NOT [NAME'S]           46
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 5: QuestionnaiPage 1tion L, Clinic/Hospital Initial Interview Data
+
+
+      CASEID             RESPONDENT IDENTIFICATION NUMBER
+
+           Data type: numeric
+           Record/columns: 1/1-6
+
+      ________________________________________________________________________
+
+      INVIEWN            INTERVIEW NUMBER
+
+           VALUE  LABEL
+               1  Initial
+               2  First followup
+               3  Second followup
+
+           Data type: numeric
+           Record/column: 1/8
+
+      ________________________________________________________________________
+
+      ABUSED             PHYSICALLY ABUSED IN LAST YEAR
+
+           VALUE  LABEL
+               1  AW
+               2  NAW
+              95  Not reliable
+
+           Data type: numeric
+           Missing-data code: 95
+           Record/column: 1/10
+
+      ________________________________________________________________________
+
+      C1SITUAT           ABUSE SITUATION FOR PERSON IN C1
+
+           VALUE  LABEL
+               1  C1 is only abuser (name)
+               2  Two or more abusers, c1 chosen as name
+               3  C1 is not an abuser (not name)
+               4  C1 an abuser, but not chosen as name
+               9  NAW (no abuser)
+
+           Data type: numeric
+           Missing-data code: 9
+           Record/column: 1/12
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 5: QuestionnaiPage 2tion L, Clinic/Hospital Initial Interview Data
+
+
+      PARTNERS           # PARTNERS IDENTIFIED IN SECTIONS C OR L
+
+           VALUE  LABEL
+               1  Only one intimate partner identified (c1
+               2  Two partners
+               3  Three partners
+               4  Four partners
+               9  NAW (one partner)
+
+           Data type: numeric
+           Missing-data code: 9
+           Record/column: 1/14
+
+      ________________________________________________________________________
+
+      PABUSE             # OF ABUSING INTIMATE PARTNERS-PAST YR
+
+           VALUE  LABEL
+               1  One
+               2  Two
+               3  Three
+               9  NAW (no abusing partner)
+
+           Data type: numeric
+           Missing-data code: 9
+           Record/column: 1/16
+
+      ________________________________________________________________________
+
+      L1SAME             PERSON WHO THREATENED SAME AS BEGINNING
+
+           Thinking about the most recent incident of being threatened
+           or harmed, is the person who did this to you the same person we
+           talked about at the beginning of the interview?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+             888  NAW
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888,999,9999
+           Record/columns: 1/18-21
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 5: QuestionnaiPage 3tion L, Clinic/Hospital Initial Interview Data
+
+
+      L2NAME             IF NOT SAME, NAME OF PARTNER
+
+           How should I refer to this other person, the one who did the most
+           recent incident?
+
+           Data type: numeric
+           Missing-data code: 1
+           Record/column: 1/23
+
+      ________________________________________________________________________
+
+      L3CURRNT           L2-A CURRENT OR FORMER INTIMATE PARTNER
+
+           Is this a current or former intimate partner?
+
+           VALUE  LABEL
+               1  Current
+               2  Former, but in past year
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/25-28
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 5: QuestionnaiPage 4tion L, Clinic/Hospital Initial Interview Data
+
+
+      L4RELATE           PARTNER (L2) RELATIONSHIP TO R
+
+           What is (name's) relationship to you?
+
+           VALUE  LABEL
+               1  Husband
+               2  Ex-husband
+               3  Common-law
+               4  Ex-common-law
+               5  Boyfriend
+               6  Ex-boyfriend
+               7  Same-sex partner
+               8  Former same-sex partner
+               9  Other
+              10  Friend
+              11  Former friend
+              12  Fiance
+              13  Former fiance
+              14  Childs father
+              15  Casual sex partner
+              16  Former casual sex partner
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/30-33
+
+      ________________________________________________________________________
+
+      L5TIME             LENGTH R'S BEEN IN CURRENT RELATIONSHIP
+
+           How long have you been in this relationship?
+
+           VALUE  LABEL
+               1  Less than one month
+               2  1-12 months
+               3  Over 1 year
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/35-38
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 5: QuestionnaiPage 5tion L, Clinic/Hospital Initial Interview Data
+
+
+      L5YEARS            IF OVER 1 YR, HOW LONG AGO (YEARS)
+
+           If you have been in this relationship over 1 year, how long ago
+           (years)?
+
+           VALUE  LABEL
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/40-43
+
+      ________________________________________________________________________
+
+      L5MNTHS            IF OVER 1 YR, HOW LONG (MONTHS)
+
+           VALUE  LABEL
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/45-48
+
+      ________________________________________________________________________
+
+      L5DATE             IF 1-12 MONTHS, WHEN DID IT BEGIN
+
+           If you have been in this relationship 1-12 months, when did it
+           begin?
+
+           VALUE  LABEL
+               2  JUN 97
+
+           Data type: numeric
+           Missing-data code: 1
+           Record/column: 1/50
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 5: QuestionnaiPage 6tion L, Clinic/Hospital Initial Interview Data
+
+
+      L6RELATE           L2'S RELATIONSHIP TO R NOW
+
+           What is (name's) relationship to you now?
+
+           VALUE  LABEL
+               1  Husband
+               2  Ex-husband
+               3  Common-law
+               4  Ex-common-law
+               5  Boyfriend
+               6  Ex-boyfriend
+               7  Same-sex partner
+               8  Former same-sex partner
+               9  Other
+              10  Friend
+              11  Former friend
+              12  Fiance
+              13  Former fiance
+              14  Child's father
+              15  Casual sex partner
+              16  Former casual sex partner
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/52-55
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 5: QuestionnaiPage 7tion L, Clinic/Hospital Initial Interview Data
+
+
+      L6OTHER            OTHER RELATIONSHIP BETWEEN L2 AND R
+
+           What is (name's) relationship to you now? Other-please explain.
+
+           VALUE  LABEL
+               2  CHILDREN'S FATHER
+               3  DAUGHTER'S FATHER
+               4  DECEASED
+               5  EX-FRIEND
+               6  Ex-Partner
+               7  FORMER FIANCE
+               8  FRIEND
+               9  HER KID'S DAD
+              10  INTIMATE FRIEND
+              11  KID'S FATHER
+              12  pregnant by him now
+              13  SEX PARTNER
+
+           Data type: numeric
+           Missing-data code: 1
+           Record/columns: 1/57-58
+
+      ________________________________________________________________________
+
+      L7TIME             LENGTH OF RELATIONSHIP WHEN IT ENDED
+
+           How long had you been in this relationship when it ended?
+
+           VALUE  LABEL
+               1  Less than 1 month
+               2  1-12 months
+               3  Over 1 year
+               4  Other
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/60-63
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 5: QuestionnaiPage 8tion L, Clinic/Hospital Initial Interview Data
+
+
+      L7DATE             LESS THAN 1 MONTH, MONTH BEGAN & ENDED
+
+           If you had been in this relationship less than 1 month when it
+           ended, in what month(s) did the relationship begin and end?
+
+           VALUE  LABEL
+               1  January
+               2  February
+               3  March
+               4  April
+               5  May
+               6  June
+               7  July
+               8  August
+               9  September
+              10  October
+              11  November
+              12  December
+              99  Unknown
+
+           Data type: numeric
+           Missing-data code: 99
+           Record/columns: 1/65-66
+
+      ________________________________________________________________________
+
+      L7YEAR             OVER 1 YR, HOW MANY YRS AGO IT BEGAN
+
+           If you had been in this relationship over 1 year when it ended,
+           about how long ago did it start (years ago)?
+
+           VALUE  LABEL
+              99  Unknown
+
+           Data type: numeric
+           Missing-data code: 99
+           Record/columns: 1/68-69
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 5: QuestionnaiPage 9tion L, Clinic/Hospital Initial Interview Data
+
+
+      L7END              1-12 MONTHS, MONTH ENDED
+
+           If you had been in this relationship 1-12 months when it ended, in
+           what month did the relationship end?
+
+           VALUE  LABEL
+               2  APR 97
+               3  AUG 97
+               4  FEB 98
+               5  JAN 98
+               6  JUL 96
+               7  JUL 97
+               8  JUN 97
+               9  MAR 97
+              10  MAY 97
+              11  OCT 97
+              12  SEP 95
+              13  SEP 97
+              14  SEP 98
+              15  Missing
+
+           Data type: numeric
+           Missing-data codes: 1,15
+           Record/columns: 1/71-72
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 5: QuestionnaPage 10tion L, Clinic/Hospital Initial Interview Data
+
+
+      L7BEGIN            1-12 MONTHS, MONTH AND YEAR BEGAN
+
+           If you had been in this relationship 1-12 months when it ended,
+           about when did the relationship begin (month/year)?
+
+           VALUE  LABEL
+               2  APR 97
+               3  AUG 96
+               4  AUG 97
+               5  FEB 96
+               6  FEB 98
+               7  JAN 97
+               8  JUL 96
+               9  JUL 97
+              10  JUN 95
+              11  JUN 96
+              12  JUN 97
+              13  MAR 96
+              14  MAR 97
+              15  MAY 97
+              16  NOV 96
+              17  NOV 97
+              18  SEP 96
+              19  Missing
+
+           Data type: numeric
+           Missing-data codes: 1,19
+           Record/columns: 1/74-75
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 5: QuestionnaPage 11tion L, Clinic/Hospital Initial Interview Data
+
+
+      L7MNTH             OVER 1 YR, MONTH ENDED
+
+           If you had been in this relationship over 1 year when it ended, in
+           what month did the relationship end (month in the last year)?
+
+           VALUE  LABEL
+               2  AUG 97
+               3  DEC 03
+               4  DEC 97
+               5  FEB 97
+               6  FEB 98
+               7  JAN 86
+               8  JAN 91
+               9  JAN 95
+              10  JAN 96
+              11  JAN 97
+              12  JUL 97
+              13  JUN 97
+              14  MAR 97
+              15  MAY 96
+              16  MAY 97
+              17  NOV 96
+              18  NOV 97
+              19  OCT 96
+              20  OCT 97
+              21  SEP 97
+              22  Missing
+
+           Data type: numeric
+           Missing-data codes: 1,22
+           Record/columns: 1/77-78
+
+      ________________________________________________________________________
+
+      L7OTHER            EXPLAIN OTH TIME FRAME FOR RELATIONSHIP
+
+           How long had you been in this relationship when it ended?
+           Other - please explain.
+
+           VALUE  LABEL
+               2  RELATIONSHIP ENDED TWO YEARS AGO/STILL C
+               3  TOGETHER 14 YEARS 1977-91.  IN JAIL FROM
+               4  WENT TOGTHER LESS THN 1 MTH 9/97, STILL
+
+           Data type: numeric
+           Missing-data code: 1
+           Record/column: 1/80
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 5: QuestionnaPage 12tion L, Clinic/Hospital Initial Interview Data
+
+
+      L8ALL              PERSON IN C1 OR L2 RESPONSIBLE FOR ABUSE
+
+           Thinking about all of the incidents that occurred in the past
+           year, was the person we have been talking about responsible for all
+           of them?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               3  There was only one incident(N/A)
+             888  NAW
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 3,888-9999
+           Record/columns: 1/82-85
+
+      ________________________________________________________________________
+
+      L11CURNT           L10 A CURRENT OR FORMER RELATIONSHIP
+
+           It seems that there is or was more than one partner in your life
+           responsible for threats or acts of violence toward you in the past
+           year. For the next series of questions, we need to pick just one of
+           them to talk about. Please choose the person responsible for the
+           most serious of the incidents we have been talking about, or the
+           incidents that bothered you the most. Is this a current or former
+           relationship?
+
+           VALUE  LABEL
+               1  Current
+               2  Former
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/87-90
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 5: QuestionnaPage 13tion L, Clinic/Hospital Initial Interview Data
+
+
+      L12RELAT           CURRENT RELATIONSHIP B/T L10 AND R
+
+           It seems that there is or was more than one partner in your life
+           responsible for threats or acts of violence toward you in the past
+           year. For the next series of questions, we need to pick just one of
+           them to talk about. Please choose the person responsible for the
+           most serious of the incidents we have been talking about, or the
+           incidents that bothered you the most.  What is (name's) relationship
+           to you?
+
+           VALUE  LABEL
+               1  Husband
+               2  Ex-husband
+               3  Common-law
+               4  Ex-common-law
+               5  Boyfriend
+               6  Ex-boyfriend
+               7  Same-sex partner
+               8  Former same-sex partner
+               9  Other
+              10  Friend
+              11  Former friend
+              12  Fiance
+              13  Former fiance
+              14  Child's father
+              15  Casual sex partner
+              16  Former casual sex partner
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/92-95
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 5: QuestionnaPage 14tion L, Clinic/Hospital Initial Interview Data
+
+
+      L13TIME            LENGTH OF RELATIONSHIP WITH L10
+
+           It seems that there is or was more than one partner in your life
+           responsible for threats or acts of violence toward you in the past
+           year. For the next series of questions, we need to pick just one of
+           them to talk about. Please choose the person responsible for the
+           most serious of the incidents we have been talking about, or the
+           incidents that bothered you the most. How long have you been in this
+           relationship?
+
+           VALUE  LABEL
+               1  Less than 1 month
+               2  1-12 months
+               3  Over 1 year
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/97-100
+
+      ________________________________________________________________________
+
+      L13YEARS           OVER ONE YEAR, LENGTH OF RELATION W/ L10
+
+           It seems that there is or was more than one partner in your life
+           responsible for threats or acts of violence toward you in the past
+           year. For the next series of questions, we need to pick just one of
+           them to talk about. Please choose the person responsible for the
+           most serious of the incidents we have been talking about, or the
+           incidents that bothered you the most. If you have been in this
+           relationship over 1 year, how long ago (years)?
+
+           VALUE  LABEL
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/102-105
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 5: QuestionnaPage 15tion L, Clinic/Hospital Initial Interview Data
+
+
+      L14RELAT           CURRENT RELATIONSHIP B/T L10 AND R
+
+           It seems that there is or was more than one partner in your life
+           responsible for threats or acts of violence toward you in the past
+           year. For the next series of questions, we need to pick just one of
+           them to talk about. Please choose the person responsible for the
+           most serious of the incidents we have been talking about, or the
+           incidents that bothered you the most. What is (name's) relationship
+           to you now?
+
+           VALUE  LABEL
+               1  Husband
+               2  Ex-husband
+               3  Common-law
+               4  Ex-common-law
+               5  Boyfriend
+               6  Ex-boyfriend
+               7  Same-sex partner
+               8  Former same-sex partner
+               9  Other
+              10  Friend
+              11  Former friend
+              12  Fiance
+              13  Former fiance
+              14  Childs father
+              15  Casual sex partner
+              16  Former casual sex partner
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/107-110
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 5: QuestionnaPage 16tion L, Clinic/Hospital Initial Interview Data
+
+
+      L15TIME            LENGTH OF RELATIONSHIP WHEN ENDED
+
+           It seems that there is or was more than one partner in your life
+           responsible for threats or acts of violence toward you in the past
+           year. For the next series of questions, we need to pick just one of
+           them to talk about. Please choose the person responsible for the
+           most serious of the incidents we have been talking about, or the
+           incidents that bothered you the most. How long had you been in this
+           relationship when it ended?
+
+           VALUE  LABEL
+               1  Less than one month
+               2  1-12 months
+               3  Over 1 year
+               4  Other
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/112-115
+
+      ________________________________________________________________________
+
+      L15YEARS           OVER ONE YR, YRS AGO STARTED
+
+           It seems that there is or was more than one partner in your life
+           responsible for threats or acts of violence toward you in the past
+           year. For the next series of questions, we need to pick just one of
+           them to talk about. Please choose the person responsible for the
+           most serious of the incidents we have been talking about, or the
+           incidents that bothered you the most. If you had been in this
+           relationship over 1 year when it ended, about how long ago did it
+           start? (years ago)
+
+           VALUE  LABEL
+              99  Unknown
+
+           Data type: numeric
+           Missing-data code: 99
+           Record/columns: 1/117-118
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 5: QuestionnaPage 17tion L, Clinic/Hospital Initial Interview Data
+
+
+      L15MNTH            OVER ONE MONTH, MONTH ENDED
+
+           It seems that there is or was more than one partner in your life
+           responsible for threats or acts of violence toward you in the past
+           year. For the next series of questions, we need to pick just one of
+           them to talk about. Please choose the person responsible for the
+           most serious of the incidents we have been talking about, or the
+           incidents that bothered you the most. How long had you been in this
+           relationship when it ended?
+
+           VALUE  LABEL
+               2  AUG 97
+               3  FEB 97
+               4  JAN 94
+               5  Missing
+
+           Data type: numeric
+           Missing-data codes: 1,5
+           Record/column: 1/120
+
+      ________________________________________________________________________
+
+      L16SEX             [NAME'S] SEX
+
+           Ask the following questions about the person identified as (name) in
+           item C1, L2, or L10. What is (name's) sex?
+
+           VALUE  LABEL
+               1  Male
+               2  Female
+             999  Missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/122-124
+
+      ________________________________________________________________________
+
+      L17AGE             [NAME'S] AGE
+
+           Ask the following questions about the person identified as (name) in
+           item C1, L2, or L10. What is (name's) age?
+
+           VALUE  LABEL
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 888,999
+           Record/columns: 1/126-128
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 5: QuestionnaPage 18tion L, Clinic/Hospital Initial Interview Data
+
+
+      B1AGE              B1: RESPONDENT'S AGE
+
+           Data type: numeric
+           Missing-data codes: 888,999
+           Record/columns: 1/130-131
+
+      ________________________________________________________________________
+
+      AGEDISP            AGE DISPARITY B/T [NAME] & R
+
+           VALUE  LABEL
+               1  Same age within 5 years
+               2  R is older by 5 to 9 years
+               3  R is older by 10 to 20 years
+               4  (Name) is older by 5 to 9 years
+               5  (Name)s older by 10 to 20 years
+               6  (Name) older by 21 to 42 years
+             999  Missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/133-135
+
+      ________________________________________________________________________
+
+      L18RACE            [NAME'S] RACE OR ETHNICITY
+
+           Ask the following questions about the person identified as (name) in
+           item C1, L2, or L10.  How would you describe (name's) race or
+           ethnicity?
+
+           VALUE  LABEL
+               1  Black or African American
+               2  White
+               3  Hispanic
+               4  Asian, Pacific Islander
+               5  Native American
+               6  Other
+               7  Multi-racial
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 888,999
+           Record/columns: 1/137-139
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 5: QuestionnaPage 19tion L, Clinic/Hospital Initial Interview Data
+
+
+      L18HSPNC           IF [NAME] IS HISPANIC, SPECIFY ETHNICITY
+
+           Ask the following questions about the person identified as (name) in
+           item C1, L2, or L10. If (name's) race or ethnicity is Hispanic, what
+           specific group?
+
+           VALUE  LABEL
+               2  AMERICAN/PUERTO RICAN
+               3  belize
+               4  CUBAN
+               5  FROM SPAIN
+               6  MEXICAN
+               7  MEXICAN AMERICAN
+               8  MEXICAN/BLACK
+               9  PUERTO RICAN
+              10  PUERTO RICO
+              11  SOUTH AMERICAN
+
+           Data type: numeric
+           Missing-data code: 1
+           Record/columns: 1/141-142
+
+      ________________________________________________________________________
+
+      L18OTHER           [NAME'S] RACE/ETHNICITY OTH THAN LISTED
+
+           Ask the following questions about the person identified as (name) in
+           item C1, L2, or L10. If (name's) race or ethnicity is other, please
+           explain.
+
+           VALUE  LABEL
+               2  AMERICAN
+               3  BELIZIAN
+               4  HISPANIC/BLACK
+               5  Indian
+               6  INDIAN
+               7  Jewish
+               8  KOREAN
+               9  MIXED BLACK AND UNKNOWN RACE
+              10  PHILIPINE
+
+           Data type: numeric
+           Missing-data code: 1
+           Record/columns: 1/144-145
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 5: QuestionnaPage 20tion L, Clinic/Hospital Initial Interview Data
+
+
+      L19EDU             EDUCATION LEVEL OF [NAME]
+
+           Ask the following questions about the person identified as (name) in
+           item C1, L2, or L10.  What is the highest grade or year of school
+           (name) has completed?
+
+           VALUE  LABEL
+               1  No schooling
+               2  Elementary school(1-8)
+               3  Some high school(9-12)
+               4  High school grad or equivalent
+               5  Some college or vocational school
+               6  Junior college, trade school, or vocatio
+               7  Four-year college degree
+               8  Some graduate school
+               9  Graduate or professional degree
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 999,888
+           Record/columns: 1/147-149
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 5: QuestionnaPage 21tion L, Clinic/Hospital Initial Interview Data
+
+
+      L20JOB1            EMPLOYMENT STATUS OF [NAME]
+
+           Ask the following questions about the person identified as (name) in
+           item C1, L2, or L10. Does (name) currently have a job, do volunteer
+           work, or go to school? Circle all that apply.
+
+           VALUE  LABEL
+               1  Works more than full time
+               2  Works full time
+               3  Works part time
+               4  Volunteers
+               5  Works out of home
+               6  Homemaker
+               7  Student
+               8  Unemployed, but looking for work
+               9  Not employed, not looking for work
+              10  Other
+              11  In a training program
+              12  Employed, but on leave of absence
+              13  Self-employed
+              14  In jail/ prison
+              15  Drug dealer
+              16  Retired
+              17  Disabled, unable to work
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 888,999
+           Record/columns: 1/151-153
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 5: QuestionnaPage 22tion L, Clinic/Hospital Initial Interview Data
+
+
+      L20JOB2            EMPLOYMENT STATUS OF [NAME]-2
+
+           Ask the following questions about the person identified as (name) in
+           item C1, L2, or L10.  Does (name) currently have a job, do volunteer
+           work, or go to school? Circle all that apply.
+
+           VALUE  LABEL
+               1  Works more than full time
+               2  Works full time
+               3  Works part-time
+               4  Volunteers
+               5  Works out of home
+               6  Homemaker
+               7  Student
+               8  Unemployed, but looking for work
+               9  Not employed, not looking for work
+              10  Other
+              11  In a training program
+              12  Employed, but on leave of absence
+              13  Self-employed
+              14  In jail/ prison
+              15  Drug dealer
+              16  Retired
+              17  Disabled, unable to work
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/155-158
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 5: QuestionnaPage 23tion L, Clinic/Hospital Initial Interview Data
+
+
+      L20JOB3            EMPLOYMENT STATUS OF [NAME]-3
+
+           Ask the following questions about the person identified as (name) in
+           item C1, L2, or L10.  Does (name) currently have a job, do volunteer
+           work, or go to school? Circle all that apply.
+
+           VALUE  LABEL
+               1  Works more than full time
+               2  Works full time
+               3  Works part-time
+               4  Volunteers
+               5  Works out of home
+               6  Homemaker
+               7  Student
+               8  Unemployed, but looking for work
+               9  Not employed, not looking for work
+              10  Other
+              11  In training program
+              12  Employed, but on leave of absence
+              13  Self-employed
+              14  In jail/ prison
+              15  Drug dealer
+              16  Retired
+              17  Disabled, unable to work
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/160-163
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 5: QuestionnaPage 24tion L, Clinic/Hospital Initial Interview Data
+
+
+      L20JOB4            EMPLOYMENT STATUS OF [NAME]-4
+
+           Ask the following questions about the person identified as (name) in
+           item C1, L2, or L10. Does (name) currently have a job, do volunteer
+           work, or go to school? Circle all that apply.
+
+           VALUE  LABEL
+               1  Works more than full time
+               2  Works full time
+               3  Works part time
+               4  Volunteers
+               5  Works out of home
+               6  Homemaker
+               7  Student
+               8  Unemployed, but looking for work
+               9  Not employed, not looking
+              10  Other
+              11  In a training program
+              12  Employed, but on a leave of absence
+              13  Self-employed
+              14  In jail/ prison
+              15  Drug dealer
+              16  Retired
+              17  Disabled, unable to work
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/165-168
+
+      ________________________________________________________________________
+
+      L20PHOUR           # HRS/WEEK [NAME] WORKS PART-TIME
+
+           Ask the following questions about the person identified as (name) in
+           item C1, L2, or L10. If (name) works part-time, how many hours a
+           week?
+
+           VALUE  LABEL
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/170-173
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 5: QuestionnaPage 25tion L, Clinic/Hospital Initial Interview Data
+
+
+      L20VHOUR           # HRS/WEEK [NAME] VOLUNTEERS
+
+           Ask the following questions about the person identified as (name) in
+           item C1, L2, or L10.  If (name) does volunteer work, how many hours
+           a week?
+
+           VALUE  LABEL
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/175-178
+
+      ________________________________________________________________________
+
+      L20STDNT           [NAME] FULL OR PART-TIME STUDENT
+
+           Ask the following questions about the person identified as (name) in
+           item C1, L2, or L10.  If (name) is a student, is it full or part-
+           time?
+
+           VALUE  LABEL
+               1  Full time
+               2  Part time
+             777  Not a student
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 777-999
+           Record/columns: 1/180-182
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 5: QuestionnaPage 26tion L, Clinic/Hospital Initial Interview Data
+
+
+      L21CHNGE           CHANGE IN [NAME'S] WORK/SCHOOL SCHEDULE
+
+           Ask the following questions about the person identified as (name) in
+           item C1, L2, or L10.  Has there been a major change in (name's) work
+           or school schedule in the past year?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+             777  N/A
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 777-999
+           Record/columns: 1/184-186
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 5: QuestionnaPage 27tion L, Clinic/Hospital Initial Interview Data
+
+
+      L22CODE1           TYPE OF CHANGE IN SCHOOL/WORK SCHEDULE
+
+           Ask the following questions about the person identified as (name) in
+           item C1, L2, or L10.  If there has been a major change in (name's)
+           work or school schedule in the past year, please describe briefly
+           what changed.
+
+           VALUE  LABEL
+               1  Started working, returned to work, secon
+               2  Stopped working (quit, fired)
+               3  Changed jobs (promotion, different emplo
+               4  Leave of absence/ maternity leave
+               5  Change in hours/ schedule
+               6  Husbands job changed/ influenced rs jo
+               7  Started school/ taking classes
+               8  Stopped school (graduated, dropped out,
+               9  Changed schools
+              10  Changed status (full- to part-time, rais
+              11  Arrested/ went to jail
+              12  Got out of jail
+              13  Drug problem
+              14  Medical problem (illness, injury, pregna
+              15  Moved
+              16  Absenteeism
+              17  Other
+             777  Not applicable
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 777-9999
+           Record/columns: 1/188-191
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 5: QuestionnaPage 28tion L, Clinic/Hospital Initial Interview Data
+
+
+      L22CODE2           CHANGE IN [NAME'S] WRK/SCHL SCHEDULE-2
+
+           Ask the following questions about the person identified as (name) in
+           item C1, L2, or L10.  If there has been a major change in (name's)
+           work or school schedule in the past year, please describe briefly
+           what changed.
+
+           VALUE  LABEL
+               1  Started working, returned to work, secon
+               2  Stopped working (quit, fired)
+               3  Changed jobs (promotion, different emplo
+               4  Leave of absence/ maternity leave
+               5  Change in hours/ schedule
+               6  Husbands job changed/ influenced rs jo
+               7  Started school/ taking classes
+               8  Stopped school (graduated, dropped out,
+               9  Changed schools
+              10  Changed status (full- to part-time, rais
+              11  Arrested/ went to jail
+              12  Got out of jail
+              13  Drug problem
+              14  Medical problem (illness, injury, pregna
+              15  Moved
+              16  Absenteeism
+              17  Other
+             777  Not applicable
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 777-9999
+           Record/columns: 1/193-196
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 5: QuestionnaPage 29tion L, Clinic/Hospital Initial Interview Data
+
+
+      L22CODE3           CHANGE IN [NAME'S] WRK/SCHL SCHEDULE-3
+
+           Ask the following questions about the person identified as (name) in
+           item C1, L2, or L10.  If there has been a major change in (name's)
+           work or school schedule in the past year, please describe briefly
+           what changed.
+
+           VALUE  LABEL
+               1  Started working, returned to work, secon
+               2  Stopped working (quit, fired)
+               3  Changed jobs (promotion, different emplo
+               4  Leave of absence/ maternity leave
+               5  Change in hours/ schedule
+               6  Husbands job changed/ influenced rs jo
+               7  Started school/ taking classes
+               8  Stopped school (graduated, dropped out,
+               9  Changed schools
+              10  Changed status (full- to part-time, rais
+              11  Arrested/ went to jail
+              12  Got out of jail
+              13  Drug problem
+              14  Medical problem (illness, injury, pregna
+              15  Moved
+              16  Absenteeism
+              17  Other
+             777  Not applicable
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 777-9999
+           Record/columns: 1/198-201
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 5: QuestionnaPage 30tion L, Clinic/Hospital Initial Interview Data
+
+
+      L22DATE1           DATE OF 1ST CHANGE-SCHOOL/WORK SCHEDULE
+
+           Ask the following questions about the person identified as (name) in
+           item C1, L2, or L10. If there has been a major change in (name's)
+           work or school schedule in the past year, please describe when.
+
+           VALUE  LABEL
+               2  APR 97
+               3  APR 98
+               4  AUG 96
+               5  AUG 97
+               6  DEC 96
+               7  DEC 97
+               8  FEB 97
+               9  FEB 98
+              10  JAN 97
+              11  JAN 98
+              12  JUL 96
+              13  JUL 97
+              14  JUN 97
+              15  MAR 97
+              16  MAR 98
+              17  MAY 97
+              18  NOV 96
+              19  NOV 97
+              20  OCT 96
+              21  OCT 97
+              22  SEP 96
+              23  SEP 97
+
+           Data type: numeric
+           Missing-data code: 1
+           Record/columns: 1/203-204
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 5: QuestionnaPage 31tion L, Clinic/Hospital Initial Interview Data
+
+
+      L22DATE2           DATE OF 2ND CHANGE-WORK/SCHOOL SCHEDULE
+
+           Ask the following questions about the person identified as (name) in
+           item C1, L2, or L10. If there has been a major change in (name's)
+           work or school schedule in the past year, please describe when.
+
+           VALUE  LABEL
+               2  AUG 97
+               3  FEB 97
+               4  JAN 97
+               5  JAN 98
+               6  JUN 97
+               7  MAR 97
+               8  MAR 98
+               9  MAY 97
+              10  OCT 97
+              11  SEP 96
+
+           Data type: numeric
+           Missing-data code: 1
+           Record/columns: 1/206-207
+
+      ________________________________________________________________________
+
+      L22DATE3           DATE OF 3RD CHANGE IN WRK/SCHL SCHEDULE
+
+           Ask the following questions about the person identified as (name) in
+           item C1, L2, or L10. If there has been a major change in (name's)
+           work or school schedule in the past year, please describe when.
+
+           VALUE  LABEL
+               2  AUG 97
+               3  DEC 97
+               4  OCT 96
+
+           Data type: numeric
+           Missing-data code: 1
+           Record/column: 1/209
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 5: QuestionnaPage 32tion L, Clinic/Hospital Initial Interview Data
+
+
+      L23LIVE            [NAME] & R LIVE IN THE SAME PLACE
+
+           Ask the following questions about the person identified as (name) in
+           item C1, L2, or L10.  Were you and (name) living in the same place
+           at any time during the past year?
+
+           VALUE  LABEL
+               1  Yes, entire year
+               2  Yes, but now living apart
+               3  Yes, recently moved in together
+               4  No, but lived together in prior year(s)
+               5  No, never
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 888,999
+           Record/columns: 1/211-213
+
+      ________________________________________________________________________
+
+      L24APART           R LEAVE/STAY APART FROM [NAME]
+
+           Ask the following questions about the person identified as (name) in
+           item C1, L2, or L10.  During the past year, did you leave or stay
+           apart from (name), or ask (name) to leave or stay away from you?
+
+           VALUE  LABEL
+               1  Yes, left/stayed away
+               2  Yes, asked (name) to leave or stay away
+               3  Asked, but (name) refused to leave or st
+               4  No
+             888  Don't know
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 888,999
+           Record/columns: 1/215-217
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 5: QuestionnaPage 33tion L, Clinic/Hospital Initial Interview Data
+
+
+      L25REASN           REASON ONE R LEFT/TRIED TO LEAVE
+
+           Ask the following questions about the person identified as (name) in
+           item C1, L2, or L10.  What were the main reasons you left or tried
+           to leave the relationship, or asked (name) to stay away from you?
+
+           VALUE  LABEL
+               1  Feared for my safety
+               2  Feared for my children's safety
+               3  Had support
+               4  Someone advised me to leave
+               5  Had a place to go
+               6  Other
+               7  Physically abusive relationship
+               8  Mentally abusive relationship
+               9  Rape/ forced sex
+              10  Arguing a lot/ temper
+              11  Other bad relationship (destructive, str
+              12  Controlling, manipulative, jealous partn
+              13  (Name) getting on r's nerves/ got tire
+              14  Cheating, playing games, other man/ woma
+              15  Money issues
+              16  Children
+              17  R or name went to prison/ jail
+              18  Drug/ alcohol use/ abuse
+              19  R or (name) needed space
+              20  R or (name) wanted to do better, get lif
+              21  (Name) did not have a job, would not wor
+              22  (Name) lied, stole, blamed r for problem
+              23  (Name) left r, stopped caring about r
+              24  Lack of communication
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/219-222
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 5: QuestionnaPage 34tion L, Clinic/Hospital Initial Interview Data
+
+
+      L25RESN2           REASON TWO R LEFT/TRIED TO LEAVE
+
+           Ask the following questions about the person identified as (name) in
+           item C1, L2, or L10.  What were the main reasons you left or tried
+           to leave the relationship, or asked (name) to stay away from you?
+
+           VALUE  LABEL
+               1  Feared for my safety
+               2  Feared for children's safety
+               3  Had support
+               4  Someone advised me to go
+               5  Had a place to go
+               6  Other
+               7  Physically abusive relationship
+               8  Mentally abusive relationship
+               9  Rape/ forced sex
+              10  Arguing a lot/ temper
+              11  Other bad relationship (destructive, str
+              12  Controlling, manipulative, jealous partn
+              13  Partner getting on r's nerves/ tired o
+              14  Cheating, playing games, other man/ woma
+              15  Money issues
+              16  Children
+              17  R or abuser went to prison/ jail
+              18  Drug/ alcohol use/ abuse
+              19  R or partner needed space
+              20  R or partner wanted to do better/ get li
+              21  Partner did not have a job/ would not wo
+              22  Partner lied, stole, blamed r for proble
+              23  Partner left r, stopped caring about r
+              24  Lack of communication
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/224-227
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 5: QuestionnaPage 35tion L, Clinic/Hospital Initial Interview Data
+
+
+      L25RESN3           REASON THREE R LEFT/TRIED TO LEAVE
+
+           Ask the following questions about the person identified as (name) in
+           item C1, L2, or L10.  What were the main reasons you left or tried
+           to leave the relationship, or asked (name) to stay away from you?
+
+           VALUE  LABEL
+               1  Feared for my safety
+               2  Feared for children's safety
+               3  Had support
+               4  Someone advised me to leave
+               5  Had a place to go
+               6  Other
+               7  Physically abusive relationship
+               8  Mentally abusive relationship
+               9  Rape/ forced sex
+              10  Arguing a lot/ temper
+              11  Other bad relationship (destructive, str
+              12  Controlling, manipulative, jealous partn
+              13  Partner getting on r's nerves/ got tir
+              14  Cheating, playing games, other man/ woma
+              15  Money issues
+              16  Children
+              17  R or abuser went to prison/ jail
+              18  Drug/ alcohol use/ abuse
+              19  R or partner needed space
+              20  R or partner wanted to do better/ get li
+              21  Partner did not have a job, would not wo
+              22  Partner lied, stole, blamed r for proble
+              23  Partner left r, stopped caring about r
+              24  Lack of communication
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/229-232
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 5: QuestionnaPage 36tion L, Clinic/Hospital Initial Interview Data
+
+
+      L25RESN4           REASON FOUR R LEFT/TRIED TO LEAVE
+
+           Ask the following questions about the person identified as (name) in
+           item C1, L2, or L10.  What were the main reasons you left or tried
+           to leave the relationship, or asked (name) to stay away from you?
+
+           VALUE  LABEL
+               1  Feared for my safety
+               2  Feared for my children's safety
+               3  Had support
+               4  Someone advised me to leave
+               5  Had a place to go
+               6  Other
+               7  Physically abusive relationship
+               8  Mentally abusive relationship
+               9  Rape/ forced sex
+              10  Arguing a lot/ temper
+              11  Other bad relationship (destructive, str
+              12  Controlling, manipulative, jealous partn
+              13  Partner getting on r's nerves/ got tir
+              14  Cheating, playing games, other man/woman
+              15  Money issues
+              16  Children
+              17  R or abuser went to prison, jail
+              18  Drug/ alcohol use/ abuse
+              19  R or partner needed space
+              20  R or partner wanted to do better/ get li
+              21  Partner did not have a job/ would not wo
+              22  Partner lied, stole, blamed r for proble
+              23  Partner left r, stopped caring about r
+              24  Lack of communication
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/234-237
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 5: QuestionnaPage 37tion L, Clinic/Hospital Initial Interview Data
+
+
+      L26RETRN           R RETURNED/ASK [NAME] TO RETURN
+
+           Ask the following questions about the person identified as (name) in
+           item C1, L2, or L10.  Did you return to the relationship, or ask
+           (name) to return?
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/239-242
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 5: QuestionnaPage 38tion L, Clinic/Hospital Initial Interview Data
+
+
+      L27REASN           REASON 1 R RETURNED/ASK [NAME] TO RETURN
+
+           Ask the following questions about the person identified as (name) in
+           item C1, L2, or L10.  What were the main reasons you returned, or
+           asked (name) to return to the relationship?
+
+           VALUE  LABEL
+               1  (Name) promised to change
+               2  Resolved problems
+               3  Had no money
+               4  Had nowhere to go
+               5  For the sake of the children
+               6  Shame of divorce
+               7  Lack of housing
+               8  (Name) threatened to hurt her or childre
+               9  Wanted to give relationship another try
+              10  Other
+              11  Love/ support
+              12  Sex/ fun
+              13  (Name) asked/ begged r to return; pity
+              14  R needed name, missed him/ her, obsess
+              15  To keep peace
+              16  Revenge on someone else
+              17  R does not know
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/244-247
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 5: QuestionnaPage 39tion L, Clinic/Hospital Initial Interview Data
+
+
+      L27RESN2           REASON 2 R RETURNED/ASK [NAME] TO RETURN
+
+           Ask the following questions about the person identified as (name) in
+           item C1, L2, or L10.  What were the main reasons you returned, or
+           asked (name) to return to the relationship?
+
+           VALUE  LABEL
+               1  Partner promised to change
+               2  Resolved problems
+               3  Had no money
+               4  Had nowhere to go
+               5  For the sake of the children
+               6  Shame of divorce
+               7  Lack of housing
+               8  Partner threatened to hurt her or childr
+               9  Wanted to give relationship another try
+              10  Other
+              11  Love/ support
+              12  Sex/ fun
+              13  Partner asked/ begged r to return/ pity
+              14  R needed partner, missed him/ her, obs
+              15  To keep peace
+              16  Revenge on someone else
+              17  R does not know
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/249-252
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 5: QuestionnaPage 40tion L, Clinic/Hospital Initial Interview Data
+
+
+      L27RESN3           REASON 3 R RETURNED/ASK [NAME] TO RETURN
+
+           Ask the following questions about the person identified as (name) in
+           item C1, L2, or L10.  What were the main reasons you returned, or
+           asked (name) to return to the relationship?
+
+           VALUE  LABEL
+               1  Partner promised to change
+               2  Resolved problems
+               3  Had no money
+               4  Had nowhere to go
+               5  For the sake of the children
+               6  Shame of divorce
+               7  Lack of housing
+               8  Partner threatened to hurt her or childr
+               9  Wanted to give relationship another try
+              10  Other
+              11  Love/ support
+              12  Sex/ fun
+              13  Partner asked/ begged r to return, pity
+              14  R needed partner, missed him/ her, obs
+              15  To keep peace
+              16  Revenge on someone else
+              17  Other reason
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/254-257
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 5: QuestionnaPage 41tion L, Clinic/Hospital Initial Interview Data
+
+
+      L27RESN4           REASON 4 R RETURNED/ASK [NAME] TO RETURN
+
+           Ask the following questions about the person identified as (name) in
+           item C1, L2, or L10.  What were the main reasons you returned, or
+           asked (name) to return to the relationship?
+
+           VALUE  LABEL
+               1  Partner promised to change
+               2  Resolved problems
+               3  Had no money
+               4  Had nowhere to go
+               5  For the sake of the children
+               6  Shame of divorce
+               7  Lack of housing
+               8  Partner threatened to hurt her children
+               9  Wanted to give relationship another try
+              10  Other
+              11  Love/ support
+              12  Sex/ fun
+              13  Partner asked/ begged r to return; pity
+              14  R needed partner, missed him/ her, obs
+              15  To keep peace
+              16  Revenge on someone else
+              17  Other reason
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/259-262
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 5: QuestionnaPage 42tion L, Clinic/Hospital Initial Interview Data
+
+
+      L27RESN5           REASON 5 R RETURNED/ASK [NAME] TO RETURN
+
+           Ask the following questions about the person identified as (name) in
+           item C1, L2, or L10.  What were the main reasons you returned, or
+           asked (name) to return to the relationship?
+
+           VALUE  LABEL
+               1  Partner promised to change
+               2  Resolved problems
+               3  Had no money
+               4  Had nowhere to go
+               5  For the sake of the children
+               6  Shame of divorce
+               7  Lack of housing
+               8  Partner threatened to hurt her children
+               9  Wanted to give relationship another try
+              10  Other
+              11  Love/ support
+              12  Sex/ fun
+              13  Partner asked/ begged r to return; pity
+              14  R needed partner, missed him/ her; obs
+              15  To keep peace
+              16  Revenge on someone else
+              17  Other reason
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/264-267
+
+      ________________________________________________________________________
+
+      L28KID             R AND [NAME] HAVE ANY CHILDREN
+
+           Ask the following questions about the person identified as (name) in
+           item C1, L2, or L10.  Have you and (name) had any children?
+
+           VALUE  LABEL
+               1  Yes, by name
+               2  Yes, adopted or foster
+               3  No, or pregnant now
+             777  N/A
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 777,999
+           Record/columns: 1/269-271
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 5: QuestionnaPage 43tion L, Clinic/Hospital Initial Interview Data
+
+
+      L28BYHIM           NUMBER OF CHILDREN R HAS HAD BY [NAME]
+
+           Ask the following questions about the person identified as (name) in
+           item C1, L2, or L10.  If you had children by (name), how many?
+
+           VALUE  LABEL
+             666  Unreliable answer
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 666-9999
+           Record/columns: 1/273-276
+
+      ________________________________________________________________________
+
+      DECEASED           # OF CHILDREN BY [NAME] WHO ARE DECEASED
+
+           Ask the following questions about the person identified as (name) in
+           item C1, L2, or L10.
+
+           VALUE  LABEL
+               0  None
+               1  One child
+               2  Two
+               9  Unknown
+
+           Data type: numeric
+           Missing-data code: 9
+           Record/column: 1/278
+
+      ________________________________________________________________________
+
+      L28FOSTR           # FOSTER/ADOPTED CHILDREN BY R & [NAME]
+
+           Ask the following questions about the person identified as (name) in
+           item C1, L2, or L10.  If you and (name) had adopted or foster
+           children, how many?
+
+           VALUE  LABEL
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/280-283
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 5: QuestionnaPage 44tion L, Clinic/Hospital Initial Interview Data
+
+
+      L29LIVE            WHERE DO R & [NAME'S] CHILDREN LIVE
+
+           Ask the following questions about the person identified as (name) in
+           item C1, L2, or L10.  Where do these children live?
+
+           VALUE  LABEL
+               1  With respondent all year
+               2  With both for all of past year
+               3  With each for part of the year
+               4  With (name) all year
+               5  With someone else
+               6  Other (somewhere else)
+               7  With a foster family
+               8  In dcfs custody
+               9  With r's parents
+              10  With (names) parents
+              11  With other relative
+              12  With a friend
+              13  On their own (adult children)
+              14  In another country
+              15  Deceased
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/285-288
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 5: QuestionnaPage 45tion L, Clinic/Hospital Initial Interview Data
+
+
+      L29LIVE2           WHERE DO R & [NAME'S] CHILDREN LIVE-2
+
+           Ask the following questions about the person identified as (name) in
+           item C1, L2, or L10.  Where do these children live?
+
+           VALUE  LABEL
+               1  With r all year
+               2  With both for all of past year
+               3  With each for part of the year
+               4  With (name) all year
+               5  With someone else
+               6  Other(somewhere else)
+               7  With a foster family
+               8  In DCFS custody
+               9  With r's parents
+              10  With (names) parents
+              11  With other relative
+              12  With a friend
+              13  On their own (adult children)
+              14  In another country
+              15  Deceased
+             888  Don't know
+             999  Missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 888-9999
+           Record/columns: 1/290-293
+
+      ________________________________________________________________________
+
+      STDETAI            R'S CHILDREN NOT BY [NAME] IN HOUSEHOLD
+
+           Ask the following questions about the person identified as (name) in
+           item C1, L2, or L10.
+
+           VALUE  LABEL
+               1  Yes children, not (names)
+               2  No Rs children in household
+               3  Yes children, some are (names)
+               4  Don't know where R &  (names) children l
+               5  All Rs children are (names)
+               6  Has children, not (names), not living i
+               7  Children in household, don't know if the
+             999  Missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/295-297
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 5: QuestionnaPage 46tion L, Clinic/Hospital Initial Interview Data
+
+
+      STEPCHIL           R'S HOUSEHLD, HER CHILD BUT NOT [NAME'S]
+
+           Ask the following questions about the person identified as (name) in
+           item C1, L2, or L10.
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               3  Maybe
+             999  Missing
+
+           Data type: numeric
+           Missing-data codes: 3,999
+           Record/columns: 1/299-301
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
