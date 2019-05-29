@@ -1,0 +1,2079 @@
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                      CODEBOOK
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 13: Official Records for the Proxy Interview Data
+                                          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 13: Official RPage i for the Proxy Interview Data
+
+
+                                      CONTENTS
+
+
+      item                                                                page
+
+      CASEID             ID                                                  1
+      QUESTION           AT LEAST ONE QUESTIONNAIRE COMPLETED                1
+      FEMTALK            WOMAN OFFENDER INTERVIEWED                          1
+      AW                 WOMAN PHYS ABUSED YEAR PRIOR TO HOMICIDE            1
+      SAMESEX            SAME SEX CASES                                      1
+      VICSEX_C           GENDER OF VICTIM                                    2
+      VICAGE1            RECODED VICTIM'S AGE                                2
+      VICAGE_C           VICTIM'S AGE-FROM CHD                               2
+      VRACE_C            RACIAL/ETHNIC GROUP OF VICTIM-FROM CHD              2
+      SEXRCE_C           GENDER AND RACE/ETHNICITY OF VICTIM                 3
+      OFFSEX_C           GENDER OF OFFENDER                                  3
+      OFFAGE1            OFFENDER AGE, RECODED                               3
+      OFFAGE_C           AGE OF OFFENDER-FROM CHD                            4
+      WOMANAGE           WOMAN'S AGE-VICT/OFFENDER/SAME-SEX VICT             4
+      MANAGE             WOMAN'S PARTNER'S AGE                               4
+      AGEDISP            AGE DISPARITY, WOMAN AND PARTNER                    4
+      OFFRAC_C           RACIAL/ETHNIC GROUP OF OFFENDER-FROM CHD            4
+      SXRAC1_C           GENDER & RACE/ETHNICITY-RECODE FROM CHD             5
+      VREL1_C            RELATION OF VICTIM TO OFFENDER-FROM CHD             5
+      OREL1_C            RELATION OF OFFENDER TO VICTIM-FROM CHD             6
+      HUSCPD             HUSBAND OR EX-HUS. RELATIONSHIP (CPD)               6
+      C1RELATE           HIS RELATIONSHIP TO HER AT TIME OF DEATH            7
+      INJYR_C            YEAR OF INCIDENT-FROM CHD                           7
+      INJMNT_C           MONTH OF INCIDENT-FROM CHD                          7
+      INJDTE_C           CALENDAR DAY OF INCIDENT-FROM CHD                   8
+      INJDAY_C           DAY OF WEEK OF INCIDENT-FROM CHD                    8
+      INJTM_C            TIME OF INCIDENT(MILITARY TIME)                     8
+      DETHYR_C           YEAR OF VICTIM'S DEATH                              8
+      DTHMON_C           MONTH OF VICTIM'S DEATH                             9
+      DTHDTE_C           CALENDAR DAY OF VICTIM'S DEATH                      9
+      DTHTIM_C           TIME OF VICTIM'S DEATH                              9
+      SUICIDE            OFFENDER COMMIT SUICIDE AT INCIDENT                10
+      SUICISEX           OFFENDER SUICIDE IMMEDIATELY AT SCENE              10
+      DTHOF1_C           DEATH OF FIRST OFFENDER-FROM CHD                   10
+      OSUCID_C           OFFENDER COMMITTED SUICIDE-FROM CHD                11
+      INITIATE           FINAL INCIDENT-WHO INITIATED VIOLENCE              11
+      SEVERITY           SEVERITY OF VIOLENCE IN FINAL INCIDENT             11
+      FORCEDSX           FORCED SEX HAPPEN IN FATAL INCIDENT                12
+      INJURED            WHO INJURED IN FINAL INC (EXCL SUICIDE)            12
+      LEAVING            INCID SPARKED BY SOMEONE TRYING TO LEAVE           12
+      LEAVINGW           INCID-WOMAN TRYING TO LEAVE/END RELATION           13
+      GOAWAY             BEFORE INCIDENT-ONE ASKED OTH TO LEAVE             13
+      INVADE             EITHER PARTY INVADING THE OTHER'S PLACE            13
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 13: Official Page ii for the Proxy Interview Data
+
+
+      item                                                                page
+
+      INVADER            WAS MAN INVADING WOMAN'S SAFE PLACE                13
+      JEALOUSY           JEALOUSY AN ISSUE IN FINAL INCIDENT                14
+      JEALR              JEALOUSY RECODED: WAS JEALOUSY AN ISSUE            14
+      INFIDLTY           INFIDELITY AN ISSUE IN FINAL INCIDENT              14
+      ALCODRUG           ALCOHOL/DRUGS MENTIONED IN CHD NARRATIVE           15
+      ALCDRGR            RECODED, ALCOHOL OR DRUG IN INCIDENT               15
+      PREABUSE           THREATS/RESTRAIN. ORDER VIOLATION NOTED            15
+      OVERALL            PREDOMINANT REASON FOR THE INCIDENT                16
+      OVERALL1           RECODE-OVERALL HOMICIDE MOTIVE-CHD/PROXY           16
+      CAUSEF_C           CAUSAL FACTOR-FROM CHD                             16
+      NUMVIC_C           # OF VICTIMS KILLED IN THIS INCIDENT               16
+      LOCTON_C           PLACE WHERE INJURY OCCURRED/BODY FOUND             17
+      PLACE_C            SUMMARY-LOCATION OF INCIDENT/BODY                  17
+      PHOME              HOMICIDE LOCATION: HOME                            17
+      PLACE_Q            PLACE OF FINAL INCIDENT-QUESTIONNAIRE L4           18
+      WPCAL_C            DETAILED WEAPON TYPE - FROM CHD                    19
+      WEAPON_C           WEAPON W/ WHICH VICTIM WAS KILLED-RECODE           20
+      FIREARM            WEAPON A FIREARM                                   20
+      WEAPON_Q           WEAPON WHICH KILLED VICTIM-ALL SOURCES             21
+      WEAPDETA           WEAPON DETAIL                                      21
+      CLEAR_C            CASE CLEARANCE DETAIL-FROM CHD                     22
+      NCHARGE            # OF CHARGES-CC CIRCUIT COURT DATABASE             22
+      UCRCODE1           UCR CODE FOR 1ST CRIMINAL CHARGE                   22
+      UCRCODE2           UCR CODE OF 2ND CRIMINAL CHARGE                    23
+      UCRCODE3           UCR CODE OF 3RD CRIMINAL CHARGE                    23
+      UCRCODE4           UCR CODES FOR 4TH CRIMINAL CHARGE                  23
+      UCRCODE5           UCR CODES FOR 5TH CHARGE                           24
+      DSCHG1             DISPOS CHRG 1-CC CIRCUIT COURT DATABASE            24
+      DSCHG2             DISPOSITION CHARGE 2                               25
+      DSCHG3             DISPOSITION CHARGE 3                               26
+      DSCHG4             DISPOSITION CHARGE 4                               27
+      DSCHG5             DISPOSITION CHARGE 5                               28
+      TMCHG1             LENGTH OF SENTENCE CHARGE 1, IN YEARS              29
+      CHRGN1             DESCRIP CHRG 1-CC CIRCUIT COURT DATABASE           29
+      CHRGN2             DESCRIPTION CHARGE 2                               30
+      CHRGN3             DESCRIPTION CHARGE 3                               30
+      CHRGN4             DESCRIPTION CHARGE 4                               30
+      CHRGN5             DESCRIPTION CHARGE 5                               31
+      TMCHG2             LENGTH OF SENTENCE CHARGE 2                        31
+      TMCHG3             LENGTH OF SENTENCE CHARGE 3                        31
+      SUMMNEW            CASE INFO SUMM-TIME SERVD/SENTENCE/CHRGS           32
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 13: Official RPage 1 for the Proxy Interview Data
+
+
+      CASEID             ID
+
+           Data type: numeric
+           Record/columns: 1/1-2
+
+      ________________________________________________________________________
+
+      QUESTION           AT LEAST ONE QUESTIONNAIRE COMPLETED
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+
+           Data type: numeric
+           Record/column: 1/4
+
+      ________________________________________________________________________
+
+      FEMTALK            WOMAN OFFENDER INTERVIEWED
+
+           VALUE  LABEL
+               0  No
+               1  Yes
+
+           Data type: numeric
+           Record/column: 1/6
+
+      ________________________________________________________________________
+
+      AW                 WOMAN PHYS ABUSED YEAR PRIOR TO HOMICIDE
+
+           VALUE  LABEL
+               0  Proxy not found-no questionnaire data
+               1  Yes
+               2  No
+               3  Unclear-proxy had no info.
+
+           Data type: numeric
+           Missing-data codes: 0,3
+           Record/column: 1/8
+
+      ________________________________________________________________________
+
+      SAMESEX            SAME SEX CASES
+
+           VALUE  LABEL
+               0  No
+               1  Yes
+
+           Data type: numeric
+           Record/column: 1/10
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 13: Official RPage 2 for the Proxy Interview Data
+
+
+      VICSEX_C           GENDER OF VICTIM
+
+           VALUE  LABEL
+               1  Male
+               2  Female
+              99  Missing
+
+           Data type: numeric
+           Missing-data code: 99
+           Record/column: 1/12
+
+      ________________________________________________________________________
+
+      VICAGE1            RECODED VICTIM'S AGE
+
+           VALUE  LABEL
+               1  18-20
+               2  21-25
+               3  26-30
+               4  31-40
+               5  41-50
+               6  51-67
+               7  71
+
+           Data type: numeric
+           Record/column: 1/14
+
+      ________________________________________________________________________
+
+      VICAGE_C           VICTIM'S AGE-FROM CHD
+
+           VALUE  LABEL
+               0  Birth to 11 months
+               1  12 to 23 months
+             999  Missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/16-17
+
+      ________________________________________________________________________
+
+      VRACE_C            RACIAL/ETHNIC GROUP OF VICTIM-FROM CHD
+
+           VALUE  LABEL
+               1  Black
+               2  White
+               3  Latino
+
+           Data type: numeric
+           Record/column: 1/19
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 13: Official RPage 3 for the Proxy Interview Data
+
+
+      SEXRCE_C           GENDER AND RACE/ETHNICITY OF VICTIM
+
+           VALUE  LABEL
+               0  Missing
+               1  Male-White
+               2  Male-Black
+               3  Male-Latino
+               4  Male-other
+               5  Female-White
+               6  Female-Black
+               7  Female-Latino
+               8  Female-other
+              99  Male-unknown
+             999  Female-unknown
+
+           Data type: numeric
+           Missing-data codes: 0,99,999
+           Record/column: 1/21
+
+      ________________________________________________________________________
+
+      OFFSEX_C           GENDER OF OFFENDER
+
+           VALUE  LABEL
+               1  Male
+               2  Female
+               3  Same-sex female
+              99  Missing
+
+           Data type: numeric
+           Missing-data code: 99
+           Record/column: 1/23
+
+      ________________________________________________________________________
+
+      OFFAGE1            OFFENDER AGE, RECODED
+
+           VALUE  LABEL
+               1  17-20
+               2  21-25
+               3  26-30
+               4  31-40
+               5  41-50
+               6  51-55
+
+           Data type: numeric
+           Record/column: 1/25
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 13: Official RPage 4 for the Proxy Interview Data
+
+
+      OFFAGE_C           AGE OF OFFENDER-FROM CHD
+
+           VALUE  LABEL
+             999  Missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/27-28
+
+      ________________________________________________________________________
+
+      WOMANAGE           WOMAN'S AGE-VICT/OFFENDER/SAME-SEX VICT
+
+           Data type: numeric
+           Record/columns: 1/30-31
+
+      ________________________________________________________________________
+
+      MANAGE             WOMAN'S PARTNER'S AGE
+
+           Data type: numeric
+           Record/columns: 1/33-34
+
+      ________________________________________________________________________
+
+      AGEDISP            AGE DISPARITY, WOMAN AND PARTNER
+
+           VALUE  LABEL
+               1  Woman same age as partner within 5 years
+               2  Woman 5 to 9 years older than partner
+               3  Woman 10 to 13 years older than partner
+               4  Partner is 5 to 9 years older
+               5  Partner is 10 to 19 years older
+               6  Partner is 20 to 39 years older
+
+           Data type: numeric
+           Record/column: 1/36
+
+      ________________________________________________________________________
+
+      OFFRAC_C           RACIAL/ETHNIC GROUP OF OFFENDER-FROM CHD
+
+           VALUE  LABEL
+               1  Black
+               2  White
+               3  Latino
+               5  American Indian, Alaskan
+
+           Data type: numeric
+           Record/column: 1/38
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 13: Official RPage 5 for the Proxy Interview Data
+
+
+      SXRAC1_C           GENDER & RACE/ETHNICITY-RECODE FROM CHD
+
+           VALUE  LABEL
+               0  Missing
+               1  Male-White
+               2  Male-Black
+               3  Male-Latino
+               4  Male-other
+               5  Female-White
+               6  Female-Black
+               7  Female-Latino
+               8  Female-other
+              99  Male-unknown
+             999  Female-unknown
+
+           Data type: numeric
+           Missing-data codes: 0,99,999
+           Record/column: 1/40
+
+      ________________________________________________________________________
+
+      VREL1_C            RELATION OF VICTIM TO OFFENDER-FROM CHD
+
+           VALUE  LABEL
+             101  Husband(legal)
+             102  Wife(legal)
+             103  Husband(common-law)
+             104  Wife(common-law)
+             105  Ex-husband
+             106  Ex-wife
+             401  Boyfriend
+             402  Girlfriend
+             703  Ex-boyfriend
+             704  Ex-girlfriend
+             732  Homosexual couple
+             735  Ex-common-law wife
+             736  Ex-common-law husband
+
+           Data type: numeric
+           Record/columns: 1/42-44
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 13: Official RPage 6 for the Proxy Interview Data
+
+
+      OREL1_C            RELATION OF OFFENDER TO VICTIM-FROM CHD
+
+           VALUE  LABEL
+             101  Husband(legal)
+             102  Wife(legal)
+             103  Husband(common-law)
+             104  Wife(common-law)
+             105  Ex-husband
+             106  Ex-wife
+             401  Boyfriend
+             402  Girlfriend
+             703  Ex-boyfriend
+             704  Ex-girlfriend
+             732  Homosexual couple
+             735  Ex-common-law wife
+             736  Ex-common-law husband
+
+           Data type: numeric
+           Record/columns: 1/46-48
+
+      ________________________________________________________________________
+
+      HUSCPD             HUSBAND OR EX-HUS. RELATIONSHIP (CPD)
+
+           VALUE  LABEL
+               0  No
+               1  Yes
+               9  Missing
+
+           Data type: numeric
+           Missing-data code: 9
+           Record/column: 1/50
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 13: Official RPage 7 for the Proxy Interview Data
+
+
+      C1RELATE           HIS RELATIONSHIP TO HER AT TIME OF DEATH
+
+           VALUE  LABEL
+               1  Husband
+               2  Ex- or former husband
+               3  Common-law husband
+               4  Ex-commonlaw husband
+               5  Boyfriend
+               6  Ex- or former boyfriend
+               7  Same sex
+               8  Ex-same sex
+               9  Other
+              12  Fiance
+             777  No questionnaire data obtained
+
+           Data type: numeric
+           Missing-data code: 777
+           Record/columns: 1/52-54
+
+      ________________________________________________________________________
+
+      INJYR_C            YEAR OF INCIDENT-FROM CHD
+
+           Data type: numeric
+           Record/columns: 1/56-57
+
+      ________________________________________________________________________
+
+      INJMNT_C           MONTH OF INCIDENT-FROM CHD
+
+           VALUE  LABEL
+               0  Missing
+               1  January
+               2  February
+               3  March
+               4  April
+               5  May
+               6  June
+               7  July
+               8  August
+               9  September
+              10  October
+              11  November
+              12  December
+
+           Data type: numeric
+           Missing-data code: 0
+           Record/columns: 1/59-60
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 13: Official RPage 8 for the Proxy Interview Data
+
+
+      INJDTE_C           CALENDAR DAY OF INCIDENT-FROM CHD
+
+           VALUE  LABEL
+               0  Missing
+
+           Data type: numeric
+           Missing-data code: 0
+           Record/columns: 1/62-63
+
+      ________________________________________________________________________
+
+      INJDAY_C           DAY OF WEEK OF INCIDENT-FROM CHD
+
+           VALUE  LABEL
+               0  Missing
+               1  Sunday
+               2  Monday
+               3  Tuesday
+               4  Wednesday
+               5  Thursday
+               6  Friday
+               7  Saturday
+
+           Data type: numeric
+           Missing-data code: 0
+           Record/column: 1/65
+
+      ________________________________________________________________________
+
+      INJTM_C            TIME OF INCIDENT(MILITARY TIME)
+
+           VALUE  LABEL
+               0  Missing
+
+           Data type: numeric
+           Missing-data code: 0
+           Record/columns: 1/67-70
+
+      ________________________________________________________________________
+
+      DETHYR_C           YEAR OF VICTIM'S DEATH
+
+           Data type: numeric
+           Record/columns: 1/72-73
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 13: Official RPage 9 for the Proxy Interview Data
+
+
+      DTHMON_C           MONTH OF VICTIM'S DEATH
+
+           VALUE  LABEL
+               0  Missing
+               1  January
+               2  February
+               3  March
+               4  April
+               5  May
+               6  June
+               7  July
+               8  August
+               9  September
+              10  October
+              11  November
+              12  December
+
+           Data type: numeric
+           Missing-data code: 0
+           Record/columns: 1/75-76
+
+      ________________________________________________________________________
+
+      DTHDTE_C           CALENDAR DAY OF VICTIM'S DEATH
+
+           VALUE  LABEL
+               0  Missing
+
+           Data type: numeric
+           Missing-data code: 0
+           Record/columns: 1/78-79
+
+      ________________________________________________________________________
+
+      DTHTIM_C           TIME OF VICTIM'S DEATH
+
+           VALUE  LABEL
+               0  Missing
+
+           Data type: numeric
+           Missing-data code: 0
+           Record/columns: 1/81-84
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 13: Official Page 10 for the Proxy Interview Data
+
+
+      SUICIDE            OFFENDER COMMIT SUICIDE AT INCIDENT
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               3  Attempted, but not at scene
+               4  Attempted at scene
+
+           Data type: numeric
+           Record/column: 1/86
+
+      ________________________________________________________________________
+
+      SUICISEX           OFFENDER SUICIDE IMMEDIATELY AT SCENE
+
+           VALUE  LABEL
+               0  No (male offender)
+               1  Yes, male offender
+               2  No (female offender)
+               3  Yes, female offender
+               4  No (same-sex)
+
+           Data type: numeric
+           Record/column: 1/88
+
+      ________________________________________________________________________
+
+      DTHOF1_C           DEATH OF FIRST OFFENDER-FROM CHD
+
+           VALUE  LABEL
+               0  Offender not dead
+               1  Killed after as a result of incident
+               2  Killed after not as a result of incident
+               3  Killed at scene
+               4  Suicide
+               5  Dead afterwards of natural causes
+               6  Dead afterwards; cause unknown
+               7  Suicide in year after incident
+               8  Suicide more than a year after incident
+               9  Not cleared; offender not known
+              99  Missing
+
+           Data type: numeric
+           Missing-data code: 99
+           Record/column: 1/90
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 13: Official Page 11 for the Proxy Interview Data
+
+
+      OSUCID_C           OFFENDER COMMITTED SUICIDE-FROM CHD
+
+           VALUE  LABEL
+               0  Did not commit suicide
+               1  Yes, at scene
+               2  Yes, later
+               3  Attempted at scene
+               4  Female yes, at scene
+               5  Attempted, later
+
+           Data type: numeric
+           Record/column: 1/92
+
+      ________________________________________________________________________
+
+      INITIATE           FINAL INCIDENT-WHO INITIATED VIOLENCE
+
+           VALUE  LABEL
+               1  Man initiated violence
+               2  Woman initiated violence
+               3  Same sex partners
+               9  Unknown
+
+           Data type: numeric
+           Missing-data code: 9
+           Record/column: 1/94
+
+      ________________________________________________________________________
+
+      SEVERITY           SEVERITY OF VIOLENCE IN FINAL INCIDENT
+
+           VALUE  LABEL
+             0.0  No immediately preceding violence mentio
+             1.0  Arguing
+             1.5  Threat to kill - verbal
+             2.0  Mild physical-pushing, slapping
+             3.0  Punching, hitting, kicking
+             3.5  Mutual fighting
+             4.0  Beating
+             5.0  Rape
+             7.0  Gun or knife (threat or use)
+             8.0  Blunt object (threat or use)
+             9.0  Strangled, choked
+           999.9  Unknown
+
+           Data type: numeric
+           Decimals: 1
+           Missing-data code: 999.9
+           Record/columns: 1/96-99
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 13: Official Page 12 for the Proxy Interview Data
+
+
+      FORCEDSX           FORCED SEX HAPPEN IN FATAL INCIDENT
+
+           VALUE  LABEL
+               0  No
+               1  Yes, attempted
+               2  Yes, forced sex
+               3  No, but had sex with the body
+
+           Data type: numeric
+           Record/column: 1/101
+
+      ________________________________________________________________________
+
+      INJURED            WHO INJURED IN FINAL INC (EXCL SUICIDE)
+
+           VALUE  LABEL
+               0  Only the hom. victim was injured
+               1  First hom. offender hit, beaten, or woun
+               2  Hom. offender hit, beaten or wounded aft
+
+           Data type: numeric
+           Record/column: 1/103
+
+      ________________________________________________________________________
+
+      LEAVING            INCID SPARKED BY SOMEONE TRYING TO LEAVE
+
+           VALUE  LABEL
+               0  No, leaving was not the issue in the fin
+               1  Woman wants to leave the relationship
+               2  Man wants to leave the relationship
+               3  Man wants back in the relationship
+               4  Woman wants back in the relationship
+               5  Woman suspected of intending to leave re
+               6  Man suspected of leaving the relationshi
+               9  Unknown
+
+           Data type: numeric
+           Missing-data code: 9
+           Record/column: 1/105
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 13: Official Page 13 for the Proxy Interview Data
+
+
+      LEAVINGW           INCID-WOMAN TRYING TO LEAVE/END RELATION
+
+           VALUE  LABEL
+               0  No
+               1  Yes
+               9  Missing
+
+           Data type: numeric
+           Missing-data code: 9
+           Record/column: 1/107
+
+      ________________________________________________________________________
+
+      GOAWAY             BEFORE INCIDENT-ONE ASKED OTH TO LEAVE
+
+           VALUE  LABEL
+               0  No, leaving the premises was not an issu
+               1  Yes, woman asking man to leave the premi
+               2  Yes, man asking woman to leave premises
+               9  Unknown
+
+           Data type: numeric
+           Missing-data code: 9
+           Record/column: 1/109
+
+      ________________________________________________________________________
+
+      INVADE             EITHER PARTY INVADING THE OTHER'S PLACE
+
+           VALUE  LABEL
+               0  No, invading was not an issue
+               1  Yes, man invaded woman's place
+               2  Yes, man violating order of protection
+               9  Unknown
+
+           Data type: numeric
+           Missing-data code: 9
+           Record/column: 1/111
+
+      ________________________________________________________________________
+
+      INVADER            WAS MAN INVADING WOMAN'S SAFE PLACE
+
+           VALUE  LABEL
+               0  No
+               1  Yes
+               9  Missing
+
+           Data type: numeric
+           Missing-data code: 9
+           Record/column: 1/113
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 13: Official Page 14 for the Proxy Interview Data
+
+
+      JEALOUSY           JEALOUSY AN ISSUE IN FINAL INCIDENT
+
+           VALUE  LABEL
+               0  No, jealousy was not an issue in the fin
+               1  Man was jealous of woman
+               2  Woman was jealous of man
+               3  Woman jealous-same sex case
+               9  Unknown
+
+           Data type: numeric
+           Missing-data code: 9
+           Record/column: 1/115
+
+      ________________________________________________________________________
+
+      JEALR              JEALOUSY RECODED: WAS JEALOUSY AN ISSUE
+
+           VALUE  LABEL
+               0  No
+               1  Yes
+               9  Missing
+
+           Data type: numeric
+           Missing-data code: 9
+           Record/column: 1/117
+
+      ________________________________________________________________________
+
+      INFIDLTY           INFIDELITY AN ISSUE IN FINAL INCIDENT
+
+           VALUE  LABEL
+               0  No, infidelity was not an issue in final
+               1  Yes, woman suspected or accused man of i
+               2  Yes, man suspected or accused woman of i
+               3  Yes, same sex relationship woman suspect
+               9  Unknown
+
+           Data type: numeric
+           Missing-data code: 9
+           Record/column: 1/119
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 13: Official Page 15 for the Proxy Interview Data
+
+
+      ALCODRUG           ALCOHOL/DRUGS MENTIONED IN CHD NARRATIVE
+
+           VALUE  LABEL
+               0  None mentioned
+               1  Yes, alcohol p
+               2  Yes, alcohol v
+               3  Yes, alcohol by p &  v
+               4  Yes, drugs by p
+               5  Yes, drugs by v
+               6  Yes, drugs by both
+               7  Yes, p alcohol &  drugs
+               8  Yes, v alcohol &  drugs
+               9  Yes, alcohol and drugs by both p &  v
+
+           Data type: numeric
+           Record/column: 1/121
+
+      ________________________________________________________________________
+
+      ALCDRGR            RECODED, ALCOHOL OR DRUG IN INCIDENT
+
+           VALUE  LABEL
+               0  No
+               1  Yes
+               9  Missing
+
+           Data type: numeric
+           Missing-data code: 9
+           Record/column: 1/123
+
+      ________________________________________________________________________
+
+      PREABUSE           THREATS/RESTRAIN. ORDER VIOLATION NOTED
+
+           VALUE  LABEL
+               0  No
+               1  Yes
+
+           Data type: numeric
+           Record/column: 1/125
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 13: Official Page 16 for the Proxy Interview Data
+
+
+      OVERALL            PREDOMINANT REASON FOR THE INCIDENT
+
+           VALUE  LABEL
+               1  Domestic argument
+               2  Jealousy
+               3  Money (for drugs) altercation
+               4  Money altercation
+               5  Forced entry after female left the relat
+               6  Infidelity
+               7  Sex altercation
+               8  Ending relationship
+               9  Unknown
+              10  Mental illness of p
+              11  Drug altercation
+
+           Data type: numeric
+           Missing-data code: 9
+           Record/columns: 1/127-128
+
+      ________________________________________________________________________
+
+      OVERALL1           RECODE-OVERALL HOMICIDE MOTIVE-CHD/PROXY
+
+           VALUE  LABEL
+             1.0  General domestic altercation
+             2.0  Jealousy/infidelity
+             3.0  Termination of relationship
+             3.5  Forced entry
+             4.0  Drugs/money for drugs
+             5.0  Other altercation (money/sex)
+             6.0  Mental illness
+             9.9  Unknown
+
+           Data type: numeric
+           Decimals: 1
+           Missing-data code: 9.9
+           Record/columns: 1/130-131
+
+      ________________________________________________________________________
+
+      CAUSEF_C           CAUSAL FACTOR-FROM CHD
+
+           Data type: numeric
+           Record/columns: 1/133-135
+
+      ________________________________________________________________________
+
+      NUMVIC_C           # OF VICTIMS KILLED IN THIS INCIDENT
+
+           Data type: numeric
+           Record/column: 1/137
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 13: Official Page 17 for the Proxy Interview Data
+
+
+      LOCTON_C           PLACE WHERE INJURY OCCURRED/BODY FOUND
+
+           Data type: numeric
+           Record/columns: 1/139-142
+
+      ________________________________________________________________________
+
+      PLACE_C            SUMMARY-LOCATION OF INCIDENT/BODY
+
+           VALUE  LABEL
+               1  Home
+               2  Hotel
+               3  Indoor,other residential
+               4  Tavern
+               5  Indoor public,other
+               6  Vehicle
+               7  Public transportation
+               8  Street
+               9  Outdoor,other
+
+           Data type: numeric
+           Record/column: 1/144
+
+      ________________________________________________________________________
+
+      PHOME              HOMICIDE LOCATION: HOME
+
+           VALUE  LABEL
+               0  No
+               1  Yes
+               9  Missing
+
+           Data type: numeric
+           Missing-data code: 9
+           Record/column: 1/146
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 13: Official Page 18 for the Proxy Interview Data
+
+
+      PLACE_Q            PLACE OF FINAL INCIDENT-QUESTIONNAIRE L4
+
+           VALUE  LABEL
+               1  In or outside v's and offender's home (l
+               2  V's home -inside or outside
+               3  P home- inside or outside
+               4  In another person's home
+               5  V's workplace
+               6  In a car
+               7  Street, alley (not outside home)
+               8  Other outdoor place (park, L tracks)
+               9  Tavern
+
+           Data type: numeric
+           Record/column: 1/148
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 13: Official Page 19 for the Proxy Interview Data
+
+
+      WPCAL_C            DETAILED WEAPON TYPE - FROM CHD
+
+           VALUE  LABEL
+               1  25 caliber automatic
+               2  380 caliber automatic
+               3  9 mm automatic
+               4  Suffocation
+               5  Strangulation
+               6  22 caliber derringer
+               7  Carving type knife
+               8  Kitchen type knife
+               9  Pocket type knife
+              10  Unknown cutting/stabbing instrument
+              11  30 caliber long rifle
+              12  22 caliber revolver
+              13  357 magnum
+              14  38 caliber revolver
+              15  12 gauge shotgun
+              16  Unknown caliber
+              17  Automobile
+              18  Belt
+              19  Braided cord
+              20  Cane
+              21  Electrical cord
+              22  Hands,fists,feet
+              23  Hammer
+              24  Metal pipe
+              25  Pillow
+              26  Telephone cord
+              27  Tree limb
+              28  Wooden club
+              29  Unknown bludgeon
+
+           Data type: numeric
+           Record/columns: 1/150-151
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 13: Official Page 20 for the Proxy Interview Data
+
+
+      WEAPON_C           WEAPON W/ WHICH VICTIM WAS KILLED-RECODE
+
+           VALUE  LABEL
+               0  Unknown
+               1  Semi-automatic
+               2  Handgun non-automatic
+               3  Rifle non-automatic
+               4  Shotgun non-automatic
+               5  Firearm type unknown
+               6  Knife,sharp instrument
+               7  Club,blunt instrument
+               8  Arson
+               9  Other weapon
+              10  Hands,fists,feet
+              11  Strangulation (with hands or object)
+              12  Car
+
+           Data type: numeric
+           Missing-data code: 0
+           Record/columns: 1/153-154
+
+      ________________________________________________________________________
+
+      FIREARM            WEAPON A FIREARM
+
+           VALUE  LABEL
+               0  No
+               1  Yes
+
+           Data type: numeric
+           Record/column: 1/156
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 13: Official Page 21 for the Proxy Interview Data
+
+
+      WEAPON_Q           WEAPON WHICH KILLED VICTIM-ALL SOURCES
+
+           VALUE  LABEL
+               0  Unknown
+               1  Semi-fully automatic
+               2  Handgun
+               3  Rifle
+               4  Shotgun
+               5  Firearm, type unknown
+               6  Knife, sharp instrument
+               7  Club, blunt instrument
+               8  Car
+               9  Shovel
+              10  Hands, fists, feet
+              11  Other
+              12  Smothered
+              13  Strangled (with hands or object)
+             999  No questionnaire
+
+           Data type: numeric
+           Missing-data codes: 0,999
+           Record/columns: 1/158-160
+
+      ________________________________________________________________________
+
+      WEAPDETA           WEAPON DETAIL
+
+           VALUE  LABEL
+               2  belt
+               3  cane
+               4  car
+               5  cause of death was strangulation with co
+               6  Hit child on head with something, killin
+               7  ice pick, pillow, cable cord, knife/caus
+               8  offender smothered V by sitting on him
+               9  pillow
+              10  proxy and newspaper indicate victim stab
+              11  shovel
+              12  V supposedly threw knife at offender, bu
+
+           Data type: numeric
+           Missing-data code: 1
+           Record/columns: 1/162-163
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 13: Official Page 22 for the Proxy Interview Data
+
+
+      CLEAR_C            CASE CLEARANCE DETAIL-FROM CHD
+
+           VALUE  LABEL
+               1  Suicide of offender
+               2  Other death of offender
+               3  ASA rejects charges
+               4  Other exceptional
+               5  Arrest
+
+           Data type: numeric
+           Record/column: 1/165
+
+      ________________________________________________________________________
+
+      NCHARGE            # OF CHARGES-CC CIRCUIT COURT DATABASE
+
+           Data type: numeric
+           Record/column: 1/167
+
+      ________________________________________________________________________
+
+      UCRCODE1           UCR CODE FOR 1ST CRIMINAL CHARGE
+
+           VALUE  LABEL
+             110  First degree murder
+             115  Homicide unborn child
+             130  Second degree murder
+             141  Involuntary manslaughter
+             600  Self-defense-charges rejected
+             601  Mutual combatants-charges rejected
+             602  No evidence-charges rejected
+             603  Refuse warrant-charges rejected
+             604  Accidental death-charges rejected
+             900  No charges:murder-suicide
+             901  No charges:death of offender
+
+           Data type: numeric
+           Record/columns: 1/169-171
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 13: Official Page 23 for the Proxy Interview Data
+
+
+      UCRCODE2           UCR CODE OF 2ND CRIMINAL CHARGE
+
+           VALUE  LABEL
+             110  First degree murder
+             111  Attempted first degree murder
+             115  Homicide of unborn child
+             130  Second degree murder
+             141  Involuntary manslaughter
+             261  Aggravated criminal sexual assault
+             410  Aggravated battery
+             500  Armed violence
+             625  Residential burglary
+             650  Home invasion
+             999  No 2nd charge
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/173-175
+
+      ________________________________________________________________________
+
+      UCRCODE3           UCR CODE OF 3RD CRIMINAL CHARGE
+
+           VALUE  LABEL
+             110  First degree murder
+             260  Criminal sexual assault
+             310  Armed robbery
+             500  Armed violence
+             650  Home invasion
+             999  No 3rd charge
+            4420  Aggravated kidnapping
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/177-180
+
+      ________________________________________________________________________
+
+      UCRCODE4           UCR CODES FOR 4TH CRIMINAL CHARGE
+
+           VALUE  LABEL
+             320  Robbery
+             500  Armed violence
+             650  Home invasion
+             999  No 4th charge
+            4230  Aggravated unlawful restraint
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/182-185
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 13: Official Page 24 for the Proxy Interview Data
+
+
+      UCRCODE5           UCR CODES FOR 5TH CHARGE
+
+           VALUE  LABEL
+             310  Armed robbery
+             999  No 5th charge
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/187-189
+
+      ________________________________________________________________________
+
+      DSCHG1             DISPOS CHRG 1-CC CIRCUIT COURT DATABASE
+
+           VALUE  LABEL
+               1  Prison
+               3  Probation
+              22  Direct finding not guilty
+              23  Dismiss-discharged
+              24  Finding no probable cause
+              26  Suicide at the scene
+              28  Life imprisonment
+              31  Died before charges filed
+              34  Still in court
+              35  Suicide while incarcerated before case w
+              36  Killed by police at the scene
+              37  Fugitive status, offender fled to Mexico
+              38  Charges not filed;death (suicide) of off
+              88  Not applicable
+              99  Missing
+
+           Data type: numeric
+           Missing-data codes: 88,99
+           Record/columns: 1/191-192
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 13: Official Page 25 for the Proxy Interview Data
+
+
+      DSCHG2             DISPOSITION CHARGE 2
+
+           VALUE  LABEL
+               1  Prison
+               3  Probation
+              19  Nolle prosequi
+              22  Direct finding not guilty
+              23  Dismiss-discharged
+              29  Lesser included offense merged
+              33  Sheriffs work alternative program (swap
+              34  Still in court
+              88  Not applicable
+              99  Missing
+
+           Data type: numeric
+           Missing-data codes: 88,99
+           Record/columns: 1/194-195
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 13: Official Page 26 for the Proxy Interview Data
+
+
+      DSCHG3             DISPOSITION CHARGE 3
+
+           VALUE  LABEL
+               1  Prison
+               2  Jail
+               3  Probation
+               4  Supervision
+               5  Fine
+               6  Crt costs
+               7  Restitution
+               8  Com srv
+               9  Cond disch
+              10  Work release
+              11  Dependency test
+              12  Drug program
+              13  Work program
+              14  Intensive pro
+              15  Psy council
+              16  No contact w/plaintiff
+              17  Periodic imp
+              18  Home confine
+              19  Nolle prosequi
+              20  Non-suit
+              21  Judge ng
+              22  Direct finding not guilty
+              23  Dismiss-discharged
+              24  Finding no probable cause
+              25  Stricken off/leave to reinst
+              26  Deceased
+              27  Combo sentences
+              34  Still in court
+              88  Not applicable
+              99  Missing
+
+           Data type: numeric
+           Missing-data codes: 88,99
+           Record/columns: 1/197-198
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 13: Official Page 27 for the Proxy Interview Data
+
+
+      DSCHG4             DISPOSITION CHARGE 4
+
+           VALUE  LABEL
+               1  Prison
+               2  Jail
+               3  Probation
+               4  Supervision
+               5  Fine
+               6  Crt costs
+               7  Restitution
+               8  Com srv
+               9  Cond disch
+              10  Work release
+              11  Dependency test
+              12  Drug program
+              13  Work program
+              14  Intensive pro
+              15  Psy council
+              16  No contact w/plaintiff
+              17  Periodic imp
+              18  Home confine
+              19  Nolle prosequi
+              20  Non-suit
+              21  Judge ng
+              22  Direct finding not guilty
+              23  Dismiss-discharged
+              24  Finding no probable cause
+              25  Stricken off/leave to reinst
+              26  Deceased
+              27  Combo sentences
+              29  Lesser included offense merged
+              34  Still in court
+              88  Not applicable
+              99  Missing
+
+           Data type: numeric
+           Missing-data codes: 88,99
+           Record/columns: 1/200-201
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 13: Official Page 28 for the Proxy Interview Data
+
+
+      DSCHG5             DISPOSITION CHARGE 5
+
+           VALUE  LABEL
+               1  Prison
+               2  Jail
+               3  Probation
+               4  Supervision
+               5  Fine
+               6  Crt costs
+               7  Restitution
+               8  Com srv
+               9  Cond disch
+              10  Work release
+              11  Dependency test
+              12  Drug program
+              13  Work program
+              14  Intensive pro
+              15  Psy council
+              16  No contact w/plaintiff
+              17  Periodic imp
+              18  Home confine
+              19  Nolle prosequi
+              20  Non-suit
+              21  Judge ng
+              22  Direct finding not guilty
+              23  Dismiss-discharged
+              24  Finding no probable cause
+              25  Stricken off/leave to reinst
+              26  Deceased
+              27  Combo sentences
+              29  Lesser included offense merged
+              34  Still in court
+              88  Not applicable
+              99  Missing
+
+           Data type: numeric
+           Missing-data codes: 88,99
+           Record/columns: 1/203-204
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 13: Official Page 29 for the Proxy Interview Data
+
+
+      TMCHG1             LENGTH OF SENTENCE CHARGE 1, IN YEARS
+
+           VALUE  LABEL
+           333.3  Not applicable
+           777.7  Still in court
+           888.8  Life sentence
+           999.9  Death sentence
+
+           Data type: numeric
+           Decimals: 1
+           Missing-data codes: 333.3-999.9
+           Record/columns: 1/206-209
+
+      ________________________________________________________________________
+
+      CHRGN1             DESCRIP CHRG 1-CC CIRCUIT COURT DATABASE
+
+           VALUE  LABEL
+               1  charges rejected, accidental d
+               2  charges rejected, ASA refuses
+               3  charges rejected, mutual comba
+               4  charges rejected, no evidence
+               5  charges rejected, self-defense
+               6  Involuntary manslaughter
+               7  Murder/intent to kill/injure
+               8  No charges, death of offender
+               9  No charges, Murder/suicide
+              10  Second degree murder
+
+           Data type: numeric
+           Record/columns: 1/211-212
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 13: Official Page 30 for the Proxy Interview Data
+
+
+      CHRGN2             DESCRIPTION CHARGE 2
+
+           VALUE  LABEL
+               2  Agg. criminal sexual assault/w
+               3  Aggravated battery/great bodil
+               4  armed violence
+               5  attempted first degree murder
+               6  First degree murder
+               7  Home invasion/cause injury
+               8  Intentional/homicide/unborn ch
+               9  Murder, count 2
+              10  Murder/other forcible felony
+              11  Murder/strong prob. kill/injur
+              12  Residential burglery
+              13  Second degree murder
+
+           Data type: numeric
+           Missing-data code: 1
+           Record/columns: 1/214-215
+
+      ________________________________________________________________________
+
+      CHRGN3             DESCRIPTION CHARGE 3
+
+           VALUE  LABEL
+               2  Aggravated kidnapping
+               3  armed robbery
+               4  armed violence/cat.I
+               5  Criminal sexual assault
+               6  Home invasion
+               7  Murder/other forcible felony
+               8  robbery
+
+           Data type: numeric
+           Missing-data code: 1
+           Record/column: 1/217
+
+      ________________________________________________________________________
+
+      CHRGN4             DESCRIPTION CHARGE 4
+
+           VALUE  LABEL
+               2  Aggravated unlawful restraint
+               3  Armed violence/cat.I
+               4  home invasion
+               5  robbery
+
+           Data type: numeric
+           Missing-data code: 1
+           Record/column: 1/219
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 13: Official Page 31 for the Proxy Interview Data
+
+
+      CHRGN5             DESCRIPTION CHARGE 5
+
+           VALUE  LABEL
+               2  Armed robbery
+
+           Data type: numeric
+           Missing-data code: 1
+           Record/column: 1/221
+
+      ________________________________________________________________________
+
+      TMCHG2             LENGTH OF SENTENCE CHARGE 2
+
+           VALUE  LABEL
+               2  4 months
+               3  15 years
+               4  2 years
+               5  200 hrs community service
+               6  30 years
+               7  60 years
+               8  70 years
+               9  Death
+              10  Life
+              11  Merged with first charge
+
+           Data type: numeric
+           Missing-data code: 1
+           Record/columns: 1/223-224
+
+      ________________________________________________________________________
+
+      TMCHG3             LENGTH OF SENTENCE CHARGE 3
+
+           VALUE  LABEL
+               2  30 years
+               3  300 hours community service
+               4  Death
+
+           Data type: numeric
+           Missing-data code: 1
+           Record/column: 1/226
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 13: Official Page 32 for the Proxy Interview Data
+
+
+      SUMMNEW            CASE INFO SUMM-TIME SERVD/SENTENCE/CHRGS
+
+           VALUE  LABEL
+               2  9/5/97 appeal.Reduced charges/sentence t
+               3  appeal to reduce sentence filed
+               4  Case still in court
+               5  Charges reduced to second degree murder.
+               6  Cleared exceptionally, mutual combatants
+               7  murder/suicide
+               8  no evidence to disprove accidental death
+               9  no info
+              10  not enough evidence
+              11  Offender committed suicide while incarce
+              12  Offender died enroute to police station
+              13  Offender fled to Mexico after killing V
+              14  Offender killed at scene
+              15  Paroled 1/1/98
+              16  Paroled on 12/26/98
+              17  Self-defense, case cleared exceptionally
+              18  Suicide 7 mos later
+
+           Data type: numeric
+           Missing-data code: 1
+           Record/columns: 1/228-229
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019

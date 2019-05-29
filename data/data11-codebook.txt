@@ -1,0 +1,660 @@
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                      CODEBOOK
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 11: Aggregate Abuse Calendar Data
+                                          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 11: Aggregate Page iCalendar Data
+
+
+                                      CONTENTS
+
+
+      item                                                                page
+
+      CASEID             RESPONDENT IDENTIFICATION NUMBER                    1
+      SEVEREST           SEVEREST INCIDENT IN YEAR                           1
+      SEVERER            RECODED SEVEREST INCIDENT                           1
+      TOTINC             TOTAL NUMBER OF INCIDENTS IN YEAR                   1
+      TOTINCR            RECODED TOTAL INCIDENTS                             2
+      RECENT             DAYS FROM MOST RECENT INC TO INTERV DATE            2
+      RECENTR            DAYS BEFORE INTERVIEW-RECODED                       2
+      RECENTRR           MOST RECENT INCIDENT OVER 180 DAYS AGO              3
+      THREATS            TOTAL NUMBER OF THREATS DURING YEAR                 3
+      THREATR            RECODED THREAT INCIDENTS                            3
+      SLAPPING           TOTAL NUMBER SLAPS DURING YEAR                      3
+      SLAPR              RECODED SLAPPING INCIDENTS                          4
+      PUNCHING           TOTAL NUMBER PUNCHES DURING YEAR                    4
+      PUNCHR             RECODED PUNCHING INCIDENTS                          4
+      BEATING            TOTAL NUMBER BEATING IN YEAR                        4
+      BEATR              RECODED BEATING INCIDENTS                           5
+      TWEAPON            TOT # WEAPON THREATS/SEVERE INJURY IN YR            5
+      UWEAPON            TOTAL NUMBER WEAPON USE INCIDENTS IN YR             5
+      FORCEDSX           FORCED SEX INCIDENTS IN PAST YEAR                   5
+      FORCEDR            RECODED FORCED SEX INCIDENTS                        6
+      WEAPON             INCIDENTS WITH ANY WEAPON                           6
+      GUN                INCIDENTS WHERE GUN WAS THREATENED/USED             6
+      KNIFE              INCIDS WHERE KNIFE WAS THREATENED/USED              6
+      MISCARR            INCIDENTS RESULTING IN MISCARRIAGE                  7
+      RESTRAIN           INCIDS WHERE R WAS RESTRAINED/TIED DOWN             7
+      CHOKED             INCIDS WHERE R WAS CHOKED/NECK GRABBED              7
+      CHILD              INCIDENTS WITH A CHILD PRESENT                      7
+      NDRUNK             INCIDENTS IN WHICH PARTNER WAS DRUNK                8
+      RDRUNK             INCIDENTS IN WHICH R WAS DRUNK                      8
+      BOTHDRUN           INCIDENTS IN WHICH BOTH WERE DRUNK                  8
+      NDRUGS             INCIDENTS-PARTNER WAS HIGH ON DRUGS                 8
+      RDRUGS             INCIDENTS WHERE R WAS HIGH ON DRUGS                 8
+      BOTHDRUG           INCIDENTS WHERE BOTH WERE HIGH ON DRUGS             9
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 11: Aggregate Page 1Calendar Data
+
+
+      CASEID             RESPONDENT IDENTIFICATION NUMBER
+
+           Data type: numeric
+           Record/columns: 1/1-6
+
+      ________________________________________________________________________
+
+      SEVEREST           SEVEREST INCIDENT IN YEAR
+
+           VALUE  LABEL
+              -1  Forced sex only - no injury, weapon or t
+               0  Threat to hit with a fist or anything el
+               1  Slapping, pushing - no injury, no lastin
+               2  Punching, kicking - bruises, cuts, and/o
+               3  Beating up, choking - severe contusions,
+               4  Threat weap use, head inj, lost cons, in
+               5  Weapon use - wounds from a weapon
+               9  Calendar missing
+
+           Data type: numeric
+           Missing-data code: 9
+           Record/columns: 1/8-9
+
+      ________________________________________________________________________
+
+      SEVERER            RECODED SEVEREST INCIDENT
+
+           VALUE  LABEL
+               1  Less severe
+               2  Beating up or worse
+               9  Calendar missing
+
+           Data type: numeric
+           Missing-data code: 9
+           Record/column: 1/11
+
+      ________________________________________________________________________
+
+      TOTINC             TOTAL NUMBER OF INCIDENTS IN YEAR
+
+           VALUE  LABEL
+             999  Calendar missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/13-15
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 11: Aggregate Page 2Calendar Data
+
+
+      TOTINCR            RECODED TOTAL INCIDENTS
+
+           VALUE  LABEL
+               1  One
+               2  2 to 4
+               3  5 to 10
+               4  11 to 172
+             999  Calendar missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/17-19
+
+      ________________________________________________________________________
+
+      RECENT             DAYS FROM MOST RECENT INC TO INTERV DATE
+
+           VALUE  LABEL
+             999  Missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/21-23
+
+      ________________________________________________________________________
+
+      RECENTR            DAYS BEFORE INTERVIEW-RECODED
+
+           VALUE  LABEL
+               1  0 to 6 days
+               2  7 to 30 days
+               3  31 to 60 days
+               4  61 to 180 days
+               5  181 to 300 days
+               6  301 to 364 days
+             999  Missing calendar
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/25-27
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 11: Aggregate Page 3Calendar Data
+
+
+      RECENTRR           MOST RECENT INCIDENT OVER 180 DAYS AGO
+
+           VALUE  LABEL
+               0  No
+               1  Yes
+             999  Calendar missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/29-31
+
+      ________________________________________________________________________
+
+      THREATS            TOTAL NUMBER OF THREATS DURING YEAR
+
+           VALUE  LABEL
+             999  Calendar missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/33-35
+
+      ________________________________________________________________________
+
+      THREATR            RECODED THREAT INCIDENTS
+
+           VALUE  LABEL
+               0  None
+               1  One
+               2  2 to 4
+               3  5 to 10
+               4  11 to 171
+             999  Calendar missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/37-39
+
+      ________________________________________________________________________
+
+      SLAPPING           TOTAL NUMBER SLAPS DURING YEAR
+
+           VALUE  LABEL
+             999  Calendar missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/41-43
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 11: Aggregate Page 4Calendar Data
+
+
+      SLAPR              RECODED SLAPPING INCIDENTS
+
+           VALUE  LABEL
+               0  None
+               1  One
+               2  2 to 4
+               3  5 to 10
+               4  11 to 99
+             999  Calendar missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/45-47
+
+      ________________________________________________________________________
+
+      PUNCHING           TOTAL NUMBER PUNCHES DURING YEAR
+
+           VALUE  LABEL
+             999  Calendar missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/49-51
+
+      ________________________________________________________________________
+
+      PUNCHR             RECODED PUNCHING INCIDENTS
+
+           VALUE  LABEL
+               0  None
+               1  One
+               2  2 to 4
+               3  5 to 10
+               4  11 to 129
+             999  Calendar missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/53-55
+
+      ________________________________________________________________________
+
+      BEATING            TOTAL NUMBER BEATING IN YEAR
+
+           VALUE  LABEL
+             999  Calendar missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/57-59
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 11: Aggregate Page 5Calendar Data
+
+
+      BEATR              RECODED BEATING INCIDENTS
+
+           VALUE  LABEL
+               0  None
+               1  One
+               2  2 to 4
+               3  5 to 10
+               4  11 to 28
+             999  Calendar missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/61-63
+
+      ________________________________________________________________________
+
+      TWEAPON            TOT # WEAPON THREATS/SEVERE INJURY IN YR
+
+           VALUE  LABEL
+             999  Calendar missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/65-67
+
+      ________________________________________________________________________
+
+      UWEAPON            TOTAL NUMBER WEAPON USE INCIDENTS IN YR
+
+           VALUE  LABEL
+             999  Calendar missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/69-71
+
+      ________________________________________________________________________
+
+      FORCEDSX           FORCED SEX INCIDENTS IN PAST YEAR
+
+           VALUE  LABEL
+             999  Calendar missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/73-75
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 11: Aggregate Page 6Calendar Data
+
+
+      FORCEDR            RECODED FORCED SEX INCIDENTS
+
+           VALUE  LABEL
+               0  None
+               1  One
+               2  2 to 4
+               3  5 to 10
+               4  11 to 171
+             999  Calendar missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/77-79
+
+      ________________________________________________________________________
+
+      WEAPON             INCIDENTS WITH ANY WEAPON
+
+           VALUE  LABEL
+             999  Calendar missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/81-83
+
+      ________________________________________________________________________
+
+      GUN                INCIDENTS WHERE GUN WAS THREATENED/USED
+
+           VALUE  LABEL
+             999  Calendar missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/85-87
+
+      ________________________________________________________________________
+
+      KNIFE              INCIDS WHERE KNIFE WAS THREATENED/USED
+
+           VALUE  LABEL
+             999  Calendar missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/89-91
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 11: Aggregate Page 7Calendar Data
+
+
+      MISCARR            INCIDENTS RESULTING IN MISCARRIAGE
+
+           VALUE  LABEL
+             999  Calendar missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/93-95
+
+      ________________________________________________________________________
+
+      RESTRAIN           INCIDS WHERE R WAS RESTRAINED/TIED DOWN
+
+           VALUE  LABEL
+             999  Calendar missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/97-99
+
+      ________________________________________________________________________
+
+      CHOKED             INCIDS WHERE R WAS CHOKED/NECK GRABBED
+
+           VALUE  LABEL
+              99  No information
+             999  Calendar missing
+
+           Data type: numeric
+           Missing-data codes: 99,999
+           Record/columns: 1/101-103
+
+      ________________________________________________________________________
+
+      CHILD              INCIDENTS WITH A CHILD PRESENT
+
+           VALUE  LABEL
+             999  Calendar missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/105-107
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 11: Aggregate Page 8Calendar Data
+
+
+      NDRUNK             INCIDENTS IN WHICH PARTNER WAS DRUNK
+
+           VALUE  LABEL
+             999  Calendar missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/109-111
+
+      ________________________________________________________________________
+
+      RDRUNK             INCIDENTS IN WHICH R WAS DRUNK
+
+           VALUE  LABEL
+             999  Missing calendar
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/113-115
+
+      ________________________________________________________________________
+
+      BOTHDRUN           INCIDENTS IN WHICH BOTH WERE DRUNK
+
+           VALUE  LABEL
+             999  Missing calendar
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/117-119
+
+      ________________________________________________________________________
+
+      NDRUGS             INCIDENTS-PARTNER WAS HIGH ON DRUGS
+
+           VALUE  LABEL
+             999  Calendar missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/121-123
+
+      ________________________________________________________________________
+
+      RDRUGS             INCIDENTS WHERE R WAS HIGH ON DRUGS
+
+           VALUE  LABEL
+             999  Calendar missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/125-127
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 11: Aggregate Page 9Calendar Data
+
+
+      BOTHDRUG           INCIDENTS WHERE BOTH WERE HIGH ON DRUGS
+
+           VALUE  LABEL
+             999  Calendar missing
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/129-131
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019

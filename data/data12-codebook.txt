@@ -1,0 +1,835 @@
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                      CODEBOOK
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 12: Summary of Abuse on Follow-Up Data
+                                          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 12: Summary ofPage i on Follow-Up Data
+
+
+                                      CONTENTS
+
+
+      item                                                                page
+
+      CASEID             RESPONDENT IDENTIFICATION NUMBER                    1
+      FSTATUS            STATUS OF FOLLOWUP                                  1
+      FOLLOWUP           ANY FOLLOWUP COMPLETED                              1
+      ABUSE2             WAS R ABUSED AT FIRST FOLLOW UP                     1
+      SEVERES2           SEVEREST INCIDENT IN FIRST FOLLOW UP                2
+      SEVERER2           RECODED SEVEREST INCIDENT, 1ST FOLLOWUP             2
+      TOINC2             TOTAL # OF INCIDENTS IN FIRST FOLLOW UP             2
+      RECENT2            DAYS-MOST RECENT INC TO FOLLOWUP INTERV             3
+      MOYEAR2            MONTH, YEAR OF FIRST FOLLOWUP                       3
+      DAY                DAY OF FIRST FOLLOWUP                               4
+      MONTH              MONTH OF FIRST FOLLOWUP                             4
+      YEAR               YEAR OF FIRST FOLLOWUP                              4
+      DAYSFOL            DAYS FROM INIT INTERVIEW TO 1ST FOLLOWUP            5
+      MONTHS             MONTHS FROM INIT INTERV TO 1ST FOLLOWUP             5
+      SECOND             SECOND FOLLOWUP NEEDED                              5
+      FOLLWUP3           SECOND FOLLOWUP COMPLETED                           5
+      ABUSE3             WAS R ABUSED AT SECOND FOLLOW UP                    6
+      SEVERE3            SEVEREST INCIDENT IN 2ND FOLLOW UP                  6
+      SEVERER3           RECODED SEVERITY-2ND FOLLOWUP INCIDENTS             6
+      TOINC3             TOTAL # OF INCIDENTS IN SECOND FOLLOW UP            7
+      RECENT3            DAYS FROM MOST RECENT INCID TO INTERVIEW            7
+      DAY3               DAY OF SECOND FOLLOWUP                              7
+      MONTH3             MONTH OF FOLLOWUP 2                                 8
+      YEAR3              YEAR OF SECOND FOLLOWUP                             8
+      DAYSFOL3           DAYS FROM INIT INTERV TO 2ND FOLLOWUP               8
+      DAYINTO3           DAYS FROM INITIAL INTERVIEW TO FOL 2                9
+      DAYS1TO2           DAYS FROM FIRST TO SECOND FOLLOWUP                  9
+      FOLLWUP4           STATUS OF THIRD FOLLOWUP                            9
+      DAY4               DAY OF THIRD FOLLOWUP                               9
+      MONTH4             MONTH OF THIRD FOLLOWUP                            10
+      YEAR4              YEAR OF THIRD FOLLOWUP                             10
+      DAYSFOL4           DAYS FROM INIT INTERV TO FOLLOWUP 3                10
+      DAYSTOT            TOTAL FOLLOWUP DAYS                                11
+      DAYSTOTR           FOLLOWUP PERIOD IN DAYS, RECODED                   11
+      FABUSE             R ABUSED AT ANY TIME IN ANY FOLLOWUP               12
+      FABUSER            RECODED: ABUSED ON FOLLOWUP                        12
+      FSEVERE            SEVERITY ON FOLLOWUP                               12
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 12: Summary ofPage 1 on Follow-Up Data
+
+
+      CASEID             RESPONDENT IDENTIFICATION NUMBER
+
+           Data type: numeric
+           Record/columns: 1/1-6
+
+      ________________________________________________________________________
+
+      FSTATUS            STATUS OF FOLLOWUP
+
+           VALUE  LABEL
+               1  Case completed
+               2  Need second followup
+               3  Need first followup
+               4  Needs third
+               5  No consent or no info.
+               6  Deceased
+               7  Incarcerated
+
+           Data type: numeric
+           Record/column: 1/8
+
+      ________________________________________________________________________
+
+      FOLLOWUP           ANY FOLLOWUP COMPLETED
+
+           VALUE  LABEL
+               1  At least one interview completed
+               2  None completed
+               5  No consent or no info.
+               6  Deceased before first followup
+               7  Incarcerated
+
+           Data type: numeric
+           Record/column: 1/10
+
+      ________________________________________________________________________
+
+      ABUSE2             WAS R ABUSED AT FIRST FOLLOW UP
+
+           VALUE  LABEL
+               1  Abused at first follow up
+               2  Not abused at first follow up
+               3  First follow up not completed
+             998  Unreliable
+             999  Calendar missing
+
+           Data type: numeric
+           Missing-data codes: 998,999
+           Record/columns: 1/12-14
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 12: Summary ofPage 2 on Follow-Up Data
+
+
+      SEVERES2           SEVEREST INCIDENT IN FIRST FOLLOW UP
+
+           VALUE  LABEL
+              -1  Forced sex only - no injury, weapon or t
+               0  Threat to hit with a fist or anything el
+               1  Slapping, pushing - no injury, no lastin
+               2  Punching, kicking - bruises, cuts, and/o
+               3  Beating up, choking - severe contusions,
+               4  Threat weap use, head inj, lost cons, in
+               5  Weapon use - wounds from a weapon attemp
+             998  Unreliable
+             999  Missing calendar
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 998-9999
+           Record/columns: 1/16-19
+
+      ________________________________________________________________________
+
+      SEVERER2           RECODED SEVEREST INCIDENT, 1ST FOLLOWUP
+
+           VALUE  LABEL
+               0  No incident
+               1  Other incident
+               2  Beating up or worse
+             998  First followup not completed
+             999  No calendar or unreliable
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/21-23
+
+      ________________________________________________________________________
+
+      TOINC2             TOTAL # OF INCIDENTS IN FIRST FOLLOW UP
+
+           VALUE  LABEL
+             998  Unreliable
+             999  Missing calendar
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 998-9999
+           Record/columns: 1/25-28
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 12: Summary ofPage 3 on Follow-Up Data
+
+
+      RECENT2            DAYS-MOST RECENT INC TO FOLLOWUP INTERV
+
+           VALUE  LABEL
+             998  Unreliable
+             999  Missing calendar
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 998-9999
+           Record/columns: 1/30-33
+
+      ________________________________________________________________________
+
+      MOYEAR2            MONTH, YEAR OF FIRST FOLLOWUP
+
+           VALUE  LABEL
+               1  Jan 98
+               2  Feb 98
+               3  March 98
+               4  April 98
+               5  May 98
+               6  June 98
+               7  July 98
+               8  August 98
+               9  Sept 98
+              10  Oct 98
+              11  Nov 98
+              12  Dec 98
+              13  Jan 99
+              14  Feb 99
+              15  March 99
+              16  April 99
+              17  May 99
+              18  June 99
+              19  July 99
+              20  Aug. 99
+              21  Sept. 99
+              22  Oct. 99
+             998  No info or died
+             999  Not completed
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 998-9999
+           Record/columns: 1/35-38
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 12: Summary ofPage 4 on Follow-Up Data
+
+
+      DAY                DAY OF FIRST FOLLOWUP
+
+           VALUE  LABEL
+              99  Unknown
+
+           Data type: numeric
+           Missing-data code: 99
+           Record/columns: 1/40-41
+
+      ________________________________________________________________________
+
+      MONTH              MONTH OF FIRST FOLLOWUP
+
+           VALUE  LABEL
+               1  Jan
+               2  Feb
+               3  March
+               4  April
+               5  May
+               6  June
+               7  July
+               8  August
+               9  Sept
+              10  Oct
+              11  Nov
+              12  Dec
+              99  Unknown
+
+           Data type: numeric
+           Missing-data code: 99
+           Record/columns: 1/43-44
+
+      ________________________________________________________________________
+
+      YEAR               YEAR OF FIRST FOLLOWUP
+
+           VALUE  LABEL
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data code: 9999
+           Record/columns: 1/46-49
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 12: Summary ofPage 5 on Follow-Up Data
+
+
+      DAYSFOL            DAYS FROM INIT INTERVIEW TO 1ST FOLLOWUP
+
+           VALUE  LABEL
+            9999  No first followup
+           99999  Unknown
+
+           Data type: numeric
+           Missing-data code: 99999
+           Record/columns: 1/51-55
+
+      ________________________________________________________________________
+
+      MONTHS             MONTHS FROM INIT INTERV TO 1ST FOLLOWUP
+
+           VALUE  LABEL
+             999  No first followup
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data code: 9999
+           Record/columns: 1/57-60
+
+      ________________________________________________________________________
+
+      SECOND             SECOND FOLLOWUP NEEDED
+
+           VALUE  LABEL
+               0  Yes
+               1  No; 365 days or more
+               2  No; 350 to 364 days
+
+           Data type: numeric
+           Record/column: 1/62
+
+      ________________________________________________________________________
+
+      FOLLWUP3           SECOND FOLLOWUP COMPLETED
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               4  Needs third
+               5  Third completed
+               6  Deceased after first fol.
+               8  Not needed
+               9  First not completed
+
+           Data type: numeric
+           Record/column: 1/64
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 12: Summary ofPage 6 on Follow-Up Data
+
+
+      ABUSE3             WAS R ABUSED AT SECOND FOLLOW UP
+
+           VALUE  LABEL
+               1  Yes, r abused at second follow up
+               2  Not abused at second follow up
+               3  Second follow up not complete
+             998  Unreliable
+             999  Calendar missing
+
+           Data type: numeric
+           Missing-data codes: 998,999
+           Record/columns: 1/66-68
+
+      ________________________________________________________________________
+
+      SEVERE3            SEVEREST INCIDENT IN 2ND FOLLOW UP
+
+           VALUE  LABEL
+              -1  Forced sex only-no injury, weapon or thr
+               0  Threat to hit with fist or anything that
+               1  Slapping, pushing - no injury, no lastin
+               2  Punching, kicking - bruises, cuts and/or
+               3  Beating up, choking - severe contusions,
+               4  Threat weap use, head inj, lost cons, in
+               5  Weapon use - wounds from a weapon attemp
+               9  Missing
+             998  Unreliable
+             999  Calendar missing
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 9,998-9999
+           Record/columns: 1/70-73
+
+      ________________________________________________________________________
+
+      SEVERER3           RECODED SEVERITY-2ND FOLLOWUP INCIDENTS
+
+           VALUE  LABEL
+               0  No incidents
+               1  Other incidents
+               2  Beating up or worse
+             999  No followup or no calendar
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 999,9999
+           Record/columns: 1/75-78
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 12: Summary ofPage 7 on Follow-Up Data
+
+
+      TOINC3             TOTAL # OF INCIDENTS IN SECOND FOLLOW UP
+
+           VALUE  LABEL
+             998  Unreliable
+             999  Missing calendar
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 998-9999
+           Record/columns: 1/80-83
+
+      ________________________________________________________________________
+
+      RECENT3            DAYS FROM MOST RECENT INCID TO INTERVIEW
+
+           VALUE  LABEL
+             998  Unreliable
+             999  Missing calendar
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 998-9999
+           Record/columns: 1/85-88
+
+      ________________________________________________________________________
+
+      DAY3               DAY OF SECOND FOLLOWUP
+
+           VALUE  LABEL
+              99  Unknown
+
+           Data type: numeric
+           Missing-data code: 99
+           Record/columns: 1/90-91
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 12: Summary ofPage 8 on Follow-Up Data
+
+
+      MONTH3             MONTH OF FOLLOWUP 2
+
+           VALUE  LABEL
+               1  Jan
+               2  Feb
+               3  March
+               4  April
+               5  May
+               6  June
+               7  July
+               8  August
+               9  Sept
+              10  Oct
+              11  Nov
+              12  Dec
+              99  Unknown
+
+           Data type: numeric
+           Missing-data code: 99
+           Record/columns: 1/93-94
+
+      ________________________________________________________________________
+
+      YEAR3              YEAR OF SECOND FOLLOWUP
+
+           VALUE  LABEL
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data code: 9999
+           Record/columns: 1/96-99
+
+      ________________________________________________________________________
+
+      DAYSFOL3           DAYS FROM INIT INTERV TO 2ND FOLLOWUP
+
+           VALUE  LABEL
+            9999  No second followup
+           99999  Unknown
+
+           Data type: numeric
+           Missing-data codes: 99999,999
+           Record/columns: 1/101-105
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 12: Summary ofPage 9 on Follow-Up Data
+
+
+      DAYINTO3           DAYS FROM INITIAL INTERVIEW TO FOL 2
+
+           VALUE  LABEL
+             999  Unknown
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/107-109
+
+      ________________________________________________________________________
+
+      DAYS1TO2           DAYS FROM FIRST TO SECOND FOLLOWUP
+
+           VALUE  LABEL
+             999  Unknown
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/111-113
+
+      ________________________________________________________________________
+
+      FOLLWUP4           STATUS OF THIRD FOLLOWUP
+
+           VALUE  LABEL
+               1  Completed
+               2  Not completed
+               3  Done, not needed
+               9  Not needed
+
+           Data type: numeric
+           Record/column: 1/115
+
+      ________________________________________________________________________
+
+      DAY4               DAY OF THIRD FOLLOWUP
+
+           VALUE  LABEL
+              99  Unknown
+
+           Data type: numeric
+           Missing-data code: 99
+           Record/columns: 1/117-118
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 12: Summary oPage 10 on Follow-Up Data
+
+
+      MONTH4             MONTH OF THIRD FOLLOWUP
+
+           VALUE  LABEL
+               1  Jan
+               2  Feb
+               3  March
+               4  April
+               5  May
+               6  June
+               7  July
+               8  August
+               9  Sept
+              10  Oct
+              11  Nov
+              12  Dec
+              99  Unknown
+
+           Data type: numeric
+           Missing-data code: 99
+           Record/columns: 1/120-121
+
+      ________________________________________________________________________
+
+      YEAR4              YEAR OF THIRD FOLLOWUP
+
+           VALUE  LABEL
+            9999  Unknown
+
+           Data type: numeric
+           Missing-data code: 9999
+           Record/columns: 1/123-126
+
+      ________________________________________________________________________
+
+      DAYSFOL4           DAYS FROM INIT INTERV TO FOLLOWUP 3
+
+           VALUE  LABEL
+             999  Unknown
+
+           Data type: numeric
+           Missing-data code: 999
+           Record/columns: 1/128-130
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 12: Summary oPage 11 on Follow-Up Data
+
+
+      DAYSTOT            TOTAL FOLLOWUP DAYS
+
+           VALUE  LABEL
+               0  No followup
+             905  No consent or no information
+             906  Deceased before first followup
+             907  Incarcerated
+
+           Data type: numeric
+           Missing-data codes: 0,900-907
+           Record/columns: 1/132-134
+
+      ________________________________________________________________________
+
+      DAYSTOTR           FOLLOWUP PERIOD IN DAYS, RECODED
+
+           VALUE  LABEL
+               0  No followup
+               1  90-119 days
+               2  120-199
+               3  200-249
+               4  250-299
+               5  300-349
+               6  350-364
+               7  365-399
+               8  400-499
+               9  500-599
+              10  600-699
+              11  700-850
+             905  No consent or no info
+             906  Deceased before first followup
+             907  Incarcerated
+
+           Data type: numeric
+           Missing-data codes: 0,900-907
+           Record/columns: 1/136-138
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
+
+
+
+      Chicago Women's Health Risk Study, 1995-1998.  Part 12: Summary oPage 12 on Follow-Up Data
+
+
+      FABUSE             R ABUSED AT ANY TIME IN ANY FOLLOWUP
+
+           VALUE  LABEL
+               1  Yes, r abused in either of the two follo
+               2  No, not abused at any followup interview
+               3  No follow up interviews conducted
+               4  Not abused at first, second not complete
+             998  Both follow ups unreliable
+             999  Calendars missing
+
+           Data type: numeric
+           Missing-data codes: 998,999
+           Record/columns: 1/140-142
+
+      ________________________________________________________________________
+
+      FABUSER            RECODED: ABUSED ON FOLLOWUP
+
+           VALUE  LABEL
+               0  No
+               1  Yes
+             998  Unreliable or missing
+             999  No followup
+
+           Data type: numeric
+           Missing-data codes: 998,999
+           Record/columns: 1/144-146
+
+      ________________________________________________________________________
+
+      FSEVERE            SEVERITY ON FOLLOWUP
+
+           VALUE  LABEL
+               0  No incidents
+               1  Other incidents
+               2  Beating up or worse
+             998  Unreliable or missing
+             999  No followup or no calendar
+
+           Data type: numeric
+           Missing-data codes: 998,999
+           Record/columns: 1/148-150
+
+
+
+
+
+
+
+
+
+
+
+                                    May 28, 2019
