@@ -32,12 +32,14 @@ def get_repeat_case(val):
 def value_counts(dataframe):
     ''' assesses that column is not the primary key and presents values'''
     for col in dataframe:
+        print(col)
         if col in(['CASEID', 'id']):
             pass
         elif np.issubdtype(dataframe[col].dtype, np.number) and dataframe[col].nunique() > 20:
             print(dataframe[col].value_counts(bins=10, sort=False))
         else:
             print(dataframe[col].value_counts(sort=False))
+        print('\n-------------------------------------------------------------\n')
 
 
 def rename_columns(df):
