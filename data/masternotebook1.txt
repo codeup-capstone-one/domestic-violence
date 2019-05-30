@@ -1,0 +1,197 @@
+MASTER CODEBOOK
+“Predicting Recidivism”
+Capstone Project
+May-Jun 2019
+
+Chosen variables and their key-value pairs among all the datasets (1-15) from the Chicago Women's Health Risk Study 1995-98.
+
+                        df1 CONTENTS (df1 contains AW & NAW cases; Questionnaire Sections B & C)
+      item               description		(datatype & value keys)
+      CASEID             RESPONDENT IDENTIFICATION NUMBER (numeric)
+      ABUSED             PHYSICAL ABUSE IN PAST YEAR (1: Yes, 2: No)
+      SCRSTATR           RECODED SCREENING STATUS (1: AW, including AW date missing, 2: NAW, 3: Abused over a year ago, 998: Not eligible, 999: Screener missing or refusal)
+      LENGTHC1           LENGTH OF RELATIONSHIP W/ PARTNER IN C1 (1: One year or less, 2: 13 months to two years, 3: 25 months to three years, 4: 37 months to five years, 5: 61 months to 15 years, 6: 181 months to 32 years)
+      C1SITUAT           ABUSE SITUATION FOR PERSON IN C1 (1: C1 is only abuser (name), 2: Two or more abusers, c1 chosen as name, 3: C1 is not an abuser (not name), 4: C1 an abuser, but not chosen as name, 9: NAW (no abuser))
+      PABUSE             # OF ABUSING INTIMATE PARTNERS-PAST YR (1: One, 2: Two, 3: Three, 9: NAW (no abusing partner))
+
+
+   			df2 CONTENTS (df2 contains AW & NAW cases; Questionnaire Section D)
+      item               description		(datatype & value keys)
+      CASEID             RESPONDENT IDENTIFICATION NUMBER (numeric)
+      D3RCHILT           TOTAL R'S CHILDREN IN HOUSEHOLD, ANY AGE (555: Refusal, 666: Unreliable answer, 999: Missing)
+
+
+   			df3 CONTENTS (df3 contains AW & NAW cases; Questionnaire Sections E & F)
+      item               description		(datatype & value keys)
+      CASEID             RESPONDENT IDENTIFICATION NUMBER (numeric)
+      E13PRGNT           R PREGNANT NOW OR IN PAST YEAR (1: Yes, pregnant now, 2: Yes, in past year, 3: No, 888: Don't know, 999: Missing)
+      N7PREGNT           N7-PARTNER BEAT R WHILE PREGNANT (1: Yes, 2: No, 3: R says never pregnant, 9: NAW, not asked, 777: N/A, 888: Don't know, 999: Missing)
+      TOTSUPRT           TOTAL SUPPORT NETWORK SCORE, OUT OF 12 (999: Missing)
+
+
+			df4 CONTENTS (df4 contains AW & NAW cases; Questionnaire Sections G-K)
+      item               description		(datatype & value keys)
+      CASEID             RESPONDENT IDENTIFICATION NUMBER (numeric)
+      G1NUMBER           HOW MANY GUNS ARE IN R'S HOME (888: Don't know, 999: Missing, 9999: No gun in home)
+      H1JEALUS           INTIMATE PARTNER JEALOUS IN PAST YR (1: Yes, 2: No, 4: Yes, not in past year, 888: Don't know, 999: Missing)
+      H2LIMIT            INTIMATE PARTNER LIMIT CONTACT W/ FAMILY (1: Yes, 2: No, 4: Yes, not in past year, 888: Don't know, 999: Missing)
+      H3KNOWNG           INT PART INSISTED ON KNOWING WHERE R WAS (1: Yes, 2: No, 4: Yes, not in past year, 888: Don't know, 999: Missing)
+      J1HIT              INT PART THREATENED TO HIT R (1: Yes, 2: No, 4: Yes, not in past year, 666: Unreliable answer, 888: Don't know, 999: Missing)
+      J2THROWN           INT PART THROW ANYTHING AT R (1: Yes, 2: No, 4: Yes, not in past year, 666: Unreliable answer, 888: Don't know, 999: Missing)
+      J3PUSH             INT PART PUSHED/GRABBED/SHOVED R (1: Yes, 2: No, 4: Yes, not in past year, 666: Unreliable answer, 888: Don't know, 999: Missing)
+      J4SLAP             INT PART SLAPPED R (1: Yes, 2: No, 4: Yes, not in past year, 666: Unreliable answer, 888: Don't know, 999: Missing)
+      J5KICK             INT PART KICKED/BIT/HIT WITH FIST (1: Yes, 2: No, 4: Yes, not in past year, 666: Unreliable answer, 888: Don't know, 999: Missing)
+      J6OBJECT           INT PART HIT R W/ AN OBJECT (1: Yes, 2: No, 4: Yes, not in past year, 666: Unreliable answer, 888: Don't know, 999: Missing)
+      J7BEAT             INT PART BEAT R REPEATEDLY (1: Yes, 2: No, 4: Yes, not in past year, 666: Unreliable answer, 888: Don't know, 999: Missing)
+      J8CHOKE            INT PART CHOKED R (1: Yes, 2: No, 4: Yes, not in past year, 666: Unreliable answer, 888: Don't know, 999: Missing)
+      J9KNIFE            INT PART THREATENED R W/ KNIFE (1: Yes, 2: No, 4: Yes, not in past year, 666: Unreliable answer, 888: Don't know, 999: Missing)
+      J10GUN             INT PART THREATENED R W/ GUN (1: Yes, 2: No, 4: Yes, not in past year, 666: Unreliable answer, 888: Don't know, 999: Missing)
+      J11SEX             INT PART FORCE R INTO SEXUAL ACTIVITY (1: Yes, 2: No, 4: Yes, not in past year, 666: Unreliable answer, 888: Don't know, 999: Missing)
+      POWER              TOTAL POWER AND CONTROL SCALE (OUT OF 5) (999: Missing)
+      HARASS             HARASS SCORE:COUNT OF H6-H24 (MAX.=19) (numeric)
+
+
+
+			df5 CONTENTS (df5 contains AW & NAW cases; Questionnaire Section L)
+      item               description		(datatype & value keys)
+      CASEID             RESPONDENT IDENTIFICATION NUMBER (numeric)
+      B1AGE              B1: RESPONDENT'S AGE (numeric)
+      AGEDISP            AGE DISPARITY B/T [NAME] & R (1: Same age within 5 years, 2: R is older by 5 to 9 years, 3: R is older by 10 to 20 years, 4: (Name) is older by 5 to 9 years, 5: (Name)s older by 10 to 20 years, 6: (Name) older by 21 to 42 years, 999: Missing)
+      STDETAI            R'S CHILDREN NOT BY [NAME] IN HOUSEHOLD (1: Yes children, not (names), 2: No Rs children in household, 3: Yes children, some are (names), 4: Don't know where R &  (names) children , 7: Children in household, don't know if the, 999: Missing)
+
+
+			df6 CONTENTS (df6 contains AW cases; Questionnaire Section M)
+      item               description		(datatype & value keys)
+      CASEID             RESPONDENT IDENTIFICATION NUMBER (numeric)
+      M5FIRED            WAS THE GUN FIRED (1: Yes, 2: No, 888: Don't know, 999: Missing)
+      M11HIGH            R/PARTNER HIGH ON MARIJUANA DUR INCIDENT (1: Yes, 2: No, 888: Don't know, 999: Missing)
+      M35SAFE            SOMEPLACE R CAN GO WHERE R FEELS SAFE (1: Yes, 2: No, 888: Don't know, 999: Missing)
+      M41ILLGL           PARTNER FORCE R TO DO SOMETHING ILLEGAL (1: Yes, 2: No, 888: Don't know, 999: Missing)
+      M42DNGER           R EVER FEEL THAT HER LIFE WAS IN DANGER (1: Yes, 2: No, 888: Don't know, 999: Missing)
+      M13TALKR           TALKING-RECODE (1: Yes or sometimes, 2: No, 998: NAW, 999: Missing)
+      M32OTHER           RECODE-WHAT R DID TO HELP HERSELF (1.1  Left abuser
+             1.2  Moved
+             1.3  Left town
+             1.4  Left for awhile
+             1.5  Moved with friends/family-got their help
+             1.6  Went to a shelter
+             1.7  Kicked abuser out
+             1.8  Tried to leave/stay away from
+             1.9  Got into another relationship
+             2.1  Talked with abuser
+             2.2  Tried not to upset him/appease him
+             3.1  Counseling for r or abuser
+             3.2  Church/spiritual
+             3.3  Rehab/stopped drinking
+             4.1  Defended self/fought back
+             4.2  Got job
+             4.3  Got OFP
+             4.4  Did drugs
+             4.5  Activity/walk, shop, read
+             4.6  Other things for herself
+             9.9  Unknown)
+      M27HOW             RECODE-HOW MEDICAL STAFF WAS HELPFUL (1.1  Treat injuries
+              2.1  Talked to me/ gave me advice
+              2.2  Support/ encouragement
+              2.3  Felt calmer
+              2.4  Understand he was wrong
+              3.1  Referred to counseling or other services
+              3.2  Police involvement
+              3.3  Abuser arrested/ taken to jail
+              4.1  Other
+            777.7  Not applicable
+            999.9  Missing
+           9999.9  Unknown)
+      M30ARRES           POLICE EVER ARREST [NAME] (0: No, 1: Yes, arrested, 2: Took name away, 3: Not notified, 998: NAW, 999: Missing)
+      M31HOW             RECODE-REASON POLICE WERE HELPFUL (1  Had abuser leave/ took abuser away
+               2  Took r somewhere
+               3  Abuser stayed away
+               4  Arrested abuser/ took abuser to jail
+               5  Abuser changed
+               6  Violence stopped for awhile
+               7  Scared abuser
+               8  Gave information/ advice about pressing
+               9  Gave other information/ advice
+              10  Got an order of protection
+              11  Report is on file
+              12  Let her know abuser couldn't come back
+              13  Other
+             777  Not applicable
+             999  Missing)
+      M38ORDER           ORDER OF PROTECTION (1: Yes, r got order of protection in past y, 2: Court, but no order of protection, 3: Didn't go to court, 998: NAW, 999: Missing, 9999: Unknown)
+
+
+
+			df7 CONTENTS (df7 contains AW & NAW cases; Questionnaire Section N)
+      item               description		(datatype & value keys)
+      CASEID             RESPONDENT IDENTIFICATION NUMBER (numeric)
+      SAMESEXR           IS [NAME] SAME SEX PARTNER? RECODED (1: Yes, 9999: No)
+      N11DRUGS           PARTNER USE DRUGS (1: Yes, 2: No, 888: Don't know, 999: Missing)
+      N12ALCHL           PARTNER NOW/EVER HAVE ALCOHOL PROBLEMS (1: Yes, 2: No, 888: Don't know, 999: Missing)
+      N13SUHIM           PARTNER THREATEN/TRY TO COMMIT SUICIDE (1: Yes, 2: No, 888: Don't know, 999: Missing)
+      N16CHILD           PARTNER REPORTED FOR CHILD ABUSE (1: Yes, 2: No, 888: Don't know, 999: Missing)
+      N17ARRST           PARTNER EVER BEEN ARRESTED (1: Yes, 2: No, 888: Don't know, 999: Missing)
+      N1FRQNCY           PHYSICAL VIOLENCE INCREASE IN PAST YEAR (1: Yes, 2: No, 3: No abuse in past year,  888: Don't know, 999: Missing)
+      N2SVRITY           PHYSICAL VIOLENCE INCREASE IN SEVERITY (1: Yes, 2: No, 3: No abuse in past year,  888: Don't know, 999: Missing)
+      N3WEAPON           PARTNER EVER USE/THREATEN TO USE WEAPON (1: Yes, 2: No, 3: No abuse in past year,  888: Don't know, 999: Missing, 9999: Unknown)
+      N4CHOKE            PARTNER EVER TRY TO CHOKE YOU (1: Yes, 2: No, 3: No abuse in past year,  888: Don't know, 999: Missing, 9999: Unknown)
+      N5SEX              PARTNER EVER FORCE R TO HAVE SEX (1: Yes, 2: No, 3: No abuse in past year,  888: Don't know, 999: Missing, 9999: Unknown)
+      N6CONTRL           PARTNER CONTROL R'S DAILY ACTIVITIES (1: Yes, 2: No, 3: No abuse in past year,  888: Don't know, 999: Missing)
+      N8JEALUS           PARTNER VIOLENT/CONSTANTLY JEALOUS OF R (1: Yes, 2: No, 3: No abuse in past year,  888: Don't know, 999: Missing)
+      N10CPBLE           R BELIEVE PARTNER IS CAPABLE OF KILLING (1: Yes, 2: No, 3: No abuse in past year,  888: Don't know, 999: Missing, 9999: Unknown)
+
+
+			Df8 CONTENTS (df8 contains AW cases; Primary Partner Data)
+--not used
+
+			Df9 CONTENTS (df9 contains Event Calendar)
+--not used bc not useful.
+
+			Df10 CONTENTS (df8 contains AW cases; Abuse Calendar Data)
+--not used YET; contains 4,978 rows x 52 columns
+
+
+			Df11 CONTENTS (df11 contains AW cases)
+      item               description		(datatype & value keys)
+      CASEID             RESPONDENT IDENTIFICATION NUMBER (numeric)
+      SEVERER            RECODED SEVEREST INCIDENT (1: Less severe, 2: Beating up or worse, 9: Calendar missing)
+      TOTINC             TOTAL NUMBER OF INCIDENTS IN YEAR (999: Calendar missing)
+      THREATR            RECODED THREAT INCIDENTS (0: None, 1: One, 2: 2 to 4, 3: 5 to 10, 4: 11 to 171, 999: Calendar missing)
+      SLAPR              RECODED SLAPPING INCIDENTS (0: None, 1: One, 2: 2 to 4, 3: 5 to 10, 4: 11 to 99, 999: Calendar missing)
+      PUNCHR             RECODED PUNCHING INCIDENTS (0: None, 1: One, 2: 2 to 4, 3: 5 to 10, 4: 11 to 129, 999: Calendar missing)
+      BEATR              RECODED BEATING INCIDENTS (0: None, 1: One, 2: 2 to 4, 3: 5 to 10, 4: 11 to 28, 999: Calendar missing)
+      UWEAPON            TOTAL NUMBER WEAPON USE INCIDENTS IN YR (999: Calendar missing)
+      FORCEDR            RECODED FORCED SEX INCIDENTS (0: None, 1: One, 2: 2 to 4, 3: 5 to 10, 4: 11 to 171, 999: Calendar missing)
+      MISCARR            INCIDENTS RESULTING IN MISCARRIAGE (999: Calendar missing)
+      RESTRAIN           INCIDS WHERE R WAS RESTRAINED/TIED DOWN (999: Calendar missing)
+      CHOKED             INCIDS WHERE R WAS CHOKED/NECK GRABBED (99: No information, 999: Calendar missing)
+      NDRUNK             INCIDENTS IN WHICH PARTNER WAS DRUNK (999: Calendar missing)
+      RDRUNK             INCIDENTS IN WHICH R WAS DRUNK (999: Calendar missing)
+      BOTHDRUN           INCIDENTS IN WHICH BOTH WERE DRUNK (999: Calendar missing)
+      NDRUGS             INCIDENTS-PARTNER WAS HIGH ON DRUGS (999: Calendar missing)
+      RDRUGS             INCIDENTS WHERE R WAS HIGH ON DRUGS (999: Calendar missing)
+      BOTHDRUG           INCIDENTS WHERE BOTH WERE HIGH ON DRUGS (999: Calendar missing)
+
+
+			Df12 CONTENTS (df12 contains AW cases; Summary of Abuse on Follow-Up Data)
+--not used bc not useful
+
+
+			Df13 CONTENTS (df13 contains Homicide cases; Official Records for the Proxy Interview Data
+)
+--not used YET; contains 87 rows x 84 columns
+
+
+			Df14 CONTENTS (df14 contains Homicide cases; Proxy Interview Data)
+--not used YET; contains 76 rows x 657 columns
+
+
+			Df15 CONTENTS (df15 contains Homicide cases; Restructured Proxy Interview Data)
+--not used YET; contains 76 rows x 285 columns
+
+
+
+
+
+
+
