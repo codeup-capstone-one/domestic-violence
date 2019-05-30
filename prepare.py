@@ -116,7 +116,7 @@ def replace_nonvals(df):
                 [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], 2, inplace=True)
         elif col == 'num_abusers':
             df[col].replace([2, 3], 2, inplace=True)
-            df[col].replace(9, 0 inplace=True)
+            df[col].replace(9, 0, inplace=True)
         elif col == 'beaten_while_pregnant':
             df[col].replace(
                 [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], 0, inplace=True)
