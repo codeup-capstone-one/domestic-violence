@@ -4,7 +4,6 @@ import acquire
 
 df10 = acquire.read_data('data10.csv')
 
-
 def make_repeat_series(df10):
     '''takes a dataframe with a caseid columns and returns a series with offense numbers using a groupby'''
     repeat_series = df10.groupby('CASEID').INCIDENT.count()
@@ -106,21 +105,29 @@ def replace_nonvals(df):
                          'id_age',
                          'age_disparity',
                          'children_not_partner']):
+            # initial weed-out maps 2 to zero as a 'no' response
+            # maps 3, 9, and unreliable/error codes due to unreliable or out of scope responses
             df[col].replace([2, 3, 9, 555, 666, 777, 888,
                              999, 9999], 0, inplace=True)
+            # maps 4 to an affirmative 1 response. correlates to 'yes but not in past year'
             df[col].replace(4, 1, inplace=True)
         if col == 'guns_in_home':
+            # alters response of question to an affirmative binary if more than one gun in home
             df[col].replace([2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], 1, inplace=True)
         elif col == 'num_children':
+            # bins 2+ children into one category of '2'
             df[col].replace(
                 [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], 2, inplace=True)
         elif col == 'num_abusers':
+            # bins multiple abusers, maps unavailable info to zero
             df[col].replace([2, 3], 2, inplace=True)
             df[col].replace(9, 0, inplace=True)
         elif col == 'beaten_while_pregnant':
+            # remaps beaten while pregnant to a binary
             df[col].replace(
                 [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], 0, inplace=True)
         elif col == 'age_disparity':
+            # remaps responses to age disparity 
             df[col].replace([1, 999], 0, inplace=True)
             df[col].replace(2, 1, inplace=True)
             df[col].replace(3, 2, inplace=True)
@@ -128,4 +135,6 @@ def replace_nonvals(df):
             df[col].replace(5, -2, inplace=True)
             df[col].replace(6, -3, inplace=True)
 
+
+# brief note reminder on creating recidivism column: 
 # dfb['RECID'] = dfb.CASEID.apply(get_repeat_case)
