@@ -1,8 +1,13 @@
+# ===========
+# ENVIRONMENT
+# ===========
+
 import pandas as pd
 import numpy as np
 import acquire
 
 df10 = acquire.read_data('data10.csv')
+
 
 def make_repeat_series(df10):
     '''takes a dataframe with a caseid columns and returns a series with offense numbers using a groupby'''
@@ -113,7 +118,8 @@ def replace_nonvals(df):
             df[col].replace(4, 1, inplace=True)
         if col == 'guns_in_home':
             # alters response of question to an affirmative binary if more than one gun in home
-            df[col].replace([2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], 1, inplace=True)
+            df[col].replace([2, 3, 4, 5, 6, 7, 8, 9, 10, 11,
+                             12, 13, 14, 15], 1, inplace=True)
         elif col == 'num_children':
             # bins 2+ children into one category of '2'
             df[col].replace(
@@ -127,7 +133,7 @@ def replace_nonvals(df):
             df[col].replace(
                 [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], 0, inplace=True)
         elif col == 'age_disparity':
-            # remaps responses to age disparity 
+            # remaps responses to age disparity
             df[col].replace([1, 999], 0, inplace=True)
             df[col].replace(2, 1, inplace=True)
             df[col].replace(3, 2, inplace=True)
@@ -136,5 +142,59 @@ def replace_nonvals(df):
             df[col].replace(6, -3, inplace=True)
 
 
-# brief note reminder on creating recidivism column: 
+def get_nulls_by_column(df):
+    '''gives analysis of dataframe and prints out nulls by column'''
+    sum_nulls_col = df.isna().sum()
+    percent_nulls_col = df.isna().sum()/len(df.columns)
+    nulls_by_col = pd.concat([sum_nulls_col, percent_nulls_col], names=[
+                             'sum_nulls_col', 'percent_nulls_col'], axis=1)
+    nulls_by_col['sum_nulls'] = nulls_by_col[0]
+    nulls_by_col['nulls_by_percent'] = nulls_by_col[1]
+    nulls_by_col.drop(columns=[0, 1], inplace=True)
+    nulls_by_col = nulls_by_col.loc[~(nulls_by_col == 0).all(axis=1)]
+    print(nulls_by_col)
+
+
+def get_nulls_by_row(df):
+    '''gives analysis of dataframe and prints out nulls by row'''
+    df.reset_index(inplace=True, drop=True)
+    rows = len(df.index)
+    nulls_by_row = pd.DataFrame
+    for ind in range(rows):
+        null_vals = df.loc[ind].isna().sum()
+        percent = (null_vals/(len(df.loc[ind]))*100)
+        if null_vals > 0:
+            print('row: {} count nulls: {}, percent nulls in row: {:.2f}.'.format(
+                ind, null_vals, percent))
+
+
+def handle_missing_threshold(df, prop_required_column=.3, prop_required_row=.9):
+    '''removes na values from dataframe based on inputted threshold value'''
+    threshold = int(round(prop_required_column*len(df.index), 0))
+    df.dropna(axis=1, thresh=threshold, inplace=True)
+    threshold = int(round(prop_required_row*len(df.columns), 0))
+    df.dropna(axis=0, thresh=threshold, inplace=True)
+    return df
+
+
+def summarize_data(df):
+    '''prints out dataframe head, tail, shape, info and value counts'''
+    df_head = df.head()
+    print(f'HEAD\n{df_head}', end='\n\n')
+
+    df_tail = df.tail()
+    print(f'TAIL\n{df_tail}', end='\n\n')
+
+    shape_tuple = df.shape
+    print(f'SHAPE: {shape_tuple}', end='\n\n')
+
+    df_describe = df.describe()
+    print(f'DESCRIPTION\n{df_describe}', end='\n\n')
+
+    df.info()
+    print(f'INFORMATION')
+
+    value_counts(df)
+
+# brief note reminder on creating recidivism column:
 # dfb['RECID'] = dfb.CASEID.apply(get_repeat_case)

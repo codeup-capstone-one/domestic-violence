@@ -22,11 +22,13 @@ def get_significant_t_tests(df, continuous_vars):
             if pval < 0.05:
                 print(f'Feature analyzed: {feat}')
                 print('Comparing abused to non-abused: ')
-                print('Our t-statistic is {:.4} and the p-value is {:.10}'.format(tstat, pval))
+                print(
+                    'Our t-statistic is {:.4} and the p-value is {:.10}'.format(tstat, pval))
                 print('----------')
                 some_feats.append(feat)
                 some_dict[feat] = tstat
     return some_feats, some_dict
+
 
 def get_chi_squared(df, features):
     '''runs chi-squared test between two categorical variables from a dataframe (df) and
@@ -51,10 +53,21 @@ def get_chi_squared(df, features):
             pass
     return sig_feats, sig_dict
 
-def combine_significants(list1, list2):
+
+def sort_sigs(a_dict):
+    val_list = []
+    for key in a_dict:
+        val_list.append(a_dict[key])
+        sorted_vals = sorted(
+            a_dict.items(), key=operator.itemgetter(1), reverse=True)
+        return sorted_vals
+
+def combine_significants(dict1, dict2):
     '''takes in two lists of tuples and creates a new list with the 
     first element of each of the argument lists
     returns a new list of all features'''
+    list1 = sort_sigs(dict1)
+    list2 = sort_sigs(dict2)
     new_list = []
     for item in list1:
         new_list.append(item[0])
@@ -63,12 +76,7 @@ def combine_significants(list1, list2):
             new_list.append(item[0])
     return new_list
 
-def sort_sigs(a_dict):
-    val_list = []
-    for key in a_dict:
-        val_list.append(a_dict[key])
-        sorted_vals = sorted(a_dict.items(), key=operator.itemgetter(1), reverse=True) 
-        return sorted_vals
+
 
 def swarrrm(df, cat, num_vars):
     '''creates a series of swarm plots from a dataframe using a categorical variable and a list of continuous ones'''
@@ -79,9 +87,11 @@ def swarrrm(df, cat, num_vars):
         sns.swarmplot(data=df, x=cat, y=col)
         plt.show()
 
+
 def make_rel(df, x, y, hue):
     '''creates a relplot from a dataframe using two continuous and one categorical variable as hue'''
-    sns.relplot(x=x,y=y, hue=hue, data = df)
+    sns.relplot(x=x, y=y, hue=hue, data=df)
+
 
 def make_rels(df, feat1, feat2, features):
     '''takes in a a dataframe, two features, and a list of other features for comparative relplots'''
@@ -89,11 +99,13 @@ def make_rels(df, feat1, feat2, features):
         make_rel(df, feat1, feat2, feat)
         plt.show()
 
+
 def make_bars(df, metric, features):
     '''creates bar plots for categorical variables specified in features parameter as a list,
     metric as a string literal for the rate being evaluated,
     and df as the greater dataframe being utilized'''
-    _, ax = plt.subplots(nrows=len(features), ncols=1, figsize=(15, (11*len(features))))
+    _, ax = plt.subplots(nrows=len(features), ncols=1,
+                         figsize=(15, (11*len(features))))
     train_df = df
     buildstr1 = r'train_df.' + metric + r'.mean()'
     rate = eval(buildstr1)
