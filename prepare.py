@@ -245,9 +245,10 @@ def replace_recid_nonvals(df):
                          'anyone_high',
                          'safe_place',
                          'forced_illegal',
-                         'life_danger']):
+                         'life_danger',
+                         'talk_about_it']):
             # initial weed-out maps 2 to zero as a 'no' response
-            # maps 3, 9, and unreliable/error codes due to unreliable or out of scope responses
+            # maps 888, 999, 9999 and unreliable/error codes due to unreliable or out of scope responses
             df[col].replace([2, 888, 999, 9999], 0, inplace=True)
 
         # if col == 'help_yourself':
