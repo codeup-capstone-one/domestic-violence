@@ -234,3 +234,43 @@ def rename_recid_columns(df):
                         'BOTHDRUG' : 'num_both_drugs', 
                        'RECID': 'reassault'
                        }, inplace=True)
+
+def replace_recid_nonvals(df):
+    '''assesses values in column of dataframe with reassault cases are in numerical format and replaces
+    any missing values as per our data dictionary with an imputed zero value.'''
+    for col in df:
+        if col in(['CASEID', 'id']):
+            pass
+        elif col in(['gun_fired',
+                         'anyone_high',
+                         'safe_place',
+                         'forced_illegal',
+                         'life_danger']):
+            # initial weed-out maps 2 to zero as a 'no' response
+            # maps 3, 9, and unreliable/error codes due to unreliable or out of scope responses
+            df[col].replace([2, 888, 999, 9999], 0, inplace=True)
+
+        # if col == 'help_yourself':
+        #     pass
+        # elif col == 'med_staff_helped':
+        #     df[col].replace(7777, 'na', inplace=True)
+        #     df[col].replace(9999, 'missing', inplace=True)
+        #     df[col].replace(99999, 'unknown', inplace=True)
+        # elif col == 'perp_arrested_ever':
+        #     df[col].replace(2, 'removed', inplace=True)
+        #     df[col].replace(3, 0, inplace=True)
+        #     df[col].replace(999, 'missing', inplace=True)
+        # elif col == 'police_resp':
+        #     df[col].replace(777, 'na', inplace=True)
+        #     df[col].replace(999, 'missing', inplace=True)
+        # elif col == 'order_protection':
+        #     df[col].replace([2, 3], 0, inplace=True)
+        #     df[col].replace([999, 9999], 'missing/unknown', inplace=True)
+        # elif col == 'level_severity':
+        #     df[col].replace(9, 'missing', inplace=True)
+        # elif col == 'num_incidents':
+        #     df[col].replace(999, 'missing', inplace=True)
+        # elif col == 'num_threats':
+        #     df[col].replace(999, 'missing', inplace=True)
+        # elif col == 'num_slapping':
+        #     df[col].replace(999, 'missing', inplace=True)
