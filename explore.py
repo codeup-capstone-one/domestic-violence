@@ -30,7 +30,7 @@ def get_significant_t_tests(df, continuous_vars):
     return some_feats, some_dict
 
 
-def get_chi_squared(df, features):
+def get_chi_squared(df, features, target):
     '''runs chi-squared test between two categorical variables from a dataframe (df) and
      list of columns (features) results are printed depending on perceived significance
      returns a list of significant features as well as a dictionary with chi-stat'''
@@ -38,7 +38,7 @@ def get_chi_squared(df, features):
     sig_feats = []
     sig_dict = {}
     for feat in features:
-        tbl = pd.crosstab(train_df[feat], train_df['abuse_past_year'])
+        tbl = pd.crosstab(train_df[feat], train_df[target])
         stat, p, dof, expected = stats.chi2_contingency(tbl)
         prob = .95
         critical = stats.chi2.ppf(prob, dof)
