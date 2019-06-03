@@ -205,7 +205,7 @@ def rename_recid_columns(df):
     '''takes in selected dataframe and renames columns to intuitive non-capitalized titles'''
     df.rename(columns={'CASEID': 'id',
                        'M5FIRED' : 'gun_fired',
-                       'M11HIGH’: anyone_high', 
+                       'M11HIGH': 'anyone_high', 
                        'M35SAFE' : 'safe_place', 
                        'M41ILLGL' : 'forced_illegal', 
                        'M42DAGRR' : 'life_danger',
