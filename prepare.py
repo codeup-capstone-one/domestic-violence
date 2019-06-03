@@ -204,14 +204,12 @@ def summarize_data(df):
 def rename_recid_columns(df):
     '''takes in selected dataframe and renames columns to intuitive non-capitalized titles'''
     df.rename(columns={'CASEID': 'id',
-                       'M5FIRED' : 'gun_fired',
                        'M11HIGH': 'anyone_high', 
                        'M35SAFE' : 'safe_place', 
                        'M41ILLGL' : 'forced_illegal', 
                        'M42DAGRR' : 'life_danger',
                         'M13TALKR' : 'talk_about_it', 
-                        'M32OTHER' : 'help_herself', 
-                        'M27HOW' : 'med_staff_helped', 
+                        'M32OTHER' : 'left_or_not', 
                         'M30ARRES' : 'perp_arrested_ever', 
                         'M31HOW' : 'police_resp', 
                         'M38ORDER' : 'order_protection',
@@ -241,8 +239,7 @@ def replace_recid_nonvals(df):
     for col in df:
         if col in(['CASEID', 'id']):
             pass
-        elif col in(['gun_fired',
-                         'anyone_high',
+        elif col in(['anyone_high',
                          'safe_place',
                          'forced_illegal',
                          'life_danger',
@@ -250,13 +247,11 @@ def replace_recid_nonvals(df):
             # initial weed-out maps 2 to zero as a 'no' response
             # maps 888, 999, 9999 and unreliable/error codes due to unreliable or out of scope responses
             df[col].replace([2, 888, 999, 9999], 0, inplace=True)
-
-        # if col == 'help_yourself':
-        #     pass
-        # elif col == 'med_staff_helped':
-        #     df[col].replace(7777, 'na', inplace=True)
-        #     df[col].replace(9999, 'missing', inplace=True)
-        #     df[col].replace(99999, 'unknown', inplace=True)
+        if col == 'order_protection':
+            df[col].replace([2, 3, 999, 9999], 0, inplace=True)
+        elif col == 'left_or_not':
+            df[col].replace([11,12,13,14,15,16,17,18,19], 1, inplace=True)
+            df[col].replace([21,22,31,32,33,41,42,43,44,45,46,99], 0, inplace=True)
         # elif col == 'perp_arrested_ever':
         #     df[col].replace(2, 'removed', inplace=True)
         #     df[col].replace(3, 0, inplace=True)
