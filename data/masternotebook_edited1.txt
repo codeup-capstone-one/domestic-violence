@@ -122,6 +122,7 @@ M38ORDER           ORDER OF PROTECTION (1: Yes, r got order of protection in pas
 
 
 
+
 			df7 CONTENTS (df7 contains AW & NAW cases; Questionnaire Section N)
       item               description		(datatype & value keys)
 id					RESPONDENT IDENTIFICATION NUMBER (numeric)
