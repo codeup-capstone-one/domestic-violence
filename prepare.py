@@ -198,3 +198,39 @@ def summarize_data(df):
 
 # brief note reminder on creating recidivism column:
 # dfb['RECID'] = dfb.CASEID.apply(get_repeat_case)
+
+
+
+def rename_recid_columns(df):
+    '''takes in selected dataframe and renames columns to intuitive non-capitalized titles'''
+    df.rename(columns={'CASEID': 'id',
+                       'M5FIRED' : 'gun_fired',
+                       'M11HIGH': 'anyone_high', 
+                       'M35SAFE' : 'safe_place', 
+                       'M41ILLGL' : 'forced_illegal', 
+                       'M42DAGRR' : 'life_danger',
+                        'M13TALKR' : 'talk_about_it', 
+                        'M32OTHER' : 'help_herself', 
+                        'M27HOW' : 'med_staff_helped', 
+                        'M30ARRES' : 'perp_arrested_ever', 
+                        'M31HOW' : 'police_resp', 
+                        'M38ORDER' : 'order_protection',
+                        'SEVERER' : 'level_severity', 
+                        'TOTINCR' : 'num_incidents', 
+                        'THREATR' : 'num_threats', 
+                        'SLAPR' : 'num_slapping', 
+                        'PUNCHR' : 'num_punching', 
+                        'BEATR' : 'num_beating', 
+                        'UWEAPON' : 'num_weapon',
+                        'FORCEDR' : 'num_forced_sex', 
+                        'MISCARR' : 'miscarriage_resulted', 
+                        'RESTRAIN' : 'restrained_by_perp', 
+                        'CHOKED' : 'num_choked', 
+                        'NDRUNK' : 'num_perp_drunk',
+                        'RDRUNK' : 'num_woman_drunk',
+                        'BOTHDRUN' : 'num_both_drunk', 
+                        'NDRUGS' : 'num_perp_drugs', 
+                        'RDRUGS' : 'num_woman_drugs', 
+                        'BOTHDRUG' : 'num_both_drugs', 
+                       'RECID': 'reassault'
+                       }, inplace=True)
