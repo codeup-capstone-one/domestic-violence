@@ -62,14 +62,14 @@ children_no_partner	R'S CHILDREN NOT BY PERPETRATOR IN HOUSEHOLD (1: Yes childre
 
 			df6 CONTENTS (df6 contains AW cases; Questionnaire Section M)
       item               description		(datatype & value keys)
-CASEID             RESPONDENT IDENTIFICATION NUMBER (numeric)
-M5FIRED            WAS THE GUN FIRED (1: Yes, 2: No, 888: Don't know, 999: Missing)
-M11HIGH            R/PARTNER HIGH ON MARIJUANA DUR INCIDENT (1: Yes, 2: No, 888: Don't know, 999: Missing)
-M35SAFE            SOMEPLACE R CAN GO WHERE R FEELS SAFE (1: Yes, 2: No, 888: Don't know, 999: Missing)
-M41ILLGL           PARTNER FORCE R TO DO SOMETHING ILLEGAL (1: Yes, 2: No, 888: Don't know, 999: Missing)
-M42DNGER           R EVER FEEL THAT HER LIFE WAS IN DANGER (1: Yes, 2: No, 888: Don't know, 999: Missing)
-M13TALKR           TALKING-RECODE (1: Yes or sometimes, 2: No, 998: NAW, 999: Missing)
-M32OTHER           RECODE-WHAT R DID TO HELP HERSELF (1.1  Left abuser
+id			RESPONDENT IDENTIFICATION NUMBER (numeric)
+gun_fired		WAS THE GUN FIRED (1: Yes, 0: No, Don't know, Missing)
+anyone_high		R/PARTNER HIGH ON MARIJUANA DUR INCIDENT (1: Yes, 2: No, 888: Don't know, 999: Missing)
+safe_place		SOMEPLACE R CAN GO WHERE R FEELS SAFE (1: Yes, 2: No, 888: Don't know, 999: Missing)
+forced_illegal		PARTNER FORCE R TO DO SOMETHING ILLEGAL (1: Yes, 2: No, 888: Don't know, 999: Missing)
+life_danger		RECODE-DID R THINK LIFE WAS IN DANGER (1: Yes or maybe, 0: No, 999: Missing)
+talk_about_it		TALKING-RECODE (1: Yes or sometimes, 2: No, 998: NAW, 999: Missing)
+help_yourself		RECODE-WHAT R DID TO HELP HERSELF (1.1  Left abuser
              1.2  Moved
              1.3  Left town
              1.4  Left for awhile
@@ -90,7 +90,7 @@ M32OTHER           RECODE-WHAT R DID TO HELP HERSELF (1.1  Left abuser
              4.5  Activity/walk, shop, read
              4.6  Other things for herself
              9.9  Unknown)
-M27HOW             RECODE-HOW MEDICAL STAFF WAS HELPFUL (1.1  Treat injuries
+med_staff_helped	RECODE-HOW MEDICAL STAFF WAS HELPFUL (1.1  Treat injuries
               2.1  Talked to me/ gave me advice
               2.2  Support/ encouragement
               2.3  Felt calmer
@@ -102,8 +102,8 @@ M27HOW             RECODE-HOW MEDICAL STAFF WAS HELPFUL (1.1  Treat injuries
             777.7  Not applicable
             999.9  Missing
            9999.9  Unknown)
-M30ARRES           POLICE EVER ARREST [NAME] (0: No, 1: Yes, arrested, 2: Took name away, 3: Not notified, 998: NAW, 999: Missing)
-M31HOW             RECODE-REASON POLICE WERE HELPFUL (1  Had abuser leave/ took abuser away
+perp_arrested_ever	POLICE EVER ARREST [NAME] (0: No, 1: Yes, arrested, 2: Took name away, 3: Not notified, 998: NAW, 999: Missing)
+police_resp		RECODE-REASON POLICE WERE HELPFUL (1  Had abuser leave/ took abuser away
                2  Took r somewhere
                3  Abuser stayed away
                4  Arrested abuser/ took abuser to jail
@@ -118,7 +118,7 @@ M31HOW             RECODE-REASON POLICE WERE HELPFUL (1  Had abuser leave/ took 
               13  Other
              777  Not applicable
              999  Missing)
-M38ORDER           ORDER OF PROTECTION (1: Yes, r got order of protection in past y, 2: Court, but no order of protection, 3: Didn't go to court, 998: NAW, 999: Missing, 9999: Unknown)
+order_protection	ORDER OF PROTECTION (1: Yes, r got order of protection in past y, 2: Court, but no order of protection, 3: Didn't go to court, 998: NAW, 999: Missing, 9999: Unknown)
 
 
 
@@ -154,24 +154,24 @@ capable_murder			R BELIEVE PARTNER IS CAPABLE OF KILLING (1: Yes, 0: No)
 
 			Df11 CONTENTS (df11 contains AW cases)
       item               description		(datatype & value keys)
-      CASEID             RESPONDENT IDENTIFICATION NUMBER (numeric)
-      SEVERER            RECODED SEVEREST INCIDENT (1: Less severe, 2: Beating up or worse, 9: Calendar missing)
-      TOTINC             TOTAL NUMBER OF INCIDENTS IN YEAR (999: Calendar missing)
-      THREATR            RECODED THREAT INCIDENTS (0: None, 1: One, 2: 2 to 4, 3: 5 to 10, 4: 11 to 171, 999: Calendar missing)
-      SLAPR              RECODED SLAPPING INCIDENTS (0: None, 1: One, 2: 2 to 4, 3: 5 to 10, 4: 11 to 99, 999: Calendar missing)
-      PUNCHR             RECODED PUNCHING INCIDENTS (0: None, 1: One, 2: 2 to 4, 3: 5 to 10, 4: 11 to 129, 999: Calendar missing)
-      BEATR              RECODED BEATING INCIDENTS (0: None, 1: One, 2: 2 to 4, 3: 5 to 10, 4: 11 to 28, 999: Calendar missing)
-      UWEAPON            TOTAL NUMBER WEAPON USE INCIDENTS IN YR (999: Calendar missing)
-      FORCEDR            RECODED FORCED SEX INCIDENTS (0: None, 1: One, 2: 2 to 4, 3: 5 to 10, 4: 11 to 171, 999: Calendar missing)
-      MISCARR            INCIDENTS RESULTING IN MISCARRIAGE (999: Calendar missing)
-      RESTRAIN           INCIDS WHERE R WAS RESTRAINED/TIED DOWN (999: Calendar missing)
-      CHOKED             INCIDS WHERE R WAS CHOKED/NECK GRABBED (99: No information, 999: Calendar missing)
-      NDRUNK             INCIDENTS IN WHICH PARTNER WAS DRUNK (999: Calendar missing)
-      RDRUNK             INCIDENTS IN WHICH R WAS DRUNK (999: Calendar missing)
-      BOTHDRUN           INCIDENTS IN WHICH BOTH WERE DRUNK (999: Calendar missing)
-      NDRUGS             INCIDENTS-PARTNER WAS HIGH ON DRUGS (999: Calendar missing)
-      RDRUGS             INCIDENTS WHERE R WAS HIGH ON DRUGS (999: Calendar missing)
-      BOTHDRUG           INCIDENTS WHERE BOTH WERE HIGH ON DRUGS (999: Calendar missing)
+id			RESPONDENT IDENTIFICATION NUMBER (numeric)
+level_severity		RECODED SEVEREST INCIDENT (1: Less severe, 2: Beating up or worse, 9: Calendar missing)
+num_incidents		TOTAL NUMBER OF INCIDENTS IN YEAR (999: Calendar missing)
+num_threats		RECODED THREAT INCIDENTS (0: None, 1: One, 2: 2 to 4, 3: 5 to 10, 4: 11 to 171, 999: Calendar missing)
+num_slapping		RECODED SLAPPING INCIDENTS (0: None, 1: One, 2: 2 to 4, 3: 5 to 10, 4: 11 to 99, 999: Calendar missing)
+num_punching		RECODED PUNCHING INCIDENTS (0: None, 1: One, 2: 2 to 4, 3: 5 to 10, 4: 11 to 129, 999: Calendar missing)
+num_beating		RECODED BEATING INCIDENTS (0: None, 1: One, 2: 2 to 4, 3: 5 to 10, 4: 11 to 28, 999: Calendar missing)
+num_weapon		TOTAL NUMBER WEAPON USE INCIDENTS IN YR (999: Calendar missing)
+num_forced_sex		RECODED FORCED SEX INCIDENTS (0: None, 1: One, 2: 2 to 4, 3: 5 to 10, 4: 11 to 171, 999: Calendar missing)
+miscarriage_resulted	INCIDENTS RESULTING IN MISCARRIAGE (999: Calendar missing)
+restrained_by_perp	INCIDS WHERE R WAS RESTRAINED/TIED DOWN (999: Calendar missing)
+num_choked		INCIDS WHERE R WAS CHOKED/NECK GRABBED (99: No information, 999: Calendar missing)
+num_perp_drunk		INCIDENTS IN WHICH PARTNER WAS DRUNK (999: Calendar missing)
+num_woman_drunk		INCIDENTS IN WHICH R WAS DRUNK (999: Calendar missing)
+num_both_drunk		INCIDENTS IN WHICH BOTH WERE DRUNK (999: Calendar missing)
+num_perp_drugs		INCIDENTS-PARTNER WAS HIGH ON DRUGS (999: Calendar missing)
+num_woman_drugs		INCIDENTS WHERE R WAS HIGH ON DRUGS (999: Calendar missing)
+num_both_drugs		INCIDENTS WHERE BOTH WERE HIGH ON DRUGS (999: Calendar missing)
 
 
 			Df12 CONTENTS (df12 contains AW cases; Summary of Abuse on Follow-Up Data)
