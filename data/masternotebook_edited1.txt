@@ -64,11 +64,11 @@ children_no_partner	R'S CHILDREN NOT BY PERPETRATOR IN HOUSEHOLD (1: Yes childre
       item               description		(datatype & value keys)
 id			RESPONDENT IDENTIFICATION NUMBER (numeric)
 gun_fired		WAS THE GUN FIRED (1: Yes, 0: No, Don't know, Missing)
-anyone_high		R/PARTNER HIGH ON MARIJUANA DUR INCIDENT (1: Yes, 2: No, 888: Don't know, 999: Missing)
-safe_place		SOMEPLACE R CAN GO WHERE R FEELS SAFE (1: Yes, 2: No, 888: Don't know, 999: Missing)
-forced_illegal		PARTNER FORCE R TO DO SOMETHING ILLEGAL (1: Yes, 2: No, 888: Don't know, 999: Missing)
-life_danger		RECODE-DID R THINK LIFE WAS IN DANGER (1: Yes or maybe, 0: No, 999: Missing)
-talk_about_it		TALKING-RECODE (1: Yes or sometimes, 2: No, 998: NAW, 999: Missing)
+anyone_high		R/PARTNER HIGH ON MARIJUANA DUR INCIDENT (1: Yes, 0: No, Don't know, or Missing)
+safe_place		SOMEPLACE R CAN GO WHERE R FEELS SAFE (1: Yes, 0: No, Don't know, or Missing)
+forced_illegal		PARTNER FORCE R TO DO SOMETHING ILLEGAL (1: Yes, 0: No, Don't know, or Missing)
+life_danger		RECODE-DID R THINK LIFE WAS IN DANGER (1: Yes or maybe, 0: No or Missing)
+talk_about_it		TALKING-RECODE (1: Yes or sometimes, 0: No or Missing)
 help_yourself		RECODE-WHAT R DID TO HELP HERSELF (1.1  Left abuser
              1.2  Moved
              1.3  Left town
