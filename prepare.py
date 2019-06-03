@@ -140,6 +140,8 @@ def replace_nonvals(df):
             df[col].replace(4, -1, inplace=True)
             df[col].replace(5, -2, inplace=True)
             df[col].replace(6, -3, inplace=True)
+        elif col == 'power_scale':
+            df[col].replace(999, 0, inplace=True)
 
 
 def get_nulls_by_column(df):
