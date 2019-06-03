@@ -63,11 +63,11 @@ Chosen variables and their key-value pairs among all the datasets (1-15) from th
 			df6 CONTENTS (df6 contains AW cases; Questionnaire Section M)
       item               description		(datatype & value keys)
       CASEID             RESPONDENT IDENTIFICATION NUMBER (numeric)
-      M5FIRED            WAS THE GUN FIRED (1: Yes, 2: No, 888: Don't know, 999: Missing)
+      M5FIRED            WAS THE GUN FIRED (1: Yes, 2: No, 999: Don't know, 9999: Missing)
       M11HIGH            R/PARTNER HIGH ON MARIJUANA DUR INCIDENT (1: Yes, 2: No, 888: Don't know, 999: Missing)
       M35SAFE            SOMEPLACE R CAN GO WHERE R FEELS SAFE (1: Yes, 2: No, 888: Don't know, 999: Missing)
       M41ILLGL           PARTNER FORCE R TO DO SOMETHING ILLEGAL (1: Yes, 2: No, 888: Don't know, 999: Missing)
-      M42DNGER           R EVER FEEL THAT HER LIFE WAS IN DANGER (1: Yes, 2: No, 888: Don't know, 999: Missing)
+	M42DAGRR           RECODE-DID R THINK LIFE WAS IN DANGER (1: Yes or maybe, 0: No, 999: Missing)
       M13TALKR           TALKING-RECODE (1: Yes or sometimes, 2: No, 998: NAW, 999: Missing)
       M32OTHER           RECODE-WHAT R DID TO HELP HERSELF (1.1  Left abuser
              1.2  Moved
