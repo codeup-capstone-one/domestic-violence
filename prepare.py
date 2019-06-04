@@ -279,3 +279,42 @@ def replace_nonvals_recid(df):
         #     df[col].replace(999, 'missing', inplace=True)
         # elif col == 'num_slapping':
         #     df[col].replace(999, 'missing', inplace=True)
+
+
+def merge_all_recid():
+    '''This function will merge dataframes a & b and works only if the dfs are called dfa and dfb.'''
+    # make new dataframe out of subset of dfa where we only look at the victims of abuse
+    dfa_abused = dfa[dfa.abuse_past_year == 1]
+    df_so_very_large = dfa_abused.merge(right=dfb, on='id')
+    return df_so_very_large
+
+def drop_cols_dfa(dfa):
+    '''This function takes into account feature selection and drops columns that are deemed not necessary from dfa.'''
+    dfa = dfa.drop(columns=['guns_in_home',
+                        'threat_hit',
+                        'beaten',
+                        'choked',
+                        'threat_knife',
+                        'threat_gun',
+                        'rape_with_threat',
+                        'partner_drug_use',
+                        'partner_alcohol_use',
+                        'weapon_ever',
+                        'choked_ever',
+                        'jealous_past_year'
+                       ])
+    return dfa
+
+
+def drop_cols_dfb(dfb):
+    '''This function takes into account feature selection and drops columns that are deemed not necessary from dfb.'''
+    dfb = dfb.drop(columns=['gun_fired',
+                        'medical_staff_helpful',
+                        'police_resp',
+                        'order_protection',
+                        'num_woman_drunk',
+                        'num_perp_drunk',
+                        'num_woman_drugs',
+                        'num_perp_drugs',
+                       ])
+    return dfb
