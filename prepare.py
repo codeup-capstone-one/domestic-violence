@@ -204,9 +204,10 @@ def summarize_data(df):
 
 
 
-def rename_columns_recid(df):
+def rename_columns_recid(dfb):
     '''takes in selected dataframe and renames columns to intuitive non-capitalized titles'''
-    df.rename(columns={'CASEID': 'id',
+    df = dfb
+    return df.rename(columns={'CASEID': 'id',
                         'M5FIRED' : 'gun_fired',
                        'M11HIGH': 'anyone_high', 
                        'M35SAFE' : 'safe_place', 
@@ -236,7 +237,7 @@ def rename_columns_recid(df):
                         'RDRUGS' : 'num_woman_drugs', 
                         'BOTHDRUG' : 'num_both_drugs', 
                        'RECID': 'reassault'
-                       }, inplace=True)
+                       })
 
 def replace_nonvals_recid(df):
     '''assesses values in column of dataframe with reassault cases are in numerical format and replaces
