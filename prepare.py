@@ -289,7 +289,7 @@ def merge_all_recid(df1, df2):
     df_so_very_large = dfa_abused.merge(right=df2, on='id')
     return df_so_very_large
 
-def drop_cols_dfa(df):
+def drop_cols_df_large(df):
     '''This function takes into account feature selection and drops columns that are deemed not necessary from df (the really large one).'''
     df = df.drop(columns=['guns_in_home',
                         'threat_hit',
