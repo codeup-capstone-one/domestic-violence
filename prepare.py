@@ -279,3 +279,13 @@ def replace_nonvals_recid(df):
         #     df[col].replace(999, 'missing', inplace=True)
         # elif col == 'num_slapping':
         #     df[col].replace(999, 'missing', inplace=True)
+
+
+def merge_all_recid():
+    '''This function will merge dataframes a & b and works only if the dfs are called dfa and dfb.'''
+    # make new dataframe out of subset of dfa where we only look at the victims of abuse
+    dfa_abused = dfa[dfa.abuse_past_year == 1]
+    df_so_very_large = dfa_abused.merge(right=dfb, on='id')
+    return df_so_very_large
+
+# def drop_cols_dfa(dfa):
