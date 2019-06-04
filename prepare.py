@@ -46,7 +46,7 @@ def value_counts(dataframe):
         print('\n-------------------------------------------------------------\n')
 
 
-def rename_columns(df):
+def rename_columns_all(df):
     '''takes in selected dataframe and renames columns to intuitive non-capitalized titles'''
     df.rename(columns={'CASEID': 'id',
                        'ABUSED': 'abuse_past_year',
@@ -96,7 +96,7 @@ def rename_columns(df):
                        }, inplace=True)
 
 
-def replace_nonvals(df):
+def replace_nonvals_all(df):
     '''assesses values in column of a dataframe are in numerical format and replaces
     any missing values as per our data dictionary with an imputed zero value.'''
     for col in df:
@@ -203,7 +203,7 @@ def summarize_data(df):
 
 
 
-def rename_recid_columns(df):
+def rename_columns_recid(df):
     '''takes in selected dataframe and renames columns to intuitive non-capitalized titles'''
     df.rename(columns={'CASEID': 'id',
                         'M5FIRED' : 'gun_fired',
@@ -237,7 +237,7 @@ def rename_recid_columns(df):
                        'RECID': 'reassault'
                        }, inplace=True)
 
-def replace_recid_nonvals(df):
+def replace_nonvals_recid(df):
     '''assesses values in column of dataframe with reassault cases are in numerical format and replaces
     any missing values as per our data dictionary with an imputed zero value.'''
     for col in df:
