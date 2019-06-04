@@ -281,16 +281,17 @@ def replace_nonvals_recid(df):
         #     df[col].replace(999, 'missing', inplace=True)
 
 
-def merge_all_recid():
-    '''This function will merge dataframes a & b and works only if the dfs are called dfa and dfb.'''
+def merge_all_recid(df1, df2):
+    '''This function will merge dataframes a & b and works only if the dfs are called dfa and dfb and use the parameters in that order: a then b.'''
+
     # make new dataframe out of subset of dfa where we only look at the victims of abuse
-    dfa_abused = dfa[dfa.abuse_past_year == 1]
-    df_so_very_large = dfa_abused.merge(right=dfb, on='id')
+    dfa_abused = df1[df1.abuse_past_year == 1]
+    df_so_very_large = dfa_abused.merge(right=df2, on='id')
     return df_so_very_large
 
-def drop_cols_dfa(dfa):
-    '''This function takes into account feature selection and drops columns that are deemed not necessary from dfa.'''
-    dfa = dfa.drop(columns=['guns_in_home',
+def drop_cols_dfa(df):
+    '''This function takes into account feature selection and drops columns that are deemed not necessary from df (the really large one).'''
+    df = df.drop(columns=['guns_in_home',
                         'threat_hit',
                         'beaten',
                         'choked',
@@ -301,20 +302,15 @@ def drop_cols_dfa(dfa):
                         'partner_alcohol_use',
                         'weapon_ever',
                         'choked_ever',
-                        'jealous_past_year'
-                       ])
-    return dfa
-
-
-def drop_cols_dfb(dfb):
-    '''This function takes into account feature selection and drops columns that are deemed not necessary from dfb.'''
-    dfb = dfb.drop(columns=['gun_fired',
+                        'jealous_past_year',
+                        'gun_fired',
                         'medical_staff_helpful',
                         'police_resp',
                         'order_protection',
                         'num_woman_drunk',
                         'num_perp_drunk',
                         'num_woman_drugs',
-                        'num_perp_drugs',
+                        'num_perp_drugs'
                        ])
-    return dfb
+    return df
+
