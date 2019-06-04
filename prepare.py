@@ -93,8 +93,7 @@ def rename_columns_all(df):
                        'N8JEALUS': 'jealous',
                        'N10CPBLE': 'capable_murder',
                        'RECID': 'reassault'
-                       })
-    return df
+                       }, inplace=True)
 
 
 def replace_nonvals_all(df):
