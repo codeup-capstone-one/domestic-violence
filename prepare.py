@@ -206,12 +206,14 @@ def summarize_data(df):
 def rename_recid_columns(df):
     '''takes in selected dataframe and renames columns to intuitive non-capitalized titles'''
     df.rename(columns={'CASEID': 'id',
+                        'M5FIRED' : 'gun_fired',
                        'M11HIGH': 'anyone_high', 
                        'M35SAFE' : 'safe_place', 
                        'M41ILLGL' : 'forced_illegal', 
                        'M42DAGRR' : 'life_danger',
                         'M13TALKR' : 'talk_about_it', 
-                        'M32OTHER' : 'left_or_not', 
+                        'M32OTHER' : 'left_or_not',
+                        'M27HOW': 'medical_staff_helpful',
                         'M30ARRES' : 'perp_arrested_ever', 
                         'M31HOW' : 'police_resp', 
                         'M38ORDER' : 'order_protection',
