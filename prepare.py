@@ -243,7 +243,8 @@ def replace_recid_nonvals(df):
     for col in df:
         if col in(['CASEID', 'id']):
             pass
-        elif col in(['anyone_high',
+        elif col in(['gun_fired',
+                        'anyone_high',
                          'safe_place',
                          'forced_illegal',
                          'life_danger',
@@ -256,6 +257,10 @@ def replace_recid_nonvals(df):
         elif col == 'left_or_not':
             df[col].replace([11,12,13,14,15,16,17,18,19], 1, inplace=True)
             df[col].replace([21,22,31,32,33,41,42,43,44,45,46,99], 0, inplace=True)
+
+        elif col == 'medical_staff_helpful':
+            df[col].replace([7777, 99999, 9999], 0, inplace=True)
+
         # elif col == 'perp_arrested_ever':
         #     df[col].replace(2, 'removed', inplace=True)
         #     df[col].replace(3, 0, inplace=True)
