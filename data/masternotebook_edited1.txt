@@ -63,12 +63,22 @@ children_no_partner	R'S CHILDREN NOT BY PERPETRATOR IN HOUSEHOLD (1: Yes childre
 			df6 CONTENTS (df6 contains AW cases; Questionnaire Section M)
       item               description		(datatype & value keys)
 id			RESPONDENT IDENTIFICATION NUMBER (numeric)
+gun_fired		WAS THE GUN FIRED (1: Yes, 0: No, Don't know, Missing)
 anyone_high		R/PARTNER HIGH ON MARIJUANA DUR INCIDENT (1: Yes, 0: No, Don't know, or Missing)
 safe_place		SOMEPLACE R CAN GO WHERE R FEELS SAFE (1: Yes, 0: No, Don't know, or Missing)
 forced_illegal		PARTNER FORCE R TO DO SOMETHING ILLEGAL (1: Yes, 0: No, Don't know, or Missing)
 life_danger		RECODE-DID R THINK LIFE WAS IN DANGER (1: Yes or maybe, 0: No or Missing)
 talk_about_it		TALKING-RECODE (1: Yes or sometimes, 0: No or Missing)
 left_or_not		RECODE-WHAT R DID TO HELP HERSELF (1: Left/tried to leave/or variation, 0: Did not leave abuser or unknown/missing)
+medical_staff_helpful	RECODE-HOW MEDICAL STAFF WAS HELPFUL (11  Treat injuries
+              21  Talked to me/ gave me advice
+              22  Support/ encouragement
+              23  Felt calmer
+              24  Understand he was wrong
+              31  Referred to counseling or other services
+              32  Police involvement
+              33  Abuser arrested/ taken to jail
+		0  Other, Not applicable, Missing, Unknown)
 perp_arrested_ever	POLICE EVER ARREST [NAME] (0: No, 1: Yes, arrested, 2: Took name away, 3: Not notified, 998: NAW, 999: Missing)
 police_resp		RECODE-REASON POLICE WERE HELPFUL (1  Had abuser leave/ took abuser away
                2  Took r somewhere

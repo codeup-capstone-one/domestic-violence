@@ -64,7 +64,7 @@ def rename_columns_all(dfa):
                        'H2LIMIT': 'limit_family_contact',
                        'H3KNOWNG': 'location_tracking',
                        'J1HIT': 'threat_hit',
-                       'J2THROWN': 'thrown_object',
+                       'J2THROWN': 'threat_object',
                        'J3PUSH': 'push_shove',
                        'J4SLAP': 'slap',
                        'J5KICK': 'kick_punch',
@@ -204,9 +204,10 @@ def summarize_data(df):
 
 
 
-def rename_columns_recid(df):
+def rename_columns_recid(dfb):
     '''takes in selected dataframe and renames columns to intuitive non-capitalized titles'''
-    df.rename(columns={'CASEID': 'id',
+    df = dfb
+    return df.rename(columns={'CASEID': 'id',
                         'M5FIRED' : 'gun_fired',
                        'M11HIGH': 'anyone_high', 
                        'M35SAFE' : 'safe_place', 
@@ -236,7 +237,7 @@ def rename_columns_recid(df):
                         'RDRUGS' : 'num_woman_drugs', 
                         'BOTHDRUG' : 'num_both_drugs', 
                        'RECID': 'reassault'
-                       }, inplace=True)
+                       })
 
 def replace_nonvals_recid(df):
     '''assesses values in column of dataframe with reassault cases are in numerical format and replaces
@@ -260,7 +261,7 @@ def replace_nonvals_recid(df):
             df[col].replace([21,22,31,32,33,41,42,43,44,45,46,99], 0, inplace=True)
 
         elif col == 'medical_staff_helpful':
-            df[col].replace([7777, 99999, 9999], 0, inplace=True)
+            df[col].replace([41, 7777, 99999, 9999], 0, inplace=True)
 
         # elif col == 'perp_arrested_ever':
         #     df[col].replace(2, 'removed', inplace=True)
