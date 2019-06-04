@@ -64,7 +64,7 @@ def rename_columns_all(dfa):
                        'H2LIMIT': 'limit_family_contact',
                        'H3KNOWNG': 'location_tracking',
                        'J1HIT': 'threat_hit',
-                       'J2THROWN': 'thrown_object',
+                       'J2THROWN': 'threat_object',
                        'J3PUSH': 'push_shove',
                        'J4SLAP': 'slap',
                        'J5KICK': 'kick_punch',
