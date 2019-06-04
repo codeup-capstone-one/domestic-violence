@@ -46,9 +46,10 @@ def value_counts(dataframe):
         print('\n-------------------------------------------------------------\n')
 
 
-def rename_columns_all(df):
+def rename_columns_all(dfa):
     '''takes in selected dataframe and renames columns to intuitive non-capitalized titles'''
-    df.rename(columns={'CASEID': 'id',
+    df = dfa
+    return df.rename(columns={'CASEID': 'id',
                        'ABUSED': 'abuse_past_year',
                        'SCRSTATR': 'abuse_status',
                        'LENGTHC1': 'length_relationship',
@@ -93,7 +94,7 @@ def rename_columns_all(df):
                        'N8JEALUS': 'jealous',
                        'N10CPBLE': 'capable_murder',
                        'RECID': 'reassault'
-                       }, inplace=True)
+                       })
 
 
 def replace_nonvals_all(df):
