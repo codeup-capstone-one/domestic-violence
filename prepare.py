@@ -260,7 +260,7 @@ def replace_nonvals_recid(df):
             df[col].replace([21,22,31,32,33,41,42,43,44,45,46,99], 0, inplace=True)
 
         elif col == 'medical_staff_helpful':
-            df[col].replace([7777, 99999, 9999], 0, inplace=True)
+            df[col].replace([41, 7777, 99999, 9999], 0, inplace=True)
 
         # elif col == 'perp_arrested_ever':
         #     df[col].replace(2, 'removed', inplace=True)
