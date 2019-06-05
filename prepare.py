@@ -50,51 +50,51 @@ def rename_columns_all(dfa):
     '''takes in selected dataframe and renames columns to intuitive non-capitalized titles'''
     df = dfa
     return df.rename(columns={'CASEID': 'id',
-                       'ABUSED': 'abuse_past_year',
-                       'SCRSTATR': 'abuse_status',
-                       'LENGTHC1': 'length_relationship',
-                       'C1SITUAT': 'partner_abusive',
-                       'PABUSE': 'num_abusers',
-                       'D3RCHILT': 'num_children',
-                       'E13PRGNT': 'pregnant',
-                       'N7PREGNT': 'beaten_while_pregnant',
-                       'TOTSUPRT': 'support_score',
-                       'G1NUMBER': 'guns_in_home',
-                       'H1JEALUS': 'jealous_past_year',
-                       'H2LIMIT': 'limit_family_contact',
-                       'H3KNOWNG': 'location_tracking',
-                       'J1HIT': 'threat_hit',
-                       'J2THROWN': 'threat_object',
-                       'J3PUSH': 'push_shove',
-                       'J4SLAP': 'slap',
-                       'J5KICK': 'kick_punch',
-                       'J6OBJECT': 'hit_object',
-                       'J7BEAT': 'beaten',
-                       'J8CHOKE': 'choked',
-                       'J9KNIFE': 'threat_knife',
-                       'J10GUN': 'threat_gun',
-                       'J11SEX': 'rape_with_threat',
-                       'POWER': 'power_scale',
-                       'HARASS': 'harass_scale',
-                       'B1AGE': 'id_age',
-                       'AGEDISP': 'age_disparity',
-                       'STDETAI': 'children_not_partner',
-                       'SAMESEXR': 'same_sex_relationship',
-                       'N11DRUGS': 'partner_drug_use',
-                       'N12ALCHL': 'partner_alcohol_use',
-                       'N13SUHIM': 'threat_suicide',
-                       'N16CHILD': 'partner_reported_child_abuse',
-                       'N17ARRST': 'partner_arrested',
-                       'N1FRQNCY': 'violence_increased',
-                       'N2SVRITY': 'severity_increased',
-                       'N3WEAPON': 'weapon_ever',
-                       'N4CHOKE': 'choked_ever',
-                       'N5SEX': 'rape_ever',
-                       'N6CONTRL': 'controlled_ever',
-                       'N8JEALUS': 'jealous',
-                       'N10CPBLE': 'capable_murder',
-                       'RECID': 'reassault'
-                       })
+                              'ABUSED': 'abuse_past_year',
+                              'SCRSTATR': 'abuse_status',
+                              'LENGTHC1': 'length_relationship',
+                              'C1SITUAT': 'partner_abusive',
+                              'PABUSE': 'num_abusers',
+                              'D3RCHILT': 'num_children',
+                              'E13PRGNT': 'pregnant',
+                              'N7PREGNT': 'beaten_while_pregnant',
+                              'TOTSUPRT': 'support_score',
+                              'G1NUMBER': 'guns_in_home',
+                              'H1JEALUS': 'jealous_past_year',
+                              'H2LIMIT': 'limit_family_contact',
+                              'H3KNOWNG': 'location_tracking',
+                              'J1HIT': 'threat_hit',
+                              'J2THROWN': 'threat_object',
+                              'J3PUSH': 'push_shove',
+                              'J4SLAP': 'slap',
+                              'J5KICK': 'kick_punch',
+                              'J6OBJECT': 'hit_object',
+                              'J7BEAT': 'beaten',
+                              'J8CHOKE': 'choked',
+                              'J9KNIFE': 'threat_knife',
+                              'J10GUN': 'threat_gun',
+                              'J11SEX': 'rape_with_threat',
+                              'POWER': 'power_scale',
+                              'HARASS': 'harass_scale',
+                              'B1AGE': 'id_age',
+                              'AGEDISP': 'age_disparity',
+                              'STDETAI': 'children_not_partner',
+                              'SAMESEXR': 'same_sex_relationship',
+                              'N11DRUGS': 'partner_drug_use',
+                              'N12ALCHL': 'partner_alcohol_use',
+                              'N13SUHIM': 'threat_suicide',
+                              'N16CHILD': 'partner_reported_child_abuse',
+                              'N17ARRST': 'partner_arrested',
+                              'N1FRQNCY': 'violence_increased',
+                              'N2SVRITY': 'severity_increased',
+                              'N3WEAPON': 'weapon_ever',
+                              'N4CHOKE': 'choked_ever',
+                              'N5SEX': 'rape_ever',
+                              'N6CONTRL': 'controlled_ever',
+                              'N8JEALUS': 'jealous',
+                              'N10CPBLE': 'capable_murder',
+                              'RECID': 'reassault'
+                              })
 
 
 def replace_nonvals_all(df):
@@ -203,41 +203,41 @@ def summarize_data(df):
 # dfb['RECID'] = dfb.CASEID.apply(get_repeat_case)
 
 
-
 def rename_columns_recid(dfb):
     '''takes in selected dataframe and renames columns to intuitive non-capitalized titles'''
     df = dfb
     return df.rename(columns={'CASEID': 'id',
-                        'M5FIRED' : 'gun_fired',
-                       'M11HIGH': 'anyone_high', 
-                       'M35SAFE' : 'safe_place', 
-                       'M41ILLGL' : 'forced_illegal', 
-                       'M42DAGRR' : 'life_danger',
-                        'M13TALKR' : 'talk_about_it', 
-                        'M32OTHER' : 'left_or_not',
-                        'M27HOW': 'medical_staff_helpful',
-                        'M30ARRES' : 'perp_arrested_ever', 
-                        'M31HOW' : 'police_resp', 
-                        'M38ORDER' : 'order_protection',
-                        'SEVERER' : 'level_severity', 
-                        'TOTINCR' : 'num_incidents', 
-                        'THREATR' : 'num_threats', 
-                        'SLAPR' : 'num_slapping', 
-                        'PUNCHR' : 'num_punching', 
-                        'BEATR' : 'num_beating', 
-                        'UWEAPON' : 'num_weapon',
-                        'FORCEDR' : 'num_forced_sex', 
-                        'MISCARR' : 'miscarriage_resulted', 
-                        'RESTRAIN' : 'restrained_by_perp', 
-                        'CHOKED' : 'num_choked', 
-                        'NDRUNK' : 'num_perp_drunk',
-                        'RDRUNK' : 'num_woman_drunk',
-                        'BOTHDRUN' : 'num_both_drunk', 
-                        'NDRUGS' : 'num_perp_drugs', 
-                        'RDRUGS' : 'num_woman_drugs', 
-                        'BOTHDRUG' : 'num_both_drugs', 
-                       'RECID': 'reassault'
-                       })
+                              'M5FIRED': 'gun_fired',
+                              'M11HIGH': 'anyone_high',
+                              'M35SAFE': 'safe_place',
+                              'M41ILLGL': 'forced_illegal',
+                              'M42DAGRR': 'life_danger',
+                              'M13TALKR': 'talk_about_it',
+                              'M32OTHER': 'left_or_not',
+                              'M27HOW': 'medical_staff_helpful',
+                              'M30ARRES': 'perp_arrested_ever',
+                              'M31HOW': 'police_resp',
+                              'M38ORDER': 'order_protection',
+                              'SEVERER': 'level_severity',
+                              'TOTINCR': 'num_incidents',
+                              'THREATR': 'num_threats',
+                              'SLAPR': 'num_slapping',
+                              'PUNCHR': 'num_punching',
+                              'BEATR': 'num_beating',
+                              'UWEAPON': 'num_weapon',
+                              'FORCEDR': 'num_forced_sex',
+                              'MISCARR': 'miscarriage_resulted',
+                              'RESTRAIN': 'restrained_by_perp',
+                              'CHOKED': 'num_choked',
+                              'NDRUNK': 'num_perp_drunk',
+                              'RDRUNK': 'num_woman_drunk',
+                              'BOTHDRUN': 'num_both_drunk',
+                              'NDRUGS': 'num_perp_drugs',
+                              'RDRUGS': 'num_woman_drugs',
+                              'BOTHDRUG': 'num_both_drugs',
+                              'RECID': 'reassault'
+                              })
+
 
 def replace_nonvals_recid(df):
     '''assesses values in column of dataframe with reassault cases are in numerical format and replaces
@@ -246,19 +246,21 @@ def replace_nonvals_recid(df):
         if col in(['CASEID', 'id']):
             pass
         elif col in(['gun_fired',
-                        'anyone_high',
-                         'safe_place',
-                         'forced_illegal',
-                         'life_danger',
-                         'talk_about_it']):
+                     'anyone_high',
+                     'safe_place',
+                     'forced_illegal',
+                     'life_danger',
+                     'talk_about_it']):
             # initial weed-out maps 2 to zero as a 'no' response
             # maps 888, 999, 9999 and unreliable/error codes due to unreliable or out of scope responses
             df[col].replace([2, 888, 999, 9999], 0, inplace=True)
         if col == 'order_protection':
             df[col].replace([2, 3, 999, 9999], 0, inplace=True)
         elif col == 'left_or_not':
-            df[col].replace([11,12,13,14,15,16,17,18,19], 1, inplace=True)
-            df[col].replace([21,22,31,32,33,41,42,43,44,45,46,99], 0, inplace=True)
+            df[col].replace(
+                [11, 12, 13, 14, 15, 16, 17, 18, 19], 1, inplace=True)
+            df[col].replace([21, 22, 31, 32, 33, 41, 42, 43,
+                             44, 45, 46, 99], 0, inplace=True)
 
         elif col == 'medical_staff_helpful':
             df[col].replace([41, 7777, 99999, 9999], 0, inplace=True)
@@ -291,28 +293,61 @@ def merge_all_recid(df1, df2):
     df_so_very_large = dfa_abused.merge(right=df2, on='id')
     return df_so_very_large
 
+
 def drop_cols_df_large(df):
     '''This function takes into account feature selection and drops columns that are deemed not necessary from df (the really large one).'''
     df = df.drop(columns=['guns_in_home',
-                        'threat_hit',
-                        'beaten',
-                        'choked',
-                        'threat_knife',
-                        'threat_gun',
-                        'rape_with_threat',
-                        'partner_drug_use',
-                        'partner_alcohol_use',
-                        'weapon_ever',
-                        'choked_ever',
-                        'jealous_past_year',
-                        'gun_fired',
-                        'medical_staff_helpful',
-                        'police_resp',
-                        'order_protection',
-                        'num_woman_drunk',
-                        'num_perp_drunk',
-                        'num_woman_drugs',
-                        'num_perp_drugs'
-                       ])
+                          'threat_hit',
+                          'beaten',
+                          'choked',
+                          'threat_knife',
+                          'threat_gun',
+                          'rape_with_threat',
+                          'partner_drug_use',
+                          'partner_alcohol_use',
+                          'weapon_ever',
+                          'choked_ever',
+                          'jealous_past_year',
+                          'gun_fired',
+                          'medical_staff_helpful',
+                          'police_resp',
+                          'order_protection',
+                          'num_woman_drunk',
+                          'num_perp_drunk',
+                          'num_woman_drugs',
+                          'num_perp_drugs'
+                          ])
     return df
 
+
+def remove_phase_2_features(features):
+    if 'num_incidents' in features:
+        features.remove('num_incidents')
+    if 'num_slapping' in features:
+        features.remove('num_slapping')
+    if 'num_perp_drunk' in features:
+        features.remove('num_perp_drunk')
+    if 'num_punching' in features:
+        features.remove('num_punching')
+    if 'num_perp_drugs' in features:
+        features.remove('num_perp_drugs')
+    if 'num_beating' in features:
+        features.remove('num_beating')
+    if 'num_forced_sex' in features:
+        features.remove('num_forced_sex')
+    if 'num_threats' in features:
+        features.remove('num_threats')
+    if 'num_woman_drunk' in features:
+        features.remove('num_woman_drunk')
+    if 'num_woman_drugs' in features:
+        features.remove('num_woman_drugs')
+    if 'num_both_drugs' in features:
+        features.remove('num_both_drugs')
+    if 'num_both_drunk' in features:
+        features.remove('num_both_drunk')
+    if 'num_weapon' in features:
+        features.remove('num_weapon')
+    if 'violence_increased' in features:
+        features.remove('violence_increased')
+    if 'severity_increased' in features:
+        features.remove('severity_increased')
