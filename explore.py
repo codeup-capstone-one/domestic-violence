@@ -114,3 +114,9 @@ def make_bars(df, metric, features):
         sns.barplot(feature, metric, data=train_df, ax=ax[i], alpha=.5)
         ax[i].set_ylabel(metric)
         ax[i].axhline(rate, ls='--', color='grey')
+
+def plot_hist(df):
+    """
+    Plots the distribution of the dataframe's variables.
+    """
+    df.hist(figsize=(24, 20), bins=20)
