@@ -5,23 +5,22 @@ import seaborn as sns
 import operator
 
 
-def get_significant_t_tests(df, continuous_vars):
+def get_significant_t_tests(df, continuous_vars, target):
     '''Runs t-tests between two groups from a dataframe and a list of column names.
     If test results are noteworthy due to the t-statistic and p-value, results are printed
     Returns a list of perceived significant features and a dictionary with '''
     some_feats = []
     some_dict = {}
     train_df = df
-    buildstr1 = r'train_df[train_df.abuse_past_year == 1].'
-    buildstr2 = r'train_df[train_df.abuse_past_year == 0].'
+    buildstr1 = r'train_df[train_df.' + target + r' == 1].'
+    buildstr2 = r'train_df[train_df.' + target + r' == 0].'
     for feat in continuous_vars:
-        abused = buildstr1 + feat
-        not_abused = buildstr2 + feat
-        tstat, pval = stats.ttest_ind(eval(abused), eval(not_abused))
+        affirmative = buildstr1 + feat
+        negative = buildstr2 + feat
+        tstat, pval = stats.ttest_ind(eval(affirmative), eval(negative))
         if tstat > 1.96 or tstat < -1.96:
             if pval < 0.05:
                 print(f'Feature analyzed: {feat}')
-                print('Comparing abused to non-abused: ')
                 print(
                     'Our t-statistic is {:.4} and the p-value is {:.10}'.format(tstat, pval))
                 print('----------')
@@ -82,7 +81,7 @@ def swarrrm(df, cat, num_vars):
     '''creates a series of swarm plots from a dataframe using a categorical variable and a list of continuous ones'''
     for i, col in enumerate(num_vars):
         i = i+1
-        plt.figure(figsize=(len(num_vars)*2, 14))
+        plt.figure(figsize=(len(num_vars)*2, len(num_vars)))
         plt.subplot(len(num_vars), 1, i)
         sns.swarmplot(data=df, x=cat, y=col)
         plt.show()
