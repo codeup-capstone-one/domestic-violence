@@ -239,9 +239,10 @@ def rename_columns_recid(dfb):
                               })
 
 
-def replace_nonvals_recid(df):
+def replace_nonvals_recid(dfb):
     '''assesses values in column of dataframe with reassault cases are in numerical format and replaces
     any missing values as per our data dictionary with an imputed zero value.'''
+    df = dfb
     for col in df:
         if col in(['CASEID', 'id']):
             pass
@@ -261,9 +262,12 @@ def replace_nonvals_recid(df):
                 [11, 12, 13, 14, 15, 16, 17, 18, 19], 1, inplace=True)
             df[col].replace([21, 22, 31, 32, 33, 41, 42, 43,
                              44, 45, 46, 99], 0, inplace=True)
-
         elif col == 'medical_staff_helpful':
             df[col].replace([41, 7777, 99999, 9999], 0, inplace=True)
+        elif col == 'level_severity':
+            df[col].replace(9, 0, inplace=True)
+        else:
+            df[col].replace([888, 99, 999, 9999], 0, inplace=True)
 
         # elif col == 'perp_arrested_ever':
         #     df[col].replace(2, 'removed', inplace=True)
@@ -275,8 +279,7 @@ def replace_nonvals_recid(df):
         # elif col == 'order_protection':
         #     df[col].replace([2, 3], 0, inplace=True)
         #     df[col].replace([999, 9999], 'missing/unknown', inplace=True)
-        # elif col == 'level_severity':
-        #     df[col].replace(9, 'missing', inplace=True)
+        
         # elif col == 'num_incidents':
         #     df[col].replace(999, 'missing', inplace=True)
         # elif col == 'num_threats':
