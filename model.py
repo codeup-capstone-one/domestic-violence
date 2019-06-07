@@ -34,12 +34,14 @@ def naive_bayes(feature_list, X_train, y_train):
     return gnb, y_pred, y_pred_proba
 
 
-def log_reg(feature_list, X_train, y_train, cv_num=5):
+def log_reg(feature_list, X_train, y_train, cv_num=5, solver='lbfgs'):
     '''Creates a Logistic Regression model based on a list of features, a pandas frame of features, and a pandas frame of targets
     and returns predictions and probabilities of outcome in addition to the model generated'''
     clf = LogisticRegressionCV(cv=cv_num,
                                random_state=0,
-                               ).fit(X_train[feature_list], y_train)
+                               solver=solver).fit(X_train[feature_list], y_train)
+    print('Cross Validation Results: ')
+    print(cross_val_score(clf, X_train[feature_list], y_train, cv=cv_num))
     y_pred = clf.predict(X_train[feature_list])
     y_pred_proba = clf.predict_proba(X_train[feature_list])
     return clf, y_pred, y_pred_proba
