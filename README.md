@@ -8,7 +8,7 @@ _A Codeup capstone project._
 
 ## Links
 
-- [Link to the original study](https://www.icpsr.umich.edu/icpsrweb/NACJD/studies/3002)
+- [Link to the original study.](https://www.icpsr.umich.edu/icpsrweb/NACJD/studies/3002)
 - [Link to how the data was acquired. ](https://drive.google.com/file/d/1cipLjXlkw9OuDSHrIbIWYwkGsruwbMwQ/view)
 - [Link to the website here.](https://ddfloww.com/domestic-violence)
 - [Link to the website's repo.](https://github.com/ecdedios/ddfloww-site)
