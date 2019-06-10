@@ -1,3 +1,7 @@
+# ===========
+# ENVIRONMENT
+# ===========
+
 import scipy.stats as stats
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -6,9 +10,17 @@ import operator
 
 
 def get_significant_t_tests(df, continuous_vars, target):
-    '''Runs t-tests between two groups from a dataframe and a list of column names.
+    '''
+    Runs t-tests between two groups from 
+    df: a dataframe and 
+    continuous_vars: a list of column names.
+    against
+    target: a comparative variable from df to test between
+
     If test results are noteworthy due to the t-statistic and p-value, results are printed
-    Returns a list of perceived significant features and a dictionary with '''
+
+    Returns a list of perceived significant features and a dictionary with variable name and t-statistic
+    '''
     some_feats = []
     some_dict = {}
     train_df = df
@@ -30,9 +42,15 @@ def get_significant_t_tests(df, continuous_vars, target):
 
 
 def get_chi_squared(df, features, target):
-    '''runs chi-squared test between two categorical variables from a dataframe (df) and
-     list of columns (features) results are printed depending on perceived significance
-     returns a list of significant features as well as a dictionary with chi-stat'''
+    '''
+    Runs chi-squared test between two categorical variables from 
+    df: a dataframe and
+    features: a list of columns
+    target: a variable name to compare to the cycled features list
+
+    Results are printed depending on perceived significance
+    Returns a list of significant features as well as a dictionary with chi-stat
+     '''
     train_df = df
     sig_feats = []
     sig_dict = {}
@@ -54,6 +72,9 @@ def get_chi_squared(df, features, target):
 
 
 def sort_sigs(a_dict):
+    '''
+    takes in a dictionary (a_dict) and sorts based on values associated with each key
+    '''
     val_list = []
     for key in a_dict:
         val_list.append(a_dict[key])
@@ -61,10 +82,16 @@ def sort_sigs(a_dict):
             a_dict.items(), key=operator.itemgetter(1), reverse=True)
         return sorted_vals
 
+
 def combine_significants(dict1, dict2):
-    '''takes in two lists of tuples and creates a new list with the 
+    '''
+    takes in 
+    dict1 and dict2: two dictionaries
+    converts to two lists of tuples and creates 
+    a new list with the 
     first element of each of the argument lists
-    returns a new list of all features'''
+    returns a new list of all features
+    '''
     list1 = sort_sigs(dict1)
     list2 = sort_sigs(dict2)
     new_list = []
@@ -76,33 +103,47 @@ def combine_significants(dict1, dict2):
     return new_list
 
 
-
 def swarrrm(df, cat, num_vars):
-    '''creates a series of swarm plots from a dataframe using a categorical variable and a list of continuous ones'''
+    '''
+    creates a series of swarm plots from a dataframe (df)
+     using a categorical variable (cat) 
+     and a list of continuous ones (num_vars)
+     '''
     for i, col in enumerate(num_vars):
         i = i+1
-        plt.figure(figsize=(len(num_vars)*2, len(num_vars)))
+        plt.figure(figsize=(len(num_vars), len(num_vars)*2))
         plt.subplot(len(num_vars), 1, i)
         sns.swarmplot(data=df, x=cat, y=col)
         plt.show()
 
 
 def make_rel(df, x, y, hue):
-    '''creates a relplot from a dataframe using two continuous and one categorical variable as hue'''
+    '''
+    creates a relplot from a dataframe df using 
+    two continuous (x, y)
+    and one categorical (hue) variable
+    '''
     sns.relplot(x=x, y=y, hue=hue, data=df)
 
 
 def make_rels(df, feat1, feat2, features):
-    '''takes in a a dataframe, two features, and a list of other features for comparative relplots'''
+    '''
+    takes in a a dataframe df,
+    feat1 and fat2:  two feature variable names, and 
+    features: a list of other features for comparative relplots
+    '''
     for feat in features:
         make_rel(df, feat1, feat2, feat)
         plt.show()
 
 
 def make_bars(df, metric, features):
-    '''creates bar plots for categorical variables specified in features parameter as a list,
-    metric as a string literal for the rate being evaluated,
-    and df as the greater dataframe being utilized'''
+    '''
+    creates bar plots based on
+    df: a pandas dataframe,
+    metric: a string literal for the rate being evaluated and
+    features: a list of categorical variables 
+    '''
     _, ax = plt.subplots(nrows=len(features), ncols=1,
                          figsize=(15, (11*len(features))))
     train_df = df
@@ -113,6 +154,7 @@ def make_bars(df, metric, features):
         sns.barplot(feature, metric, data=train_df, ax=ax[i], alpha=.5)
         ax[i].set_ylabel(metric)
         ax[i].axhline(rate, ls='--', color='grey')
+
 
 def plot_hist(df):
     """
