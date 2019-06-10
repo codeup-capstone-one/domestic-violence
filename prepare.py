@@ -8,15 +8,25 @@ import acquire
 
 df10 = acquire.read_data('data10.csv')
 
+# ===========
+# PREPARATION
+# ===========
+
 
 def make_repeat_series(df10):
-    '''takes a dataframe with a caseid columns and returns a series with offense numbers using a groupby'''
+    '''
+    takes a pandas dataframe with a caseid columns and returns a series with offense numbers 
+    using a groupby
+    '''
     repeat_series = df10.groupby('CASEID').INCIDENT.count()
     return repeat_series
 
 
 def over_1(repeat_series):
-    '''takes a pandas series and tests for a value to put in a list of caseIDs that are repeat offenses'''
+    '''
+    takes a pandas series and tests for a value to put in a list of caseIDs 
+    that are repeat offenses
+    '''
     repeat_cases = []
     for case, inc_num in enumerate(repeat_series):
         if inc_num > 1:
@@ -25,7 +35,9 @@ def over_1(repeat_series):
 
 
 def get_repeat_case(val):
-    '''takes a value and establishes if it meets criteria to be in repeat offenses'''
+    '''
+    takes a value and establishes if it meets criteria to be in repeat offenses
+    '''
     repeat_cases = over_1(make_repeat_series(df10))
     if val in repeat_cases:
         return 1
@@ -34,7 +46,9 @@ def get_repeat_case(val):
 
 
 def value_counts(dataframe):
-    ''' assesses that column is not the primary key and presents values'''
+    ''' 
+    assesses that column is not the primary key and presents values
+    '''
     for col in dataframe:
         print(col)
         if col in(['CASEID', 'id']):
@@ -47,7 +61,9 @@ def value_counts(dataframe):
 
 
 def rename_columns_all(dfa):
-    '''takes in selected dataframe and renames columns to intuitive non-capitalized titles'''
+    '''
+    takes in selected dataframe and renames columns to intuitive non-capitalized titles
+    '''
     df = dfa
     return df.rename(columns={'CASEID': 'id',
                               'ABUSED': 'abuse_past_year',
@@ -98,8 +114,10 @@ def rename_columns_all(dfa):
 
 
 def replace_nonvals_all(df):
-    '''assesses values in column of a dataframe are in numerical format and replaces
-    any missing values as per our data dictionary with an imputed zero value.'''
+    '''
+    assesses values in column of a dataframe are in numerical format and replaces
+    any missing values as per our data dictionary with an imputed zero value.
+    '''
     for col in df:
         if col in(['CASEID', 'id']):
             pass
@@ -146,7 +164,9 @@ def replace_nonvals_all(df):
 
 
 def get_nulls_by_column(df):
-    '''gives analysis of dataframe and prints out nulls by column'''
+    '''
+    gives analysis of dataframe and prints out nulls by column
+    '''
     sum_nulls_col = df.isna().sum()
     percent_nulls_col = df.isna().sum()/len(df.columns)
     nulls_by_col = pd.concat([sum_nulls_col, percent_nulls_col], names=[
@@ -159,7 +179,9 @@ def get_nulls_by_column(df):
 
 
 def get_nulls_by_row(df):
-    '''gives analysis of dataframe and prints out nulls by row'''
+    '''
+    gives analysis of dataframe and prints pandas dataframe of nulls by row
+    '''
     df.reset_index(inplace=True, drop=True)
     rows = len(df.index)
     nulls_by_row = pd.DataFrame
@@ -172,7 +194,9 @@ def get_nulls_by_row(df):
 
 
 def handle_missing_threshold(df, prop_required_column=.3, prop_required_row=.9):
-    '''removes na values from dataframe based on inputted threshold value'''
+    '''
+    removes na values from dataframe based on inputted threshold value
+    '''
     threshold = int(round(prop_required_column*len(df.index), 0))
     df.dropna(axis=1, thresh=threshold, inplace=True)
     threshold = int(round(prop_required_row*len(df.columns), 0))
@@ -181,7 +205,9 @@ def handle_missing_threshold(df, prop_required_column=.3, prop_required_row=.9):
 
 
 def summarize_data(df):
-    '''prints out dataframe head, tail, shape, info and value counts'''
+    '''
+    prints out dataframe head, tail, shape, info and value counts
+    '''
     df_head = df.head()
     print(f'HEAD\n{df_head}', end='\n\n')
 
@@ -204,7 +230,9 @@ def summarize_data(df):
 
 
 def rename_columns_recid(dfb):
-    '''takes in selected dataframe and renames columns to intuitive non-capitalized titles'''
+    '''
+    takes in selected dataframe and renames columns to intuitive non-capitalized titles
+    '''
     df = dfb
     return df.rename(columns={'CASEID': 'id',
                               'M5FIRED': 'gun_fired',
@@ -240,8 +268,10 @@ def rename_columns_recid(dfb):
 
 
 def replace_nonvals_recid(dfb):
-    '''assesses values in column of dataframe with reassault cases are in numerical format and replaces
-    any missing values as per our data dictionary with an imputed zero value.'''
+    '''
+    assesses values in column of dataframe with reassault cases are in numerical format and replaces
+    any missing values as per our data dictionary with an imputed zero value.
+    '''
     df = dfb
     for col in df:
         if col in(['CASEID', 'id']):
@@ -279,7 +309,7 @@ def replace_nonvals_recid(dfb):
         # elif col == 'order_protection':
         #     df[col].replace([2, 3], 0, inplace=True)
         #     df[col].replace([999, 9999], 'missing/unknown', inplace=True)
-        
+
         # elif col == 'num_incidents':
         #     df[col].replace(999, 'missing', inplace=True)
         # elif col == 'num_threats':
@@ -288,17 +318,24 @@ def replace_nonvals_recid(dfb):
         #     df[col].replace(999, 'missing', inplace=True)
 
 
-def merge_all_recid(df1, df2):
-    '''This function will merge dataframes a & b and works only if the dfs are called dfa and dfb and use the parameters in that order: a then b.'''
-
+def merge_all_recid(dfa, dfb):
+    '''
+    This function will merge dataframes a & b assuming formatted 'id' and 'abuse_past_year 
+    columns have been formatted accordingly.
+    '''
     # make new dataframe out of subset of dfa where we only look at the victims of abuse
+    df1 = dfa
+    df2 = dfb
     dfa_abused = df1[df1.abuse_past_year == 1]
     df_so_very_large = dfa_abused.merge(right=df2, on='id')
     return df_so_very_large
 
 
 def drop_cols_df_large(df):
-    '''This function takes into account feature selection and drops columns that are deemed not necessary from df (the really large one).'''
+    '''
+    This function takes into account feature selection and drops columns 
+    that are deemed not necessary from the joined greater dataframe
+    '''
     df = df.drop(columns=['guns_in_home',
                           'threat_hit',
                           'beaten',
@@ -324,6 +361,12 @@ def drop_cols_df_large(df):
 
 
 def remove_phase_2_features(features):
+    '''
+    takes a list of variable names and then removes features that would 
+    not be applicable in thge case of examing recidivism,
+    as these features are counts of incident number 
+    (i.e. anything with a value over 1 is congruent with an affirmation of reassault)
+    '''
     if 'num_incidents' in features:
         features.remove('num_incidents')
     if 'num_slapping' in features:
