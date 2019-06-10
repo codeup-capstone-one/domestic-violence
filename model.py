@@ -1,3 +1,7 @@
+# ===========
+# ENVIRONMENT
+# ===========
+
 import pandas as pd
 import numpy as np
 # sklearn machine learning
@@ -23,8 +27,15 @@ from sklearn.svm import SVC
 
 
 def naive_bayes(feature_list, X_train, y_train):
-    '''Creates a Naive Bayes model based on a list of features, a pandas frame of features, and a pandas frame of targets
-    and returns predictions and probabilities in addition to the model itself.'''
+    '''
+    Creates a Naive Bayes model based on
+    feature_list: a list of features,
+    X_train: a pandas frame of features,
+    and
+    y_train:  a pandas frame of targets
+
+    returns predictions and probabilities in addition to the model itself.
+    '''
     fit_frame = X_train[feature_list]
     gnb = GaussianNB().fit(fit_frame, y_train)
     # make predictions with the model
@@ -35,8 +46,20 @@ def naive_bayes(feature_list, X_train, y_train):
 
 
 def log_reg(feature_list, X_train, y_train, cv_num=5, solver='lbfgs'):
-    '''Creates a Logistic Regression model based on a list of features, a pandas frame of features, and a pandas frame of targets
-    and returns predictions and probabilities of outcome in addition to the model generated'''
+    '''
+    Creates a Logistic Regression model based on
+    feature_list: a list of features,
+    X_train: a pandas frame of features,
+    and
+    y_train:  a pandas frame of targets
+    kwargs:
+    cv_num: integer for number of cross-validation folds, default to 5.
+    solver: hyperparameter for logistic regression, default to lbfgs.
+    (Refer to sklearn documentation for further information)
+
+    returns predictions and probabilities of outcome
+    prints cross validation results of each model
+    '''
     clf = LogisticRegressionCV(cv=cv_num,
                                random_state=0,
                                solver=solver).fit(X_train[feature_list], y_train)
@@ -52,12 +75,25 @@ def decision_tree(feature_list,
                   y_train,
                   params={'max_depth': [2, 3, 4],
                           'max_features': [None, 1, 3]},
-                  criterion = 'entropy',
+                  criterion='entropy',
                   max_depth=4,
                   max_features=3):
-    '''Takes in a list of features, a pandas dataframe of features, a pandas dataframe of targets,
-    in addition to an optional params argument as a dictionary in addition to criterion, depth, and max_feature hyperparameters.
-    Returns a decision tree model in addition to predictions and probabilities'''
+    '''
+    Creates a Decision Tree model based on
+    feature_list: a list of features,
+    X_train: a pandas frame of features,
+    and
+    y_train:  a pandas frame of targets
+    kwargs:
+    params: a dictionary of depth and feature hyperparameters for grid cross-validation.
+    default depths [2, 3, 4] default max_features [0, 1, 3]
+    criterion (default entropy),
+    max_depth (default 4), and
+    max_feature (default 3) hyperparameters
+    (see sklearn documentation for more information)
+
+    Returns a decision tree model in addition to printing predictions and probabilities
+    '''
     dtc = DecisionTreeClassifier(
         criterion=criterion, max_depth=max_depth, max_features=max_features, random_state=0)
     grid = GridSearchCV(dtc, params, cv=3, iid=True)
@@ -78,8 +114,12 @@ def decision_tree(feature_list,
 
 
 def plot_decision_tree(clf, feature_name, target_name):
-    '''This function creates a visualization of a decision tree in png format. 
-    Takes a decision tree object, feature names of the training set and a target variable for the target name.'''
+    '''
+    This function creates a visualization of a decision tree in png format.
+    Takes in:
+    clf: a decision tree object,
+    feature_name: feature name of the training set and a
+    target_name: a target variable name (list formatted)'''
     dot_data = StringIO()
     tree.export_graphviz(clf, out_file=dot_data,
                          feature_names=feature_name,
@@ -101,7 +141,27 @@ def random_forest(feature_list,
                   n_estimators=100,
                   max_depth=3,
                   random_state=0,
-                  r_params = {'max_depth': [2, 3, 4]}):
+                  r_params={'max_depth': [2, 3, 4]}):
+     '''
+    Creates a Decision Tree model based on
+    feature_list: a list of features,
+    X_train: a pandas frame of features,
+    and
+    y_train:  a pandas frame of targets
+    kwargs:
+    cv_num: integer for number of cross-validation folds, default to 5.
+    boot_strap: (default True) (see sklearn documentation),
+    class_weight: (default None) (see sklearn documentation),
+    criterion: (default entropy) (see sklearn documentation),
+    min_samples_leaf: (default 3)(see sklearn documentation),
+    n_estimators: (default 100), (see sklearn documentation),
+    max_depth: (default 3), and
+    random_state: (default 0)
+    r_params: a dictionary of depth hyperparameters for grid cross-validation. (default depths [2, 3, 4])
+    (see sklearn documentation for more information)
+
+    Returns a decision tree model in addition to printing predictions and probabilities
+    '''
     rf = RandomForestClassifier(bootstrap=bootstrap,
                                 class_weight=class_weight,
                                 criterion=criterion,
