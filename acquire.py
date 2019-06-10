@@ -147,6 +147,12 @@ def join_data(filename1, filename2):
 
 
 def get_data():
+    '''
+    Reads in local csv files using read_data function and path 
+    specified in .env and returns two pandas dataframes
+    of merged data with selected columns specified above.
+
+    '''
     df1 = read_data('data01.csv')
     df2 = read_data('data02.csv')
     df3 = read_data('data03.csv')

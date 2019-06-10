@@ -2,15 +2,16 @@ _A Codeup capstone project._
 --
 
 # Predicting Recidivism in Domestic Violence Offenders
-> This project predicts the probability of re-assault in domestic violence cases.
+> Using data from the Chicago Women's Health Risk Study, a model was created to predict probability of repeat victimization in domestic abuse cases. Presentation of the model was implemented into a web interface to assess based on various background factors.
 
-## Google Slide
 
-[Link to the slide here.](https://docs.google.com/presentation/d/1WsepGpuyFEf0gsIAnuc5NLEY9CANojC4QvvjHj7ZUhg/edit?usp=sharing)
 
-[Link to the website here.](https://ddfloww.com/domestic-violence)
+## Links
 
-[Link to the website's repo.](https://github.com/ecdedios/ddfloww-site)
+- [Link to the original study.](https://www.icpsr.umich.edu/icpsrweb/NACJD/studies/3002)
+- [Link to how the data was acquired. ](https://drive.google.com/file/d/1cipLjXlkw9OuDSHrIbIWYwkGsruwbMwQ/view)
+- [Link to the website here.](https://ddfloww.com/domestic-violence)
+- [Link to the website's repo.](https://github.com/ecdedios/ddfloww-site)
 
 ## Usage
 
